@@ -1,0 +1,65 @@
+
+  \documentclass[twoside]{article}
+  \usepackage[affil-it]{authblk}
+  \usepackage{lipsum} % Package to generate dummy text throughout this template
+  \usepackage{eurosym}
+  \usepackage[sc]{mathpazo} % Use the Palatino font
+  \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+  \usepackage[utf8]{inputenc}
+  \linespread{1.05} % Line spacing-Palatino needs more space between lines
+  \usepackage{microtype} % Slightly tweak font spacing for aesthetics\[IndentingNewLine]
+  \usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+  \usepackage{multicol} % Used for the two-column layout of the document
+  \usepackage[hang,small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under//above floats in tables or figures
+  \usepackage{booktabs} % Horizontal rules in tables
+  \usepackage{float} % Required for tables and figures in the multi-column environment-they need to be placed in specific locations with the[H] (e.g. \begin{table}[H])
+  \usepackage{hyperref} % For hyperlinks in the PDF
+  \usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+  \usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+  \usepackage{abstract} % Allows abstract customization
+  \renewcommand{\abstractnamefont}{\normalfont\bfseries} 
+  %\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text\[IndentingNewLine]
+  \usepackage{titlesec} % Allows customization of titles
+  \renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+  \renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
+  \titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+  \titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+  \usepackage{fancyhdr} % Headers and footers
+  \pagestyle{fancy} % All pages have headers and footers
+  \fancyhead{} % Blank out the default header
+  \fancyfoot{} % Blank out the default footer
+  \fancyhead[C]{X-meeting $\bullet$ October 2019 $\bullet$ Campos do  Jord\~ao} % Custom header text
+  \fancyfoot[RO,LE]{} % Custom footer text
+  %----------------------------------------------------------------------------------------
+  % TITLE SECTION
+  %---------------------------------------------------------------------------------------- 
+ 
+ \title{\vspace{-15mm}\fontsize{24pt}{10pt}\selectfont\textbf{ A Network-Based Approach to Study lncRNA associated with Posttranscriptional Regulation Pathways in Hepatocites Treated with Anticancer Drugs Through the Use of Outdated Microarray Data }} % Article title
+  
+  
+  \author{ Giordano Bruno Sanches Seco, Agnes Alessandra Sekijima Takeda, Jos\'e Luiz Rybarczyk Filho }
+  
+  \affil{ Instituto de Bioci\^encias de Botucatu - UNESP }
+  \vspace{-5mm}
+  \date{}
+  
+  %---------------------------------------------------------------------------------------- 
+  
+  \begin{document}
+  
+  
+  \maketitle % Insert title
+  
+  
+  \thispagestyle{fancy} % All pages have headers and footers
+  %----------------------------------------------------------------------------------------  
+  % ABSTRACT
+  
+  %----------------------------------------------------------------------------------------  
+  
+  \begin{abstract}
+  The aim of this work is to search for lncRNA probes in “outdated” microarray data to create a lncRNA-PPI (Protein-Protein Interaction) network to study posttranscriptional regulation of 2 anticancer drugs: etoposide and lomustine. Microarray data for both drugs was prospected from the OPEN TG-GATES Project which used Affymetryx chips to measure gene expression in normal hepatocites (control) and drug treated hepatocytes (case) in high,  middle and low doses for 3h,  8h and 24h. The raw data was pre-processed in R enviroment with Affy package from bioconductor repository and normalized with robust multi-array average (RMA) method. A list of lncRNA symbols was prospected from HGNC in order to search for lncRNAs in the microarra’s probes. In total,  5 lncRNAs were found: Dancr,  EGOT,  GAS5,  MALAT1 and TUG1. For each of the selected lncRNAs,  a RBP-lncRNA (RNA binding proteins) network was prospected in the Starbase database. The mRNAs in each of these networks were then used to prospect 5 PPI networks in the STRING database,  using ‘Database’ and ‘Experiment’ as interaction types and with a score higher than 0.7 in order to avoid false-positive interactions. The 5 RBP-lncRNA and 5 PPi networks were concatenated into a single network and duplicated interactions were removed. The final network was renderized in Cytoscape,  where MCODE plugin was used to derive clusters/modules from the network,  with degree cutoff of 2,  node score cutoff 0.2,  K core 2,  depth 100 and loops included. The Bingo plugin was used to perform functional enrichment of the whole network and the 12 modules. As expected the network and clusters are highly enriched for GO (Gene Ontology) terms such as mRNA catabolic process,  ncRNA metabolic process,  posttranscriptional gene silencing by RNA,  nuclear mRNA splicing (via spliceossome),  etc. We took the ratio between the high-24h cases expression for both drugs and plotted it over the network. Overall both drugs induces upregulation in most transcripts in the network. For example pre-mRNA-splicing factor SYF2,  which is highly upregulated in both drugs,  is associated with positive regulation cell proliferation and DNA damage checkpoint and both drugs are know to induce apoptosis via DNA  damage. More interesting peharps are the different expressions in the networks,  for they might point to specific metabolic steps in each drugs mechanism of action. CDK19 is a well know positive regulator of apoptotic pathways and is upregulated in etoposide’s network but downregulated in lomustine’s.
+  
+  Funding: CNPq \\ 
+  \end{abstract}
+  \end{document} 

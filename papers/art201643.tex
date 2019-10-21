@@ -1,0 +1,68 @@
+
+  \documentclass[twoside]{article}
+  \usepackage[affil-it]{authblk}
+  \usepackage{lipsum} % Package to generate dummy text throughout this template
+  \usepackage{eurosym}
+  \usepackage[sc]{mathpazo} % Use the Palatino font
+  \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+  \usepackage[utf8]{inputenc}
+  \linespread{1.05} % Line spacing-Palatino needs more space between lines
+  \usepackage{microtype} % Slightly tweak font spacing for aesthetics\[IndentingNewLine]
+  \usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+  \usepackage{multicol} % Used for the two-column layout of the document
+  \usepackage[hang,small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under//above floats in tables or figures
+  \usepackage{booktabs} % Horizontal rules in tables
+  \usepackage{float} % Required for tables and figures in the multi-column environment-they need to be placed in specific locations with the[H] (e.g. \begin{table}[H])
+  \usepackage{hyperref} % For hyperlinks in the PDF
+  \usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+  \usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+  \usepackage{abstract} % Allows abstract customization
+  \renewcommand{\abstractnamefont}{\normalfont\bfseries} 
+  %\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text\[IndentingNewLine]
+  \usepackage{titlesec} % Allows customization of titles
+  \renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+  \renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
+  \titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+  \titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+  \usepackage{fancyhdr} % Headers and footers
+  \pagestyle{fancy} % All pages have headers and footers
+  \fancyhead{} % Blank out the default header
+  \fancyfoot{} % Blank out the default footer
+  \fancyhead[C]{X-meeting $\bullet$ October 2019 $\bullet$ Campos do  Jord\~ao} % Custom header text
+  \fancyfoot[RO,LE]{} % Custom footer text
+  %----------------------------------------------------------------------------------------
+  % TITLE SECTION
+  %---------------------------------------------------------------------------------------- 
+ 
+ \title{\vspace{-15mm}\fontsize{24pt}{10pt}\selectfont\textbf{ Retina development pathway construction and evolutionary analyses through text-mining and orthologue clustering tools. }} % Article title
+  
+  
+  \author{ Arthur Pereira da Fonseca, Jos\'e Miguel Ortega }
+  
+  \affil{ Universidade Federal de Minas Gerais }
+  \vspace{-5mm}
+  \date{}
+  
+  %---------------------------------------------------------------------------------------- 
+  
+  \begin{document}
+  
+  
+  \maketitle % Insert title
+  
+  
+  \thispagestyle{fancy} % All pages have headers and footers
+  %----------------------------------------------------------------------------------------  
+  % ABSTRACT
+  
+  %----------------------------------------------------------------------------------------  
+  
+  \begin{abstract}
+  The mammalian retina is composed of six major types of neurons and one type of glia cell. During retinogenesis,  all types of cells are specified from a multipotent progenitor pool. Although several transcriptional factors have been documented to play a role in the differentiation,  we lack a study describing the development’s full pathway. Therefore,  understanding how these factors interact is essential to develop and improve medical treatments such as tissue and cells transplants.
+For this work we used bioinformatics text-mining tools to reveal the interactions between the genes involved in retinogenesis. First was made a list of abstracts with a PubMed query search for “retina development”. Then we used the Medline ranker tool,  with six selected articles as a training set,  to rank in this list the top thousands abstracts to use in PESCADOR.  After this we used the platform PESCADOR to search and highlight the biointeractions described in those abstracts.  The genes in the final pathway were also run in another program,  TaxOnTree,  a tool to create homologous clusters along with a taxonomic classification. The information about in which taxon it was first detected,  allowed us to determine the Last Common Ancestral for each gene.
+With these tools we found 69 genes implicated in the retina’s development regulatory pathway. And the cluster analyses revealed that the great majority have their origin in Euteleostomi,  the clade that groups fishes and men. Only one gene (CRX) was found to have its origin within the mammalian class. It interacts with other transcription factors,  such as NRL,  from Tetrapoda,  RORA,  from Euteleostomi,  and RAX,  from Gnathostomata,  to regulate the transcription of photoreceptor specific genes,  including the Opsin family,  from Euteleostomi. Making it a key element on the differentiation and viability of cone and rod photoreceptors. 
+The use of text-mining tools allowed us to combine together several information for a better visualization of a biological process. Also,  the homologous cluster analyses enabled a better understanding about the evolutionary process,  and to extend this visualization for other organisms. In conclusion,  with these tools we were able to construct and analyze the retinogenesis pathway and probable origin of their genes. Evolution of retina’s development appears to occur with the appearance of fish and some key components of the human pathway are restricted do mammals.
+  
+  Funding: CAPES Computational Biology Networks: Biologia Sist\^emica do C\^ancer,  BSC. \\ 
+  \end{abstract}
+  \end{document} 

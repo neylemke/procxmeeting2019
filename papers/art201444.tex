@@ -1,0 +1,65 @@
+
+  \documentclass[twoside]{article}
+  \usepackage[affil-it]{authblk}
+  \usepackage{lipsum} % Package to generate dummy text throughout this template
+  \usepackage{eurosym}
+  \usepackage[sc]{mathpazo} % Use the Palatino font
+  \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+  \usepackage[utf8]{inputenc}
+  \linespread{1.05} % Line spacing-Palatino needs more space between lines
+  \usepackage{microtype} % Slightly tweak font spacing for aesthetics\[IndentingNewLine]
+  \usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+  \usepackage{multicol} % Used for the two-column layout of the document
+  \usepackage[hang,small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under//above floats in tables or figures
+  \usepackage{booktabs} % Horizontal rules in tables
+  \usepackage{float} % Required for tables and figures in the multi-column environment-they need to be placed in specific locations with the[H] (e.g. \begin{table}[H])
+  \usepackage{hyperref} % For hyperlinks in the PDF
+  \usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+  \usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+  \usepackage{abstract} % Allows abstract customization
+  \renewcommand{\abstractnamefont}{\normalfont\bfseries} 
+  %\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text\[IndentingNewLine]
+  \usepackage{titlesec} % Allows customization of titles
+  \renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+  \renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
+  \titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+  \titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+  \usepackage{fancyhdr} % Headers and footers
+  \pagestyle{fancy} % All pages have headers and footers
+  \fancyhead{} % Blank out the default header
+  \fancyfoot{} % Blank out the default footer
+  \fancyhead[C]{X-meeting $\bullet$ October 2019 $\bullet$ Campos do  Jord\~ao} % Custom header text
+  \fancyfoot[RO,LE]{} % Custom footer text
+  %----------------------------------------------------------------------------------------
+  % TITLE SECTION
+  %---------------------------------------------------------------------------------------- 
+ 
+ \title{\vspace{-15mm}\fontsize{24pt}{10pt}\selectfont\textbf{ Resistome analysis of bacterial genomes from bloodstream infection reveals antibiotic efflux as the main resistance mechanism in blood isolates. }} % Article title
+  
+  
+  \author{ Willian Klassen de Oliveira, Luis Gustavo Morello, Helisson Faoro }
+  
+  \affil{ Instituto Carlos Chagas - FIOCRUZ PR }
+  \vspace{-5mm}
+  \date{}
+  
+  %---------------------------------------------------------------------------------------- 
+  
+  \begin{document}
+  
+  
+  \maketitle % Insert title
+  
+  
+  \thispagestyle{fancy} % All pages have headers and footers
+  %----------------------------------------------------------------------------------------  
+  % ABSTRACT
+  
+  %----------------------------------------------------------------------------------------  
+  
+  \begin{abstract}
+  Nowadays,  bacterial resistance to antibiotics is a global public health problem and studies point to infections caused by resistant bacteria becoming the leading cause of death by 2050. The phenomenon of resistance is even more severe when associated with blood infection that may evolve and become sepsis. A deeper understanding of what are the main pathogens and the resistance they have is essential to overcome this threat. For this purpose,  in this work we conducted a large meta-analysis study with 3, 872 genomes of bacteria isolated from bloodstream infections. Through search on HMM models of proteins proved to be involved in bacterial resistance to antibiotics,  we identified 71, 675 resistance proteins,  which were classified according to their mechanism of action,  proteins types and class of antibiotic to which it gives resistance. We also analyzed the diversity of bacterial taxons in these samples. We found a prevalence of Proteobacteria and Firmicutes phyla representing respectively 56, 2\% and 41, 2\% of the total organisms. In general,  the main genera present in this study were Staphylococcus and Klebsiella. These genera also have high numbers of resistance genes,  with an average of 26 and 30 resistance genes per genome,  respectively. Another genus that stand out in the study is Elizabethkingia,  appearing as a potential emerging pathogen. Despite having few occurrences in the sample,  it has 17 resistance genes per genome on average,  a high number when compared to other genus. Through our analysis the main mechanism of antibiotic resistance in bloodstream infection is that related to antibiotic efflux with 72.7\% of the classified proteins in this category. At taxonomic levels,  we found differences between the resistance mechanisms in gram-positive and gram-negative bacteria. The RND type transporters are more present in Proteobacteria,  while in Firmicutes the ABC transporter is the most used to export antibiotics. The classes of antibiotic to which bacteria presents the most resistance genes in all phyla is beta lactams and aminoglycosides. The identification of antibiotic resistance mechanisms in bacteria from bloodstream infection is fundamental as it may contribute to the development of treatments and strategies to combat these bacteria.
+  
+  Funding: CAPES \\ 
+  \end{abstract}
+  \end{document} 

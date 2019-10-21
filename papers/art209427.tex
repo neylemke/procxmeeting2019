@@ -1,0 +1,71 @@
+
+  \documentclass[twoside]{article}
+  \usepackage[affil-it]{authblk}
+  \usepackage{lipsum} % Package to generate dummy text throughout this template
+  \usepackage{eurosym}
+  \usepackage[sc]{mathpazo} % Use the Palatino font
+  \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+  \usepackage[utf8]{inputenc}
+  \linespread{1.05} % Line spacing-Palatino needs more space between lines
+  \usepackage{microtype} % Slightly tweak font spacing for aesthetics\[IndentingNewLine]
+  \usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+  \usepackage{multicol} % Used for the two-column layout of the document
+  \usepackage[hang,small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under//above floats in tables or figures
+  \usepackage{booktabs} % Horizontal rules in tables
+  \usepackage{float} % Required for tables and figures in the multi-column environment-they need to be placed in specific locations with the[H] (e.g. \begin{table}[H])
+  \usepackage{hyperref} % For hyperlinks in the PDF
+  \usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+  \usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+  \usepackage{abstract} % Allows abstract customization
+  \renewcommand{\abstractnamefont}{\normalfont\bfseries} 
+  %\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text\[IndentingNewLine]
+  \usepackage{titlesec} % Allows customization of titles
+  \renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+  \renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
+  \titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+  \titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+  \usepackage{fancyhdr} % Headers and footers
+  \pagestyle{fancy} % All pages have headers and footers
+  \fancyhead{} % Blank out the default header
+  \fancyfoot{} % Blank out the default footer
+  \fancyhead[C]{X-meeting $\bullet$ October 2019 $\bullet$ Campos do  Jord\~ao} % Custom header text
+  \fancyfoot[RO,LE]{} % Custom footer text
+  %----------------------------------------------------------------------------------------
+  % TITLE SECTION
+  %---------------------------------------------------------------------------------------- 
+ 
+ \title{\vspace{-15mm}\fontsize{24pt}{10pt}\selectfont\textbf{ A machine learning approach to brain region classification }} % Article title
+  
+  
+  \author{ Lissur Azevedo Orsine, Adriano Barbosa da Silva }
+  
+  \affil{ Laborat\'orio de Biodados,  Universidade Federal de Minas Gerais }
+  \vspace{-5mm}
+  \date{}
+  
+  %---------------------------------------------------------------------------------------- 
+  
+  \begin{document}
+  
+  
+  \maketitle % Insert title
+  
+  
+  \thispagestyle{fancy} % All pages have headers and footers
+  %----------------------------------------------------------------------------------------  
+  % ABSTRACT
+  
+  %----------------------------------------------------------------------------------------  
+  
+  \begin{abstract}
+  The knowledge of the similarities and particularities of brain regions contributes to understand the hemisphere-specific and holistic organ’s biology. The brain can be studied based on different criteria,  such as: electrical activity,  connectivity,  cell types and evolutionary origin. The emergence of RNA-Seq made also possible to characterize the brain according to patterns of gene expression. In this context,  we asked ourselves the following question: is it possible to discriminate brain regions based on gene expression? To try to answer this question,  we applied a machine learning methodology to the transcriptome of different brain regions.
+
+RNA-Seq experiments of two distinct brains containing 22, 318 genes over 10 distinct brain regions were downloaded from the Allen Brain Atlas. The anatomical structures were: frontal lobe (FL),  parietal lobe (PL),  occipital lobe (OL),  temporal lobe (TL),  insula (Ins),  cingulate gyrus (CgG),  parahippocampal gyrus (PHG),  striatum (Str),  globus pallidus (GP) and cerebellar cortex (CbCx). For the classification,  eight machine learning algorithms were applied against the test dataset: Logistic Regression (LR),  K-Neighbor Classifier (KNN),  Gaussian NB (NB),  SVC,  Linear SVC (LSVC),  Random Forest Classifier (RFC),  Decision Tree Regressor (DTR) and Gradient Increase Classifier (GBRT). The best performance algorithm was selected according to 3-fold cross-validation training accuracy score and therefore used in the subsequent analyses.
+
+The most satisfactory performance classifier was LR with accuracy of 0.6 (against 0.4 from KNN,  0.5 from NB,  0.1 from SVC,  0.5 from SVC,  0.5 from LSVC ,  0.5 from RFC,  0.1 from DTR,  and 0.2 from GBRT). The prediction results of the confusion matrix showed that Str was correctly classified in 100\% of cases,  while OL in approximately 90\% of cases,  and FL,  PL and TL around 30\% of cases. It was also possible to observe that PL and TL present a high percentage of reciprocal exchange: around 20\% of PL samples were predicted to belong to TL,  and approximately 41\% of TL samples were classified as PL. Looking at the F1 score,  the best ranked brain region was again Str (F1 score = 1.0),  followed by FL (0.53),  OL (0.42),  PL (0.40) and TL (0.30). Finally,  the area under the ROC curve ranged from 0.89 (for PL) to 1.0 (for Str).
+
+As perspectives,  we plan to run the same pipeline for the higher anatomical levels,  as well as to compare gene lists per brain region found through the machine learning approach with those obtained from other methodologies.
+  
+  Funding: CAPES Biologia Computacional \\ 
+  \end{abstract}
+  \end{document} 

@@ -1,0 +1,65 @@
+
+  \documentclass[twoside]{article}
+  \usepackage[affil-it]{authblk}
+  \usepackage{lipsum} % Package to generate dummy text throughout this template
+  \usepackage{eurosym}
+  \usepackage[sc]{mathpazo} % Use the Palatino font
+  \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+  \usepackage[utf8]{inputenc}
+  \linespread{1.05} % Line spacing-Palatino needs more space between lines
+  \usepackage{microtype} % Slightly tweak font spacing for aesthetics\[IndentingNewLine]
+  \usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+  \usepackage{multicol} % Used for the two-column layout of the document
+  \usepackage[hang,small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under//above floats in tables or figures
+  \usepackage{booktabs} % Horizontal rules in tables
+  \usepackage{float} % Required for tables and figures in the multi-column environment-they need to be placed in specific locations with the[H] (e.g. \begin{table}[H])
+  \usepackage{hyperref} % For hyperlinks in the PDF
+  \usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+  \usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+  \usepackage{abstract} % Allows abstract customization
+  \renewcommand{\abstractnamefont}{\normalfont\bfseries} 
+  %\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text\[IndentingNewLine]
+  \usepackage{titlesec} % Allows customization of titles
+  \renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+  \renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
+  \titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+  \titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+  \usepackage{fancyhdr} % Headers and footers
+  \pagestyle{fancy} % All pages have headers and footers
+  \fancyhead{} % Blank out the default header
+  \fancyfoot{} % Blank out the default footer
+  \fancyhead[C]{X-meeting $\bullet$ October 2019 $\bullet$ Campos do  Jord\~ao} % Custom header text
+  \fancyfoot[RO,LE]{} % Custom footer text
+  %----------------------------------------------------------------------------------------
+  % TITLE SECTION
+  %---------------------------------------------------------------------------------------- 
+ 
+ \title{\vspace{-15mm}\fontsize{24pt}{10pt}\selectfont\textbf{ Bootstrap approach for multivariate survival analysis of  cancer patients. }} % Article title
+  
+  
+  \author{ felipe rodolfo camargo dos santos, Gabriela Guardia, Pedro A F Galante }
+  
+  \affil{ Instituto de Ensino e Pesquisa - Hospital S\'{\i}rio Liban\^es }
+  \vspace{-5mm}
+  \date{}
+  
+  %---------------------------------------------------------------------------------------- 
+  
+  \begin{document}
+  
+  
+  \maketitle % Insert title
+  
+  
+  \thispagestyle{fancy} % All pages have headers and footers
+  %----------------------------------------------------------------------------------------  
+  % ABSTRACT
+  
+  %----------------------------------------------------------------------------------------  
+  
+  \begin{abstract}
+  Gene expression is an important factor correlated with survival of cancer patients. It has been shown that tumors harbour many synergistic and antagonistic interactions that impact disease progression. Given this complexity,  the use of regression methods for survival analysis is a valuable resource for understanding the molecular profile of tumors and its impact on tumor progression,  especially multivariate models,  which take into account the important contribution of the context in which each variable is regarded. Despite their importance,  the existing algorithms present some limitations,  in particular for the analysis of high dimensional datasets,  such as handling attribute/observation proportion issues (dimensionality problem) and control of attribute-attribute correlations. In order to achieve analysis convergence for high dimensional datasets we propose a bootstrap approach,  making use of current regression methods that,  in turn,  use lasso and/or ridge parameters for the obtention of reliable regression coefficients in a bias-variance trade-off optimization. Our tool was applied in a real scenario for the  investigation of  survival differences between men and women patients with glioblastoma and other cancer types. These analyses revealed protein coding genes and long non-coding RNAs (lncRNAs) that may contribute to prognosis differences based on the gender of patients. Interestingly,  these enriched lncRNAs are still poorly characterized and potentially subject to further investigations. Our results  suggest that multivariate analysis combined with bootstrap algorithm improves prognostic prediction in comparison with commonly used methods that rely on univariate regression filters for lowering data dimensionality. In summary,  we believe our method provides a more reliable and adjusted list of genes than current strategies because it takes into account gene-gene interactions.
+  
+  Funding: Fapesp \\ 
+  \end{abstract}
+  \end{document} 

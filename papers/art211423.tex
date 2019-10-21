@@ -1,0 +1,65 @@
+
+  \documentclass[twoside]{article}
+  \usepackage[affil-it]{authblk}
+  \usepackage{lipsum} % Package to generate dummy text throughout this template
+  \usepackage{eurosym}
+  \usepackage[sc]{mathpazo} % Use the Palatino font
+  \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+  \usepackage[utf8]{inputenc}
+  \linespread{1.05} % Line spacing-Palatino needs more space between lines
+  \usepackage{microtype} % Slightly tweak font spacing for aesthetics\[IndentingNewLine]
+  \usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+  \usepackage{multicol} % Used for the two-column layout of the document
+  \usepackage[hang,small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under//above floats in tables or figures
+  \usepackage{booktabs} % Horizontal rules in tables
+  \usepackage{float} % Required for tables and figures in the multi-column environment-they need to be placed in specific locations with the[H] (e.g. \begin{table}[H])
+  \usepackage{hyperref} % For hyperlinks in the PDF
+  \usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+  \usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+  \usepackage{abstract} % Allows abstract customization
+  \renewcommand{\abstractnamefont}{\normalfont\bfseries} 
+  %\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text\[IndentingNewLine]
+  \usepackage{titlesec} % Allows customization of titles
+  \renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+  \renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
+  \titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+  \titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+  \usepackage{fancyhdr} % Headers and footers
+  \pagestyle{fancy} % All pages have headers and footers
+  \fancyhead{} % Blank out the default header
+  \fancyfoot{} % Blank out the default footer
+  \fancyhead[C]{X-meeting $\bullet$ October 2019 $\bullet$ Campos do  Jord\~ao} % Custom header text
+  \fancyfoot[RO,LE]{} % Custom footer text
+  %----------------------------------------------------------------------------------------
+  % TITLE SECTION
+  %---------------------------------------------------------------------------------------- 
+ 
+ \title{\vspace{-15mm}\fontsize{24pt}{10pt}\selectfont\textbf{ Fastly evolving genes in parrots (Aves,  Psittacidae) are associated with developmental processes }} % Article title
+  
+  
+  \author{ Thieres Tayroni Martins da Silva, Anderson Vieira Chaves, Francisco Pereira Lobo }
+  
+  \affil{ Universidade Federal de Minas Gerais }
+  \vspace{-5mm}
+  \date{}
+  
+  %---------------------------------------------------------------------------------------- 
+  
+  \begin{document}
+  
+  
+  \maketitle % Insert title
+  
+  
+  \thispagestyle{fancy} % All pages have headers and footers
+  %----------------------------------------------------------------------------------------  
+  % ABSTRACT
+  
+  %----------------------------------------------------------------------------------------  
+  
+  \begin{abstract}
+  During the course of evolution of protein-coding genes,  most non-synonymous mutations (dN) are removed from gene pools due to negative selection,  leaving a footprint of synonymous mutations (dS). However,  some homologous genes have an excess of dN substitutions when compared to dS,  indicating a selective advantage for sequence variation over conservation. Such genes are referred as adaptive genes and have been demonstrated to be involved in major adaptive processes in vertebrates,  such as reproduction and immunity. Therefore,  the detection of genes evolving under positive Darwinian evolution is a prevailing strategy in comparative genomics studies to identify genes potentially involved in adaptation processes. Birds are subject to unique selective pressures due their diverse lifestyles,  and previous studies found the genes with evidence of positive selection in this taxon to be associated with developmental processes,  such as spinal cord and bone development. Among birds,  Psittaciformes (parrots and relatives) are known by their unusual longevity and cognitive capabilities. In this work,  we investigated candidate genes for traits relevant to Psittaciformes ecological and functional diversity using POTION2,  a software developed by our group to search for genes evolving under evidence of positive selection. We used the complete genomes from 16 avian species representing major extant clades to search for fastly-evolving genes in Psittaciformes when compared to other Psittacopasserria. In a group of 16 high-quality complete genomes (10 Passeriformes,  4 Psittaciformes,  2 Falconiformes birds with BUSCO completeness greater than 0.89). We used MUSCLE for protein alignment,  trimAL to remove poorly aligned columns (> 50\% gaps),  newick utilities for newick tree file manipulation and FastCodeML to infer positive selection. POTION2 requires a phylogenetic species tree to be executed in branch mode,  which was obtained from TimeTree of Life website,  and ML phylogenetic reconstructions conducted by us. Preliminary analysis of 7036 high-quality 1-1 orthologs found 230 genes (~ 3\%) with evidence of positive selection in Psittaciformes. In addition to the processes described in previous studies,  we have also found genes related to the regulation of reproductive processes,  embryological and cellular processes of development,  stimulation and response to beta growth transforming factor,  and oxygen depletion. Besides that,  many of the positively targeted genes still represent uncharacterized proteins,  and comprise interesting targets for functional characterization. Thus,  these genes could have been important in the evolution of morphological,  physiological and behavioral adaptive traits peculiar to each bird order.
+  
+  Funding: CNPq \\ 
+  \end{abstract}
+  \end{document} 

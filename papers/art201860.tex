@@ -1,0 +1,70 @@
+
+  \documentclass[twoside]{article}
+  \usepackage[affil-it]{authblk}
+  \usepackage{lipsum} % Package to generate dummy text throughout this template
+  \usepackage{eurosym}
+  \usepackage[sc]{mathpazo} % Use the Palatino font
+  \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+  \usepackage[utf8]{inputenc}
+  \linespread{1.05} % Line spacing-Palatino needs more space between lines
+  \usepackage{microtype} % Slightly tweak font spacing for aesthetics\[IndentingNewLine]
+  \usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+  \usepackage{multicol} % Used for the two-column layout of the document
+  \usepackage[hang,small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under//above floats in tables or figures
+  \usepackage{booktabs} % Horizontal rules in tables
+  \usepackage{float} % Required for tables and figures in the multi-column environment-they need to be placed in specific locations with the[H] (e.g. \begin{table}[H])
+  \usepackage{hyperref} % For hyperlinks in the PDF
+  \usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+  \usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+  \usepackage{abstract} % Allows abstract customization
+  \renewcommand{\abstractnamefont}{\normalfont\bfseries} 
+  %\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text\[IndentingNewLine]
+  \usepackage{titlesec} % Allows customization of titles
+  \renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+  \renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
+  \titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+  \titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+  \usepackage{fancyhdr} % Headers and footers
+  \pagestyle{fancy} % All pages have headers and footers
+  \fancyhead{} % Blank out the default header
+  \fancyfoot{} % Blank out the default footer
+  \fancyhead[C]{X-meeting $\bullet$ October 2019 $\bullet$ Campos do  Jord\~ao} % Custom header text
+  \fancyfoot[RO,LE]{} % Custom footer text
+  %----------------------------------------------------------------------------------------
+  % TITLE SECTION
+  %---------------------------------------------------------------------------------------- 
+ 
+ \title{\vspace{-15mm}\fontsize{24pt}{10pt}\selectfont\textbf{ PRIORITIZING PROMISING COMPOUNDS IN VIRTUAL SCREENING CAMPAIGNS }} % Article title
+  
+  
+  \author{ Alexandre Victor Fassio, Rafaela Ferreira, Michael Keiser, Raquel Melo Minardi }
+  
+  \affil{ UFMG }
+  \vspace{-5mm}
+  \date{}
+  
+  %---------------------------------------------------------------------------------------- 
+  
+  \begin{document}
+  
+  
+  \maketitle % Insert title
+  
+  
+  \thispagestyle{fancy} % All pages have headers and footers
+  %----------------------------------------------------------------------------------------  
+  % ABSTRACT
+  
+  %----------------------------------------------------------------------------------------  
+  
+  \begin{abstract}
+  Proteins are crucial macromolecules to all organisms as a whole,  and countless
+diseases are associated with the proper functioning of proteins. Not surprisingly,  proteins are the focus of numberless biological research whose focus is the development of new drugs able to modulate these macromolecules. However,  the development and discovery of new lead compounds is a highly expensive and time-consuming program that takes up to 10-15 years. Thus,  computational techniques like structural-based virtual screening (SBVS) and molecular docking contribute significantly to the early-stage drug discovery. A typical SBVS campaign consists of three major phases,  namely the data preparation,  the docking,  and post-analysis. Commonly,  a researcher starts with more than 20, 000 compounds,  and after running a protocol of docking,  100-1000 candidate molecules remain to post-analysis. The latter is an essential procedure since scoring functions have several drawbacks and non-ligands might be prioritized first than true ligands,  which is not desirable. Thus,  the final step in SBVS strategies is a thorough manual process of hit selection,  in which binding modes of hundreds of top-scoring compounds are inspected in molecular graphics programs. Nonetheless,  the identification,  prioritization,  and automatic selection of promising HITs is still an open problem in the SBVS field.
+
+Bearing this in mind,  we propose MOTIF,  a novel hashed interaction fingerprint that encodes interactions on molecular complexes both as binary or count fingerprint. Differently from other hashed fingerprints that are usually black-boxes,  in which one has to design its own methods to interpret what each bit represents,   MOTIF already provides several features to make the analysis straightforward and out-of-the-box.
+
+Moreover,  as an effort to validate and illustrate the applicability of MOTIF,  we selected a recently published library consisting of 138 million molecules docked against Dopamine D4 as our case study. Herein,  our goal was to train different machine learning models to reproduce Dock scores. In this scenario,  we showed that MOTIF outperforms state of the art methods with an R-squared of 0.47.
+  
+  Funding:  \\ 
+  \end{abstract}
+  \end{document} 

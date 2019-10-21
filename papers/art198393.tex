@@ -1,0 +1,65 @@
+
+  \documentclass[twoside]{article}
+  \usepackage[affil-it]{authblk}
+  \usepackage{lipsum} % Package to generate dummy text throughout this template
+  \usepackage{eurosym}
+  \usepackage[sc]{mathpazo} % Use the Palatino font
+  \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+  \usepackage[utf8]{inputenc}
+  \linespread{1.05} % Line spacing-Palatino needs more space between lines
+  \usepackage{microtype} % Slightly tweak font spacing for aesthetics\[IndentingNewLine]
+  \usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+  \usepackage{multicol} % Used for the two-column layout of the document
+  \usepackage[hang,small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under//above floats in tables or figures
+  \usepackage{booktabs} % Horizontal rules in tables
+  \usepackage{float} % Required for tables and figures in the multi-column environment-they need to be placed in specific locations with the[H] (e.g. \begin{table}[H])
+  \usepackage{hyperref} % For hyperlinks in the PDF
+  \usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+  \usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+  \usepackage{abstract} % Allows abstract customization
+  \renewcommand{\abstractnamefont}{\normalfont\bfseries} 
+  %\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text\[IndentingNewLine]
+  \usepackage{titlesec} % Allows customization of titles
+  \renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+  \renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
+  \titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+  \titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+  \usepackage{fancyhdr} % Headers and footers
+  \pagestyle{fancy} % All pages have headers and footers
+  \fancyhead{} % Blank out the default header
+  \fancyfoot{} % Blank out the default footer
+  \fancyhead[C]{X-meeting $\bullet$ October 2019 $\bullet$ Campos do  Jord\~ao} % Custom header text
+  \fancyfoot[RO,LE]{} % Custom footer text
+  %----------------------------------------------------------------------------------------
+  % TITLE SECTION
+  %---------------------------------------------------------------------------------------- 
+ 
+ \title{\vspace{-15mm}\fontsize{24pt}{10pt}\selectfont\textbf{ Plant Co-expression Annotation Tool: a tool to identify targets for proof of concept in Genetically Modified crop breeding pipelines }} % Article title
+  
+  
+  \author{ Marcos Jos\'e Andrade Viana, Adhemar Zerlotini Neto, MAURICIO DE ALVARENGA MUDADU }
+  
+  \affil{ UFMG/EMBRAPA }
+  \vspace{-5mm}
+  \date{}
+  
+  %---------------------------------------------------------------------------------------- 
+  
+  \begin{document}
+  
+  
+  \maketitle % Insert title
+  
+  
+  \thispagestyle{fancy} % All pages have headers and footers
+  %----------------------------------------------------------------------------------------  
+  % ABSTRACT
+  
+  %----------------------------------------------------------------------------------------  
+  
+  \begin{abstract}
+  The development of Genetically Modified crops (GM) includes the discovery of candidate genes through bioinformatics analysis using genome data,  biological pathways,  gene expression,  and others. Proteins of unknown function (PUFs) are interesting targets for proof of concept in GM crops breeding pipelines. Many PUFs are species specific and may participate in important biological pathways for organism survival. One way of inferring the function of PUFs (e.g.: relating them to factors of interest,  like abiotic stresses),  is through orthology and gene expression correlations by using co-expression networks. The purpose of this work is to characterize PUFs to be used in GM crops pipelines using orthology,  co-expression networks and other tools. To date,  we have downloaded,  analyzed,  and processed genomic data of 53 organisms from Phytozome,  as well as the genome of the resurgent Boea Hygrometrica plant from NCBI,  totaling 1, 862, 010 genes,  2, 332, 974 mRNA and 2, 332, 974 proteins. Diamond blast,  against the NCBI’s nr database,  and InterproScan were used to discover 72, 266 PUFs for all organisms. PUFs were found by selecting proteins that have no matches within both diamond and interproscan searches. To construct the co-expression networks,  RNA-seq data related to abiotic stress,  like heat,  drought,  dehydration and osmotic stress were downloaded from the GEO / NCBI database: 16 samples from Glycine max,   14 from Zea mays  33 from Arabidopsis thaliana and 28 from Oryza sativa. This data was used to construct co-expression networks and clusters of transcripts with correlated expression using the LSTrAP software. Orthology was used to annotate the PUFs. In this regard,  we have constructed 164, 267 orthologous groups using OrthoMCL software with the proteins from the 53 genomes. All the data obtained were stored in a database provided by the machado software (https://github.com/lmb-embrapa/machado). A web interface named “Plant Co-expression Annotation Tool” is under development to provide queries to mine PUFs from all 53 plant species. The tool provides analysis such as comparative functional annotation searches,  expression values,  biological pathways and ontologies. A search example was performed using the Oropetium thomaeum genome,  a plant that is resistant to ressecation,  and we found 10 PUFs correlated with abiotic stresses through orthology and co-expression networks. In summary,  we believe our tool can be valuable for finding interesting targets to be used as proof of concept in GM crop breeding pipelines.
+  
+  Funding: EMBRAPA/UFMG \\ 
+  \end{abstract}
+  \end{document} 

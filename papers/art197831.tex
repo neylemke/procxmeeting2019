@@ -1,0 +1,65 @@
+
+  \documentclass[twoside]{article}
+  \usepackage[affil-it]{authblk}
+  \usepackage{lipsum} % Package to generate dummy text throughout this template
+  \usepackage{eurosym}
+  \usepackage[sc]{mathpazo} % Use the Palatino font
+  \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+  \usepackage[utf8]{inputenc}
+  \linespread{1.05} % Line spacing-Palatino needs more space between lines
+  \usepackage{microtype} % Slightly tweak font spacing for aesthetics\[IndentingNewLine]
+  \usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+  \usepackage{multicol} % Used for the two-column layout of the document
+  \usepackage[hang,small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under//above floats in tables or figures
+  \usepackage{booktabs} % Horizontal rules in tables
+  \usepackage{float} % Required for tables and figures in the multi-column environment-they need to be placed in specific locations with the[H] (e.g. \begin{table}[H])
+  \usepackage{hyperref} % For hyperlinks in the PDF
+  \usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+  \usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+  \usepackage{abstract} % Allows abstract customization
+  \renewcommand{\abstractnamefont}{\normalfont\bfseries} 
+  %\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text\[IndentingNewLine]
+  \usepackage{titlesec} % Allows customization of titles
+  \renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+  \renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
+  \titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+  \titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+  \usepackage{fancyhdr} % Headers and footers
+  \pagestyle{fancy} % All pages have headers and footers
+  \fancyhead{} % Blank out the default header
+  \fancyfoot{} % Blank out the default footer
+  \fancyhead[C]{X-meeting $\bullet$ October 2019 $\bullet$ Campos do  Jord\~ao} % Custom header text
+  \fancyfoot[RO,LE]{} % Custom footer text
+  %----------------------------------------------------------------------------------------
+  % TITLE SECTION
+  %---------------------------------------------------------------------------------------- 
+ 
+ \title{\vspace{-15mm}\fontsize{24pt}{10pt}\selectfont\textbf{ NEOANTINGENS,  T AND B CELLS IN SQUAMOUS ESOPHAGEAL CANCER }} % Article title
+  
+  
+  \author{ Luciana Rodrigues Carvalho Barros, Paulo Thiago Santos, Marco Antonio Pretti, Nicole de Miranda Scherer, Ivanir Martins, Davy Rapozo, Priscila Valverde, Tatiana Almeida Sim\~ao, Sheila Coelho Soares Lima, Mariana Boroni, Lu\'{\i}s Felipe Ribeiro Pinto, Martin Hernan Bonamino }
+  
+  \affil{ Instituto Nacional de C\^ancer }
+  \vspace{-5mm}
+  \date{}
+  
+  %---------------------------------------------------------------------------------------- 
+  
+  \begin{document}
+  
+  
+  \maketitle % Insert title
+  
+  
+  \thispagestyle{fancy} % All pages have headers and footers
+  %----------------------------------------------------------------------------------------  
+  % ABSTRACT
+  
+  %----------------------------------------------------------------------------------------  
+  
+  \begin{abstract}
+  Esophageal cancer (EC) is one of the ten most incident and lethal neoplasms worldwide. The chemotherapy of choice still involves taxane and platinum-based regimens,  without any molecular targets. Therefore,  it is of utmost importance to better characterize these tumors in order to develop biomarkers and new therapeutical strategies. Esophageal squamous cell carcinoma (ESCA) exhibits high intratumoral molecular heterogeneity that might favor immunotherapy,  such as the immune checkpoints blockade. Nonetheless,  the success of such therapies depends on the immune-based microenvironment characteristics of the tumor. RNA-seq analysis from 14 tumor and adjacent normal tissue samples from ESCA patients without previous treatment (INCA - CEP 116/11) was performed using Illumina Hi-Seq 2000. Mutations were detected following GATK best practices protocol. Differential gene expression was calculated by RSEM followed by DESeq R package. Class I and II HLA alleles and expression were defined by Optitype and Seq2HLA. ANNOVAR and VEP were used for annotation and gene to protein conversion. NetMHCpan v4.0 was applied to in silico of HLA affinity. Peptides with binding values higher than 500 nM were considered neoantigens. TCR and BCR repertoire were evaluated by MiXCR and tcR R package. Deconvolution analysis of immune subpopulations were performed by CIBERSORT and xCell. TCGA-ESCA samples (n=75) were used as an independent cohort of patients. R software was used for graphic and statistical analysis along with in-house perl scripts. A high number of mutation derived neoantigens and tumor aberrant antigens (TAA) number varied across tumor samples. Although not detected by RNA-seq,  four proteins were expressed by the tumor and surrounding areas. All tumors are enriched with immune checkpoint and activators genes compared to normal counterparts,  but their expression varied between patients explaining partially why immune checkpoint blockade therapy are not effective against this tumor. Our analysis evidenced a complex immune landscape in ESCA with major macrophages and T cells infiltration. The high number of B cell clones (mostly IgG) infiltrating the tumors and the high active B cell meta-signatures found suggest B cells may play a role in ESCA  progression. Also,  B cells are significantly correlated with better overall survival and were found in tertiary lymphoid-like structures within the tumor.
+  
+  Funding:  \\ 
+  \end{abstract}
+  \end{document} 

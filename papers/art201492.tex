@@ -1,0 +1,65 @@
+
+  \documentclass[twoside]{article}
+  \usepackage[affil-it]{authblk}
+  \usepackage{lipsum} % Package to generate dummy text throughout this template
+  \usepackage{eurosym}
+  \usepackage[sc]{mathpazo} % Use the Palatino font
+  \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+  \usepackage[utf8]{inputenc}
+  \linespread{1.05} % Line spacing-Palatino needs more space between lines
+  \usepackage{microtype} % Slightly tweak font spacing for aesthetics\[IndentingNewLine]
+  \usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+  \usepackage{multicol} % Used for the two-column layout of the document
+  \usepackage[hang,small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under//above floats in tables or figures
+  \usepackage{booktabs} % Horizontal rules in tables
+  \usepackage{float} % Required for tables and figures in the multi-column environment-they need to be placed in specific locations with the[H] (e.g. \begin{table}[H])
+  \usepackage{hyperref} % For hyperlinks in the PDF
+  \usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+  \usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+  \usepackage{abstract} % Allows abstract customization
+  \renewcommand{\abstractnamefont}{\normalfont\bfseries} 
+  %\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text\[IndentingNewLine]
+  \usepackage{titlesec} % Allows customization of titles
+  \renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+  \renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
+  \titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+  \titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+  \usepackage{fancyhdr} % Headers and footers
+  \pagestyle{fancy} % All pages have headers and footers
+  \fancyhead{} % Blank out the default header
+  \fancyfoot{} % Blank out the default footer
+  \fancyhead[C]{X-meeting $\bullet$ October 2019 $\bullet$ Campos do  Jord\~ao} % Custom header text
+  \fancyfoot[RO,LE]{} % Custom footer text
+  %----------------------------------------------------------------------------------------
+  % TITLE SECTION
+  %---------------------------------------------------------------------------------------- 
+ 
+ \title{\vspace{-15mm}\fontsize{24pt}{10pt}\selectfont\textbf{ Identification of alternative splice variants in the transcriptome of  Squamous Cell Carcinoma of the Cervix and Adenocarcinoma of the Cervix }} % Article title
+  
+  
+  \author{ Aruana F F Hansel Frose, Natasha Jorge, Patricia Savio de Araujo-Souza, Luisa Lina Villa, Laura Sichero, Fabio Passetti }
+  
+  \affil{ Laboratory of Gene Expression Regulation,  Carlos Chagas Institute (ICC),  Oswaldo Cruz Foundation (Fiocruz),  Curitiba,  PR,  Brazil. }
+  \vspace{-5mm}
+  \date{}
+  
+  %---------------------------------------------------------------------------------------- 
+  
+  \begin{document}
+  
+  
+  \maketitle % Insert title
+  
+  
+  \thispagestyle{fancy} % All pages have headers and footers
+  %----------------------------------------------------------------------------------------  
+  % ABSTRACT
+  
+  %----------------------------------------------------------------------------------------  
+  
+  \begin{abstract}
+  The uterine cervix is the initial portion of the uterus that communicates with the vaginal canal. In this region,  cervical cancer can develop,  which is a type of tumour that most affect women nowadays. There are many subtypes of cervical cancer: about 70\% of the new cases are identified as cervical squamous cell carcinoma (SCC),  20\% of the cases are adenocarcinoma (ADC),  and the rest is composed by mixed tumours. Even though there are definite subtypes,  the treatment administered for both SCC and ADC is the same,  which compromises response and remission of ADC,  the worst prognostic subtype. Since they are molecularly heterogeneous,  it is still an ongoing challenge to distinguish ADC and SCC through their expression profile. The clarification of their expression profiles could complement their immunohistochemical diagnostic,  help differentiate the subtypes,  and possibly find new pharmacological targets differentially expressed in ADC. Since other studies have primarily focused on canonical transcripts,  we propose that annotated and/or new alternative splice variants could help clarify and build the expression profile of these cervical cancer subtypes. Accordingly,  our objective is to find differentially expressed alternative splice transcripts in ADC and SCC transcriptome. We obtained the RNA-Seq profile of 8 SCC and 3 ADC. After trimming using Trimgalore,  mapping onto the human genome using Hisat2,  and read count using htseq,  we performed differential expression using DESeq2 using the default protocol. We used CLASS2 to identify and annotate the alternative splice variants,  including previously uncharacterized,  of two different long non-coding RNA. One of which is expressed only in SCC,  but with variation within samples,  which could confirm the heterogeneity of cervical cancer subtypes as proposed by other research groups. The other lncRNA is shown only in ADC samples,  which could be a prospect of a biomarker. Further statistical analysis are needed to confirm these primary observations.
+  
+  Funding: CAPES,  CNPQ,  FIOCRUZ,  FAPESP \\ 
+  \end{abstract}
+  \end{document} 

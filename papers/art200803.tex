@@ -1,0 +1,65 @@
+
+  \documentclass[twoside]{article}
+  \usepackage[affil-it]{authblk}
+  \usepackage{lipsum} % Package to generate dummy text throughout this template
+  \usepackage{eurosym}
+  \usepackage[sc]{mathpazo} % Use the Palatino font
+  \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+  \usepackage[utf8]{inputenc}
+  \linespread{1.05} % Line spacing-Palatino needs more space between lines
+  \usepackage{microtype} % Slightly tweak font spacing for aesthetics\[IndentingNewLine]
+  \usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+  \usepackage{multicol} % Used for the two-column layout of the document
+  \usepackage[hang,small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under//above floats in tables or figures
+  \usepackage{booktabs} % Horizontal rules in tables
+  \usepackage{float} % Required for tables and figures in the multi-column environment-they need to be placed in specific locations with the[H] (e.g. \begin{table}[H])
+  \usepackage{hyperref} % For hyperlinks in the PDF
+  \usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+  \usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+  \usepackage{abstract} % Allows abstract customization
+  \renewcommand{\abstractnamefont}{\normalfont\bfseries} 
+  %\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text\[IndentingNewLine]
+  \usepackage{titlesec} % Allows customization of titles
+  \renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+  \renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
+  \titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+  \titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+  \usepackage{fancyhdr} % Headers and footers
+  \pagestyle{fancy} % All pages have headers and footers
+  \fancyhead{} % Blank out the default header
+  \fancyfoot{} % Blank out the default footer
+  \fancyhead[C]{X-meeting $\bullet$ October 2019 $\bullet$ Campos do  Jord\~ao} % Custom header text
+  \fancyfoot[RO,LE]{} % Custom footer text
+  %----------------------------------------------------------------------------------------
+  % TITLE SECTION
+  %---------------------------------------------------------------------------------------- 
+ 
+ \title{\vspace{-15mm}\fontsize{24pt}{10pt}\selectfont\textbf{ In silico identification of transcriptional regulatory pathways in Leptospira biflexa biofilms }} % Article title
+  
+  
+  \author{ Artur Filipe Cancio Ramos dos Santos, Mariana Teixeira Dornelles Parise, Doglas Parise, Paula Carvalhal Lage Von Buettner Ristow, Vasco A de C Azevedo }
+  
+  \affil{ UFMG }
+  \vspace{-5mm}
+  \date{}
+  
+  %---------------------------------------------------------------------------------------- 
+  
+  \begin{document}
+  
+  
+  \maketitle % Insert title
+  
+  
+  \thispagestyle{fancy} % All pages have headers and footers
+  %----------------------------------------------------------------------------------------  
+  % ABSTRACT
+  
+  %----------------------------------------------------------------------------------------  
+  
+  \begin{abstract}
+  Bacteria of the genus Leptospira comprehend 65 genomic species including pathogenic,  intermediate and saprophytic groups. Pathogenic leptospires are the etiologic agent of leptospirosis,  a disease of public health and veterinary public health impacts worldwide. Biofilms improve survival of microorganisms in hostile environments and are related to various medical conditions. Leptospira form biofilms in vitro and in vivo. Nevertheless,  the regulatory mechanisms of biofilm formation in Leptospira are poorly known. Saprophytic Leptospira biflexa shares several genetic and functional similarities with pathogenic species and can be used as a model to study biofilms. In this study,  we aimed to identify transcriptional regulators involved in biofilm formation in Leptospira biflexa and to describe the regulatory pathways of these regulators. Firstly,  we selected transcriptional regulators predicted for Leptospira biflexa in P2TF database. Secondly,  we conducted a similarity search using Protein BLAST with those regulators against previous data from a Leptospira biflexa transcriptome analysis of biofilm versus planktonic cells,  in two time points: 48 h (mature biofilm) and 120 h (late biofilm). Transcriptomic data is publicly available under BioProject accession number PRJNA288909. After identifying biofilm regulatory genes in L. biflexa transcriptomic data,  we checked for their expression levels to understand if a particular regulator was contributing positively,  negatively or being neutral in the context of biofilm regulation. Finally,  we performed a functional annotation,  in order to classify all the regulators found using COG database. In total,  we predicted 138 transcriptional regulators for L. biflexa,  comprising sigma factors,  two-component systems,  response regulators and other DNA-binding proteins. Among those,  we identified 38 (27.5\%) regulators as participating in the biofilm phenotype. From the results analyzed so far,  we found that the sigma factor LEPBI\_II0101 integrate a network alongside with other sigma factors,  response regulators,  RNA-polymerase subunits genes and two-component systems in all transcriptomic comparisons,  leading us to infer that this regulator is important to sense environmental changes and modify expression. We also found that the alternative sigma factor FliA positively regulates motility and chemiotaxis,  and interacts with other flagellar proteins in the mature biofilm. Motility and chemiotaxis are pointed to be important for biofilm formation in other species. Our results also evidenced the toxin–antitoxin system VapBC,  which contributes with RNase activity in the late biofilm. Our work is novel in describing the regulatory mechanisms of Leptospira biofilm formation and will shed light on the intricate regulatory pathways of this phenotype.
+  
+  Funding: CNPq (UNIVERSAL MCTI/CNPq No 01/2016; Process: 425526/2016-0). This study was financed in part by the Coordena\c{c}\~ao de Aperfei\c{c}oamento de Pessoal de N\'{\i}vel Superior – Brasil (CAPES) – Finance Code 001 \\ 
+  \end{abstract}
+  \end{document} 

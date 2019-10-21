@@ -1,0 +1,65 @@
+
+  \documentclass[twoside]{article}
+  \usepackage[affil-it]{authblk}
+  \usepackage{lipsum} % Package to generate dummy text throughout this template
+  \usepackage{eurosym}
+  \usepackage[sc]{mathpazo} % Use the Palatino font
+  \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+  \usepackage[utf8]{inputenc}
+  \linespread{1.05} % Line spacing-Palatino needs more space between lines
+  \usepackage{microtype} % Slightly tweak font spacing for aesthetics\[IndentingNewLine]
+  \usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+  \usepackage{multicol} % Used for the two-column layout of the document
+  \usepackage[hang,small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under//above floats in tables or figures
+  \usepackage{booktabs} % Horizontal rules in tables
+  \usepackage{float} % Required for tables and figures in the multi-column environment-they need to be placed in specific locations with the[H] (e.g. \begin{table}[H])
+  \usepackage{hyperref} % For hyperlinks in the PDF
+  \usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+  \usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+  \usepackage{abstract} % Allows abstract customization
+  \renewcommand{\abstractnamefont}{\normalfont\bfseries} 
+  %\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text\[IndentingNewLine]
+  \usepackage{titlesec} % Allows customization of titles
+  \renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+  \renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
+  \titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+  \titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+  \usepackage{fancyhdr} % Headers and footers
+  \pagestyle{fancy} % All pages have headers and footers
+  \fancyhead{} % Blank out the default header
+  \fancyfoot{} % Blank out the default footer
+  \fancyhead[C]{X-meeting $\bullet$ October 2019 $\bullet$ Campos do  Jord\~ao} % Custom header text
+  \fancyfoot[RO,LE]{} % Custom footer text
+  %----------------------------------------------------------------------------------------
+  % TITLE SECTION
+  %---------------------------------------------------------------------------------------- 
+ 
+ \title{\vspace{-15mm}\fontsize{24pt}{10pt}\selectfont\textbf{ Overcoming challenges in the metabolic reconstruction process: A promising approach to the MDRAB problem. }} % Article title
+  
+  
+  \author{ Juliana Simas Coutinho Barbosa, Pablo Ivan Pereira Ramos, Marisa Fabiana Nicol\'as }
+  
+  \affil{ Laborat\'orio Nacional de Computa\c{c}\~ao Cient\'{\i}fica }
+  \vspace{-5mm}
+  \date{}
+  
+  %---------------------------------------------------------------------------------------- 
+  
+  \begin{document}
+  
+  
+  \maketitle % Insert title
+  
+  
+  \thispagestyle{fancy} % All pages have headers and footers
+  %----------------------------------------------------------------------------------------  
+  % ABSTRACT
+  
+  %----------------------------------------------------------------------------------------  
+  
+  \begin{abstract}
+  Acinetobacter baumannii is a human opportunistic pathogen associated with multidrug resistant phenotypes. Furthermore,  this pathogen is responsible for several outbreaks in intensive care units around the globe. For that,  the World Health Organization considers A. baumannii as a top priority when it comes to the need for new antibiotics. In this context,  genome-scale metabolic reconstructions (GEMs) are promising tools to help understand the mechanisms behind antimicrobial resistance in MultiDrug Resistant Acinetobacter baumannii (MDRAB) and find promising drug targets for new antibiotics and also synergistic effects to antimicrobial drugs already known and used in therapy. However,  the reconstruction process has many challenges,  little instructions and is very demanding when it comes to time and effort. In this project,  we aim to build a comprehensive metabolic model of Acinetobacter baumannii strain ATCC 17978,  capable of predicting cellular responses to genetic and environmental disturbances. Meanwhile,  we intent to present a transparent methodology that can assist in the reconstruction and curation processes. Moreover,  flux balance analysis simulations will be conducted for case studies seeking drug target prioritization and the elucidation of the antimicrobial resistance mechanisms. Initially,  we built 3 automatic reconstructions by mapping the organism’s proteome to the KEGG and MetaCyc databases and also to a GEM of a closely-related organism iATCC19606,  which comprises the metabolism of A. baumannii strain ATCC 19606. Those 3 reconstructions were merged into a comprehensive automatic reconstruction,  putting together as many metabolic functions based on genomic evidence as possible,  in order to reduce manual curation efforts when filling in eventual gaps. The resulting automatic reconstruction has 2407 reactions and 2918 metabolites. The great number of reactions and metabolites is most likely due to empty reactions and duplicate reactions and metabolites,  which will be removed during manual curation,  in a process called reconciliation. Once ID reconciliation is performed,  that number is expected to decrease significantly. During the curation process,  the model’s ability to replicate experimental data accurately is closely monitored,  until a satisfactory accuracy threshold is reached (around 80\%). That step is called validation and it will dictate when the model is ready for predictive simulations,  which should lead to valuable insights about the pathogenesis of A. baumannii.
+  
+  Funding: CAPES \\ 
+  \end{abstract}
+  \end{document} 

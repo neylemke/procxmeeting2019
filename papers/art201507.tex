@@ -1,0 +1,65 @@
+
+  \documentclass[twoside]{article}
+  \usepackage[affil-it]{authblk}
+  \usepackage{lipsum} % Package to generate dummy text throughout this template
+  \usepackage{eurosym}
+  \usepackage[sc]{mathpazo} % Use the Palatino font
+  \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+  \usepackage[utf8]{inputenc}
+  \linespread{1.05} % Line spacing-Palatino needs more space between lines
+  \usepackage{microtype} % Slightly tweak font spacing for aesthetics\[IndentingNewLine]
+  \usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+  \usepackage{multicol} % Used for the two-column layout of the document
+  \usepackage[hang,small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under//above floats in tables or figures
+  \usepackage{booktabs} % Horizontal rules in tables
+  \usepackage{float} % Required for tables and figures in the multi-column environment-they need to be placed in specific locations with the[H] (e.g. \begin{table}[H])
+  \usepackage{hyperref} % For hyperlinks in the PDF
+  \usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+  \usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+  \usepackage{abstract} % Allows abstract customization
+  \renewcommand{\abstractnamefont}{\normalfont\bfseries} 
+  %\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text\[IndentingNewLine]
+  \usepackage{titlesec} % Allows customization of titles
+  \renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+  \renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
+  \titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+  \titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+  \usepackage{fancyhdr} % Headers and footers
+  \pagestyle{fancy} % All pages have headers and footers
+  \fancyhead{} % Blank out the default header
+  \fancyfoot{} % Blank out the default footer
+  \fancyhead[C]{X-meeting $\bullet$ October 2019 $\bullet$ Campos do  Jord\~ao} % Custom header text
+  \fancyfoot[RO,LE]{} % Custom footer text
+  %----------------------------------------------------------------------------------------
+  % TITLE SECTION
+  %---------------------------------------------------------------------------------------- 
+ 
+ \title{\vspace{-15mm}\fontsize{24pt}{10pt}\selectfont\textbf{ SWeeP and machine learning in supertree construction: family Formicidae analysis }} % Article title
+  
+  
+  \author{ Monique Schreiner, Roberto Tadeu Raittz, Mariane Gol\c{c}alves Kulik }
+  
+  \affil{ Universidade Federal do Paran\'a }
+  \vspace{-5mm}
+  \date{}
+  
+  %---------------------------------------------------------------------------------------- 
+  
+  \begin{document}
+  
+  
+  \maketitle % Insert title
+  
+  
+  \thispagestyle{fancy} % All pages have headers and footers
+  %----------------------------------------------------------------------------------------  
+  % ABSTRACT
+  
+  %----------------------------------------------------------------------------------------  
+  
+  \begin{abstract}
+  Phylogenies including all taxa of a large group,  the supertrees,  are essential for research in macroevolution,  biogeography and conservation. In groups with lack of data,  the construction of super trees becomes complex. Particularly,  the ants (family Formicidae) compose a group with genetic data distribution quite heterogenous wherein few species have thousands of sequences registered on biological databases while most of the species have few or none sequences registered,  fact that make a global phylogenetic analysis difficult. The present research proposes the construction of a supertree for all extant ants,  including the ones missing genetic data available,  using vectorial techniques and artificial intelligence. To perform this,  all ant protein sequences available on NCBI were downloaded and clustered. For prospection,  the largest cluster were analyzed. The sequences of the largest cluster were vectorized using the algorithm SWeeP which transforms sequences of amino acids in compact vectors preserving comparability of the sequences and allowing big data analysis. One matrix per protein was generated for the most frequent proteins on the cluster. A Principal Component Analysis (PCA) was performed on the SWeeP matrixes. The result showed that it was possible to distinguish the main subfamilies of ants using a few of the principal components. Multilayer Perceptron Neural Networks (MLP) were trained to classify the subfamilies using the first one hundred principal components of the matrixes. The mean accuracy of the neural networks was 0.9576 (SD=0.064). The neural network with the best performance was for the protein Cytochrome C Subunit I with 0.994 accuracy. The preliminary results showed that it is possible to classify organisms using molecular data without the use of alignment techniques. Alignment techniques are computationally expensive and hence limit the amount of data that can be used. The classification learning model corroborates the potential of the proposed vectoral model. The learning model will be applied in the prediction of missing elements and will allow the use of multiple proteins. At last,  the developed model will be used in the construction of the Formicidae supertree.
+  
+  Funding: CAPES \\ 
+  \end{abstract}
+  \end{document} 

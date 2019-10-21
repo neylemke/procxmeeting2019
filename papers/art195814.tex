@@ -1,0 +1,66 @@
+
+  \documentclass[twoside]{article}
+  \usepackage[affil-it]{authblk}
+  \usepackage{lipsum} % Package to generate dummy text throughout this template
+  \usepackage{eurosym}
+  \usepackage[sc]{mathpazo} % Use the Palatino font
+  \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+  \usepackage[utf8]{inputenc}
+  \linespread{1.05} % Line spacing-Palatino needs more space between lines
+  \usepackage{microtype} % Slightly tweak font spacing for aesthetics\[IndentingNewLine]
+  \usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+  \usepackage{multicol} % Used for the two-column layout of the document
+  \usepackage[hang,small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under//above floats in tables or figures
+  \usepackage{booktabs} % Horizontal rules in tables
+  \usepackage{float} % Required for tables and figures in the multi-column environment-they need to be placed in specific locations with the[H] (e.g. \begin{table}[H])
+  \usepackage{hyperref} % For hyperlinks in the PDF
+  \usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+  \usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+  \usepackage{abstract} % Allows abstract customization
+  \renewcommand{\abstractnamefont}{\normalfont\bfseries} 
+  %\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text\[IndentingNewLine]
+  \usepackage{titlesec} % Allows customization of titles
+  \renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+  \renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
+  \titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+  \titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+  \usepackage{fancyhdr} % Headers and footers
+  \pagestyle{fancy} % All pages have headers and footers
+  \fancyhead{} % Blank out the default header
+  \fancyfoot{} % Blank out the default footer
+  \fancyhead[C]{X-meeting $\bullet$ October 2019 $\bullet$ Campos do  Jord\~ao} % Custom header text
+  \fancyfoot[RO,LE]{} % Custom footer text
+  %----------------------------------------------------------------------------------------
+  % TITLE SECTION
+  %---------------------------------------------------------------------------------------- 
+ 
+ \title{\vspace{-15mm}\fontsize{24pt}{10pt}\selectfont\textbf{ Automatic identification of lncRNA transcripts using Artificial Neural Networks }} % Article title
+  
+  
+  \author{ Ana Beatriz Oliveira Villela Silva, Mariana Carmin, Eduardo Jaques Spinosa }
+  
+  \affil{ Universidade Federal do Paran\'a }
+  \vspace{-5mm}
+  \date{}
+  
+  %---------------------------------------------------------------------------------------- 
+  
+  \begin{document}
+  
+  
+  \maketitle % Insert title
+  
+  
+  \thispagestyle{fancy} % All pages have headers and footers
+  %----------------------------------------------------------------------------------------  
+  % ABSTRACT
+  
+  %----------------------------------------------------------------------------------------  
+  
+  \begin{abstract}
+  A vast number of studies show that only 1.5\% of the human genome effectively encodes proteins. Among the remaining 98.5\%,  a large portion is transcribed as ncRNA (non-coding RNAs),  intermediate molecules that participate in the most diverse biological processes. LncRNAs (long non-coding RNAs) are a particularly recently discovered class of ncRNA which contains at least 200 nucleotides in length. Since they can be as long as (or even longer) than mRNAs (messenger RNAs) and also can contain an ORF (Open Reading Frame),  differentiating between those two very functionally different types of sequences can be a challenging task. This work proposes a method to discriminate DNA sequences between mRNA and lncRNA transcripts in Human and Mouse genomes using Artificial Neural Networks. In order to train the network,  10000 (human) and 5000 (mouse) sequences from both mRNAs and lncRNAs were manually curated from the GENCODE database. The validation set for both organisms were divided into Test-A and Test-B,  with Test-B's difference being the removal of lncRNA sequences that were too similar from mRNAs. A multilayer perceptron was the model adopted to classify the data.
+In total,  nine features represented each sample in the dataset: the number and size of exons,  the size of the transcript,  the beginning and end of any existing ORFs,  the size of the ORF found,  a score calculated to represent the quality of the ORF,  and the standard deviation based of the number of possible ORFs considering all possible reading frames.  A grid search was performed in order to optimize the following hyperparameters: initial learning rate,  number and amount of hidden layers,  and the maximum number of epochs.  The accuracy on both validation datasets was between 82, 36\% and 93, 43\% for humans and 88, 59\% and 94, 18\% for mice,  with a precision ranging from 91, 77\% and 92, 15\% for humans and 93, 06\% and 94, 13\% for mice respectively. The recall achieved varied between 82, 36\% and 83, 62\% for humans and 88, 59\% and 88, 89\% for mice.  In conclusion,  a multilayer perceptron showed to be a valid classification model to discriminate lncRNAs and mRNAs,  especially in Test-B,  but the overall recall metric of this study can be further improved. Future work can be done using Deep Neural Network approaches in order to achieve even better results.
+  
+  Funding:  \\ 
+  \end{abstract}
+  \end{document} 

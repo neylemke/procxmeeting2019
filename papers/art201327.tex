@@ -1,0 +1,65 @@
+
+  \documentclass[twoside]{article}
+  \usepackage[affil-it]{authblk}
+  \usepackage{lipsum} % Package to generate dummy text throughout this template
+  \usepackage{eurosym}
+  \usepackage[sc]{mathpazo} % Use the Palatino font
+  \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+  \usepackage[utf8]{inputenc}
+  \linespread{1.05} % Line spacing-Palatino needs more space between lines
+  \usepackage{microtype} % Slightly tweak font spacing for aesthetics\[IndentingNewLine]
+  \usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+  \usepackage{multicol} % Used for the two-column layout of the document
+  \usepackage[hang,small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under//above floats in tables or figures
+  \usepackage{booktabs} % Horizontal rules in tables
+  \usepackage{float} % Required for tables and figures in the multi-column environment-they need to be placed in specific locations with the[H] (e.g. \begin{table}[H])
+  \usepackage{hyperref} % For hyperlinks in the PDF
+  \usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+  \usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+  \usepackage{abstract} % Allows abstract customization
+  \renewcommand{\abstractnamefont}{\normalfont\bfseries} 
+  %\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text\[IndentingNewLine]
+  \usepackage{titlesec} % Allows customization of titles
+  \renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+  \renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
+  \titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+  \titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+  \usepackage{fancyhdr} % Headers and footers
+  \pagestyle{fancy} % All pages have headers and footers
+  \fancyhead{} % Blank out the default header
+  \fancyfoot{} % Blank out the default footer
+  \fancyhead[C]{X-meeting $\bullet$ October 2019 $\bullet$ Campos do  Jord\~ao} % Custom header text
+  \fancyfoot[RO,LE]{} % Custom footer text
+  %----------------------------------------------------------------------------------------
+  % TITLE SECTION
+  %---------------------------------------------------------------------------------------- 
+ 
+ \title{\vspace{-15mm}\fontsize{24pt}{10pt}\selectfont\textbf{ Antibiotic resistance genes in the gut microbiome of worldwide populations }} % Article title
+  
+  
+  \author{ Liliane Conteville, Gregorio Manuel Iraola Bentancor, Ana Carolina Paulo Vicente }
+  
+  \affil{ Oswaldo Cruz Institute }
+  \vspace{-5mm}
+  \date{}
+  
+  %---------------------------------------------------------------------------------------- 
+  
+  \begin{document}
+  
+  
+  \maketitle % Insert title
+  
+  
+  \thispagestyle{fancy} % All pages have headers and footers
+  %----------------------------------------------------------------------------------------  
+  % ABSTRACT
+  
+  %----------------------------------------------------------------------------------------  
+  
+  \begin{abstract}
+  The human lifestyle and the environment have a direct impact not only on the taxonomic and functional profiles of the human gut microbiome but also on its collection of antibiotic resistance genes (ARGs),  the resistome. ARGs have been identified even in the microbiomes of human populations that were never exposed to commercial antibiotics. This is correlated with the fact that microbial resistance has always been naturally occurring in the environment. To explore the resistome profiles of distinct populations worldwide,  we analyzed 1072 human gut microbiomes from 21 human populations with different diets,  lifestyles,  and genetic backgrounds. This study is original considering the metagenomes dataset analyzed and the approach performed. The programs ARIBA and ABRICATE were used to screen for ARGs in the metagenomes with paired-end and single-end reads,  respectively. The ARGs identified were grouped and sequence redundancy was removed using CD-HIT,  which generated an ARGs catalogue with 328 sequences. Each metagenome was mapped against this catalogue with BBMAP. DESEq was used to normalize the counts of the reads mapped. PcoA and cluster analysis showed a discernible separation among westernized and non-westernized groups. Genes that confer resistance to tetracycline are the most prevalent genes in most of the westernized and non-westernized groups,  but the westernized groups show a higher abundance of these genes. Considering the 21 groups,  it was possible to identify 182 significantly discriminative features among them. Interestingly,  relevant ARGs commonly found in clinical isolates were found in remote or semi-isolated groups,  as TEM,  OXA,  Cfx,  aadS. The characterization of the resistome of worldwide populations and the understanding of the routes of ARGs spread are particularly relevant to global public health.
+  
+  Funding: CAPES,  CNPQ,  IOC,  PASTEUR \\ 
+  \end{abstract}
+  \end{document} 

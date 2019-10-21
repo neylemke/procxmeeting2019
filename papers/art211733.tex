@@ -1,0 +1,65 @@
+
+  \documentclass[twoside]{article}
+  \usepackage[affil-it]{authblk}
+  \usepackage{lipsum} % Package to generate dummy text throughout this template
+  \usepackage{eurosym}
+  \usepackage[sc]{mathpazo} % Use the Palatino font
+  \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+  \usepackage[utf8]{inputenc}
+  \linespread{1.05} % Line spacing-Palatino needs more space between lines
+  \usepackage{microtype} % Slightly tweak font spacing for aesthetics\[IndentingNewLine]
+  \usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+  \usepackage{multicol} % Used for the two-column layout of the document
+  \usepackage[hang,small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under//above floats in tables or figures
+  \usepackage{booktabs} % Horizontal rules in tables
+  \usepackage{float} % Required for tables and figures in the multi-column environment-they need to be placed in specific locations with the[H] (e.g. \begin{table}[H])
+  \usepackage{hyperref} % For hyperlinks in the PDF
+  \usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+  \usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+  \usepackage{abstract} % Allows abstract customization
+  \renewcommand{\abstractnamefont}{\normalfont\bfseries} 
+  %\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text\[IndentingNewLine]
+  \usepackage{titlesec} % Allows customization of titles
+  \renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+  \renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
+  \titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+  \titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+  \usepackage{fancyhdr} % Headers and footers
+  \pagestyle{fancy} % All pages have headers and footers
+  \fancyhead{} % Blank out the default header
+  \fancyfoot{} % Blank out the default footer
+  \fancyhead[C]{X-meeting $\bullet$ October 2019 $\bullet$ Campos do  Jord\~ao} % Custom header text
+  \fancyfoot[RO,LE]{} % Custom footer text
+  %----------------------------------------------------------------------------------------
+  % TITLE SECTION
+  %---------------------------------------------------------------------------------------- 
+ 
+ \title{\vspace{-15mm}\fontsize{24pt}{10pt}\selectfont\textbf{ MONET – SMARTPHONE APPLICATION FOR VIEWING MOLECULAR INTERACTIONS IN VIRTUAL REALITY ENVIRONMENT }} % Article title
+  
+  
+  \author{ Jorge Henrique Faine Monteiro, Jos\'e Rafael Pilan, Agnes Alessandra Sekijima Takeda, Jos\'e Luiz Rybarczyk Filho }
+  
+  \affil{ Instituto de Bioci\^encias de Botucatu - UNESP }
+  \vspace{-5mm}
+  \date{}
+  
+  %---------------------------------------------------------------------------------------- 
+  
+  \begin{document}
+  
+  
+  \maketitle % Insert title
+  
+  
+  \thispagestyle{fancy} % All pages have headers and footers
+  %----------------------------------------------------------------------------------------  
+  % ABSTRACT
+  
+  %----------------------------------------------------------------------------------------  
+  
+  \begin{abstract}
+  Metabolic pathways correspond to processes that determine physiological and biochemical properties of a cell. These  can be represented as interaction networks between proteins,  metabolites and other molecules. Most current network visualization applications do not allow a three-dimensional view,  displaying a  planar network representation (two dimensions). In the present work,  we developed a smartphone application MoNet (Molecular Network) that allows visualization of networks in three dimensions,  enabling to the user an immersion in Virtual Reality (VR) environment,  and providing a better experience of network analysis. The application was developed using Game Engine Unity3D,  which was chosen because the ease to create three dimensional environments,  the possibility to export to various smartphone platforms and effortless integration with Virtual Reality technologies.  The C\# was also used to query the information from  the protein-protein interaction STRING database. The mobile user interface allows the user to select the organism,   the proteins to be prospected,  the interaction sources,  the confidence score and the number of interaction limit per protein. The STRING returns a datafile containing the network (flat format) and protein descriptions. These network information are converted to a 3D representation by an algorithm adapted from the Force-directed graph drawing methodology that distributes proteins in the virtual space,  allowing better visualization of the network. The user can place the smartphone in the cardboard holder to view the network in VR and even focus on a specific protein to visualize its description as well as the neighbors. MoNet also works without the VR environment,  allowing zoom and rotation of the network. This first version of the application can be used to teach system biology to undergraduate and graduate students. For the next versions,  we will include more databases like STITCH,  that provides small molecule interaction and proteins,  and STRING viruses,  that provide protein-protein interactions between viruses and host.
+  
+  Funding: CNPq \\ 
+  \end{abstract}
+  \end{document} 

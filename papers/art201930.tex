@@ -1,0 +1,65 @@
+
+  \documentclass[twoside]{article}
+  \usepackage[affil-it]{authblk}
+  \usepackage{lipsum} % Package to generate dummy text throughout this template
+  \usepackage{eurosym}
+  \usepackage[sc]{mathpazo} % Use the Palatino font
+  \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+  \usepackage[utf8]{inputenc}
+  \linespread{1.05} % Line spacing-Palatino needs more space between lines
+  \usepackage{microtype} % Slightly tweak font spacing for aesthetics\[IndentingNewLine]
+  \usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+  \usepackage{multicol} % Used for the two-column layout of the document
+  \usepackage[hang,small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under//above floats in tables or figures
+  \usepackage{booktabs} % Horizontal rules in tables
+  \usepackage{float} % Required for tables and figures in the multi-column environment-they need to be placed in specific locations with the[H] (e.g. \begin{table}[H])
+  \usepackage{hyperref} % For hyperlinks in the PDF
+  \usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+  \usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+  \usepackage{abstract} % Allows abstract customization
+  \renewcommand{\abstractnamefont}{\normalfont\bfseries} 
+  %\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text\[IndentingNewLine]
+  \usepackage{titlesec} % Allows customization of titles
+  \renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+  \renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
+  \titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+  \titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+  \usepackage{fancyhdr} % Headers and footers
+  \pagestyle{fancy} % All pages have headers and footers
+  \fancyhead{} % Blank out the default header
+  \fancyfoot{} % Blank out the default footer
+  \fancyhead[C]{X-meeting $\bullet$ October 2019 $\bullet$ Campos do  Jord\~ao} % Custom header text
+  \fancyfoot[RO,LE]{} % Custom footer text
+  %----------------------------------------------------------------------------------------
+  % TITLE SECTION
+  %---------------------------------------------------------------------------------------- 
+ 
+ \title{\vspace{-15mm}\fontsize{24pt}{10pt}\selectfont\textbf{ The importance of long genes in the gene expression of cells affected by Cockayne syndrome }} % Article title
+  
+  
+  \author{ Maira Rodrigues de Camargo Neves, Livia Luz Souza Nascimento, Alexandre Teixeira Vessoni, Carlos Frederico Martins Menck }
+  
+  \affil{ Department of Microbiology,  Institute of Biomedical Sciences,  University of S\~ao Paulo,  S\~ao Paulo/SP,  Brazil }
+  \vspace{-5mm}
+  \date{}
+  
+  %---------------------------------------------------------------------------------------- 
+  
+  \begin{document}
+  
+  
+  \maketitle % Insert title
+  
+  
+  \thispagestyle{fancy} % All pages have headers and footers
+  %----------------------------------------------------------------------------------------  
+  % ABSTRACT
+  
+  %----------------------------------------------------------------------------------------  
+  
+  \begin{abstract}
+  Proteins CSA and CSB play important roles in the transcription coupled repair sub pathway of a major DNA repair pathway,  nucleotide excision repair (TC-NER). These proteins are described as responsible for recognizing RNA polymerase II blocked at a bulky DNA lesion. The absence of one these proteins give rise to a monogenic recessive disease called Cockayne Syndrome (CS). The symptoms include premature ageing and central nervous system degeneration,  especially affecting both brain development and neurodegeneration. The specific progression of the symptoms of this disease are not easily explained by the cellular phenotype,  which affects active genes in the genome of the cell after DNA damage. Even more paradoxically,  TC-NER is associated with the removal of bulky lesions in the transcribed strand of expressed genes,  which are caused mainly by UV light,  and the most affected tissues in CS patients are not exposed to UV light. On the other hand,  the nervous tissues are known to have increased levels of mitochondrial activity and are likely to have high levels of endogenous oxidative agents as a by-product of that. The present work investigates the effects of oxidatively generated lesions in the transcription of CSB deficient cells,  both induced pluripotent stem cells (iPSC) and neural progenitor cells (NPC),  using RNAseq data. We have used potassium bromate (KBrO3) as a source of oxidative stress in order to induce DNA damage by base oxidation. We have identified 3189 differentially expressed (DE) genes in CS NPC after oxidative stress,  while only 3 DE genes were found in control NPC,  showing that CS cells are much more sensitive to oxidative stress than control cells. The same was observed in iPSC,  but not as prominently: 109 DE genes in CS iPSC,  while only 1 DE gene was found in control iPSC. We found an enrichment of longer genes in the population of the most downregulated genes in CS iPSC,  CS NPC and control NPC,  but not in control iPSC,  indicating that longer genes in NPC are more affected by oxidative stress. This result supports the notion that DNA damage caused by oxidative stress could be reducing the efficiency of the transcription,  making this effect more visible in longer genes which are subjected to random DNA damage by oxidation. Some events of alternative splicing have been observed in CS iPSC after oxidative stress,  but not in control iPSC. Principal component analysis (PCA) revealed more variance among long genes both in NPC and in iPSC,  pointing to a higher expression dysregulation of longer genes following oxidative stress in CS cells. Interestingly,  PCA revealed more variance between samples before and after oxidative stress rather than between control and CS cells for NPC,  but not for iPSC. This indicates that the differences in the expression of NPC cells after oxidative stress are more pronounced than in other cells such as iPSC.
+  
+  Funding: Fapesp,  CNPq,  CAPES. This study was financed in part by the Coordena\c{c}\~ao de Aperfei\c{c}oamento de Pessoal de N\'{\i}vel Superior - Brasil (CAPES) - Finance Code 001. \\ 
+  \end{abstract}
+  \end{document} 

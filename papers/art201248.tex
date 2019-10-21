@@ -1,0 +1,65 @@
+
+  \documentclass[twoside]{article}
+  \usepackage[affil-it]{authblk}
+  \usepackage{lipsum} % Package to generate dummy text throughout this template
+  \usepackage{eurosym}
+  \usepackage[sc]{mathpazo} % Use the Palatino font
+  \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+  \usepackage[utf8]{inputenc}
+  \linespread{1.05} % Line spacing-Palatino needs more space between lines
+  \usepackage{microtype} % Slightly tweak font spacing for aesthetics\[IndentingNewLine]
+  \usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+  \usepackage{multicol} % Used for the two-column layout of the document
+  \usepackage[hang,small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under//above floats in tables or figures
+  \usepackage{booktabs} % Horizontal rules in tables
+  \usepackage{float} % Required for tables and figures in the multi-column environment-they need to be placed in specific locations with the[H] (e.g. \begin{table}[H])
+  \usepackage{hyperref} % For hyperlinks in the PDF
+  \usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+  \usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+  \usepackage{abstract} % Allows abstract customization
+  \renewcommand{\abstractnamefont}{\normalfont\bfseries} 
+  %\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text\[IndentingNewLine]
+  \usepackage{titlesec} % Allows customization of titles
+  \renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+  \renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
+  \titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+  \titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+  \usepackage{fancyhdr} % Headers and footers
+  \pagestyle{fancy} % All pages have headers and footers
+  \fancyhead{} % Blank out the default header
+  \fancyfoot{} % Blank out the default footer
+  \fancyhead[C]{X-meeting $\bullet$ October 2019 $\bullet$ Campos do  Jord\~ao} % Custom header text
+  \fancyfoot[RO,LE]{} % Custom footer text
+  %----------------------------------------------------------------------------------------
+  % TITLE SECTION
+  %---------------------------------------------------------------------------------------- 
+ 
+ \title{\vspace{-15mm}\fontsize{24pt}{10pt}\selectfont\textbf{ De novo assembly and transcriptome analysis of Helicoverpa armigera feeding on natural conditions }} % Article title
+  
+  
+  \author{ Andr\'e Ricardo Oliveira Conson Processo FAPESP: 2018/19461-1, Natalia Faraj Murad, Karina Lucas da Silva Brand\~ao, Fernando Luis C\^onsoli, Celso Omoto, Marcelo Mendes Brand\~ao }
+  
+  \affil{ Unicamp }
+  \vspace{-5mm}
+  \date{}
+  
+  %---------------------------------------------------------------------------------------- 
+  
+  \begin{document}
+  
+  
+  \maketitle % Insert title
+  
+  
+  \thispagestyle{fancy} % All pages have headers and footers
+  %----------------------------------------------------------------------------------------  
+  % ABSTRACT
+  
+  %----------------------------------------------------------------------------------------  
+  
+  \begin{abstract}
+  The cultivation of different annual crops may provide ideal conditions for feeding and survival of lepidopteran pests presenting generalist feeding habits. With recent occurrence in Brazil,  one of the most important species from Noctuidae family is Helicoverpa armigera. The main enzymes responsible for the digestive process in insects are peptidases involved in the initial digestion of plant proteins. Although plant peptidase inhibitors are an important defense mechanism against herbivory,  a high tolerance is observed in H. armigera. Thus,  to develop efficient ways to control pests,  it is mandatory first to know which genes are involved in the digestive process and their interactions with host plants. Helicoverpa spp individuals feeding on natural conditions were collected in order to characterize differentially expressed genes associated with soybean,  corn,  cotton and bean diet. Total RNA from midgut was extracted and cDNA libraries sequenced (paired-end) using an Illumina Hiseq 2500. A de novo assembly of the short reads using both Mira and Trinity resulted in 240, 972 transcripts (687 bp N50) and a length of 133.35 Mb. A total of 55, 666 transcripts aligned with the SwissProt and Pfam databases. We identified 8, 429 genes differentially expressed between dietary conditions. The largest number of differentially expressed genes was obtained in the soybean versus corn feed comparison,  where 1, 384 and 1, 643 genes were found down-regulated and up-regulated in soybean relative to maize respectively. Functional analysis showed that these genes are involved in biological processes like proteolysis,  electron transport chain,  lipid catabolic process,  mRNA transport and translation. We also visualized expression patterns in important gene families,  including serine protease. This is the first study of H. armigera transcriptome feeding under natural conditions and assembled transcripts are a powerful resource for future research promoting an improved understanding of the gene regulation of digestive peptidases.
+  
+  Funding: Funda\c{c}\~ao de Amparo a Pesquisa do Estado de S\~ao Paulo (FAPESP) - Project 2018/19461-1,  CAPES and CNPq \\ 
+  \end{abstract}
+  \end{document} 

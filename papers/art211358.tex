@@ -1,0 +1,65 @@
+
+  \documentclass[twoside]{article}
+  \usepackage[affil-it]{authblk}
+  \usepackage{lipsum} % Package to generate dummy text throughout this template
+  \usepackage{eurosym}
+  \usepackage[sc]{mathpazo} % Use the Palatino font
+  \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+  \usepackage[utf8]{inputenc}
+  \linespread{1.05} % Line spacing-Palatino needs more space between lines
+  \usepackage{microtype} % Slightly tweak font spacing for aesthetics\[IndentingNewLine]
+  \usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+  \usepackage{multicol} % Used for the two-column layout of the document
+  \usepackage[hang,small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under//above floats in tables or figures
+  \usepackage{booktabs} % Horizontal rules in tables
+  \usepackage{float} % Required for tables and figures in the multi-column environment-they need to be placed in specific locations with the[H] (e.g. \begin{table}[H])
+  \usepackage{hyperref} % For hyperlinks in the PDF
+  \usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+  \usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+  \usepackage{abstract} % Allows abstract customization
+  \renewcommand{\abstractnamefont}{\normalfont\bfseries} 
+  %\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text\[IndentingNewLine]
+  \usepackage{titlesec} % Allows customization of titles
+  \renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+  \renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
+  \titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+  \titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+  \usepackage{fancyhdr} % Headers and footers
+  \pagestyle{fancy} % All pages have headers and footers
+  \fancyhead{} % Blank out the default header
+  \fancyfoot{} % Blank out the default footer
+  \fancyhead[C]{X-meeting $\bullet$ October 2019 $\bullet$ Campos do  Jord\~ao} % Custom header text
+  \fancyfoot[RO,LE]{} % Custom footer text
+  %----------------------------------------------------------------------------------------
+  % TITLE SECTION
+  %---------------------------------------------------------------------------------------- 
+ 
+ \title{\vspace{-15mm}\fontsize{24pt}{10pt}\selectfont\textbf{ Comparative genomic analysis of Corynebacterium pseudotuberculosis: A quest for biofilm biosynthesis genes. }} % Article title
+  
+  
+  \author{ Thiago de Jesus Sousa, anne cybelle pinto gomide, Let\'{\i}cia de Castro Oliveira, Nubia Seyffert, Bertram Brenig, Mateus Matiuzzi Costa, Siomar de Castro Soares, Vasco Ariston de Carvalho Azevedo }
+  
+  \affil{ University G\"ottingen }
+  \vspace{-5mm}
+  \date{}
+  
+  %---------------------------------------------------------------------------------------- 
+  
+  \begin{document}
+  
+  
+  \maketitle % Insert title
+  
+  
+  \thispagestyle{fancy} % All pages have headers and footers
+  %----------------------------------------------------------------------------------------  
+  % ABSTRACT
+  
+  %----------------------------------------------------------------------------------------  
+  
+  \begin{abstract}
+  Corynebacterium pseudotuberculosis is the etiological agent of Caseous Lymphadenitis (CLA) in sheep and goats (C. pseudotuberculosis biovar ovis),  and present some cases of infections in large ruminants as well. Our laboratory studies C. pseudotuberculosis as a model organism and,  in 2013,  Soares et al. performed a pan-genomic study of C. pseudo-tuberculosis using fifteen strains. After that,  a hundred and eight strains were sequenced and deposited in the National Center for Biotechnology Information (NCBI),  and several studies such as Exoproteome,  Transcriptome,  and Proteome were done. Now,  we want to associate these studies and explore other areas of pan-omics analyses. In this work,  we propose to research evidence of genes belonging to the biosynthesis of biofilm in C. pseudotuberculosis genomes. For this,  thirty C. pseudotuberculosis samples from lymph nodes of abscesses of goats and sheep from Pernambuco-Brazil were isolated. All strains belonged to the biovar ovis group,  proven by the nitrate reductase biochemistry test and multiplex PCR. These strains were sequenced by the Illumina Hiseq paired-end platform with 450bp insert,  and 151bp per reads length. All strains have an average genome size of ~2, 34Mb,  the genomes were de novo assembled using SPAdes v. 3.9.1 software with 121 k-mers,  and we got five or six contigs per genome with coverage of ~971.40 fold. After,  all the thirty genomes were deposited in the GenBank database in NCBI. For comparative genomic analyses,  we used the programs Gegenees v. 3.1,  BRIG v. 0.95,  MAUVE using progressiveMauve and ACT: the Artemis Comparison Tool. Previous results described that among the thirty C. pseudotuberculosis samples,  CpCap3W and CpOVI03 strains showed characteristics of biofilm formation,  different from CpOvi2C and CpCAPJ4 strains. From the results of comparative genomics,  the strains are 99.5\% similar and very clonal. We could not find a concise difference about the presence or absence of genes be-longing to biofilm biosynthesis among the studied strains. However,  in the Cp38MAT strain,  a unique region with a cluster of eight genes was found. Among these genes,  we identified the dps gene (DNA starvation/stationary phase protection protein) involved in iron homeostasis,  in addition to 5 proteins involved in the process of transport and plas-matic membrane structure,  and VanZ gene (Glycopeptide antibiotics resistance protein). Probably,  this metabolic process of biofilm biosynthesis may be better clarified through specific transcriptome and proteome studies.
+  
+  Funding: Conselho Nacional de Desenvolvimento Cient\'{\i}fico e Tecnol\'ogico (CNPq) \\ 
+  \end{abstract}
+  \end{document} 

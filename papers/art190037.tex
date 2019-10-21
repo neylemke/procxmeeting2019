@@ -1,0 +1,65 @@
+
+  \documentclass[twoside]{article}
+  \usepackage[affil-it]{authblk}
+  \usepackage{lipsum} % Package to generate dummy text throughout this template
+  \usepackage{eurosym}
+  \usepackage[sc]{mathpazo} % Use the Palatino font
+  \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+  \usepackage[utf8]{inputenc}
+  \linespread{1.05} % Line spacing-Palatino needs more space between lines
+  \usepackage{microtype} % Slightly tweak font spacing for aesthetics\[IndentingNewLine]
+  \usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+  \usepackage{multicol} % Used for the two-column layout of the document
+  \usepackage[hang,small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under//above floats in tables or figures
+  \usepackage{booktabs} % Horizontal rules in tables
+  \usepackage{float} % Required for tables and figures in the multi-column environment-they need to be placed in specific locations with the[H] (e.g. \begin{table}[H])
+  \usepackage{hyperref} % For hyperlinks in the PDF
+  \usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+  \usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+  \usepackage{abstract} % Allows abstract customization
+  \renewcommand{\abstractnamefont}{\normalfont\bfseries} 
+  %\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text\[IndentingNewLine]
+  \usepackage{titlesec} % Allows customization of titles
+  \renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+  \renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
+  \titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+  \titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+  \usepackage{fancyhdr} % Headers and footers
+  \pagestyle{fancy} % All pages have headers and footers
+  \fancyhead{} % Blank out the default header
+  \fancyfoot{} % Blank out the default footer
+  \fancyhead[C]{X-meeting $\bullet$ October 2019 $\bullet$ Campos do  Jord\~ao} % Custom header text
+  \fancyfoot[RO,LE]{} % Custom footer text
+  %----------------------------------------------------------------------------------------
+  % TITLE SECTION
+  %---------------------------------------------------------------------------------------- 
+ 
+ \title{\vspace{-15mm}\fontsize{24pt}{10pt}\selectfont\textbf{ Analysis of long Non-Coding RNAs from RNA-seq Data of Leishmania-Infected Human Macrophages }} % Article title
+  
+  
+  \author{ Flavia Regina Florencio de Athayde, Flavia Lombardi Lopes }
+  
+  \affil{ FMVA-Unesp }
+  \vspace{-5mm}
+  \date{}
+  
+  %---------------------------------------------------------------------------------------- 
+  
+  \begin{document}
+  
+  
+  \maketitle % Insert title
+  
+  
+  \thispagestyle{fancy} % All pages have headers and footers
+  %----------------------------------------------------------------------------------------  
+  % ABSTRACT
+  
+  %----------------------------------------------------------------------------------------  
+  
+  \begin{abstract}
+  Long non-coding RNAs (lncRNAs) are RNAs greater than 200 nucleotides in length,  that accomplish a remarkable variety of biological functions. They function as inihibitors or activators of transcription/translation,  but with no protein-coding capacity. Macrophages are the primary host cells of Leishmania spp.,  and constitute a first line of defense against these trypanosomatids responsible for the prevalent zoonotic disease,  leishmaniasis. Little is known about the regulatory function of lncRNA in human cells harboring intracelular pathogens. We conducted an analysis using RNA-seq data to identify annotated lncRNAs and alterations in their expression in L. amazonenses and L. major infected macrophages,  compared to macrophages exposed to latex beads,  as a control for phagocytosis. The main cloud-computing server of Galaxy (usegalaxy.org) was used to align eleven datasets with paired-end reads (GSE-PRJNA290995) to the human genome (version 38) using hierarchical indexing for spliced aligment of transcripts (Hisat2 - Galaxy version 2.1.0). Transcriptome assembly was performed with StringTie (Galaxy version 1.3.4) using annotation Gencode (version 29) to identify transcripts in the data. Next,  using StringTie merge (Galaxy version 1.3.4),  we created a single assembly GTF file from each group. To characterize their coding potential,  we used the software FlExible Extraction of Long non-coding RNAs (FEELnc),  and featureCounts (version 1.6.3) was employed to estimate the number of candidate lncRNAs fragments in all paired-end libraries. Abundance of reads were used in differential expression analysis with DESeq2 (R version 3.5),  results were filtered to 3107 known lncRNAs,  of which 311 were differentially expressed between treatments with FDR-adjusted p-value<0.05 and fold change>2.0. Of 218 differentially expressed lncRNAs in macrophages infected with L. amazonensis versus control,  153 were upregulated and 65 were downregulated. In macrophages infected with L. major,  we found 217 differentially expressed lncRNAs,  123 upregulated and 94 downregulated in macrophages,  as a result of L. major infection. This study characterizes lncRNA expression signatures in macrophages following infection by Leishmania spp,  and suggests a role for non-coding RNAs in immune response to Leishmania infection.
+  
+  Funding: FMVA - UNESP \\ 
+  \end{abstract}
+  \end{document} 

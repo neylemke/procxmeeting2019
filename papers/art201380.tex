@@ -1,0 +1,65 @@
+
+  \documentclass[twoside]{article}
+  \usepackage[affil-it]{authblk}
+  \usepackage{lipsum} % Package to generate dummy text throughout this template
+  \usepackage{eurosym}
+  \usepackage[sc]{mathpazo} % Use the Palatino font
+  \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+  \usepackage[utf8]{inputenc}
+  \linespread{1.05} % Line spacing-Palatino needs more space between lines
+  \usepackage{microtype} % Slightly tweak font spacing for aesthetics\[IndentingNewLine]
+  \usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+  \usepackage{multicol} % Used for the two-column layout of the document
+  \usepackage[hang,small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under//above floats in tables or figures
+  \usepackage{booktabs} % Horizontal rules in tables
+  \usepackage{float} % Required for tables and figures in the multi-column environment-they need to be placed in specific locations with the[H] (e.g. \begin{table}[H])
+  \usepackage{hyperref} % For hyperlinks in the PDF
+  \usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+  \usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+  \usepackage{abstract} % Allows abstract customization
+  \renewcommand{\abstractnamefont}{\normalfont\bfseries} 
+  %\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text\[IndentingNewLine]
+  \usepackage{titlesec} % Allows customization of titles
+  \renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+  \renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
+  \titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+  \titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+  \usepackage{fancyhdr} % Headers and footers
+  \pagestyle{fancy} % All pages have headers and footers
+  \fancyhead{} % Blank out the default header
+  \fancyfoot{} % Blank out the default footer
+  \fancyhead[C]{X-meeting $\bullet$ October 2019 $\bullet$ Campos do  Jord\~ao} % Custom header text
+  \fancyfoot[RO,LE]{} % Custom footer text
+  %----------------------------------------------------------------------------------------
+  % TITLE SECTION
+  %---------------------------------------------------------------------------------------- 
+ 
+ \title{\vspace{-15mm}\fontsize{24pt}{10pt}\selectfont\textbf{ Computational Identification of Orthologous Proteoforms between Human and Murine }} % Article title
+  
+  
+  \author{ Let\'{\i}cia Graziela Costa Santos de Mattos, Fabio Passetti }
+  
+  \affil{ Laboratory of Gene Expression Regulation,  Carlos Chagas Institute,  Funda\c{c}\~ao Oswaldo Cruz (Fiocruz),  Curitiba,  PR,  Brazil }
+  \vspace{-5mm}
+  \date{}
+  
+  %---------------------------------------------------------------------------------------- 
+  
+  \begin{document}
+  
+  
+  \maketitle % Insert title
+  
+  
+  \thispagestyle{fancy} % All pages have headers and footers
+  %----------------------------------------------------------------------------------------  
+  % ABSTRACT
+  
+  %----------------------------------------------------------------------------------------  
+  
+  \begin{abstract}
+  The advent of next-generation sequencers in Transcriptomics and mass spectrometry in Proteomics has resulted in a large volume of available data. These datasets became integrated into several Bioinformatics studies in an area called Proteogenomics. Thus,  the fraction of messenger RNAs (mRNA) that are effectively translated into proteins has been deeply studied. Alternative splicing (AS) is a molecular event that may occur during mRNA maturation in more than 95\% of human genes. AS might produce several mRNA isoforms that can change amino acids sequence,  and consequently different proteoforms. In this context,  the main goal of this project is to incorporate algorithms to our methodologies that allow us to identify orthologous proteoforms between humans and murine. For this purpose,  we used transcriptome data from the Ensembl project to create a sequence repository using the ternary matrices methodology,  which was developed by our research group. This customized sequence repository,  created for human and murine datasets,  was used to identify AS isoforms. In the human datasets,  we were able to identify 22, 242 splicing variants in 61, 122 genes. According to the Ensembl Transcript Support Level (TSL) parameter,  41, 080 were ranked as reliable and 181, 382 with lower reliability. The gene that presented more AS variants was MAPK10,  with 192 transcripts. Other human genes with known splice variants such as BCL2L1,  KLF6,  and TMP2 were also detected in our database. In the mouse transcriptome datasets,  we found 126, 679 splicing variants in 43, 976 genes. From these variants,  43, 985 were classified as reliable and 82, 694 with lower reliability,  based on TSL. Henceforth,  for our next steps,  we aim to identify expressed orthologous proteoforms using RNA-Seq data and proteomic shotgun data from human and murine healthy tissues. Additionally,  we intend to select a list of proteoforms for experimental validation.
+  
+  Funding: Coordena\c{c}\~ao de Aperfei\c{c}oamento de Pessoal de N\'{\i}vel Superior; Conselho Nacional de Desenvolvimento Cient\'{\i}fico e Tecnol\'ogico \\ 
+  \end{abstract}
+  \end{document} 

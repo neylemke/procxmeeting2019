@@ -1,0 +1,65 @@
+
+  \documentclass[twoside]{article}
+  \usepackage[affil-it]{authblk}
+  \usepackage{lipsum} % Package to generate dummy text throughout this template
+  \usepackage{eurosym}
+  \usepackage[sc]{mathpazo} % Use the Palatino font
+  \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+  \usepackage[utf8]{inputenc}
+  \linespread{1.05} % Line spacing-Palatino needs more space between lines
+  \usepackage{microtype} % Slightly tweak font spacing for aesthetics\[IndentingNewLine]
+  \usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+  \usepackage{multicol} % Used for the two-column layout of the document
+  \usepackage[hang,small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under//above floats in tables or figures
+  \usepackage{booktabs} % Horizontal rules in tables
+  \usepackage{float} % Required for tables and figures in the multi-column environment-they need to be placed in specific locations with the[H] (e.g. \begin{table}[H])
+  \usepackage{hyperref} % For hyperlinks in the PDF
+  \usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+  \usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+  \usepackage{abstract} % Allows abstract customization
+  \renewcommand{\abstractnamefont}{\normalfont\bfseries} 
+  %\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text\[IndentingNewLine]
+  \usepackage{titlesec} % Allows customization of titles
+  \renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+  \renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
+  \titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+  \titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+  \usepackage{fancyhdr} % Headers and footers
+  \pagestyle{fancy} % All pages have headers and footers
+  \fancyhead{} % Blank out the default header
+  \fancyfoot{} % Blank out the default footer
+  \fancyhead[C]{X-meeting $\bullet$ October 2019 $\bullet$ Campos do  Jord\~ao} % Custom header text
+  \fancyfoot[RO,LE]{} % Custom footer text
+  %----------------------------------------------------------------------------------------
+  % TITLE SECTION
+  %---------------------------------------------------------------------------------------- 
+ 
+ \title{\vspace{-15mm}\fontsize{24pt}{10pt}\selectfont\textbf{ IDENTIFICATION AND MEASUREMENT IN SILICO OF PROTEIN TUNNELS AND LIGATION POCKETS OF THE CRY3BB1 INSECTILE TOXIN. }} % Article title
+  
+  
+  \author{ Luis Angel Chicoma Rojas, Renato Farinacio, Eliana Gertrudes de Macedo Lemos }
+  
+  \affil{ Private University Antenor Orrego \& Paulista State University,  Jaboticabal Campus }
+  \vspace{-5mm}
+  \date{}
+  
+  %---------------------------------------------------------------------------------------- 
+  
+  \begin{document}
+  
+  
+  \maketitle % Insert title
+  
+  
+  \thispagestyle{fancy} % All pages have headers and footers
+  %----------------------------------------------------------------------------------------  
+  % ABSTRACT
+  
+  %----------------------------------------------------------------------------------------  
+  
+  \begin{abstract}
+  The rising increase in the discovery of toxins with potential for pest control presents challenges in the understanding of their physical-chemical characteristics and structural attributes,  which makes it difficult to select the best candidates for this function. However,  thanks to the development of bioinformatics tools it is possible to analyze toxic molecules such as Cry proteins,  produced by the Bacillus thuringiensis bacteria,  efficiently and with low costs,  therefore,  the objective of this work is to identify and size the different tunnels and protein pockets with ligation powers of the Cry3Bb1 toxin. The NCBI database was used to search for the sequence of Cry3Bb1 (GenBank: AAA22334.1). In the three-dimensional modeling,  the SWISS-MODEL online server was used,  and the Pymol2.0 program for the visualization and manipulation of the structure. Likewise,  the Electrostatic Surface of the toxin was calculated using the APBS program (Adaptative Poisson-Boltzman Solver). The detection and dimensionality of the Cry3Bb1 protein pockets was performed with the D3Pockets server and the CASTp program; finally,  to locate and characterize (hydrophobicity and polarity) the protein tunnels was used the MOLE 2.5 program. The results show that the Cry3Bb1 protein has 14 pockets,  where the major and minor have an area and volume of 501, 817 and 5, 998 (SA); and 312, 233 and 0.542 (SA),  respectively. In addition,  7 tunnels were identified in the structure of the cry3Bb1 protein,  where the largest has a length of 20.27 and the smallest of 5.25. Taking into account the results obtained from the structural analysis of the toxin,  the use of bioinformatics tools demonstrates great potential in understanding the architecture and properties of insecticidal interest’s molecules.
+  
+  Funding:  \\ 
+  \end{abstract}
+  \end{document} 

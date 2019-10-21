@@ -1,0 +1,65 @@
+
+  \documentclass[twoside]{article}
+  \usepackage[affil-it]{authblk}
+  \usepackage{lipsum} % Package to generate dummy text throughout this template
+  \usepackage{eurosym}
+  \usepackage[sc]{mathpazo} % Use the Palatino font
+  \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+  \usepackage[utf8]{inputenc}
+  \linespread{1.05} % Line spacing-Palatino needs more space between lines
+  \usepackage{microtype} % Slightly tweak font spacing for aesthetics\[IndentingNewLine]
+  \usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+  \usepackage{multicol} % Used for the two-column layout of the document
+  \usepackage[hang,small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under//above floats in tables or figures
+  \usepackage{booktabs} % Horizontal rules in tables
+  \usepackage{float} % Required for tables and figures in the multi-column environment-they need to be placed in specific locations with the[H] (e.g. \begin{table}[H])
+  \usepackage{hyperref} % For hyperlinks in the PDF
+  \usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+  \usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+  \usepackage{abstract} % Allows abstract customization
+  \renewcommand{\abstractnamefont}{\normalfont\bfseries} 
+  %\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text\[IndentingNewLine]
+  \usepackage{titlesec} % Allows customization of titles
+  \renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+  \renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
+  \titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+  \titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+  \usepackage{fancyhdr} % Headers and footers
+  \pagestyle{fancy} % All pages have headers and footers
+  \fancyhead{} % Blank out the default header
+  \fancyfoot{} % Blank out the default footer
+  \fancyhead[C]{X-meeting $\bullet$ October 2019 $\bullet$ Campos do  Jord\~ao} % Custom header text
+  \fancyfoot[RO,LE]{} % Custom footer text
+  %----------------------------------------------------------------------------------------
+  % TITLE SECTION
+  %---------------------------------------------------------------------------------------- 
+ 
+ \title{\vspace{-15mm}\fontsize{24pt}{10pt}\selectfont\textbf{ COMPARATIVE ANALYSIS OF THE THREE-DIMENSIONAL STRUCTURAL OF THE CRY23AA1 AND CRY51AA1 INSECTILE PROTEINS USING BIOINFORMATIC TOOLS. }} % Article title
+  
+  
+  \author{ Luis Angel Chicoma Rojas, Renato Farinacio, Eliana Gertrudes de Macedo Lemos }
+  
+  \affil{ Private University Antenor Orrego \& Paulista State University,  Jaboticabal Campus }
+  \vspace{-5mm}
+  \date{}
+  
+  %---------------------------------------------------------------------------------------- 
+  
+  \begin{document}
+  
+  
+  \maketitle % Insert title
+  
+  
+  \thispagestyle{fancy} % All pages have headers and footers
+  %----------------------------------------------------------------------------------------  
+  % ABSTRACT
+  
+  %----------------------------------------------------------------------------------------  
+  
+  \begin{abstract}
+  Bacillus thuringiensis has been widely used as a bioinsecticide or in the genetic transformation of plants because of its ability to produce a wide variety of active toxins,  such as Cry proteins. The use of computational methods for the study of the three-dimensional structures of Cry proteins allows a better understanding of their functionality and classification,  for this reason,  the objective of this work is to make a comparison between the tertiary structures of the Cry23Aa1 and Cry51Aa1 proteins,  and their respective amino acid sequences,  to identify the similarity between said biomolecules.The NCBI database was used to obtain the amino acid sequence of the Cry23Aa1 (GenBank: AAF76375.1) and Cry51Aa1 (GenBank: ABI14444.1) proteins. The SuperPose 1.0 program was used to perform a sequence alignment between proteins and identify their degree of identity and similarity. To obtain and display / edit the three-dimensional structures of Cry23A1 and Cry51Aa1,  the SWISS-MODEL server and the Pymol 2.0 program were used,  respectively. The electrostatic surface of both proteins was calculated with the APBS program (Adaptative Poisson-Boltzman Solver). Finally,  to generate a matrix graph,  a structural overlap was made between Cry23Aa1 and Cry51A1 with the Distance Difference Matrix (DDM) of SupePose 1.0 and structural alignment commands of Pymol 2.0. The results showed that at the amino acid sequence level the Cry23Aa1 and Cry51Aa1 proteins have a score,  identity and similarity of 127.5,  20.8\% (67/322) and 34.2\% (110/322),  respectively. At the level of three-dimensional structure,  a Root-Mean-Square Deviation (RMSD) of 1.85 was identified,  indicating a high similarity. Through computational biology tools it is possible to understand the differences that exist at the structural level of different molecules that are of interest,  allowing a better classification of these.
+  
+  Funding:  \\ 
+  \end{abstract}
+  \end{document} 

@@ -1,0 +1,65 @@
+
+  \documentclass[twoside]{article}
+  \usepackage[affil-it]{authblk}
+  \usepackage{lipsum} % Package to generate dummy text throughout this template
+  \usepackage{eurosym}
+  \usepackage[sc]{mathpazo} % Use the Palatino font
+  \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+  \usepackage[utf8]{inputenc}
+  \linespread{1.05} % Line spacing-Palatino needs more space between lines
+  \usepackage{microtype} % Slightly tweak font spacing for aesthetics\[IndentingNewLine]
+  \usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+  \usepackage{multicol} % Used for the two-column layout of the document
+  \usepackage[hang,small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under//above floats in tables or figures
+  \usepackage{booktabs} % Horizontal rules in tables
+  \usepackage{float} % Required for tables and figures in the multi-column environment-they need to be placed in specific locations with the[H] (e.g. \begin{table}[H])
+  \usepackage{hyperref} % For hyperlinks in the PDF
+  \usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+  \usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+  \usepackage{abstract} % Allows abstract customization
+  \renewcommand{\abstractnamefont}{\normalfont\bfseries} 
+  %\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text\[IndentingNewLine]
+  \usepackage{titlesec} % Allows customization of titles
+  \renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+  \renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
+  \titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+  \titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+  \usepackage{fancyhdr} % Headers and footers
+  \pagestyle{fancy} % All pages have headers and footers
+  \fancyhead{} % Blank out the default header
+  \fancyfoot{} % Blank out the default footer
+  \fancyhead[C]{X-meeting $\bullet$ October 2019 $\bullet$ Campos do  Jord\~ao} % Custom header text
+  \fancyfoot[RO,LE]{} % Custom footer text
+  %----------------------------------------------------------------------------------------
+  % TITLE SECTION
+  %---------------------------------------------------------------------------------------- 
+ 
+ \title{\vspace{-15mm}\fontsize{24pt}{10pt}\selectfont\textbf{ Classification of Substrate Binding Proteins in a Signal Transduction Context }} % Article title
+  
+  
+  \author{ Aureliano Coelho Proen\c{c}a Guedes, Gilberto Hideo Kaihami, Robson Francisco de Souza }
+  
+  \affil{  }
+  \vspace{-5mm}
+  \date{}
+  
+  %---------------------------------------------------------------------------------------- 
+  
+  \begin{document}
+  
+  
+  \maketitle % Insert title
+  
+  
+  \thispagestyle{fancy} % All pages have headers and footers
+  %----------------------------------------------------------------------------------------  
+  % ABSTRACT
+  
+  %----------------------------------------------------------------------------------------  
+  
+  \begin{abstract}
+  Sensing environmental changes and relaying this information to inside the cell is essential for all organisms. Transmembrane signal transduction proteins possess one or more extracellular sensory domains and cytoplasmic domains connected by membrane-spanning regions. Changes in environmental conditions or the presence of external chemical stimuli are detected by the extracellular domains,  leading to structural modifications in the cytoplasmic portion and modifications of intracellular targets that affect cellular behavior,  such as protein post-translational modifications or synthesis of small molecules that act as secondary messengers. The well-known substrate-binding proteins (SBP) correspond to a set of three distinct folds that contain two symmetrical internal subdomains,  linked by a hinge region which promotes a “venus flytrap”-like motion. These domains have solute binding activity and may work either as components of transport or of signal transduction systems. Recent classifications of SBPs have identified families associated with these two functional categories,  but whether transitions between these categories or episodes of recruitment to new functions have not been systematically explored. Additionally,  recent work has demonstrated physical interactions between SBP proteins and periplasmic CACHE domains of transmembrane signal transduction proteins,  suggesting that the evolution of signal transduction-associated SBPs,  at least in some cases,  may have originated after the emergence of interactions with the Cache domains. In this work,  we collect SBPI,  SBPII and SBPIII proteins from a set of prokaryotic genomes and performed sequence similarity clustering to identify SBP families associated with distinct functions. Our goal is to verify whether the association of a single-family to different functions could reveal episodes of recruitment of SBPs to novel functions. Our results show that many SBP families participate in transport and signal transduction systems,  suggesting multiple independent functional shifts. Also,  SBPs in signal transduction systems are more often directly fused to transmembrane regions bound to cytoplasmic effector domains instead of associated with Cache domains. This suggests that Cache-independent evolutionary pathways,  such as direct recombination between SBPs and effector proteins could be a source of diversity in this system. We are now working on a detailed functional annotation of the SBPs and Cache in an effort to understand whether Cache-associated SBPs are biased to sensing the concentration of a limited set of solutes.
+  
+  Funding: CAPES,  FAPESP \\ 
+  \end{abstract}
+  \end{document} 

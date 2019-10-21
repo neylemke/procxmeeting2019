@@ -1,0 +1,65 @@
+
+  \documentclass[twoside]{article}
+  \usepackage[affil-it]{authblk}
+  \usepackage{lipsum} % Package to generate dummy text throughout this template
+  \usepackage{eurosym}
+  \usepackage[sc]{mathpazo} % Use the Palatino font
+  \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+  \usepackage[utf8]{inputenc}
+  \linespread{1.05} % Line spacing-Palatino needs more space between lines
+  \usepackage{microtype} % Slightly tweak font spacing for aesthetics\[IndentingNewLine]
+  \usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+  \usepackage{multicol} % Used for the two-column layout of the document
+  \usepackage[hang,small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under//above floats in tables or figures
+  \usepackage{booktabs} % Horizontal rules in tables
+  \usepackage{float} % Required for tables and figures in the multi-column environment-they need to be placed in specific locations with the[H] (e.g. \begin{table}[H])
+  \usepackage{hyperref} % For hyperlinks in the PDF
+  \usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+  \usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+  \usepackage{abstract} % Allows abstract customization
+  \renewcommand{\abstractnamefont}{\normalfont\bfseries} 
+  %\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text\[IndentingNewLine]
+  \usepackage{titlesec} % Allows customization of titles
+  \renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+  \renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
+  \titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+  \titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+  \usepackage{fancyhdr} % Headers and footers
+  \pagestyle{fancy} % All pages have headers and footers
+  \fancyhead{} % Blank out the default header
+  \fancyfoot{} % Blank out the default footer
+  \fancyhead[C]{X-meeting $\bullet$ October 2019 $\bullet$ Campos do  Jord\~ao} % Custom header text
+  \fancyfoot[RO,LE]{} % Custom footer text
+  %----------------------------------------------------------------------------------------
+  % TITLE SECTION
+  %---------------------------------------------------------------------------------------- 
+ 
+ \title{\vspace{-15mm}\fontsize{24pt}{10pt}\selectfont\textbf{ Beginning and end of composting as viewed through metagenome-assembled genomes }} % Article title
+  
+  
+  \author{ Suzana Eiko Sato Guima, Roberta Verciano Pereira, Layla Martins, Aline Maria da Silva, Jo\~ao Carlos Setubal }
+  
+  \affil{ Programa Interunidades de P\'os Gradua\c{c}\~ao em Bioinform\'atica,  Universidade de S\~ao Paulo (USP) }
+  \vspace{-5mm}
+  \date{}
+  
+  %---------------------------------------------------------------------------------------- 
+  
+  \begin{document}
+  
+  
+  \maketitle % Insert title
+  
+  
+  \thispagestyle{fancy} % All pages have headers and footers
+  %----------------------------------------------------------------------------------------  
+  % ABSTRACT
+  
+  %----------------------------------------------------------------------------------------  
+  
+  \begin{abstract}
+  Composting is a process carried out by many different microorganisms capable of biomass degradation. In this work our goal is to analyze this microbial diversity focusing on metagenome-assembled genomes (MAGs) recovered from the beginning and the end of the composting process. We collected five samples from inoculum (or decompost) and two from mature compost in the composting facility at the S\~ao Paulo Zoo Park. Decompost consists in a compost pile in later phase of the composting process that is sampled and added with alternate layers of plant and animal residues to start a new composting pile. Mature compost is the product of the composting process ready to be used as fertilizer. Sequencing of total DNA was done with Illumina technology. Decompost reads were co-assembled using metaspades. We used metawrap pipeline for MAG recovery with Metabat2,  MaxBin2,  and Concoct as chosen binners. The same method was used to recover MAGs from mature compost. MAGs were classified using GTDB-tk. Quant\_bins from metawrap was used to quantify the abundance of MAGs against time-series composting data (ZC4 compost pile) from a previous study. 12 out of 17 MAGs recovered from decompost were classified as Firmicutes. For mature compost,  8 out of 16 MAGs were classified as Actinobacteria. Abundance over time of MAGs mapped against reads from time-series samples exhibited a few trends: 1) some Firmicutes recovered from decompost in this study tends to present a high abundance in the beginning of the composting process and a slight increase after turning procedure; 2) some Actinobacteria recovered from mature compost tend to increase in abundance right before the turning procedure and during the final phase of the composting process. This variation suggests microorganisms presenting the trend 1 are favored by easily degradable organic nutrients and oxygen available in the beginning of the composting and after the turning procedure.  As oxygen and easily degradable nutrients become scarcer and difficult to access,  microorganisms able to degrade the remaining lignocellulosic materials are selected positively,  showing the trend 2. Other analysis is ongoing for further understanding of the composting microbiology.
+  
+  Funding: CNPq,  FAPESP,  CAPES \\ 
+  \end{abstract}
+  \end{document} 

@@ -1,0 +1,65 @@
+
+  \documentclass[twoside]{article}
+  \usepackage[affil-it]{authblk}
+  \usepackage{lipsum} % Package to generate dummy text throughout this template
+  \usepackage{eurosym}
+  \usepackage[sc]{mathpazo} % Use the Palatino font
+  \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+  \usepackage[utf8]{inputenc}
+  \linespread{1.05} % Line spacing-Palatino needs more space between lines
+  \usepackage{microtype} % Slightly tweak font spacing for aesthetics\[IndentingNewLine]
+  \usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+  \usepackage{multicol} % Used for the two-column layout of the document
+  \usepackage[hang,small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under//above floats in tables or figures
+  \usepackage{booktabs} % Horizontal rules in tables
+  \usepackage{float} % Required for tables and figures in the multi-column environment-they need to be placed in specific locations with the[H] (e.g. \begin{table}[H])
+  \usepackage{hyperref} % For hyperlinks in the PDF
+  \usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+  \usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+  \usepackage{abstract} % Allows abstract customization
+  \renewcommand{\abstractnamefont}{\normalfont\bfseries} 
+  %\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text\[IndentingNewLine]
+  \usepackage{titlesec} % Allows customization of titles
+  \renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+  \renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
+  \titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+  \titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+  \usepackage{fancyhdr} % Headers and footers
+  \pagestyle{fancy} % All pages have headers and footers
+  \fancyhead{} % Blank out the default header
+  \fancyfoot{} % Blank out the default footer
+  \fancyhead[C]{X-meeting $\bullet$ October 2019 $\bullet$ Campos do  Jord\~ao} % Custom header text
+  \fancyfoot[RO,LE]{} % Custom footer text
+  %----------------------------------------------------------------------------------------
+  % TITLE SECTION
+  %---------------------------------------------------------------------------------------- 
+ 
+ \title{\vspace{-15mm}\fontsize{24pt}{10pt}\selectfont\textbf{ Analysis of potential disease-causing variants in a patient with intellectual disability via whole-exome sequencing }} % Article title
+  
+  
+  \author{ Patricia de C\'assia Ruy, Isabela Ichihara Barros, Reginaldo Cruz Alves Rosa, Jessica Rodrigues Pla\c{c}a, Amanda Cristina Corveloni, Cibele Cardoso, Aline Fernanda de Souza, Carlos Alberto Oliveira de Biagi Junior, \'Adamo Davi Di\'ogenes Siena, Kamila Peronni Zueli, Maria Florencia Tellechea, Simone da Costa e Silva Carvalho, Greice Andreotti de Molfetta, Jo\~ao Pina, Wilson Ara\'ujo da Silva Jr }
+  
+  \affil{ Faculty of Animal Science and Food Engineering of USP,  USP,  Brazil }
+  \vspace{-5mm}
+  \date{}
+  
+  %---------------------------------------------------------------------------------------- 
+  
+  \begin{document}
+  
+  
+  \maketitle % Insert title
+  
+  
+  \thispagestyle{fancy} % All pages have headers and footers
+  %----------------------------------------------------------------------------------------  
+  % ABSTRACT
+  
+  %----------------------------------------------------------------------------------------  
+  
+  \begin{abstract}
+  To realize the intellectual disability of a patient with none specific syndrome identified,  the whole-exome sequencing (WES) technology was applied to search for potential disease-causing variants. Previous studies in our laboratory found a long noncoding RNA deleted in this patient and in vitro neural differentiation showed that patient cells are delayed in the differentiation process when compared to control cells. Besides the intellectual disability,  this patient presents motor incoordination,  flat feet,  brachydactyly,  obesity,  macrocephaly,  hypogenitalism and small mouth and teeth.  To better understand this patient phenotype the WES of the patient and his family (father,  mother and grandmother) were performed. DNA sequencing (Illumina TrueSeq Rapid Exome) of four blood samples was performed using an Illumina NextSeq 500. The quality of generated reads was obtained with FastQC software and the quality trimming was made by TrimGalore,  considering a Phred Score of 30. The alignment of reads with the human reference genome (hg19) used BWA (Burrows-Wheeler Aligner) and the processing of alignment files was made by Picard tools.  The variants (germinative mutations) were identified using Strelka. The possible pathogenetic significance of identified variants was assessed using Exomiser program with HPOs (Human Phenotype Ontologies) related to intellectual disability,  autistic behavior,  etc. This program integrates CADD (Combined Annotation Dependent Depletion),  PolyPhen (Polymorphism Phenotyping),  SIFT (Sorting Intolerant From Tolerant) and Mutation Taster to assist the variant impact. A filter of variants with maximum allele frequency of 2\% was applied. An average of 122 million reads was generated per sample. The mean coverage was between 43x and 57x after removing duplicates. The analysis of the patient exome identified a total of 113, 200 variants. The top ten mutated genes are: CHR\_START-U2 (440),  Y\_RNA (423),  PRIM2 (274),  CHR\_START-AL592188.3 (256),  bP-21201H5.1-IGHV1OR21-1 (252),  RP11-96F8.1-KSR1P1 (233),  snoU13 (213),  BAGE2 (164),  BX088702.2-CHR\_END (147),  CHR\_START-Y\_RNA (134). After annotation,  filtering and prioritizing likely causative variants with Exomiser,  the top 5 genes highlighted are: ATRX (2 missense X-recessive and 1 missense X-dominant variants),  PTEN (1 splicing autosomal dominant and 1 splicing and 1 missense autosomal recessive variants),  CHD7 (1 missense autosomal dominant and 2 missense  autosomal recessive variants),  AKT1 (1 missense autosomal dominant and 1 UTR5  autosomal recessive variants) and HDAC8 (1 missense variant X-dominant). A multi-sample Exomiser analysis will be made with the family samples to analyze the possible heredity of the identified variants.
+  
+  Funding: CAPES,  FAPESP,  FAEPA,  CNPq,  FUDHERP \\ 
+  \end{abstract}
+  \end{document} 

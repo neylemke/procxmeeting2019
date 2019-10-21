@@ -1,0 +1,68 @@
+
+  \documentclass[twoside]{article}
+  \usepackage[affil-it]{authblk}
+  \usepackage{lipsum} % Package to generate dummy text throughout this template
+  \usepackage{eurosym}
+  \usepackage[sc]{mathpazo} % Use the Palatino font
+  \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+  \usepackage[utf8]{inputenc}
+  \linespread{1.05} % Line spacing-Palatino needs more space between lines
+  \usepackage{microtype} % Slightly tweak font spacing for aesthetics\[IndentingNewLine]
+  \usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+  \usepackage{multicol} % Used for the two-column layout of the document
+  \usepackage[hang,small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under//above floats in tables or figures
+  \usepackage{booktabs} % Horizontal rules in tables
+  \usepackage{float} % Required for tables and figures in the multi-column environment-they need to be placed in specific locations with the[H] (e.g. \begin{table}[H])
+  \usepackage{hyperref} % For hyperlinks in the PDF
+  \usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+  \usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+  \usepackage{abstract} % Allows abstract customization
+  \renewcommand{\abstractnamefont}{\normalfont\bfseries} 
+  %\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text\[IndentingNewLine]
+  \usepackage{titlesec} % Allows customization of titles
+  \renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+  \renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
+  \titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+  \titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+  \usepackage{fancyhdr} % Headers and footers
+  \pagestyle{fancy} % All pages have headers and footers
+  \fancyhead{} % Blank out the default header
+  \fancyfoot{} % Blank out the default footer
+  \fancyhead[C]{X-meeting $\bullet$ October 2019 $\bullet$ Campos do  Jord\~ao} % Custom header text
+  \fancyfoot[RO,LE]{} % Custom footer text
+  %----------------------------------------------------------------------------------------
+  % TITLE SECTION
+  %---------------------------------------------------------------------------------------- 
+ 
+ \title{\vspace{-15mm}\fontsize{24pt}{10pt}\selectfont\textbf{ The role of host genetic variability in the development and establishment of human gut microbiome diversity }} % Article title
+  
+  
+  \author{ Ondina Fonseca de Jesus Palmeira, Larissa Matos, Michel Satya Naslavsky, Helo\'{\i}sa Bueno, Mayana Zatz, Jo\~ao Carlos Setubal }
+  
+  \affil{ Institute of Mathematics and Statistics - University of S\~ao Paulo }
+  \vspace{-5mm}
+  \date{}
+  
+  %---------------------------------------------------------------------------------------- 
+  
+  \begin{document}
+  
+  
+  \maketitle % Insert title
+  
+  
+  \thispagestyle{fancy} % All pages have headers and footers
+  %----------------------------------------------------------------------------------------  
+  % ABSTRACT
+  
+  %----------------------------------------------------------------------------------------  
+  
+  \begin{abstract}
+  Studies have shown that human microbiome plays important roles in physiology,  from food digestion to mental diseases. Since the gut microbiome composes the highest number of microbial cells outnumbering even our own cell counts,  it is expected that the gut microbiome would affect a great deal of human biological functions. This makes the gut microbiome key to maintain homeostasis in the various biological levels where there are constant and active interactions between microbes,  tissue,  cells and molecules. The structure of the gut microbiota is shaped by many factors,  including host genetics. Understanding how these factors determine the microbiome during the development and establishment of the gut microbiota at early stages of human life is crucial to infer biological and pathological microbiome composition. The purpose of this study is to apply tools of bioinformatics to process and analyse data samples of feces of triplet babies in order to verify host genetic associations with gut microbiome during the first 3 years of the babies lives.
+Infant feces are collected from the first week of life until 3 years of age. DNA extraction from the samples is performed followed by PCR (Polymerase Chain Reaction) targeting the specific bacterial 16S ribosomal RNA gene,  region V3 - V4. Next-Generation sequencing is applied. Amplicons are then computationally processed by efficient algorithms to yield high quality reads. Later,  these reads are assigned to groups of taxa based on differences on  single nucleotide. Species specific classifiers and database are used for taxonomic assignment. Alpha and beta diversity are analysed with both qiime2 plugins and R packages.
+Most of our samples presented enough reads to identify all taxa. Phylogenetic diversity increased in samples on later time points presenting time as the dominant factor to determine alpha and beta diversity. Actinobacteria,  Verrucomicrobia,  Proteobacteria,  Firmicutes and Bacteroidetes were the dominant phyla in all samples. At the species level,  monozygotic twins presented more similar microbiome between them than between their dizygotic sibling.
+Our results showed that genetic factors could be detected at the species level and that time is crucial for diversity in the first months of life. The identification of the gut microbiome structure in both monozygotic and dizygotic twins sheds some light on how the development and establishment of microbiota take place on the human gut. For our next analysis we will apply appropriate statistics for twin studies and check specific species and their associations with host genetics.
+  
+  Funding: CNPq,  Fapesp \\ 
+  \end{abstract}
+  \end{document} 

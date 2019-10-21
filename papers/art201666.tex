@@ -1,0 +1,65 @@
+
+  \documentclass[twoside]{article}
+  \usepackage[affil-it]{authblk}
+  \usepackage{lipsum} % Package to generate dummy text throughout this template
+  \usepackage{eurosym}
+  \usepackage[sc]{mathpazo} % Use the Palatino font
+  \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+  \usepackage[utf8]{inputenc}
+  \linespread{1.05} % Line spacing-Palatino needs more space between lines
+  \usepackage{microtype} % Slightly tweak font spacing for aesthetics\[IndentingNewLine]
+  \usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+  \usepackage{multicol} % Used for the two-column layout of the document
+  \usepackage[hang,small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under//above floats in tables or figures
+  \usepackage{booktabs} % Horizontal rules in tables
+  \usepackage{float} % Required for tables and figures in the multi-column environment-they need to be placed in specific locations with the[H] (e.g. \begin{table}[H])
+  \usepackage{hyperref} % For hyperlinks in the PDF
+  \usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+  \usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+  \usepackage{abstract} % Allows abstract customization
+  \renewcommand{\abstractnamefont}{\normalfont\bfseries} 
+  %\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text\[IndentingNewLine]
+  \usepackage{titlesec} % Allows customization of titles
+  \renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+  \renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
+  \titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+  \titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+  \usepackage{fancyhdr} % Headers and footers
+  \pagestyle{fancy} % All pages have headers and footers
+  \fancyhead{} % Blank out the default header
+  \fancyfoot{} % Blank out the default footer
+  \fancyhead[C]{X-meeting $\bullet$ October 2019 $\bullet$ Campos do  Jord\~ao} % Custom header text
+  \fancyfoot[RO,LE]{} % Custom footer text
+  %----------------------------------------------------------------------------------------
+  % TITLE SECTION
+  %---------------------------------------------------------------------------------------- 
+ 
+ \title{\vspace{-15mm}\fontsize{24pt}{10pt}\selectfont\textbf{ Alternative spliced leader trans-splicing patterns among developmental stages of the flatworm Schistosoma mansoni }} % Article title
+  
+  
+  \author{ Daniel Andrade Moreira, Mariana Boroni, Andr\'e L. M. Reis, N\'ubia M. G. S. Fernandes, J\'essica S. H. Rios, S\'{\i}lvia R. C. Dias, Marina M. Mour\~ao, Gl\'oria Regina Franco }
+  
+  \affil{ Universidade Federal de Minas Gerais }
+  \vspace{-5mm}
+  \date{}
+  
+  %---------------------------------------------------------------------------------------- 
+  
+  \begin{document}
+  
+  
+  \maketitle % Insert title
+  
+  
+  \thispagestyle{fancy} % All pages have headers and footers
+  %----------------------------------------------------------------------------------------  
+  % ABSTRACT
+  
+  %----------------------------------------------------------------------------------------  
+  
+  \begin{abstract}
+  Spliced leader trans-splicing (SLTS) is an RNA processing mechanism that involves splicing between two distinct RNA molecules. SLTS has been described as a potential RNA regulatory process that occurs in different organisms,  including the trematode Schistosoma mansoni,  in which at least 46\% of cercariae transcripts are processed by SLTS. Here,  we performed a deep analysis of SLTS-processed transcripts in five different life stages of S. mansoni,  enabling the identification of a large number of transcripts undergoing SLTS and,  showing for the first time,  stage-dependent alternative SLTS and specific patterns in the parasite. Total RNA of miracidia,  sporocysts,  schistosomulae and adult worms was isolated and then used to perform cDNA synthesis. SLTS transcripts were enriched prior to sequencing,  through a polymerase chain reaction with an S. mansoni SL primer. The SL enriched libraries were sequenced on the Ion Torrent PGM™ System. After quality trimming,  only reads identified containing the SL sequence were used on the alignment step. A total of 1, 832, 749 reads were uniquely mapped to 2, 065 different genes in the S. mansoni genome (5th version),  grouped within six classes according to the SL acceptor site location (Outron,  Outron-1stcodon,  Canonical cis-splicing,  Exon-middle,  Intron-middle or 3’UTR). A chi-square test showed a significant dependence on the parasite developmental stage to the SLTS acceptor site (AS). Moreover,  the Outron was the AS most frequently used and SLTS genes within this group undergo SLTS more often in all stages when comparing with genes classified as canonical cis-splicing AS,  raising the hypothesis that SLTS in the outron regulates the expression of genes related with general metabolism in S. mansoni,  whereas the alternative SLTS  seems to assume a stage-specific pattern. In general,  there was no correlation between SLTS frequency and gene expression. However,  we identified a significant positive correlation between gene expression and the frequency of SLTS when occurring in the middle of adult worm's intron. Indeed,  when the SLTS takes place in the middle of introns or exons,  the analysis of dinucleotide conservation in acceptor sites showed higher frequencies of weaker AS (others than ‘AG’),  suggesting that in these cases,  SLTS is favored by high gene expression. The classification of SLTS-processed transcripts in functional categories showed ubiquitous distribution with a wide spectrum of functional classes on all stages analyzed. Surprisingly,  a chi-square test showed a significant dependence of 3’UTR SLTS transcripts related to transposable elements,  and this could be a defense mechanism that regulates the action of these elements. So far,  we have shown that the SLTS mechanism in S. mansoni is stage-specific and it is potentially related to other functions beyond those that were previously studied (e.g. resolution of polycistronic transcripts,  enhance of transcript stability and translational efficiency). These results may be further extended to other taxa and may contribute to build a more thorough understanding of SLTS evolution and function in eukaryotes,  besides stimulating new studies targeting this mechanism for schistosomiasis control.
+  
+  Funding: Fapemig,  CNPq,  CAPES e INCA \\ 
+  \end{abstract}
+  \end{document} 

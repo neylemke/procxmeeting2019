@@ -1,0 +1,65 @@
+
+  \documentclass[twoside]{article}
+  \usepackage[affil-it]{authblk}
+  \usepackage{lipsum} % Package to generate dummy text throughout this template
+  \usepackage{eurosym}
+  \usepackage[sc]{mathpazo} % Use the Palatino font
+  \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+  \usepackage[utf8]{inputenc}
+  \linespread{1.05} % Line spacing-Palatino needs more space between lines
+  \usepackage{microtype} % Slightly tweak font spacing for aesthetics\[IndentingNewLine]
+  \usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+  \usepackage{multicol} % Used for the two-column layout of the document
+  \usepackage[hang,small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under//above floats in tables or figures
+  \usepackage{booktabs} % Horizontal rules in tables
+  \usepackage{float} % Required for tables and figures in the multi-column environment-they need to be placed in specific locations with the[H] (e.g. \begin{table}[H])
+  \usepackage{hyperref} % For hyperlinks in the PDF
+  \usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+  \usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+  \usepackage{abstract} % Allows abstract customization
+  \renewcommand{\abstractnamefont}{\normalfont\bfseries} 
+  %\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text\[IndentingNewLine]
+  \usepackage{titlesec} % Allows customization of titles
+  \renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+  \renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
+  \titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+  \titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+  \usepackage{fancyhdr} % Headers and footers
+  \pagestyle{fancy} % All pages have headers and footers
+  \fancyhead{} % Blank out the default header
+  \fancyfoot{} % Blank out the default footer
+  \fancyhead[C]{X-meeting $\bullet$ October 2019 $\bullet$ Campos do  Jord\~ao} % Custom header text
+  \fancyfoot[RO,LE]{} % Custom footer text
+  %----------------------------------------------------------------------------------------
+  % TITLE SECTION
+  %---------------------------------------------------------------------------------------- 
+ 
+ \title{\vspace{-15mm}\fontsize{24pt}{10pt}\selectfont\textbf{ The CD90/Thy1 in Triple Negative Breast Cancer: associations by bioinformatics between dysregulated genes and Signaling Pathways }} % Article title
+  
+  
+  \author{ Marco L\'azaro de Sousa Batista, Aline Ramos Maia Lobba, Mari Cleide Sogayar, Ana Claudia Oliveira Carreira, Milton Yutaka Nishiyama Junior }
+  
+  \affil{ NUCEL (Cell and Molecular Therapy Center),  Biochemistry Department,  Chemistry Institute,  University of S\~ao Paulo,  Brazil. }
+  \vspace{-5mm}
+  \date{}
+  
+  %---------------------------------------------------------------------------------------- 
+  
+  \begin{document}
+  
+  
+  \maketitle % Insert title
+  
+  
+  \thispagestyle{fancy} % All pages have headers and footers
+  %----------------------------------------------------------------------------------------  
+  % ABSTRACT
+  
+  %----------------------------------------------------------------------------------------  
+  
+  \begin{abstract}
+  Breast cancer is the most frequently diagnosed type of cancer among women in the World,  with the ductal-invasive triple-negative (TNBC) type being the most aggressive and lethal. We previously demonstrated that the CD90 is a promising diagnostic and therapeutic target for TNBC patients,  in the TNBC-derived cell line non-tumorigenic MCF10A overexpressing CD90 (MCF10A/CD90+) and the tumorigenic Hs578T knockdown CD90 (Hs578T/shCD90). The approaches for high-throughput gene expression analysis,  such as DEGs identification,  and Pathway Enrichment Analysis are well established. Therefore,  the aim of this work is to elucidate the possible crosstalk between CD90 and signaling pathways in CD90 TNBC-derived cell line models,  through the RNA-seq,  applying and developing new System Biology approaches integrating the in house curated TNBC canonical pathways and genes. The edgeR approach has been used for DEGs identification,  and EnrichR software,  for the identification and comparison of enriched pathways based on KEGG and Reactome databases. A pipeline has been developed to integrate the TNBC biological knowledge,  with the DEGs,  the Enriched pathways and with the gene set enrichment analysis. A new proposed strategy improved the integration between the DEGs with the Enriched pathways,  separating into three DEGs sets: All,  Up- and Down-regulated genes. The enrichment analyses was conducted with the sets in MCF10A/CD90+ (718 DEGs) and Hs578T/shCD90 (16 DEGs). Therefore,  a new strategy for RNA-seq analysis has been proposed based on the cell models assays,  and the new curated Gene sets from Molecular Signature Databases (MsigDB),  integrated with the DEGs and enriched pathways. Each assay was conducted using all gene expression profiles,  in each curated gene sets on GSEA (Gene Set Enrichment Analysis) method,  with fGSEA software. The PCA analysis was adopted to compare the gene and pathways merged between them,  using a strategy to calculate the average of each gene in a specific pathway. The weighted gene co-expression network,  using the WGCNA software has been used to integrate the enriched pathways and PCA analysis. . Based on the literature,  we have identified the TNBC canonical genes (151) and pathways (65),  which have been used as a validation set for the identified DEGs and enriched pathways in the first approach. From the MCF10A/CD90+ DEGs,  has been found 14 canonical genes,  while for Hs578T/shCD90 we have found 3. The PCA analysis has shown two groups of pathways set,  segregating MCF10A/CD90+ and Hs578T/shCD90,  showing 5 important pathways involved in opposite biological process in these lineages and they will be studied more carefully.
+  
+  Funding: Support: FAPESP,  PIBITI/CNPq,  CAPES,  BNDES,  FINEP,  MS-DECIT,  MCTI. \\ 
+  \end{abstract}
+  \end{document} 

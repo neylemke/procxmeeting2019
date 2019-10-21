@@ -1,0 +1,65 @@
+
+  \documentclass[twoside]{article}
+  \usepackage[affil-it]{authblk}
+  \usepackage{lipsum} % Package to generate dummy text throughout this template
+  \usepackage{eurosym}
+  \usepackage[sc]{mathpazo} % Use the Palatino font
+  \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+  \usepackage[utf8]{inputenc}
+  \linespread{1.05} % Line spacing-Palatino needs more space between lines
+  \usepackage{microtype} % Slightly tweak font spacing for aesthetics\[IndentingNewLine]
+  \usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+  \usepackage{multicol} % Used for the two-column layout of the document
+  \usepackage[hang,small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under//above floats in tables or figures
+  \usepackage{booktabs} % Horizontal rules in tables
+  \usepackage{float} % Required for tables and figures in the multi-column environment-they need to be placed in specific locations with the[H] (e.g. \begin{table}[H])
+  \usepackage{hyperref} % For hyperlinks in the PDF
+  \usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+  \usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+  \usepackage{abstract} % Allows abstract customization
+  \renewcommand{\abstractnamefont}{\normalfont\bfseries} 
+  %\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text\[IndentingNewLine]
+  \usepackage{titlesec} % Allows customization of titles
+  \renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+  \renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
+  \titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+  \titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+  \usepackage{fancyhdr} % Headers and footers
+  \pagestyle{fancy} % All pages have headers and footers
+  \fancyhead{} % Blank out the default header
+  \fancyfoot{} % Blank out the default footer
+  \fancyhead[C]{X-meeting $\bullet$ October 2019 $\bullet$ Campos do  Jord\~ao} % Custom header text
+  \fancyfoot[RO,LE]{} % Custom footer text
+  %----------------------------------------------------------------------------------------
+  % TITLE SECTION
+  %---------------------------------------------------------------------------------------- 
+ 
+ \title{\vspace{-15mm}\fontsize{24pt}{10pt}\selectfont\textbf{ Goliath,  a NGS web-based platform. }} % Article title
+  
+  
+  \author{ David Berl, Thiago Luiz Araujo Miller, Daniel T. Ohara, Pedro Alexandre Favoretto Galante }
+  
+  \affil{ USP }
+  \vspace{-5mm}
+  \date{}
+  
+  %---------------------------------------------------------------------------------------- 
+  
+  \begin{document}
+  
+  
+  \maketitle % Insert title
+  
+  
+  \thispagestyle{fancy} % All pages have headers and footers
+  %----------------------------------------------------------------------------------------  
+  % ABSTRACT
+  
+  %----------------------------------------------------------------------------------------  
+  
+  \begin{abstract}
+  The development of Next-generation sequencing platforms (NGS) in the past decade created an accurate and cost-effective methodology with application in many areas ranging from basic research to individual patient care. Nowadays,  it is trouble-free,  fast and inexpensive to generate NGS data. However,  this ongoing revolution is placing a significant demand for expertise in processing these large sequencing datasets produced by NGS platforms. It is not rare to see researchers with NGS data on hand and stuck in the step of processing these data. Several initiatives have been produced in order to simplify the NGS data processing,  but most of them have pitfalls,  such as incompleteness in terms of pipelines and/or difficulty of usage. We present Goliath,  a  web-accessible platform for NGS processing.  At its core functionality,  Goliath will provide support for both transcriptomics and genomics analysis. In its launch version,  Goliath processes FASTQ format data from human RNA sequencing (RNA-seq) and produces both gene expression patterns and differential expression. With a receptive interface,  multiple samples and their replicates can be uploaded and combined to create an assortment of comparisons. This is achieved using the latest reference transcriptome available (e.g.,  GENCODE,  for humans) and some of the most commonly used algorithms to quantify gene expression (e.g.,  Kallisto,  which uses an alignment-free approach),  and DESeq2 for obtaining the set of differentially expressed genes. Goliath also uses the R environment to produce clever and customizable  graphs. In essence,  Goliath aims to aid researchers that can produce NGS data for elucidating relevant biological questions  but have a tough time processing these NGS data by their own.
+  
+  Funding: CNPq \\ 
+  \end{abstract}
+  \end{document} 

@@ -1,0 +1,65 @@
+
+  \documentclass[twoside]{article}
+  \usepackage[affil-it]{authblk}
+  \usepackage{lipsum} % Package to generate dummy text throughout this template
+  \usepackage{eurosym}
+  \usepackage[sc]{mathpazo} % Use the Palatino font
+  \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+  \usepackage[utf8]{inputenc}
+  \linespread{1.05} % Line spacing-Palatino needs more space between lines
+  \usepackage{microtype} % Slightly tweak font spacing for aesthetics\[IndentingNewLine]
+  \usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+  \usepackage{multicol} % Used for the two-column layout of the document
+  \usepackage[hang,small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under//above floats in tables or figures
+  \usepackage{booktabs} % Horizontal rules in tables
+  \usepackage{float} % Required for tables and figures in the multi-column environment-they need to be placed in specific locations with the[H] (e.g. \begin{table}[H])
+  \usepackage{hyperref} % For hyperlinks in the PDF
+  \usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+  \usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+  \usepackage{abstract} % Allows abstract customization
+  \renewcommand{\abstractnamefont}{\normalfont\bfseries} 
+  %\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text\[IndentingNewLine]
+  \usepackage{titlesec} % Allows customization of titles
+  \renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+  \renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
+  \titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+  \titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+  \usepackage{fancyhdr} % Headers and footers
+  \pagestyle{fancy} % All pages have headers and footers
+  \fancyhead{} % Blank out the default header
+  \fancyfoot{} % Blank out the default footer
+  \fancyhead[C]{X-meeting $\bullet$ October 2019 $\bullet$ Campos do  Jord\~ao} % Custom header text
+  \fancyfoot[RO,LE]{} % Custom footer text
+  %----------------------------------------------------------------------------------------
+  % TITLE SECTION
+  %---------------------------------------------------------------------------------------- 
+ 
+ \title{\vspace{-15mm}\fontsize{24pt}{10pt}\selectfont\textbf{ JMSA2: Java Mass Sectrometry Analyzer }} % Article title
+  
+  
+  \author{ Bruno Henrique Meyer, Malton William Machado Cunico, Dieval Guizelini, Emanuel Maltempi de Souza, Fabio de Oliveira Pedrosa, Leonardo Magalh\~aes Cruz }
+  
+  \affil{ Federal University of Parana }
+  \vspace{-5mm}
+  \date{}
+  
+  %---------------------------------------------------------------------------------------- 
+  
+  \begin{document}
+  
+  
+  \maketitle % Insert title
+  
+  
+  \thispagestyle{fancy} % All pages have headers and footers
+  %----------------------------------------------------------------------------------------  
+  % ABSTRACT
+  
+  %----------------------------------------------------------------------------------------  
+  
+  \begin{abstract}
+  The use of MALDI-TOF mass spectrometry allows microorganism identification by generating mass spectra representing a characteristic profile of signals from ionized whole cell peptides or cell extracts. The microorganism identification by means of mass spectrometry is a recent technique,  applied to different types of samples (i.e.,  clinic or environmental),  with many advantages compared to classical approaches (e.g.,  amplification and sequence of genetic markes,  such as 16S rRNA gene). It is time and cost effective. Comparing of mass spectra obtained from unknown microorganisms with a database of mass spectra for known microorganisms allows their identification. However,  the spectra generated are complex data,  being its interpretation and analysis difficult. Further,  among few alternatives of software,  there are proprietary code ones with limited environmental representative databases. The Java Mass Spectrometry Analyzer (JMSA) has been developed in open source code by the Nucleus of Nitrogen Fixation at Federal University of Paran\'a (UFPR) that facilitate the visualization,  manipulation,  creation of databases,  and comparison of mass spectra for the purpose of microorganism identification,  as well as include descriptive sample data. Here,  we present JMSA version 2,  developed in Java (platform independent),  with the following main characteristics: i) clustering algorithm; ii) export results in many different file formats; iii) build superspectra that enhance comparison and identification; iv) creation of spectra database; v) pairwise-spectra comparison; vi) spectra database search tool for microorganism identification.
+  
+  Funding: Supported by INCT-FBN,  CNPq,  and CAPES \\ 
+  \end{abstract}
+  \end{document} 

@@ -1,0 +1,65 @@
+
+  \documentclass[twoside]{article}
+  \usepackage[affil-it]{authblk}
+  \usepackage{lipsum} % Package to generate dummy text throughout this template
+  \usepackage{eurosym}
+  \usepackage[sc]{mathpazo} % Use the Palatino font
+  \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+  \usepackage[utf8]{inputenc}
+  \linespread{1.05} % Line spacing-Palatino needs more space between lines
+  \usepackage{microtype} % Slightly tweak font spacing for aesthetics\[IndentingNewLine]
+  \usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+  \usepackage{multicol} % Used for the two-column layout of the document
+  \usepackage[hang,small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under//above floats in tables or figures
+  \usepackage{booktabs} % Horizontal rules in tables
+  \usepackage{float} % Required for tables and figures in the multi-column environment-they need to be placed in specific locations with the[H] (e.g. \begin{table}[H])
+  \usepackage{hyperref} % For hyperlinks in the PDF
+  \usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+  \usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+  \usepackage{abstract} % Allows abstract customization
+  \renewcommand{\abstractnamefont}{\normalfont\bfseries} 
+  %\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text\[IndentingNewLine]
+  \usepackage{titlesec} % Allows customization of titles
+  \renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+  \renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
+  \titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+  \titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+  \usepackage{fancyhdr} % Headers and footers
+  \pagestyle{fancy} % All pages have headers and footers
+  \fancyhead{} % Blank out the default header
+  \fancyfoot{} % Blank out the default footer
+  \fancyhead[C]{X-meeting $\bullet$ October 2019 $\bullet$ Campos do  Jord\~ao} % Custom header text
+  \fancyfoot[RO,LE]{} % Custom footer text
+  %----------------------------------------------------------------------------------------
+  % TITLE SECTION
+  %---------------------------------------------------------------------------------------- 
+ 
+ \title{\vspace{-15mm}\fontsize{24pt}{10pt}\selectfont\textbf{ Improving protein-based metagenomic reads classification }} % Article title
+  
+  
+  \author{ Giovanni Marques de Castro, Francisco Pereira Lobo }
+  
+  \affil{ Universidade Federal de Minas Gerais }
+  \vspace{-5mm}
+  \date{}
+  
+  %---------------------------------------------------------------------------------------- 
+  
+  \begin{document}
+  
+  
+  \maketitle % Insert title
+  
+  
+  \thispagestyle{fancy} % All pages have headers and footers
+  %----------------------------------------------------------------------------------------  
+  % ABSTRACT
+  
+  %----------------------------------------------------------------------------------------  
+  
+  \begin{abstract}
+  The most used software for the classification of metagenomic reads have the option for the user to build a custom database,  which is expected to be updated and encompassing as much taxa as possible. The proposal of KAIJU is that amino-acids are more conserved and using them increase the sensibility,  especially from samples of extreme environments. However,  the database proposed by them that includes the widest range of taxa is the nr\_euk. For metagenomic studies that focuses on fungal organims,  the results obtained can be much worse than using a nucleotide search,  missing most of the reads and having an increased misclassification. This problem arises because fungal genomes are deposited in GenBank without their protein annotation,  this is reflected in the source database used by KAIJU,  the NR,  not containing the peptides from those genomes. After downloading 2027 fungal genomes from GenBank that passed some filters,  only 794 had their protein file available to download (*protein.faa.gz in the GenBank ftp of the genome). This means that 60\% of the fungal genomes do not have their proteomes available. To generate a protein database that is broad and includes information from those fungal genomes,  genomes from bacteria,  viruses,  archaea and from those downloaded fungal genomes were translated in their six frames. Due to RAM limitation,  only peptide sequences with over 60 amino acids were kept and indexed using KAIJU. This is an strategy similar to tblastx,  but much faster as it uses KAIJU. In a preliminar result with a metagenomic sample,  CENTRIFUGE,  a nucleotide based classifier,  using a database with the same downloaded genomes,  classified over 600.000 reads as Lasiodiplodia. On the other hand,  KAIJU using the nr\_euk classified only a bit over 5000 reads as Lasiodiplodia and over 150.000 reads as Diplodia,  both Fungi in the Botryosphaeriaceae family. Nonetheless,  when using the database of six frames translated genomes,  KAIJU was able to classify around 600.000 reads as Lasiodiplodia,  while almost no reads as Diplodia,  close to the result returned from CENTRIFUGE. Lasiodiplodia is an example of a gender of Fungi without a single predicted proteome,  moreover the single genome available have over 97\% completeness when analyzing its quality with BUSCO,  so it should be well assembled by this parameter. With this strategy to build a protein database,  not only KAIJU,  but other protein-based classifiers could use it,  as the NR lacks over half of the potential proteins from Fungi in which the genomic information is already public available.
+  
+  Funding:  \\ 
+  \end{abstract}
+  \end{document} 

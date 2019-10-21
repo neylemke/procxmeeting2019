@@ -1,0 +1,65 @@
+
+  \documentclass[twoside]{article}
+  \usepackage[affil-it]{authblk}
+  \usepackage{lipsum} % Package to generate dummy text throughout this template
+  \usepackage{eurosym}
+  \usepackage[sc]{mathpazo} % Use the Palatino font
+  \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+  \usepackage[utf8]{inputenc}
+  \linespread{1.05} % Line spacing-Palatino needs more space between lines
+  \usepackage{microtype} % Slightly tweak font spacing for aesthetics\[IndentingNewLine]
+  \usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+  \usepackage{multicol} % Used for the two-column layout of the document
+  \usepackage[hang,small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under//above floats in tables or figures
+  \usepackage{booktabs} % Horizontal rules in tables
+  \usepackage{float} % Required for tables and figures in the multi-column environment-they need to be placed in specific locations with the[H] (e.g. \begin{table}[H])
+  \usepackage{hyperref} % For hyperlinks in the PDF
+  \usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+  \usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+  \usepackage{abstract} % Allows abstract customization
+  \renewcommand{\abstractnamefont}{\normalfont\bfseries} 
+  %\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text\[IndentingNewLine]
+  \usepackage{titlesec} % Allows customization of titles
+  \renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+  \renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
+  \titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+  \titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+  \usepackage{fancyhdr} % Headers and footers
+  \pagestyle{fancy} % All pages have headers and footers
+  \fancyhead{} % Blank out the default header
+  \fancyfoot{} % Blank out the default footer
+  \fancyhead[C]{X-meeting $\bullet$ October 2019 $\bullet$ Campos do  Jord\~ao} % Custom header text
+  \fancyfoot[RO,LE]{} % Custom footer text
+  %----------------------------------------------------------------------------------------
+  % TITLE SECTION
+  %---------------------------------------------------------------------------------------- 
+ 
+ \title{\vspace{-15mm}\fontsize{24pt}{10pt}\selectfont\textbf{ Identification of alternative splicing variants that are susceptible to NMD pathway by a bioinformatic approach }} % Article title
+  
+  
+  \author{ Vinicius da Silva Coutinho Parreira, Let\'{\i}cia Graziela Costa Santos de Mattos, Fabio Passetti }
+  
+  \affil{ Laboratory of Gene Expression Regulation,  Carlos Chagas Institute,  Funda\c{c}\~ao Oswaldo Cruz (Fiocruz),  Curitiba,  PR,  Brazil }
+  \vspace{-5mm}
+  \date{}
+  
+  %---------------------------------------------------------------------------------------- 
+  
+  \begin{document}
+  
+  
+  \maketitle % Insert title
+  
+  
+  \thispagestyle{fancy} % All pages have headers and footers
+  %----------------------------------------------------------------------------------------  
+  % ABSTRACT
+  
+  %----------------------------------------------------------------------------------------  
+  
+  \begin{abstract}
+  DNA high-throughput sequencing associated with bioinformatics approach,  permits to perform in silico analysis of genomes and transcriptomes. The last GENCODE release provide 19, 975 genes related to more than 83, 000 proteins. This difference can be associated with RNA post-transcriptional modifications,  mainly associated to alternative splicing. Alternative splicing increases transcriptomic diversity due to alternative recongnition of intron splice sites. Although alternative splicing is strictly regulated,  some errors may occur,  such as the insertion of a premature termination codon (PTC) in the transcript and such molecules could result in a truncated protein. When a termination codon is located at least 55 nucleotides downstream of a exon-exon junction,  it is called PTC and the transcript is molecularly marked for degradation by the nonsense mediated decay pathway (NMD). The computational prediction of NMD events or the manual annotation is used by the Ensembl project to provide organism-based NMD datasets. SpliceProt is a protein sequence repository created by our research group that aims to predict splice variants and perform their in silico translation. We aim to create a subgroup of SpliceProt that will have a PTC identification for transcripts,  consequently removing these variants of in silico translation step. We have updated the SpliceProt repository to receive Ensembl transcript information for human. The rat and mouse datasets is ongoing. Using a ternary matrices methodology,  which received mapping coordinated produced by the BLAT software,  we have identified 222, 462 human splice variants that corresponds to 61, 122 human genes. According to preliminary results using human known control mRNAs with NMD-targets and non-NMD-targets,  we were able to correctly identify all NMD events in concordance to the  NMD Ensembl annotation (e.g. LENEP and CRYZ). Currently,  we are performing the PTC identification in the SpliceProt datasets using the NMDClassifier software. In addition,  we will integrate the NMD classifier in the repository’s pipeline to enable automate future SpliceProt releases.
+  
+  Funding: National Council for Scientific and Technological Development (CNPq),  Coordination for the Improvement of Higher. Education Personnel - Capes,  Carlos Chagas Institute - Funda\c{c}\~ao Oswaldo Cruz (Fiocruz) \\ 
+  \end{abstract}
+  \end{document} 

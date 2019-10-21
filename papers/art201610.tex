@@ -1,0 +1,99 @@
+
+  \documentclass[twoside]{article}
+  \usepackage[affil-it]{authblk}
+  \usepackage{lipsum} % Package to generate dummy text throughout this template
+  \usepackage{eurosym}
+  \usepackage[sc]{mathpazo} % Use the Palatino font
+  \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+  \usepackage[utf8]{inputenc}
+  \linespread{1.05} % Line spacing-Palatino needs more space between lines
+  \usepackage{microtype} % Slightly tweak font spacing for aesthetics\[IndentingNewLine]
+  \usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+  \usepackage{multicol} % Used for the two-column layout of the document
+  \usepackage[hang,small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under//above floats in tables or figures
+  \usepackage{booktabs} % Horizontal rules in tables
+  \usepackage{float} % Required for tables and figures in the multi-column environment-they need to be placed in specific locations with the[H] (e.g. \begin{table}[H])
+  \usepackage{hyperref} % For hyperlinks in the PDF
+  \usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+  \usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+  \usepackage{abstract} % Allows abstract customization
+  \renewcommand{\abstractnamefont}{\normalfont\bfseries} 
+  %\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text\[IndentingNewLine]
+  \usepackage{titlesec} % Allows customization of titles
+  \renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+  \renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
+  \titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+  \titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+  \usepackage{fancyhdr} % Headers and footers
+  \pagestyle{fancy} % All pages have headers and footers
+  \fancyhead{} % Blank out the default header
+  \fancyfoot{} % Blank out the default footer
+  \fancyhead[C]{X-meeting $\bullet$ October 2019 $\bullet$ Campos do  Jord\~ao} % Custom header text
+  \fancyfoot[RO,LE]{} % Custom footer text
+  %----------------------------------------------------------------------------------------
+  % TITLE SECTION
+  %---------------------------------------------------------------------------------------- 
+ 
+ \title{\vspace{-15mm}\fontsize{24pt}{10pt}\selectfont\textbf{ sideRETRO: structural variations intercurences discovery environment for retrocopies }} % Article title
+  
+  
+  \author{ Jos\'e Leonel Lemos Buzzo, Thiago Luiz Araujo Miller, Pedro Alexandre Favoretto Galante }
+  
+  \affil{ USP }
+  \vspace{-5mm}
+  \date{}
+  
+  %---------------------------------------------------------------------------------------- 
+  
+  \begin{document}
+  
+  
+  \maketitle % Insert title
+  
+  
+  \thispagestyle{fancy} % All pages have headers and footers
+  %----------------------------------------------------------------------------------------  
+  % ABSTRACT
+  
+  %----------------------------------------------------------------------------------------  
+  
+  \begin{abstract}
+  The understanding of Transposable elements' mechanisms are gaining a rising
+focus on actual researches as key features of genomic structures and the
+impacts of their dynamics are directly associated with many pathological
+scenarios.
+	It has been clearly shown the protagonic role exerted,  for example,  by
+somatic retrotransposon insertions in tumorigenenic cases,  whether disrupting
+promoters of critical protein coding genes,  or creating new splicing sites and
+isoforms,  or even becoming expressed.
+	Therefore,  accurate detection methods ought to be settled down for them, 
+methods by which whole genomic assessments of the copy number variations of these
+transposable elements would be feasible. However,  some quantitative difficulties
+lies on this task concerning the ambiguity on mapping new inserts: actual
+aligners frequently report their reads as belonging to the parenthal gene in the
+reference genome. Corroborating this fact,  literature shows only a few examples
+of bioinformatics tools available to this errand and,  even these,  cannot ensure
+their accuracy because of a lack in false positive statistical controls. So,  to
+get around this problem,  a candidate algorithm would need to (1) distinguish
+ambiguous read mappings from their parenthals and other fixed copies of it, 
+based on an annotated gene list; and (2) robustly learn to discern the false
+positive cases using some simulation approach.
+	Now focusing on retrocopies,  which are new insertions of processed protein
+coding genes' mRNAs made by LINE retrotransposon machinery,  we present
+sideRETRO,  a computational bioinformatis tool for polymorphic and somatic
+retrocopies discovery,  in a genomic landscape. Provided with an accuracy
+tuning simulation method suited for this task and a ambiguity solving engine
+based on discordant reads mappings,  our tool was used to search for retrocopies
+on ten whole genomes sequenced from healthy individuals with more than eighty
+years old. It was chosen only healty individuals because of the need to compose
+a non tumorigenic retrocopies profile when comparing to future pathological
+samples.
+	So,  assessed by a previous simulation batch for false positive filtering, 
+our algorithm reached a 0.87 accuracy rate on a 5-fold cross validation. And, 
+when used on the ten whole genomes with high coverage (~40x),  it discovered a
+mean of seventeen retrocopies per genome,  which were further identified when
+polymorphic or not and when cancer related or not.
+  
+  Funding: CNPq \\ 
+  \end{abstract}
+  \end{document} 

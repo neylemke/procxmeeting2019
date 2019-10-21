@@ -1,0 +1,65 @@
+
+  \documentclass[twoside]{article}
+  \usepackage[affil-it]{authblk}
+  \usepackage{lipsum} % Package to generate dummy text throughout this template
+  \usepackage{eurosym}
+  \usepackage[sc]{mathpazo} % Use the Palatino font
+  \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+  \usepackage[utf8]{inputenc}
+  \linespread{1.05} % Line spacing-Palatino needs more space between lines
+  \usepackage{microtype} % Slightly tweak font spacing for aesthetics\[IndentingNewLine]
+  \usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+  \usepackage{multicol} % Used for the two-column layout of the document
+  \usepackage[hang,small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under//above floats in tables or figures
+  \usepackage{booktabs} % Horizontal rules in tables
+  \usepackage{float} % Required for tables and figures in the multi-column environment-they need to be placed in specific locations with the[H] (e.g. \begin{table}[H])
+  \usepackage{hyperref} % For hyperlinks in the PDF
+  \usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+  \usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+  \usepackage{abstract} % Allows abstract customization
+  \renewcommand{\abstractnamefont}{\normalfont\bfseries} 
+  %\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text\[IndentingNewLine]
+  \usepackage{titlesec} % Allows customization of titles
+  \renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+  \renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
+  \titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+  \titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+  \usepackage{fancyhdr} % Headers and footers
+  \pagestyle{fancy} % All pages have headers and footers
+  \fancyhead{} % Blank out the default header
+  \fancyfoot{} % Blank out the default footer
+  \fancyhead[C]{X-meeting $\bullet$ October 2019 $\bullet$ Campos do  Jord\~ao} % Custom header text
+  \fancyfoot[RO,LE]{} % Custom footer text
+  %----------------------------------------------------------------------------------------
+  % TITLE SECTION
+  %---------------------------------------------------------------------------------------- 
+ 
+ \title{\vspace{-15mm}\fontsize{24pt}{10pt}\selectfont\textbf{ Possible bias in predicting essential genes }} % Article title
+  
+  
+  \author{ Zandora Celeste Hastenreiter Ferreira Nunes, Francisco Pereira Lobo, Giovanni Marques de Castro }
+  
+  \affil{ Universidade Federal de Minas Gerais }
+  \vspace{-5mm}
+  \date{}
+  
+  %---------------------------------------------------------------------------------------- 
+  
+  \begin{document}
+  
+  
+  \maketitle % Insert title
+  
+  
+  \thispagestyle{fancy} % All pages have headers and footers
+  %----------------------------------------------------------------------------------------  
+  % ABSTRACT
+  
+  %----------------------------------------------------------------------------------------  
+  
+  \begin{abstract}
+  The ever-growing amount of complete genomes calls for the creation of computational strategies in order to extract biologically meaningful information from this data. The prediction of essential genes is one of the areas where there is a growing effort to create such strategies,  since they are attractive targets for intervention in parasites,  vectors and pests. The use of machine learning can help detecting such genes and reduce the burden for experimental validation,  aiding the choosing of interesting candidates. For this work,  we used a Random Forest algorithm to predict essentiality in insect genes,  as this information would potentially help in the development of specific,  low impact bioinsecticides. Most of the currently available software for this task relies on information based on expensive experimental data,  such as gene annotation,  gene expression profiles and interaction networks. Our approach is homology-independent in the sense that the features are calculated from its nucleotide and peptide sequence data alone,  such as amino acid/nucleotide frequencies and sequence entropy. Initially,  we recovered alleles of Drosophila melanogaster from FlyBase classified as loss of function,  amorphic and hypomorphic. For the essential genes,  we recovered the alleles annotated as having a lethal phenotype and,  for the nonessential genes,  we recovered those that are not annotated as lethal. We converted the allele ids to gene ids and retrieved the longest isoform nucleotide sequence for that gene. The training dataset consisted of 1256 essential genes and 636 nonessential genes,  and the test set consisted of 47 essential and 88 nonessential genes. The genes present in the test dataset were curated from published works. The model consisted of 1000 trees and 10 fold cross-validation,  repeated 5 times. We obtained an AUC of 0.7238. We found this result to be caused by a bias introduced by a small group of evolutionary old essential genes and young nonessential genes; when we withdraw these groups from the test set,  the AUC dropped to 0.578. Surprisingly,  when we use only this biased group as the test set,  the AUC obtained was 0.995,  suggesting our classifier learned to discriminate between old and young genes. As future work,  in order to further evaluate our model,  we will retrieve orthologs present only in D. melanogaster and D. simulans and consider these as young genes; orthologs also present in D. mojavensis and D. virilis will considered old genes. The new test set will then comprise essential young genes and old nonessential genes.
+  
+  Funding: CAPES,  CNPq,  PPG Gen\'etica - UFMG \\ 
+  \end{abstract}
+  \end{document} 

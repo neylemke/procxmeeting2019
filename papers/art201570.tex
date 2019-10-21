@@ -1,0 +1,65 @@
+
+  \documentclass[twoside]{article}
+  \usepackage[affil-it]{authblk}
+  \usepackage{lipsum} % Package to generate dummy text throughout this template
+  \usepackage{eurosym}
+  \usepackage[sc]{mathpazo} % Use the Palatino font
+  \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+  \usepackage[utf8]{inputenc}
+  \linespread{1.05} % Line spacing-Palatino needs more space between lines
+  \usepackage{microtype} % Slightly tweak font spacing for aesthetics\[IndentingNewLine]
+  \usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+  \usepackage{multicol} % Used for the two-column layout of the document
+  \usepackage[hang,small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under//above floats in tables or figures
+  \usepackage{booktabs} % Horizontal rules in tables
+  \usepackage{float} % Required for tables and figures in the multi-column environment-they need to be placed in specific locations with the[H] (e.g. \begin{table}[H])
+  \usepackage{hyperref} % For hyperlinks in the PDF
+  \usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+  \usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+  \usepackage{abstract} % Allows abstract customization
+  \renewcommand{\abstractnamefont}{\normalfont\bfseries} 
+  %\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text\[IndentingNewLine]
+  \usepackage{titlesec} % Allows customization of titles
+  \renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+  \renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
+  \titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+  \titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+  \usepackage{fancyhdr} % Headers and footers
+  \pagestyle{fancy} % All pages have headers and footers
+  \fancyhead{} % Blank out the default header
+  \fancyfoot{} % Blank out the default footer
+  \fancyhead[C]{X-meeting $\bullet$ October 2019 $\bullet$ Campos do  Jord\~ao} % Custom header text
+  \fancyfoot[RO,LE]{} % Custom footer text
+  %----------------------------------------------------------------------------------------
+  % TITLE SECTION
+  %---------------------------------------------------------------------------------------- 
+ 
+ \title{\vspace{-15mm}\fontsize{24pt}{10pt}\selectfont\textbf{ Characterization of the virome in mosquitoes using a small RNA-based approach }} % Article title
+  
+  
+  \author{ Jo\~ao Paulo Pereira de Almeida, Eric Roberto Guimar\~aes Rocha Aguiar, Roenick Proveti Olmo, Yaovi Mathias Honore Todjro, Jean-Luc Imler, Jo\~ao Trindade Marques }
+  
+  \affil{ Universidade Federal da Bahia }
+  \vspace{-5mm}
+  \date{}
+  
+  %---------------------------------------------------------------------------------------- 
+  
+  \begin{document}
+  
+  
+  \maketitle % Insert title
+  
+  
+  \thispagestyle{fancy} % All pages have headers and footers
+  %----------------------------------------------------------------------------------------  
+  % ABSTRACT
+  
+  %----------------------------------------------------------------------------------------  
+  
+  \begin{abstract}
+  High-throughput sequencing techniques and bioinformatics have guided to the elucidation of viral diversity (virome) in different organisms. Since all viruses produce RNA molecules at some point in their replication cycle,  RNA-seq is an efficient and unbiased approach to assess viral diversity. In insects,  RNA interference is a major antiviral response and generates small viral RNAs of specific sizes. Virus-derived small RNAs (vsRNAs) produced by the small interfering RNA (siRNA) pathway are phased duplex small RNAs of ~20–23nt while products of the piwi-interacting RNA (piRNA) pathway are ~24–30nt long and show specific patterns of base enrichment. Different from standard RNA-seq approaches that focus on long RNA fragments,  sequencing of small RNAs allows the assembly of viral contigs,  but also the inference of antiviral mechanisms and sequence-independent identification of viral contigs based on the pattern of vsRNAs. This strategy overcomes the limitation of sequence similarity searches of highly divergent viral sequences. In this work,  we improved our previously developed method to identify viral sequences using small RNA libraries. Our pipeline is integrated into a Perl script requiring a fasta||fastq file as input. After pre-processing,  reads are aligned against the host genome,  bacterial and transposons reference sequences. Unmapped reads are kept and used to assemble contigs. Viral contigs are then identified by sequence similarity using Blastn or Blastx followed by ORF prediction and protein domain search. Filtered reads are aligned to the assembled contigs to generate a small RNA pattern that is used for hierarchical grouping using UPGMA and Pearson correlation coefficient. The script is run with a single command line in a terminal Linux. Parsed files with viral taxonomy information and plots with read coverage and small RNA profiles per contig are generated as output and are ready to be used in further analysis or publications. We applied our strategy to 56 unpublished small RNA libraries from wild mosquitoes (Aedes,  Hemagogus,  and Sabethes) collected around the globe. The summary of assembly metrics for viral contigs identified by sequence similarity in all libraries: an average of ~43 contigs per library; average N50 of ~746nt; contigs size average of ~376nt; largest contigs average size of ~1968nt. In total,  we identified 17 viruses,  9 of which are possibly new viral species. The summary of assembly metrics for contigs without a similar correspondent in the databases: an average of ~1866 contigs per library; average N50 of ~66; contigs size average of ~69nt; largest contigs average size of ~465nt. Interestingly,  in these last group of contigs,  we identified 197 with only siRNA pattern,  62 with only piRNA pattern and 61 with both siRNA and piRNA patterns,  all evidence to suggest the origin from unknown viruses of these contigs. Our improved approach allowed us to have an overview of viral diversity and provided information about antiviral defenses of these mosquitoes,  knowledge that can be applied in the control and monitoring of virus circulation in natural conditions.
+  
+  Funding: CAPES,  CNPq,  FAPEMIG,  ZikAlliance,  ANR,  Labex NET-RNA \\ 
+  \end{abstract}
+  \end{document} 

@@ -1,0 +1,65 @@
+
+  \documentclass[twoside]{article}
+  \usepackage[affil-it]{authblk}
+  \usepackage{lipsum} % Package to generate dummy text throughout this template
+  \usepackage{eurosym}
+  \usepackage[sc]{mathpazo} % Use the Palatino font
+  \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+  \usepackage[utf8]{inputenc}
+  \linespread{1.05} % Line spacing-Palatino needs more space between lines
+  \usepackage{microtype} % Slightly tweak font spacing for aesthetics\[IndentingNewLine]
+  \usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+  \usepackage{multicol} % Used for the two-column layout of the document
+  \usepackage[hang,small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under//above floats in tables or figures
+  \usepackage{booktabs} % Horizontal rules in tables
+  \usepackage{float} % Required for tables and figures in the multi-column environment-they need to be placed in specific locations with the[H] (e.g. \begin{table}[H])
+  \usepackage{hyperref} % For hyperlinks in the PDF
+  \usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+  \usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+  \usepackage{abstract} % Allows abstract customization
+  \renewcommand{\abstractnamefont}{\normalfont\bfseries} 
+  %\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text\[IndentingNewLine]
+  \usepackage{titlesec} % Allows customization of titles
+  \renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+  \renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
+  \titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+  \titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+  \usepackage{fancyhdr} % Headers and footers
+  \pagestyle{fancy} % All pages have headers and footers
+  \fancyhead{} % Blank out the default header
+  \fancyfoot{} % Blank out the default footer
+  \fancyhead[C]{X-meeting $\bullet$ October 2019 $\bullet$ Campos do  Jord\~ao} % Custom header text
+  \fancyfoot[RO,LE]{} % Custom footer text
+  %----------------------------------------------------------------------------------------
+  % TITLE SECTION
+  %---------------------------------------------------------------------------------------- 
+ 
+ \title{\vspace{-15mm}\fontsize{24pt}{10pt}\selectfont\textbf{ The interaction of NS5 protein with the human importin and exportin proteins }} % Article title
+  
+  
+  \author{ Marcos Freitas Parra, Ana Ligia Scott, Antonio Sergio Kimus Braz }
+  
+  \affil{ UFABC }
+  \vspace{-5mm}
+  \date{}
+  
+  %---------------------------------------------------------------------------------------- 
+  
+  \begin{document}
+  
+  
+  \maketitle % Insert title
+  
+  
+  \thispagestyle{fancy} % All pages have headers and footers
+  %----------------------------------------------------------------------------------------  
+  % ABSTRACT
+  
+  %----------------------------------------------------------------------------------------  
+  
+  \begin{abstract}
+  The Denv NS5 protein is well conserved among the 4 Denv serotypes,  reflecting its vital role in the replication cycle of viral RNA. In order to replicate efficiently,  viruses need to block host resistance mechanisms - which is achieved through viral proteins that control host machinery leading to viral replication and blocking eventual resistance mechanism,  the NS5 protein blocks the cellular response for interacts with interferon proteins. Beyond of interferon proteins,  the NS5 interacts directly with a large amount of proteins,  including the proteins that import and export other to the cell nucleus. The mechanisms of NS5 interaction with that proteins is not know yet. To investigate this interactions,  we use a methodology that uses the normal modes and docking approach. The approach uses Normal Modes to analysis is the approximation of the system’s free energy dynamics to the Hooke Harmonic potential,  which presents movements of the various protein regions around an energy minimum. Using VMOD protocol,  were generated structures and using the lowest energy model can be investigated through the using of the concept of lower energy in an interaction between binding proteins and the use of the extended conformational selection model - thus representing the most likely conformational model for the docking between the two proteins. After that,  large-scale tests of protein-protein interaction are performed. For these tests,  proteins are treated as rigid bodies by making rotational and translational motions only,  we provided conformational variations of each ligand and receptor obtained by normal modes analysis,  as we selected the ligand hotspots through rigid docking,  using the probability of the canonical ensemble. Stability tests and the adjustment of the interfaces were calculated by molecular dynamics. Through protein-protein docking experiment,  we can find a possible hot-spot for docking between KPNB1-NS5 anb XPO1-NS5. This binding site is being confirmed through molecular dynamics,  until stabilization of the system.
+  
+  Funding: UFABC,  CAPES \\ 
+  \end{abstract}
+  \end{document} 

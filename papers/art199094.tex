@@ -1,0 +1,65 @@
+
+  \documentclass[twoside]{article}
+  \usepackage[affil-it]{authblk}
+  \usepackage{lipsum} % Package to generate dummy text throughout this template
+  \usepackage{eurosym}
+  \usepackage[sc]{mathpazo} % Use the Palatino font
+  \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+  \usepackage[utf8]{inputenc}
+  \linespread{1.05} % Line spacing-Palatino needs more space between lines
+  \usepackage{microtype} % Slightly tweak font spacing for aesthetics\[IndentingNewLine]
+  \usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+  \usepackage{multicol} % Used for the two-column layout of the document
+  \usepackage[hang,small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under//above floats in tables or figures
+  \usepackage{booktabs} % Horizontal rules in tables
+  \usepackage{float} % Required for tables and figures in the multi-column environment-they need to be placed in specific locations with the[H] (e.g. \begin{table}[H])
+  \usepackage{hyperref} % For hyperlinks in the PDF
+  \usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+  \usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+  \usepackage{abstract} % Allows abstract customization
+  \renewcommand{\abstractnamefont}{\normalfont\bfseries} 
+  %\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text\[IndentingNewLine]
+  \usepackage{titlesec} % Allows customization of titles
+  \renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+  \renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
+  \titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+  \titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+  \usepackage{fancyhdr} % Headers and footers
+  \pagestyle{fancy} % All pages have headers and footers
+  \fancyhead{} % Blank out the default header
+  \fancyfoot{} % Blank out the default footer
+  \fancyhead[C]{X-meeting $\bullet$ October 2019 $\bullet$ Campos do  Jord\~ao} % Custom header text
+  \fancyfoot[RO,LE]{} % Custom footer text
+  %----------------------------------------------------------------------------------------
+  % TITLE SECTION
+  %---------------------------------------------------------------------------------------- 
+ 
+ \title{\vspace{-15mm}\fontsize{24pt}{10pt}\selectfont\textbf{ Analysis of Structural Evolution of FT and TFL1 Proteins of Angiosperms }} % Article title
+  
+  
+  \author{ Deivid Almeida de Jesus, Darlisson Mesquita Batista, Kau\^e Santana da Costa, Thiago Andr\'e }
+  
+  \affil{ UFOPA }
+  \vspace{-5mm}
+  \date{}
+  
+  %---------------------------------------------------------------------------------------- 
+  
+  \begin{document}
+  
+  
+  \maketitle % Insert title
+  
+  
+  \thispagestyle{fancy} % All pages have headers and footers
+  %----------------------------------------------------------------------------------------  
+  % ABSTRACT
+  
+  %----------------------------------------------------------------------------------------  
+  
+  \begin{abstract}
+  Flowering Locus T/Terminal flowering T1-like (FT/TFL1) genes stimulating and suppressing flowering in angiosperms. In the present study,  the ancestral sequences were reconstructed by phylogenetic analyzes and then their structures and evolutionary relations were analyzed. First,  the coding sequences were obtained from GenBank using the BLASTn tool and the Arabidopsis thaliana sequence was used as a reference. The nucleotides sequences were aligned in the MUSCLE and the most verisimilar evolutionary model (GTR+I+G) was retrieved in jModelTest 2 program and validated with 1, 000 bootstrap repetitions. For phylogenetic inferences,  we used a Bayesian approach in BEAST program,  using Pinidae subclass species as an outgroup. The ancestral sequences of angiosperms,  monocotyledons,  tricolpades,  asterids,  brassicales (FT/TFL1) and non-brassicales (TFL1) were obtained by maximum likelihood method available in MEGA7. The FT/TFL1 structures were obtained by comparative modeling in Modeller program using as a template the crystallographic structure of the FT protein of A. thaliana (1WKP/1WKO,  chain A). Then,  molecular dynamics (MD) simulations were performed using the Amber16 package to analyze possible conformational changes in the modeled structures. The stereochemical quality of each model was optimized by ModRefiner program. Finally,  the models were validated using the Ramachandran plot,  which evaluates the stereochemical quality; and by the QMEAN plot,  which evaluate the energy profile. In addition we performed a mutational analysis of the protein structures using FoldX. The modeled proteins showed an RMSD-Ca = 1.6$\AA$ and at least 88\% of the residues in favorable regions of the Ramachandran plot. The phylogenetic relations of proteins demonstrated that FT/TFL1 proteins do not show the same evolutionary divergence found in angiosperms,  and speciation and selection acted differently in these floral proteins. There was little structural variation in FT/TFL proteins throughout the evolutionary history of angiosperms,  as shown by the RMSD values obtained after MD simulations. Induced mutations have shown that proteins undergo high destabilization in various residues,  as well as,  in the region of the fourth exon,  which is important for protein activity. Considering the importance of the floral activation,  we concluded that the evolutionary conservation of the FT/TFL1 structures must evolve under stabilizing natural selection.
+  
+  Funding:  \\ 
+  \end{abstract}
+  \end{document} 

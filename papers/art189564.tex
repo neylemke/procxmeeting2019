@@ -1,0 +1,65 @@
+
+  \documentclass[twoside]{article}
+  \usepackage[affil-it]{authblk}
+  \usepackage{lipsum} % Package to generate dummy text throughout this template
+  \usepackage{eurosym}
+  \usepackage[sc]{mathpazo} % Use the Palatino font
+  \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+  \usepackage[utf8]{inputenc}
+  \linespread{1.05} % Line spacing-Palatino needs more space between lines
+  \usepackage{microtype} % Slightly tweak font spacing for aesthetics\[IndentingNewLine]
+  \usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+  \usepackage{multicol} % Used for the two-column layout of the document
+  \usepackage[hang,small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under//above floats in tables or figures
+  \usepackage{booktabs} % Horizontal rules in tables
+  \usepackage{float} % Required for tables and figures in the multi-column environment-they need to be placed in specific locations with the[H] (e.g. \begin{table}[H])
+  \usepackage{hyperref} % For hyperlinks in the PDF
+  \usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+  \usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+  \usepackage{abstract} % Allows abstract customization
+  \renewcommand{\abstractnamefont}{\normalfont\bfseries} 
+  %\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text\[IndentingNewLine]
+  \usepackage{titlesec} % Allows customization of titles
+  \renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+  \renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
+  \titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+  \titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+  \usepackage{fancyhdr} % Headers and footers
+  \pagestyle{fancy} % All pages have headers and footers
+  \fancyhead{} % Blank out the default header
+  \fancyfoot{} % Blank out the default footer
+  \fancyhead[C]{X-meeting $\bullet$ October 2019 $\bullet$ Campos do  Jord\~ao} % Custom header text
+  \fancyfoot[RO,LE]{} % Custom footer text
+  %----------------------------------------------------------------------------------------
+  % TITLE SECTION
+  %---------------------------------------------------------------------------------------- 
+ 
+ \title{\vspace{-15mm}\fontsize{24pt}{10pt}\selectfont\textbf{ Correlation of shared transcriptomic signature between Sickle Cell Disease and Acute Myocardial Infarction patients with Sickle Cell Disease severity }} % Article title
+  
+  
+  \author{ Bidossessi Wilfried Hounkpe, Fernando Ferreira Costa, Erich Vinicius de Paula }
+  
+  \affil{ Faculty of Medical Sciences,  Unicamp }
+  \vspace{-5mm}
+  \date{}
+  
+  %---------------------------------------------------------------------------------------- 
+  
+  \begin{document}
+  
+  
+  \maketitle % Insert title
+  
+  
+  \thispagestyle{fancy} % All pages have headers and footers
+  %----------------------------------------------------------------------------------------  
+  % ABSTRACT
+  
+  %----------------------------------------------------------------------------------------  
+  
+  \begin{abstract}
+  While ischemia-reperfusion injury (IRI) is widely recognized as a hallmark of acute myocardial infarction (AMI),  it is also a key pathogenic mechanism of sickle cell disease (SCD),  raising the question on how shared mechanisms underlie the pathogenesis of these conditions. Analyses of publicly available microarray datasets,  integrated with other bioinformatic tools,  now allow cross-disease comparisons capable to identify critical components of the pathogenesis of complex diseases. Herein,  we aimed to identify a set of differentially expressed (DE) genes in both SCD and AMI,  and to use GWAS data to gain further insights on their role in the pathogenesis of IRI,  SCD and AMI. Public microarray datasets of SCD with severe phenotype (GSE84632) and AMI (GSE59867) from GEO platform were submitted to meta-analyses using a robust statistical method that allows the identification of genes that were consistently DE in the same direction in both data sets. Functional analysis was performed using FAIME algorithm which scores altered pathways at individual patient level,  allowing further selection of most informative pathway by Support vector Machine algorithm. A GWAS catalog was then used to identify risk phenotypes associated with upregulated genes. In order to gain more insights on the importance of identified genes,  correlation was computed between DE genes expression and clinical parameters and severity score of another pediatric cohort of SCD. 375 patients were included (80 SCD,  111 AMI,  184 controls). The meta-analyses detected 14 upregulated and 32 downregulated genes. Functional analyses identified pathways related to inflammation and innate immunity,  of which 12 classifiers clustered SCD and AMI together. Variants of upregulated genes previously linked to phenotypes in GWAS were potentially associated with vascular inflammation. WASF2,  BMP2K and STRADB were positively correlated with SCD severity when GZMK,  EIF3M,  PIK3IP1 and COX6C showed a negative correlation. Our strategy allowed us to identify a shared transcriptomic signature of SCD and AMI that were correlated with SCD . While observed pathways were consistent with current knowledge on the pathogenesis of IRI,  some DE genes had not been previously associated with SCD or AMI,  thus warranting additional studies on their role in the pathogenesis and management of these conditions.
+  
+  Funding: FAPESP grants \# 2015/24666-3; CNPq Brazil. grant \# 309317/2016 \\ 
+  \end{abstract}
+  \end{document} 

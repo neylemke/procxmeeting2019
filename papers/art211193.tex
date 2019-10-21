@@ -1,0 +1,65 @@
+
+  \documentclass[twoside]{article}
+  \usepackage[affil-it]{authblk}
+  \usepackage{lipsum} % Package to generate dummy text throughout this template
+  \usepackage{eurosym}
+  \usepackage[sc]{mathpazo} % Use the Palatino font
+  \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+  \usepackage[utf8]{inputenc}
+  \linespread{1.05} % Line spacing-Palatino needs more space between lines
+  \usepackage{microtype} % Slightly tweak font spacing for aesthetics\[IndentingNewLine]
+  \usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+  \usepackage{multicol} % Used for the two-column layout of the document
+  \usepackage[hang,small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under//above floats in tables or figures
+  \usepackage{booktabs} % Horizontal rules in tables
+  \usepackage{float} % Required for tables and figures in the multi-column environment-they need to be placed in specific locations with the[H] (e.g. \begin{table}[H])
+  \usepackage{hyperref} % For hyperlinks in the PDF
+  \usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+  \usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+  \usepackage{abstract} % Allows abstract customization
+  \renewcommand{\abstractnamefont}{\normalfont\bfseries} 
+  %\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text\[IndentingNewLine]
+  \usepackage{titlesec} % Allows customization of titles
+  \renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+  \renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
+  \titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+  \titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+  \usepackage{fancyhdr} % Headers and footers
+  \pagestyle{fancy} % All pages have headers and footers
+  \fancyhead{} % Blank out the default header
+  \fancyfoot{} % Blank out the default footer
+  \fancyhead[C]{X-meeting $\bullet$ October 2019 $\bullet$ Campos do  Jord\~ao} % Custom header text
+  \fancyfoot[RO,LE]{} % Custom footer text
+  %----------------------------------------------------------------------------------------
+  % TITLE SECTION
+  %---------------------------------------------------------------------------------------- 
+ 
+ \title{\vspace{-15mm}\fontsize{24pt}{10pt}\selectfont\textbf{ A new bioinformatics pipeline to identify schistosomiasis vaccine candidates from a phage-display assay }} % Article title
+  
+  
+  \author{ Jo\~ao Vicente de Morais Malvezzi, Sergio Verjovski-Almeida }
+  
+  \affil{ Instituto Butantan }
+  \vspace{-5mm}
+  \date{}
+  
+  %---------------------------------------------------------------------------------------- 
+  
+  \begin{document}
+  
+  
+  \maketitle % Insert title
+  
+  
+  \thispagestyle{fancy} % All pages have headers and footers
+  %----------------------------------------------------------------------------------------  
+  % ABSTRACT
+  
+  %----------------------------------------------------------------------------------------  
+  
+  \begin{abstract}
+  Some species of  Schistosoma spp. are haemoparasites that cause schistosomiasis,  affecting more than two hundred million people worldwide. In Brazil,  the etiological agent is S. mansoni. Since the publication of its transcriptome in 2003,  little success has been achieved in tests of vaccine candidates,  and new methods for recognizing new targets are required. In the present study,  we have applied a phage immunoprecipitation followed by sequencing (PhIP-Seq) and employs self-healed rhesus macaques antibodies against S. mansoni to capture antigenic peptides from a phage-display library constructed by us with synthetic oligonucleotides that encode all fragments of all S. mansoni proteins having known sequences,  with the aim of identifying new epitopes for a vaccine against schistosomiasis. We developed a bioinformatics pipeline to analyze the data that will be obtained by PhIP-Seq. For each FASTQ the pipeline applies steps of quality control,  preprocessing,  read mapping against the oligonucleotides library,  and count the reads mapped to each oligonucleotide sequence to generate a table of read counts for each sample. The count tables are processed with a script in R which will identify enriched peptides for each sample. To find enriched peptides in the immunoprecipitated phages compared with peptides abundance in the total (non-precipitated),  three scripts were created using different statistical approaches:1) Zero-Inflated Generalized Poisson (ZIGP) distribution,   2) Negative Binomial (NB) distribution,  and 3) Z-score. To test these scripts,  we used a real PhIP-Seq dataset from a phage-display library of human-virus protein fragments containing 96, 179 peptides screened with 10 human serum samples with two replicates each. The ZIGP script identified 1, 757 peptides as enriched,  whereas NB script and Z-score script identified 1, 243 and  2, 369,  respectively. ZIGP and NB scripts identified 1, 126 peptides in common,  while only 30 peptides were enriched by the three methods. These results show that the NB is more stringent,  returning fewer peptides in comparison to the other methods. Noteworthy is that a more robust group of enriched peptides is acquired when using the intersected result between NB and ZIGP when compared with those enriched peptides returned by Z-score method. Given that,  this pipeline will be applied to search for antigens of S. mansoni recognized by the antibodies from twelve self-healed rhesus macaques sera. We expect to find groups of macaques that developed antibodies for different antigens or even the same antibodies at different times after infection and healing. Probably those proteins targeted by the macaques' antibodies are critical for the survival of the parasite. Thus,  we expect to identify several new parasite antigens candidates that can be tested in future studies to generate a vaccine against schistosomiasis.
+  
+  Funding: FASPESP \\ 
+  \end{abstract}
+  \end{document} 

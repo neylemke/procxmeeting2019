@@ -1,0 +1,65 @@
+
+  \documentclass[twoside]{article}
+  \usepackage[affil-it]{authblk}
+  \usepackage{lipsum} % Package to generate dummy text throughout this template
+  \usepackage{eurosym}
+  \usepackage[sc]{mathpazo} % Use the Palatino font
+  \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+  \usepackage[utf8]{inputenc}
+  \linespread{1.05} % Line spacing-Palatino needs more space between lines
+  \usepackage{microtype} % Slightly tweak font spacing for aesthetics\[IndentingNewLine]
+  \usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+  \usepackage{multicol} % Used for the two-column layout of the document
+  \usepackage[hang,small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under//above floats in tables or figures
+  \usepackage{booktabs} % Horizontal rules in tables
+  \usepackage{float} % Required for tables and figures in the multi-column environment-they need to be placed in specific locations with the[H] (e.g. \begin{table}[H])
+  \usepackage{hyperref} % For hyperlinks in the PDF
+  \usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+  \usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+  \usepackage{abstract} % Allows abstract customization
+  \renewcommand{\abstractnamefont}{\normalfont\bfseries} 
+  %\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text\[IndentingNewLine]
+  \usepackage{titlesec} % Allows customization of titles
+  \renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+  \renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
+  \titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+  \titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+  \usepackage{fancyhdr} % Headers and footers
+  \pagestyle{fancy} % All pages have headers and footers
+  \fancyhead{} % Blank out the default header
+  \fancyfoot{} % Blank out the default footer
+  \fancyhead[C]{X-meeting $\bullet$ October 2019 $\bullet$ Campos do  Jord\~ao} % Custom header text
+  \fancyfoot[RO,LE]{} % Custom footer text
+  %----------------------------------------------------------------------------------------
+  % TITLE SECTION
+  %---------------------------------------------------------------------------------------- 
+ 
+ \title{\vspace{-15mm}\fontsize{24pt}{10pt}\selectfont\textbf{ Alterations in whole blood long non-coding RNA expression following Chikungunya viral infection }} % Article title
+  
+  
+  \author{ Maria Fernanda Silva Lopes, Juliana de Souza Felix, Flavia Regina Florencio de Athayde, Mariana Cordeiro Almeida, Nayra Cristina Herreira do Valle, Nat\'alia Francisco Scaramele, Flavia Lombardi Lopes }
+  
+  \affil{ FMVA-Unesp }
+  \vspace{-5mm}
+  \date{}
+  
+  %---------------------------------------------------------------------------------------- 
+  
+  \begin{document}
+  
+  
+  \maketitle % Insert title
+  
+  
+  \thispagestyle{fancy} % All pages have headers and footers
+  %----------------------------------------------------------------------------------------  
+  % ABSTRACT
+  
+  %----------------------------------------------------------------------------------------  
+  
+  \begin{abstract}
+  Chikungunya fever is an arboviral infection caused by the Chikungunya virus (CHIKV) and transmitted by mosquitoes of Aedes genus,  mainly Aedes aegypti. Mosquito-borne arboviral infections,  such as Chikungunya fever,  are major challenges for public health and simultaneous circulation of CHIKV and dengue virus makes differential diagnosis difficult. Disease is characterized by rapid onset of fever,  severe arthralgia (which can persist for months or years),  myalgia,  headache and rash,  and even neurological manifestations in pediatric cases,  from febrile seizures to meningeal syndrome,  acute encephalopathy and encephalitis. Gene transcription and translation are intensely controlled by epigenetic processes,  ensuring a temporal and tissue regulation of gene expression. Long non-coding RNAs (lncRNAs) can act as an important epigenetic regulator in various cellular functions,  such as recruitment of transcriptional regulators,  stabilizing mRNAs through protein recruitment,  preventing degradation,  and others. The aim of this study was to identify differentially expressed lncRNAs between acute and convalescent phases of the disease,  on available RNA-Seq data from 16 whole blood samples of pediatric patients,  naturally infected by CHIKV (GSE99992). Sequencing reads were aligned with the aid of the HISAT2 tool,  using assembly Homo sapiens (b38) hg38 as a reference genome. For lncRNAs identification we employed a pipeline implemented on the Flexible Extraction of Long non-coding RNAs (FEELnc) platform. For lncRNA counting and differential expression analysis,  HTseq-count and DESeq2 tools,  available on Galaxy platform,  were used,  respectively. We found 48 differentially expressed known lncRNAs (FDR<0.05),  of which 39 were upregulated and  9 were downregulated during the convalescent phase,  when compared to the acute phase. LncRNA2Target v2.0 platform indicated that WFDC21P (ENSG00000261040) lncRNA,  also known as lnc-DC,  was shown to control 16 target genes,  associated with dendritic cell differentiation. Thus,  at this point we can infer that lncRNA expression is regulated by CHIKV infection in whole blood cells and may affect immune response regulation in pediatric patients.
+  
+  Funding: CNPq/PIBIC,  CAPES (MS and PhD scholarships) and FAPESP (IC and MS scholarships). \\ 
+  \end{abstract}
+  \end{document} 

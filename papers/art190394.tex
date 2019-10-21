@@ -1,0 +1,65 @@
+
+  \documentclass[twoside]{article}
+  \usepackage[affil-it]{authblk}
+  \usepackage{lipsum} % Package to generate dummy text throughout this template
+  \usepackage{eurosym}
+  \usepackage[sc]{mathpazo} % Use the Palatino font
+  \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+  \usepackage[utf8]{inputenc}
+  \linespread{1.05} % Line spacing-Palatino needs more space between lines
+  \usepackage{microtype} % Slightly tweak font spacing for aesthetics\[IndentingNewLine]
+  \usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+  \usepackage{multicol} % Used for the two-column layout of the document
+  \usepackage[hang,small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under//above floats in tables or figures
+  \usepackage{booktabs} % Horizontal rules in tables
+  \usepackage{float} % Required for tables and figures in the multi-column environment-they need to be placed in specific locations with the[H] (e.g. \begin{table}[H])
+  \usepackage{hyperref} % For hyperlinks in the PDF
+  \usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+  \usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+  \usepackage{abstract} % Allows abstract customization
+  \renewcommand{\abstractnamefont}{\normalfont\bfseries} 
+  %\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text\[IndentingNewLine]
+  \usepackage{titlesec} % Allows customization of titles
+  \renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+  \renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
+  \titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+  \titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+  \usepackage{fancyhdr} % Headers and footers
+  \pagestyle{fancy} % All pages have headers and footers
+  \fancyhead{} % Blank out the default header
+  \fancyfoot{} % Blank out the default footer
+  \fancyhead[C]{X-meeting $\bullet$ October 2019 $\bullet$ Campos do  Jord\~ao} % Custom header text
+  \fancyfoot[RO,LE]{} % Custom footer text
+  %----------------------------------------------------------------------------------------
+  % TITLE SECTION
+  %---------------------------------------------------------------------------------------- 
+ 
+ \title{\vspace{-15mm}\fontsize{24pt}{10pt}\selectfont\textbf{ Differences in long non-coding RNA expression in Localized Cutaneous and Mucosal Leishmaniasis }} % Article title
+  
+  
+  \author{ Nat\'alia Francisco Scaramele, Mariana Cordeiro Almeida, Maria Fernanda Silva Lopes, Flavia Regina Florencio de Athayde, Juliana de Souza Felix, Nayra Cristina Herreira do Valle, Flavia Lombardi Lopes }
+  
+  \affil{ FMVA-Unesp }
+  \vspace{-5mm}
+  \date{}
+  
+  %---------------------------------------------------------------------------------------- 
+  
+  \begin{document}
+  
+  
+  \maketitle % Insert title
+  
+  
+  \thispagestyle{fancy} % All pages have headers and footers
+  %----------------------------------------------------------------------------------------  
+  % ABSTRACT
+  
+  %----------------------------------------------------------------------------------------  
+  
+  \begin{abstract}
+  Leishmaniasis is a disease caused by a protozoa of the Leishmania genus,  and it is considered a serious public health problem,  being endemic in 98 countries. American tegumentary leishmaniasis (ATL) is responsible for Localized Cutaneous Leishmaniasis (LCL),  simplest form of disease,  and for more serious clinical evolution forms such as Mucosal Leishmaniasis (MCL). A set of processes called epigenetic mechanisms guarantee time-tissue regulation of gene expression,  and one such process is mediated by long non-coding RNAs (lncRNAs) that act in several cellular mechanisms,  such as gene expression regulation,  leading to gene silencing or activation,  recruitment of transcriptional factors,  among others. The present study aimed to identify annotated lncRNAs expressed in patients with primary cutaneous leishmaniasis (LCL form) and to compare with those expressed in  mucosal lesions (MCL form). RNA-seq data was obtained from NCBI GEO - Datasets GSE3360,  consisting of 10 human samples of primary skin ulcers of Localized Cutaneous Leishmaniasis - LCL (n=5) and Mucosal Leishmaniasis – MCL (n=5). Briefly,  reads were aligned using the HISAT2 tool taking as a reference genome the assembly Homo Sapiens (b38) hg38. LncRNA identification and annotation were performed through the pipeline implemented in the Flexible Extraction of Long non-coding RNAs (FEELnc) platform. To quantify gene expression and analyze the differential expression of lncRNAs,  the HTseq-count and DESeq2 tools were used,  respectively,  available on the Galaxy platform. Sixteen differentially expressed lncRNAs were found between LCL versus MCL (FDR-adjusted p<0.05). Of those,  5 showed increased expression in Mucosal Leishmaniasis,  and 11 were more expressed in Localized Cutaneous Leishmaniasis. Using lncRNADisease v2.0 platform we found 3 mRNA (TPST2,  CRYBB1 AND CRYBA4) as targets of the lncRNA MIAT,  which also function as a sponge for miR-24,  and was upregulated in the MCL form. Thus far,  our data suggests a change in lncRNA expression profile between different clinical forms (Localized Cutaneous and Mucosal) of the disease,  indicating a possible role for these non-coding RNAs in tegumentary leishmaniasis.
+  
+  Funding: CNPq/PIBIC,  CAPES (MS and PhD scholarships) and FAPESP (IC and MS scholarships). \\ 
+  \end{abstract}
+  \end{document} 

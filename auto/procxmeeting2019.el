@@ -12,6 +12,7 @@
     "proctext"
     "posters"
     "papers"
+    "teses"
     "confprocxmeeting"
     "confprocxmeeting10"
     "inputenc"

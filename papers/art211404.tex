@@ -58,31 +58,7 @@
   %----------------------------------------------------------------------------------------  
   
   \begin{abstract}
-  Neuroblastoma is an extracranial solid tumor,  very heterogeneous and with highly predictive clinical
-behavior. It mainly affects individuals under 15 years old and it is classified according to the International
-Neuroblastoma Staging System (INSS) and the International Neuroblastoma Pathology Classification
-(INPC). With Next Generation Sequencing (NGS) technologies,  performing gene expression profiling of
-tumors has become more common,  especially through RNA-seq. The amount of data generated, 
-however,  is large. Thus,  the application of meta-analysis and functional enrichment techniques become
-indispensable for a more effective study. In this paper,  based on the RNA-seq gene expression profile of
-498 patients,  we performed a meta-analysis and a functional enrichment analysis searching for
-significant gene groups in order to characterize the 5 major tumor stages according to the INSS stage
-classification. The data were grouped according to these stages and the meta-analysis was performed in
-the programming environment R with WGCNA package and its function metaAnalysis,  which uses the
-Stouffer method and generates p-values for each of the genes present in the samples. These p-values
-were corrected by FDR (False Discovery Rate) with the p.adjust function of the Stats R package, 
-generating a q-value. Only q-values lower than 0.05 were considered to be significant. Functional
-enrichment analysis was done by ADAM R package,  comparing,  two by two,  each of the tumor stages
-(10 comparisons). For each comparison,  genes were regrouped according to their functions based on
-Gene Ontology (biological processes,  molecular functions and cellular components) and pathways from
-the KEGG repository. For each functional group,  q-values were calculated for gene diversity and gene
-activity. Significant genes obtained with meta-analysis were related to significant groups (only groups
-with q-value lower than 0.05) obtained by functional enrichment. We found 5163 significant genes in
-meta-analysis. By relating these genes to the most important functional groups,  we noticed an increase
-in gene and functional specificity proportional to the considered tumor stage. An example of this can be
-observed when comparing stages 1 and 2 and 1 and 4 for gene activity and biological processes. In the
-first comparison (1 and 2),  we observed 3631 functional groups and 1164 genes. However,  in the second
-(1 and 4) we noticed 189 groups and 330 significant genes related to them.
+  Neuroblastoma is an extracranial solid tumor,  very heterogeneous and with highly predictive clinical behavior. It mainly affects individuals under 15 years old and it is classified according to the International Neuroblastoma Staging System (INSS) and the International Neuroblastoma Pathology Classification (INPC). With Next Generation Sequencing (NGS) technologies,  performing gene expression profiling of tumors has become more common,  especially through RNA-seq. The amount of data generated,  however,  is large. Thus,  the application of meta-analysis and functional enrichment techniques become indispensable for a more effective study. In this paper,  based on the RNA-seq gene expression profile of 498 patients,  we performed a meta-analysis and a functional enrichment analysis searching for significant gene groups in order to characterize the 5 major tumor stages according to the INSS stage classification. The data were grouped according to these stages and the meta-analysis was performed in the programming environment R with WGCNA package and its function metaAnalysis,  which uses the Stouffer method and generates p-values for each of the genes present in the samples. These p-values were corrected by FDR (False Discovery Rate) with the p.adjust function of the Stats R package,  generating a q-value. Only q-values lower than 0.05 were considered to be significant. Functional enrichment analysis was done by ADAM R package,  comparing,  two by two,  each of the tumor stages (10 comparisons). For each comparison,  genes were regrouped according to their functions based on Gene Ontology (biological processes,  molecular functions and cellular components) and pathways from the KEGG repository. For each functional group,  q-values were calculated for gene diversity and gene activity. Significant genes obtained with meta-analysis were related to significant groups (only groups with q-value lower than 0.05) obtained by functional enrichment. We found 5163 significant genes in meta-analysis. By relating these genes to the most important functional groups,  we noticed an increase in gene and functional specificity proportional to the considered tumor stage. An example of this can be observed when comparing stages 1 and 2 and 1 and 4 for gene activity and biological processes. In the first comparison (1 and 2),  we observed 3631 functional groups and 1164 genes. However,  in the second (1 and 4) we noticed 189 groups and 330 significant genes related to them.
   
   Funding: CAPES \\ 
   \end{abstract}

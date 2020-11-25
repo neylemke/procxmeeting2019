@@ -1,0 +1,68 @@
+
+  \documentclass[twoside]{article}
+  \usepackage[affil-it]{authblk}
+  \usepackage{lipsum} % Package to generate dummy text throughout this template
+  \usepackage{eurosym}
+  \usepackage[sc]{mathpazo} % Use the Palatino font
+  \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+  \usepackage[utf8]{inputenc}
+  \linespread{1.05} % Line spacing-Palatino needs more space between lines
+  \usepackage{microtype} % Slightly tweak font spacing for aesthetics\[IndentingNewLine]
+  \usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+  \usepackage{multicol} % Used for the two-column layout of the document
+  \usepackage[hang,small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under//above floats in tables or figures
+  \usepackage{booktabs} % Horizontal rules in tables
+  \usepackage{float} % Required for tables and figures in the multi-column environment-they need to be placed in specific locations with the[H] (e.g. \begin{table}[H])
+  \usepackage{hyperref} % For hyperlinks in the PDF
+  \usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+  \usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+  \usepackage{abstract} % Allows abstract customization
+  \renewcommand{\abstractnamefont}{\normalfont\bfseries} 
+  %\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text\[IndentingNewLine]
+  \usepackage{titlesec} % Allows customization of titles
+  \renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+  \renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
+  \titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+  \titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+  \usepackage{fancyhdr} % Headers and footers
+  \pagestyle{fancy} % All pages have headers and footers
+  \fancyhead{} % Blank out the default header
+  \fancyfoot{} % Blank out the default footer
+  \fancyhead[C]{X-meeting eXperience $\bullet$ November 2020} % Custom header text
+  \fancyfoot[RO,LE]{} % Custom footer text
+  %----------------------------------------------------------------------------------------
+  % TITLE SECTION
+  %---------------------------------------------------------------------------------------- 
+ 
+ \title{\vspace{-15mm}\fontsize{24pt}{10pt}\selectfont\textbf{ COMPUTATIONAL PIPELINE FOR THE IDENTIFICATION OF HLA SOMATIC MUTATIONS: CAN SNV/INDELS EXPLAIN IMMUNOTHERAPY FAILURE IN NON-MUSCLE INVASIVE BLADDER CANCER? }} % Article title
+  
+  
+  \author{ Giulia W. Frigugliett,  Diogo A Bastos,  Vitor Rezende da Costa Aguiar,  Fabiana Bettoni,  Diogo Meyer,  Erick da Cruz Castelli,  Anamaria A. Camargo,  Cibele Masotti,  Ramon Torreglosa do Carmo }
+  
+  \affil{ Instituto S\'{\i}rio-Liban\^es de Ensino e Pesquisa,  HSL Hospital S\'{\i}rio liban\^es }
+  \vspace{-5mm}
+  \date{}
+  
+  %---------------------------------------------------------------------------------------- 
+  
+  \begin{document}
+  
+  
+  \maketitle % Insert title
+  
+  
+  \thispagestyle{fancy} % All pages have headers and footers
+  %----------------------------------------------------------------------------------------  
+  % ABSTRACT
+  
+  %----------------------------------------------------------------------------------------  
+  
+  \begin{abstract}
+  The treatment for non-muscle invasive bladder cancer (NMIBC) is the complete transurethral resection of the tumor,  followed by adjuvant immunotherapy with intravesical BCG (attenuated Bacillus Calmette-Gu\'erin) instillations in high-risk cases of recurrence or progression. BCG immunotherapy significantly decreases the risk of disease recurrence through the stimulation of anti-tumoral immune response. A fraction of patients does not respond to BCG: 30-40\% relapse and 10-25\% progress to muscle-invasive forms. There are no predictive biomarkers of BCG response in clinical practice,  but,  as we learn from immunotherapy with immune checkpoint inhibitors,  a number of molecular biomarkers have been related to the antigen presentation mechanism. Human Leukocyte Antigen (HLA) class-I molecules present neoantigens at the tumor cell surface and anti-tumoral response may occur. Therefore,  HLA somatic mutations (SNVs/INDELs),  large deletions or transcriptional silencing may also occur as tumor immune evasion mechanisms. We hypothesized that somatic mutations in HLA impair the tumor antigen presentation and the BCG-promoted anti-tumoral cytotoxic immune response. We aim at quantifying the frequency of this immune evasion mechanism occurring in the context of BCG resistance using NMIBC tumor-only exome sequencing data. Due to high polymorphism,  the detection of somatic INDELs and SNVs in HLA genes is a challenge,  as unmapped or low quality read mapping interfere in variant calling. We approached this issue through a local pipeline with a multi-referenced genomic alignment (using not a single reference genome,  but all HLA alleles described in public databases and Brazilian population allelic frequencies) to evaluate 6 Class-I genes (HLA-A,  HLA-B,  HLA-C,  HLA-E,  HLA-F,  and HLA-G) across 34 primary tumors of BCG-treated patients (16 responsive and 18 unresponsive). We identified 19 mutations (14 SNVs and 5 INDELs) in 13 patients,  mostly in HLA-B and HLA-F. Exons 2 and 3 had 52\% of the detected mutations (at the antigen-presentation pocket),  and exon 4 had 37\%,  a domain of HLA-TCR recognition. Tumors from BCG-unresponsive individuals (n=6) did not present significantly more somatic mutations as compared to BCG-responsive (n=5; Fisher’s exact test p=1). Also,  we did not observe a significant correlation between HLA mutation status and relapse-free survival (Log-rank test p=0.94) or tumor mutational burden status (Fisher’s exact test p=0.71),  an expected result due to our unpowered sample. This is the first evaluation of HLA somatic variation in the context of BCG response,  and we are refining our pipeline in empowered public genomic datasets.
+  
+  Funding:   \\
+  \href{http://ab3c.org.br/xpress_pres2020/xmxp2020-297651.html}{Link to Video:}
+
+  \end{abstract}
+   
+  \end{document} 

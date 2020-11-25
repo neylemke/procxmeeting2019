@@ -1,0 +1,68 @@
+
+  \documentclass[twoside]{article}
+  \usepackage[affil-it]{authblk}
+  \usepackage{lipsum} % Package to generate dummy text throughout this template
+  \usepackage{eurosym}
+  \usepackage[sc]{mathpazo} % Use the Palatino font
+  \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+  \usepackage[utf8]{inputenc}
+  \linespread{1.05} % Line spacing-Palatino needs more space between lines
+  \usepackage{microtype} % Slightly tweak font spacing for aesthetics\[IndentingNewLine]
+  \usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+  \usepackage{multicol} % Used for the two-column layout of the document
+  \usepackage[hang,small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under//above floats in tables or figures
+  \usepackage{booktabs} % Horizontal rules in tables
+  \usepackage{float} % Required for tables and figures in the multi-column environment-they need to be placed in specific locations with the[H] (e.g. \begin{table}[H])
+  \usepackage{hyperref} % For hyperlinks in the PDF
+  \usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+  \usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+  \usepackage{abstract} % Allows abstract customization
+  \renewcommand{\abstractnamefont}{\normalfont\bfseries} 
+  %\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text\[IndentingNewLine]
+  \usepackage{titlesec} % Allows customization of titles
+  \renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+  \renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
+  \titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+  \titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+  \usepackage{fancyhdr} % Headers and footers
+  \pagestyle{fancy} % All pages have headers and footers
+  \fancyhead{} % Blank out the default header
+  \fancyfoot{} % Blank out the default footer
+  \fancyhead[C]{X-meeting eXperience $\bullet$ November 2020} % Custom header text
+  \fancyfoot[RO,LE]{} % Custom footer text
+  %----------------------------------------------------------------------------------------
+  % TITLE SECTION
+  %---------------------------------------------------------------------------------------- 
+ 
+ \title{\vspace{-15mm}\fontsize{24pt}{10pt}\selectfont\textbf{ A machine-learning scoring function for protein-ligand molecular docking }} % Article title
+  
+  
+  \author{ Oscar Emilio Arr\'ua Arce,  Andrej Aderhold,  Adriano Velasque Werhli,  Karina dos Santos Machado }
+  
+  \affil{ Universidade Federal do Rio Grande - FURG,  UNIVERSIDADE FEDERAL DO RIO GRANDE }
+  \vspace{-5mm}
+  \date{}
+  
+  %---------------------------------------------------------------------------------------- 
+  
+  \begin{document}
+  
+  
+  \maketitle % Insert title
+  
+  
+  \thispagestyle{fancy} % All pages have headers and footers
+  %----------------------------------------------------------------------------------------  
+  % ABSTRACT
+  
+  %----------------------------------------------------------------------------------------  
+  
+  \begin{abstract}
+  In the field of drug design,  scoring functions are useful for predicting the binding affinity of protein-ligand complexes. Machine learning approaches are showing promising performance as a result of the increasing amount of data regarding biochemical and biophysical processes,  obtained from previous experiments. In this work we propose a machine learning based scoring function for protein-ligand molecular docking. This scoring function was developed according to related works,  where: from protein-ligand complexes (training set) were obtained features of proteins,  ligands and  interactions that are considered as attributes; machine learning methods are to use to train models,  including feature selection techniques and hyperparameters optimization; and test sets that are used to evaluate the proposed scoring functions models. As training set,  we combine the PDBbind 2016 refined and general sets,  CSAR-NRC HiQ and Decoys CSAR-NRC HiQ. As attributes we considered AutoDock Vina score and geometrical,  SFCscore,  solvent-accessible surface area,  DeltaVinaRF20,  protein primary and secondary structure and Vina features. We also considered specific software to generate features as PaDEL Descriptor,  NNScore 2.0 and RDKit. Random Forest and Gaussian Process were compared as machine learning methods,  in addition to LASSO to calculate the weights of the attribute’s importance and GridSearchCV as a technique to hyperparameters optimization. Thus,  the proposed scoring function was evaluated using the CASF-2016 benchmark,  based on Scoring,  Ranking,  Docking and Screening Power. As a result,  for CASF-2016 evaluation,  the proposed scoring function achieved good results,  comparable to the best scoring functions. As Scoring Power,  we obtained 0.81 that corresponds to the Pearson correlation coefficient between predicted affinities and experimental measured affinities. For Ranking Power,  the proposed scoring function achieves a Spearman correlation coefficient of 0.66 between the ranks based on the predicted affinities values and the experimentally ones. For the Docking Power,  the proposed scoring function obtained 86\% success rate in identifying the top best-scored ligand binding pose below 2 $\AA$ root-mean-square deviation from the native pose (and 83.8\% without native poses). Finally,  for Forward Screening Power,  the proposed  scoring function has a got 26.5\% success rate to identifying potential small-molecule ligands for a chosen target protein at the top 1\% level (better than all the scoring functions compared in CASF-2016) while for Reverse Screening Power achieve a 18.5\% success rate in identifying potential target proteins for a bioactive small-molecule compound at the top 1\% level.
+  
+  Funding: CAPES,  CNPq \\
+  \href{http://ab3c.org.br/xpress_pres2020/xmxp2020-303169.html}{Link to Video:}
+
+  \end{abstract}
+   
+  \end{document} 

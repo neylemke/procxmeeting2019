@@ -1,0 +1,68 @@
+
+  \documentclass[twoside]{article}
+  \usepackage[affil-it]{authblk}
+  \usepackage{lipsum} % Package to generate dummy text throughout this template
+  \usepackage{eurosym}
+  \usepackage[sc]{mathpazo} % Use the Palatino font
+  \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+  \usepackage[utf8]{inputenc}
+  \linespread{1.05} % Line spacing-Palatino needs more space between lines
+  \usepackage{microtype} % Slightly tweak font spacing for aesthetics\[IndentingNewLine]
+  \usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+  \usepackage{multicol} % Used for the two-column layout of the document
+  \usepackage[hang,small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under//above floats in tables or figures
+  \usepackage{booktabs} % Horizontal rules in tables
+  \usepackage{float} % Required for tables and figures in the multi-column environment-they need to be placed in specific locations with the[H] (e.g. \begin{table}[H])
+  \usepackage{hyperref} % For hyperlinks in the PDF
+  \usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+  \usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+  \usepackage{abstract} % Allows abstract customization
+  \renewcommand{\abstractnamefont}{\normalfont\bfseries} 
+  %\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text\[IndentingNewLine]
+  \usepackage{titlesec} % Allows customization of titles
+  \renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+  \renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
+  \titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+  \titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+  \usepackage{fancyhdr} % Headers and footers
+  \pagestyle{fancy} % All pages have headers and footers
+  \fancyhead{} % Blank out the default header
+  \fancyfoot{} % Blank out the default footer
+  \fancyhead[C]{X-meeting eXperience $\bullet$ November 2020} % Custom header text
+  \fancyfoot[RO,LE]{} % Custom footer text
+  %----------------------------------------------------------------------------------------
+  % TITLE SECTION
+  %---------------------------------------------------------------------------------------- 
+ 
+ \title{\vspace{-15mm}\fontsize{24pt}{10pt}\selectfont\textbf{ Metatranscriptomics analysis reveals diverse viral RNA in cutaneous papillomatous lesions and normal tissues of cattle }} % Article title
+  
+  
+  \author{ GERLANE DOS SANTOS BARROS,  Marcus Vinicius de Arag\~ao Batista,  Adriana de Oliveira Fernandes }
+  
+  \affil{ Federal University of Sergipe }
+  \vspace{-5mm}
+  \date{}
+  
+  %---------------------------------------------------------------------------------------- 
+  
+  \begin{document}
+  
+  
+  \maketitle % Insert title
+  
+  
+  \thispagestyle{fancy} % All pages have headers and footers
+  %----------------------------------------------------------------------------------------  
+  % ABSTRACT
+  
+  %----------------------------------------------------------------------------------------  
+  
+  \begin{abstract}
+  Bovine papillomavirus (BPV) is the pathogen associated with bovine papillomatosis,  which mainly affects domestic cattle and acts by forming benign warts in epithelial tissues,  as well as malignant lesions. Studies which aim to promote the molecular detection have shown that the same animal could be infected not only by BPV,  but also by other viruses,  in a way similar to humans. Thus,  it is possible that these coinfections may influence the disease progression. Therefore,  this study aimed to identify and describe the functions of viral genes in cutaneous papillomatous lesions and normal tissues in cattle through a metatranscriptomic approach. A RNA-seq computational pipeline was used to analyse six libraries of RNA sequences from epithelial tissues from bovines,  three of them from cutaneous papillomatous lesions and other three from normal tissues. Sequences were obtained from Gene Expression Omnibus (GEO) database. Trinity was used to assemble reads into contigs and Bowtie2 was used to map the reads with the bovine reference genome. Non-mapped sequences were converted into FASTA format to undergo a BLASTx search against the Swissprot viral protein database. Functional annotation of the expressed viral genes was performed using Blast2GO,  KEGG and STRING. In total,  106.740.353 raw paired reads were obtained,  which resulted in 183.333 after assembling,  mapping and filtering to recover only the non-mapped contigs. We have found a total of 25 viral families,  being 25 of them present in the cutaneous papillomatous lesions and 24 in the normal tissues. It was possible to notice that both libraries shared similarities in term of viruses and genes found,  and that the most prominent viral families were of clinical interest,  such as Poxviridae,  Retroviridae and Herpesviridae. The functional annotation revealed that the expressed genes had functions related to viral replication,  immune suppression,  cell cycle malfunctions and cell growth. In this study we managed to identify several viral families in bovine warts and normal cutaneous tissues with expressed genes related to several cell cycle control activity. This analysis is vital to extend the knowledge regarding the viral diversity in bovine papillomatous lesions and to aid in the compreheension of the clinical implications of theses viruses within the main disease.
+  
+  Funding:   \\
+  \href{http://ab3c.org.br/xpress_pres2020/xmxp2020-294641.html}{Link to Video:}
+
+  \end{abstract}
+   
+  \end{document} 

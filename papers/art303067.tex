@@ -1,0 +1,70 @@
+
+  \documentclass[twoside]{article}
+  \usepackage[affil-it]{authblk}
+  \usepackage{lipsum} % Package to generate dummy text throughout this template
+  \usepackage{eurosym}
+  \usepackage[sc]{mathpazo} % Use the Palatino font
+  \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+  \usepackage[utf8]{inputenc}
+  \linespread{1.05} % Line spacing-Palatino needs more space between lines
+  \usepackage{microtype} % Slightly tweak font spacing for aesthetics\[IndentingNewLine]
+  \usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+  \usepackage{multicol} % Used for the two-column layout of the document
+  \usepackage[hang,small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under//above floats in tables or figures
+  \usepackage{booktabs} % Horizontal rules in tables
+  \usepackage{float} % Required for tables and figures in the multi-column environment-they need to be placed in specific locations with the[H] (e.g. \begin{table}[H])
+  \usepackage{hyperref} % For hyperlinks in the PDF
+  \usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+  \usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+  \usepackage{abstract} % Allows abstract customization
+  \renewcommand{\abstractnamefont}{\normalfont\bfseries} 
+  %\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text\[IndentingNewLine]
+  \usepackage{titlesec} % Allows customization of titles
+  \renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+  \renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
+  \titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+  \titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+  \usepackage{fancyhdr} % Headers and footers
+  \pagestyle{fancy} % All pages have headers and footers
+  \fancyhead{} % Blank out the default header
+  \fancyfoot{} % Blank out the default footer
+  \fancyhead[C]{X-meeting eXperience $\bullet$ November 2020} % Custom header text
+  \fancyfoot[RO,LE]{} % Custom footer text
+  %----------------------------------------------------------------------------------------
+  % TITLE SECTION
+  %---------------------------------------------------------------------------------------- 
+ 
+ \title{\vspace{-15mm}\fontsize{24pt}{10pt}\selectfont\textbf{ Which substilisin/kexin like proprotein convertases PCSKs might be or not be implicated in SARS-Cov-2 cell to cell infection? }} % Article title
+  
+  
+  \author{ Jos\'e Miguel Ortega,  Lucianna Helene Silva dos Santos,  Lucas Bleicher,  Arthur Pereira Fonseca }
+  
+  \affil{ UNIVERSIDADE FEDERAL DE MINAS GERAIS,  IOC/Fiocruz,  UFMG,  UNIVERSIDADE FEDERAL DE MINAS GERAIS }
+  \vspace{-5mm}
+  \date{}
+  
+  %---------------------------------------------------------------------------------------- 
+  
+  \begin{document}
+  
+  
+  \maketitle % Insert title
+  
+  
+  \thispagestyle{fancy} % All pages have headers and footers
+  %----------------------------------------------------------------------------------------  
+  % ABSTRACT
+  
+  %----------------------------------------------------------------------------------------  
+  
+  \begin{abstract}
+  The severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) infection became pandemic and has boosted research on possible treatments and medicines. Apparently,  the virus has undergone a series of genetic mutations,  allowing it to efficiently infect humans. One of these mutations is the insertion of a cleavage site on its spike protein,  which is expected to be target of at least one protein convertase from the PCSK (substilisin/kexin like proprotein convertase) subtype: Furin,  also known as PCSK3. When it is cleaved the spike is divided into two subunits,  which increases significantly the virus cell to cell infection. In total there are nine PCSKs with varying tissue distributions. These enzymes contain a catalytic triad,  Asp-His-Ser,  and an oxyanion hole,  Asn,  in the peptidase domain. 
+We set out to investigate which PCSKs may act cleaving the spike protein. We searched the coronavirus spike protein loop bearing the putative cleavage site and prepared it in pdb format. Then we docked this peptide to the PCSKs,  using CABSdock,  asking if they would bind it at the catalytic domain. Later we ran this complex in a molecular dynamic for 100 ns using NAMD.
+Hitherto,  results for five convertases indicate preferential cleavage by a subset and not all enzymes. Furin and PCSK2 showed similar results,  with the peptide bound in the catalytic site and contacting the catalytic triad and oxyanion hole. Preliminary results (30 ns) indicate that PCSK9 may also cleavage the spike loop. In contrast,  in PCSK1 and PCSK5 complexes the peptide disconnected from the active site and moved around freely,  although managing to attain an initial correct docking,  indicating wispy efficiency on the spike cleavage. MBTPS1 (PCSK8) is the most distant in the family and a modeled structure was obtained by threading with C-I-Tasser; the enzyme was discarded because the model was unable to dock the peptide correctly in the catalytic domain. Dinamics analysis for PCSKs 4,  6 and 7 are currently running and might be reported in the conference. Furin is inhibited by Pirfenidone and PCSK9 by evolocumabe. But as PCSK2 emerged as a new possible enzyme acting on the coronavirus,  a search on Drugbank showed that there is no currently inhibitor for it. We then suggest that,  once proven in vitro,  this convertase should be target of new drugs to suppress its activity.
+  
+  Funding: Support: CAPES \\
+  \href{http://ab3c.org.br/xpress_pres2020/xmxp2020-303067.html}{Link to Video:}
+
+  \end{abstract}
+   
+  \end{document} 

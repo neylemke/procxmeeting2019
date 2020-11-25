@@ -1,0 +1,68 @@
+
+  \documentclass[twoside]{article}
+  \usepackage[affil-it]{authblk}
+  \usepackage{lipsum} % Package to generate dummy text throughout this template
+  \usepackage{eurosym}
+  \usepackage[sc]{mathpazo} % Use the Palatino font
+  \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+  \usepackage[utf8]{inputenc}
+  \linespread{1.05} % Line spacing-Palatino needs more space between lines
+  \usepackage{microtype} % Slightly tweak font spacing for aesthetics\[IndentingNewLine]
+  \usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+  \usepackage{multicol} % Used for the two-column layout of the document
+  \usepackage[hang,small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under//above floats in tables or figures
+  \usepackage{booktabs} % Horizontal rules in tables
+  \usepackage{float} % Required for tables and figures in the multi-column environment-they need to be placed in specific locations with the[H] (e.g. \begin{table}[H])
+  \usepackage{hyperref} % For hyperlinks in the PDF
+  \usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+  \usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+  \usepackage{abstract} % Allows abstract customization
+  \renewcommand{\abstractnamefont}{\normalfont\bfseries} 
+  %\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text\[IndentingNewLine]
+  \usepackage{titlesec} % Allows customization of titles
+  \renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+  \renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
+  \titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+  \titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+  \usepackage{fancyhdr} % Headers and footers
+  \pagestyle{fancy} % All pages have headers and footers
+  \fancyhead{} % Blank out the default header
+  \fancyfoot{} % Blank out the default footer
+  \fancyhead[C]{X-meeting eXperience $\bullet$ November 2020} % Custom header text
+  \fancyfoot[RO,LE]{} % Custom footer text
+  %----------------------------------------------------------------------------------------
+  % TITLE SECTION
+  %---------------------------------------------------------------------------------------- 
+ 
+ \title{\vspace{-15mm}\fontsize{24pt}{10pt}\selectfont\textbf{ Pathway analysis of target-genes for microRNAs related the pathophysiology of Pre-eclampsia }} % Article title
+  
+  
+  \author{ Izabela Mamede Costa Andrade da Concei\c{c}\~ao,  Jo\~ao Rafael Gon\c{c}alves Pereira,  Marcelo Rizzatti Luizon,  Graziele Pimentel Coelho Almeida }
+  
+  \affil{ UNIVERSIDADE FEDERAL DE MINAS GERAIS,  UFMG }
+  \vspace{-5mm}
+  \date{}
+  
+  %---------------------------------------------------------------------------------------- 
+  
+  \begin{document}
+  
+  
+  \maketitle % Insert title
+  
+  
+  \thispagestyle{fancy} % All pages have headers and footers
+  %----------------------------------------------------------------------------------------  
+  % ABSTRACT
+  
+  %----------------------------------------------------------------------------------------  
+  
+  \begin{abstract}
+  Pre-eclampsia (PE) is defined as arterial hypertension (systolic blood pressure above or equal to 140 mmHg and/or diastolic blood pressure above or equal 90 mmHg) identified for the first time after the 20th week of gestation which is frequently associated with proteinuria,  among other possible clinical features. PE continues being the major cause of maternal and fetal morbidity and mortality worldwide. However,  there are no predictive biomarkers for PE. MicroRNAs have a prominent role in regulating the amount of RNAs and proteins produced in eukaryotic genes. Due to its broad regulatory potential and its presence on peripheral blood,  microRNAs have been suggested as possible biomarkers for a variety of human conditions including cardiovascular diseases and cancer. Here we propose a way to search for microRNAs which could act as regulators in pathways related to PE pathophysiology,  which could help to find potential biomarkers for PE. From narrative review articles,  five microRNAs were selected which could have potential effects on the PE pathophysiology,  namely miR-210,  miR-126,  miR-152-5p,  miR-216 and miR-148a. The selected microRNAs were then inserted in HARMONIZOME,  a collection of pre-processed datasets,  used in data mining of gene products and proteins,  in order to search for the relation of those five microRNAs with their possible target-genes. A total of 374 genes were found as targets,  which were then submitted to EnrichR,  a tool to functional enrich gene sets used to search for pathways which may participate the target-genes. We used Reactome pathways,  and a total of 15 pathways with a p-value lower to 0.05 were selected for further analysis. The pathway with the highest combined p-value was “Interleukin,  inflammation”,  which represents a key role on PE pathophysiology. This finding suggests that those five microRNAs could regulate inflammatory genes and enhance the inflammatory response in PE. Noteworthy,  “transcription pathways” were also distinctively present,  together with “splicing and gene silencing”. Interestingly,  this finding raises questions about how the mechanisms related to PE may modify the transcriptome. Although there are no studies in the literature regarding alternative splicing in PE,  it is possible to take part into the mechanisms related to PE pathology. “Apoptosis pathways” were also present,  which correlates to the key role of cell death and hypoxia present on PE. In summary,  the microRNAs miR-210,  miR-126,  miR-152-5p,  miR-216 and miR-148a could act as important regulators of mechanisms in PE,  and may help to unravel possible biomarkers and targets in PE.
+  
+  Funding:   \\
+  \href{http://ab3c.org.br/xpress_pres2020/xmxp2020-298253.html}{Link to Video:}
+
+  \end{abstract}
+   
+  \end{document} 

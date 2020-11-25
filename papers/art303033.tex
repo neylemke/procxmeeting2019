@@ -1,0 +1,68 @@
+
+  \documentclass[twoside]{article}
+  \usepackage[affil-it]{authblk}
+  \usepackage{lipsum} % Package to generate dummy text throughout this template
+  \usepackage{eurosym}
+  \usepackage[sc]{mathpazo} % Use the Palatino font
+  \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+  \usepackage[utf8]{inputenc}
+  \linespread{1.05} % Line spacing-Palatino needs more space between lines
+  \usepackage{microtype} % Slightly tweak font spacing for aesthetics\[IndentingNewLine]
+  \usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+  \usepackage{multicol} % Used for the two-column layout of the document
+  \usepackage[hang,small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under//above floats in tables or figures
+  \usepackage{booktabs} % Horizontal rules in tables
+  \usepackage{float} % Required for tables and figures in the multi-column environment-they need to be placed in specific locations with the[H] (e.g. \begin{table}[H])
+  \usepackage{hyperref} % For hyperlinks in the PDF
+  \usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+  \usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+  \usepackage{abstract} % Allows abstract customization
+  \renewcommand{\abstractnamefont}{\normalfont\bfseries} 
+  %\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text\[IndentingNewLine]
+  \usepackage{titlesec} % Allows customization of titles
+  \renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+  \renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
+  \titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+  \titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+  \usepackage{fancyhdr} % Headers and footers
+  \pagestyle{fancy} % All pages have headers and footers
+  \fancyhead{} % Blank out the default header
+  \fancyfoot{} % Blank out the default footer
+  \fancyhead[C]{X-meeting eXperience $\bullet$ November 2020} % Custom header text
+  \fancyfoot[RO,LE]{} % Custom footer text
+  %----------------------------------------------------------------------------------------
+  % TITLE SECTION
+  %---------------------------------------------------------------------------------------- 
+ 
+ \title{\vspace{-15mm}\fontsize{24pt}{10pt}\selectfont\textbf{ A wide tRNA-derived small RNA annotation in Astatotilapia latifasciata with B chromosome presence or absence. }} % Article title
+  
+  
+  \author{ Adauto Lima Cardoso,  Rafael Takahiro Nakajima,  Bruno Evaristo de Almeida Fantinatti,  Rafael Luiz Buogo Coan,  Cesar Martins,  Jordana In\'acio Nascimento Oliveira,  Luiz Augusto Bovolenta }
+  
+  \affil{ IBB - UNESP Botucatu,  UNIVERSIDADE ESTADUAL PAULISTA J\'ULIO DE MESQUITA FILHO,  UNESP - Instituto de Bioci\^encias - Botucatu/SP,  UNESP - Universidade Estadual Paulista }
+  \vspace{-5mm}
+  \date{}
+  
+  %---------------------------------------------------------------------------------------- 
+  
+  \begin{document}
+  
+  
+  \maketitle % Insert title
+  
+  
+  \thispagestyle{fancy} % All pages have headers and footers
+  %----------------------------------------------------------------------------------------  
+  % ABSTRACT
+  
+  %----------------------------------------------------------------------------------------  
+  
+  \begin{abstract}
+  Considered in the past years just as transfer RNAs (tRNAs) degradation products,  tRNA-derived small RNAs (tRFs) are now considered an emerging class of small non-coding RNAs. tRFs are commonly associated with stress conditions and other functions are related to ribosome regulation,  cell proliferation and differentiation,  transposable elements control and coevolution of host and its associated microbiota,  apart from several diseases. In turn,  supernumerary B chromosomes (B),  dispensable extra chromosomes found in several species of eukaryotes are a source of transcription of several RNAs. Some questions remain open and one of them is the Bs impact over gene regulation. To evaluate this,  we developed a pipeline to the annotation of tRFs in Astatotilapia latifasciata fishes with the B chromosomes presence or absence (B+ and B-,  respectively). We searched by homology among 4, 051, 654 tRNA sequences and B+/B- genome assemblies. All homologue sequences were submitted to tRNAScan-SE. Conserved genomic blocks between B+ and B- assemblies were identified using Mugsy. We obtained RNA-seq data from small RNA libraries extracted of encephalon,  gonad,  muscle and gill of male and female individuals with B+ or B-. All libraries contained biological replicates (N=3 encephalon and gonad; N=2 muscle and gill). We filtered the data by quality using FastQC and UEA sRNA workbench. Filtered reads were aligned to B+ tRNA sequences using Shortstack. tRFs sequence and read count were selected based on the secondary structure. TMM normalization was applied using the edgeR package. We applied the Generalized Linear Model,  Quasi-Likelihood F-test and Shannon’s entropy for pairwise comparison. Putative tRF-mRNA binding sites were predicted by homology. We annotated 1120 and 1007 tRNA genes in B+ and B- assemblies,  a gene copies gain of 10\% (113). In general,  5’-tiRs and tRFs-5c are the most impacted corresponding ~31\% (20) of differentially expressed among B+ and B-. We also observed that some tRFs may play different roles among tissues or sex. As an example,  in the gill,  the ala-tRNA-GluTTC-B-271-5tiR and ala-tRNA-GluTTC-B-271-tRF-5c play a putative contradictory role for male (up-regulated) and female (down-regulated) with B. We also observed variations in the entropy,  B+ samples show a distribution more significantly extend than individuals B-. In specific tRF types,  5 and 3tiRs are more variable with B+ in the encephalon. In conclusion,  our pipeline was capable of annotating and quantifying putative tRFs among B presence and absence individuals and indicated an expression variability gain correlated with B presence.
+  
+  Funding: National Council for Scientific and Technological Development (CNPq) [grant number: 167444/2017-4] \\
+  \href{http://ab3c.org.br/xpress_pres2020/xmxp2020-303033.html}{Link to Video:}
+
+  \end{abstract}
+   
+  \end{document} 

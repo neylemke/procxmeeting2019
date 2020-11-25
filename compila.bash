@@ -1,4 +1,4 @@
-pdflatex procxmeeting2019.tex
-makeindex procxmeeting2019
-pdflatex procxmeeting2019.tex
-pdflatex procxmeeting2019.tex
+pdflatex procxmeeting2020.tex
+makeindex procxmeeting2020
+pdflatex procxmeeting2020.tex
+pdflatex procxmeeting2020.tex

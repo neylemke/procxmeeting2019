@@ -1,0 +1,68 @@
+
+  \documentclass[twoside]{article}
+  \usepackage[affil-it]{authblk}
+  \usepackage{lipsum} % Package to generate dummy text throughout this template
+  \usepackage{eurosym}
+  \usepackage[sc]{mathpazo} % Use the Palatino font
+  \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+  \usepackage[utf8]{inputenc}
+  \linespread{1.05} % Line spacing-Palatino needs more space between lines
+  \usepackage{microtype} % Slightly tweak font spacing for aesthetics\[IndentingNewLine]
+  \usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+  \usepackage{multicol} % Used for the two-column layout of the document
+  \usepackage[hang,small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under//above floats in tables or figures
+  \usepackage{booktabs} % Horizontal rules in tables
+  \usepackage{float} % Required for tables and figures in the multi-column environment-they need to be placed in specific locations with the[H] (e.g. \begin{table}[H])
+  \usepackage{hyperref} % For hyperlinks in the PDF
+  \usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+  \usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+  \usepackage{abstract} % Allows abstract customization
+  \renewcommand{\abstractnamefont}{\normalfont\bfseries} 
+  %\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text\[IndentingNewLine]
+  \usepackage{titlesec} % Allows customization of titles
+  \renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+  \renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
+  \titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+  \titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+  \usepackage{fancyhdr} % Headers and footers
+  \pagestyle{fancy} % All pages have headers and footers
+  \fancyhead{} % Blank out the default header
+  \fancyfoot{} % Blank out the default footer
+  \fancyhead[C]{X-meeting eXperience $\bullet$ November 2020} % Custom header text
+  \fancyfoot[RO,LE]{} % Custom footer text
+  %----------------------------------------------------------------------------------------
+  % TITLE SECTION
+  %---------------------------------------------------------------------------------------- 
+ 
+ \title{\vspace{-15mm}\fontsize{24pt}{10pt}\selectfont\textbf{ Analysis of expression of xylanases encoded in the genome of rust coffee fungus during different stages of infection }} % Article title
+  
+  
+  \author{ T\'ulio Morgan,  Rafaela Zandonade Ventorim,  Renato Lima Senra,  Isabel Samila Lima Castro,  Eveline Teixeira Caixeta,  Tiago Mendes,  J\'ulia Santos Pereira }
+  
+  \affil{ UNIVERSIDADE FEDERAL DE VI\c{C}OSA,  UNIVERSIDADE FEDERAL DE MINAS GERAIS,  UNIVERSIDADE FEDERAL DE VI\c{C}OSA,  UFV - UNIVERSIDADE FEDERAL DE VI\c{C}OSA campus Vi\c{c}osa,  Ufv }
+  \vspace{-5mm}
+  \date{}
+  
+  %---------------------------------------------------------------------------------------- 
+  
+  \begin{document}
+  
+  
+  \maketitle % Insert title
+  
+  
+  \thispagestyle{fancy} % All pages have headers and footers
+  %----------------------------------------------------------------------------------------  
+  % ABSTRACT
+  
+  %----------------------------------------------------------------------------------------  
+  
+  \begin{abstract}
+  Coffee leaf rust is a major disease caused by the fungus Hemileia vastarix that affects many coffee producers around the world. Since H. vastatrix is a biotrophic fungus,  its growth and reproduction are totally dependent on the cells of the living host,  and because of that,  they infect the tissue without causing necrosis. Also,  it is known that some fungi,  during plant interaction,  can express genes involved in the formation of infectious structures as well as synthesize enzymes responsible for the degradation of the host cell wall. Many of them produce enzymatic cocktails capable to degrade cell wall components,  which are basically cellulose,  hemicelluloses and lignin. The most abundant group of hemicellulases are xylans,  which has aroused industrial interest for many applications,  such as biobleaching in the pulp and paper industry and as prebiotics in animal nutrition. However,  more studies are needed to evaluate interactions between fungi-plant and other factors that can activate fungus pathogenicity. Also,  it is desirable to identify active xylanases of commercial interest. Because of that we propose on this work to evaluate if genes that encode xylanases are being expressed during H vastatrix infection. First,  the fungal protein was predicted by Augustus ab initio prediction. The program was set for the fungus Puccinia graminis. The functional annotation of the predicted genome was performed by dbcan2 (release 8.0) selecting all CAZymes from the genome. Among the 345 CAZymes found,  162 belongs to the Glycoside Hydrolases (GH) and only 3 are xylanases (GH10). After that,  was performed the analysis of RNA-seq data of C. arabica cv. caturra vermelho CIFC 19/1 (Bioproject: PRJNA353185) to 0,  12,  24,  96 hai. Read quality was assessed with FastQC software version 0.11.5 and trimmed with Trimmomatic software version 0.36. Next the “Tuxedo” pipeline was executed using Hemileia vastatrix HvCat (PZQQ00000000.1) as the reference genome – the same used to gene prediction in Augustus. The preliminary results indicate that the 3 xylanases present different expression profile,  but are being most expressed in the early stages of the infection: 12 and 24 hai,  which corresponds to the phases when the fungus is penetrating the plant. For the next steps of this work we aim to perform gene expression analysis of the 3 xylanases using real-time quantitative PCR and execute activity assays with the xylanases.
+  
+  Funding:   \\
+  \href{http://ab3c.org.br/xpress_pres2020/xmxp2020-298059.html}{Link to Video:}
+
+  \end{abstract}
+   
+  \end{document} 

@@ -1,0 +1,68 @@
+
+  \documentclass[twoside]{article}
+  \usepackage[affil-it]{authblk}
+  \usepackage{lipsum} % Package to generate dummy text throughout this template
+  \usepackage{eurosym}
+  \usepackage[sc]{mathpazo} % Use the Palatino font
+  \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+  \usepackage[utf8]{inputenc}
+  \linespread{1.05} % Line spacing-Palatino needs more space between lines
+  \usepackage{microtype} % Slightly tweak font spacing for aesthetics\[IndentingNewLine]
+  \usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+  \usepackage{multicol} % Used for the two-column layout of the document
+  \usepackage[hang,small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under//above floats in tables or figures
+  \usepackage{booktabs} % Horizontal rules in tables
+  \usepackage{float} % Required for tables and figures in the multi-column environment-they need to be placed in specific locations with the[H] (e.g. \begin{table}[H])
+  \usepackage{hyperref} % For hyperlinks in the PDF
+  \usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+  \usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+  \usepackage{abstract} % Allows abstract customization
+  \renewcommand{\abstractnamefont}{\normalfont\bfseries} 
+  %\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text\[IndentingNewLine]
+  \usepackage{titlesec} % Allows customization of titles
+  \renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+  \renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
+  \titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+  \titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+  \usepackage{fancyhdr} % Headers and footers
+  \pagestyle{fancy} % All pages have headers and footers
+  \fancyhead{} % Blank out the default header
+  \fancyfoot{} % Blank out the default footer
+  \fancyhead[C]{X-meeting eXperience $\bullet$ November 2020} % Custom header text
+  \fancyfoot[RO,LE]{} % Custom footer text
+  %----------------------------------------------------------------------------------------
+  % TITLE SECTION
+  %---------------------------------------------------------------------------------------- 
+ 
+ \title{\vspace{-15mm}\fontsize{24pt}{10pt}\selectfont\textbf{ Integrative analyses of single-cell and bulk transcriptomics to study the tumor microenvironment in high-grade serous ovarian cancer }} % Article title
+  
+  
+  \author{ Mariana Boroni,  MARCO ANTONIO MARQUES PRETTI,  Gabriela Rapozo Guimar\~aes,  Palloma Porto Almeida,  Giovanna Resk Maklouf }
+  
+  \affil{ INCA - Instituto Nacional de C\^ancer,  Instituto Nacional de C\^ancer }
+  \vspace{-5mm}
+  \date{}
+  
+  %---------------------------------------------------------------------------------------- 
+  
+  \begin{document}
+  
+  
+  \maketitle % Insert title
+  
+  
+  \thispagestyle{fancy} % All pages have headers and footers
+  %----------------------------------------------------------------------------------------  
+  % ABSTRACT
+  
+  %----------------------------------------------------------------------------------------  
+  
+  \begin{abstract}
+  Ovarian cancer (OC) is the major cause of death related to gynecological tumors,  with high-grade serous ovarian cancer (HGSOC) being the most common subtype of this disease accounting for the majority of deaths. The elevated mortality rates of HGSOC have been reported to be related to the interconnected signaling networks,  cellular composition,  and spatio-temporal localization of cells within the tumor microenvironment (TME). In this way,  the aim of this project is to characterize the tumor microenvironment,  integrating bulk and single-cell transcriptomics of HGSOC and investigate the impact of different subpopulations in patients’ outcome. In order to accomplish that,  single-cell RNA sequencing data (scRNA-seq) from public datasets were analyzed using the Seurat R package. Quality control,  normalization,  clustering,  and differential gene expression analysis were performed to define the resulting clusters into cell types. Also,  a thorough review of gene markers was made to support the annotation of the subpopulations. For a comprehensive assessment of the subpopulation’s roles in a larger cohort,  we used CIBERSORTx,  a deconvolution tool that employs machine-learning to detect the abundance of subpopulations in bulk RNA-seq data based on a single-cell reference signature matrix. Subsequently,  Cox Proportional Hazard Models were used with Survival and Survminer R packages to determine which cell type significantly influenced the patients' risk of death. Using the scRNA-seq data of 26, 786 cells derived from 5 patients,  we have identified 24 clusters with distinct profiles within malignant,  immune,  and stromal major populations relevant to HGSOC. The cell types identified in the analysis comprised not only commonly observed subpopulations related to cancer,  e.g. T CD4 and T CD8,  but also more rare ones,  e.g. pericytes and adipogenic fibroblasts. Finally,  deconvolution with bulk RNA-Seq data of 454 patients from The Cancer Genome Atlas and International Cancer Genome Consortium databases revealed that cancer-associated fibroblasts,  endothelial cells,  and malignant cells were the most abundant subpopulations in HGSOC patients. However,  regarding the hazard ratio (HR) related to the overall survival of the patients,  the enrichment in T CD8 (HR = 0.82,  p = 0.002) and T CD4  (HR = 0.85,  p = 0.012) signatures were associated with a good prognosis,  which corroborates with the high lymphocyte density as a common indicator of better outcomes at different stages of disease in many malignancies,  including HGSOC.  Our approach to explore the HGSOC TME will provide insights into how intratumoral content besides cancer cells can operate as a prevalent factor in the patient's prognosis,  as well as offer potential diagnostic biomarkers and therapeutic targets in future clinical practice.
+  
+  Funding: MS/INCA,  Funda\c{c}\~ao Carlos Chagas Filho de Amparo \`a Pesquisa do Estado do Rio de Janeiro (FAPERJ) e Chan Zuckerberg Initiative (CZI) \\
+  \href{http://ab3c.org.br/xpress_pres2020/xmxp2020-303086.html}{Link to Video:}
+
+  \end{abstract}
+   
+  \end{document} 

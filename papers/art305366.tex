@@ -1,0 +1,74 @@
+
+  \documentclass[twoside]{article}
+  \usepackage[affil-it]{authblk}
+  \usepackage{lipsum} % Package to generate dummy text throughout this template
+  \usepackage{eurosym}
+  \usepackage[sc]{mathpazo} % Use the Palatino font
+  \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+  \usepackage[utf8]{inputenc}
+  \linespread{1.05} % Line spacing-Palatino needs more space between lines
+  \usepackage{microtype} % Slightly tweak font spacing for aesthetics\[IndentingNewLine]
+  \usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+  \usepackage{multicol} % Used for the two-column layout of the document
+  \usepackage[hang,small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under//above floats in tables or figures
+  \usepackage{booktabs} % Horizontal rules in tables
+  \usepackage{float} % Required for tables and figures in the multi-column environment-they need to be placed in specific locations with the[H] (e.g. \begin{table}[H])
+  \usepackage{hyperref} % For hyperlinks in the PDF
+  \usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+  \usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+  \usepackage{abstract} % Allows abstract customization
+  \renewcommand{\abstractnamefont}{\normalfont\bfseries} 
+  %\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text\[IndentingNewLine]
+  \usepackage{titlesec} % Allows customization of titles
+  \renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+  \renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
+  \titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+  \titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+  \usepackage{fancyhdr} % Headers and footers
+  \pagestyle{fancy} % All pages have headers and footers
+  \fancyhead{} % Blank out the default header
+  \fancyfoot{} % Blank out the default footer
+  \fancyhead[C]{X-meeting eXperience $\bullet$ November 2020} % Custom header text
+  \fancyfoot[RO,LE]{} % Custom footer text
+  %----------------------------------------------------------------------------------------
+  % TITLE SECTION
+  %---------------------------------------------------------------------------------------- 
+ 
+ \title{\vspace{-15mm}\fontsize{24pt}{10pt}\selectfont\textbf{ Where the pro-proteases PCSKs that may cleave the SARS-Cov-2 spike for improving cell to cell infection are highly differentially expressed in the human body? }} % Article title
+  
+  
+  \author{ Arthur Pereira Fonseca,  Glaura da Concei\c{c}\~ao Franco,  Jos\'e Miguel Ortega,  Lissur Azevedo Orsine }
+  
+  \affil{ UNIVERSIDADE FEDERAL DE MINAS GERAIS,  UNIVERSIDADE FEDERAL DE MINAS GERAIS }
+  \vspace{-5mm}
+  \date{}
+  
+  %---------------------------------------------------------------------------------------- 
+  
+  \begin{document}
+  
+  
+  \maketitle % Insert title
+  
+  
+  \thispagestyle{fancy} % All pages have headers and footers
+  %----------------------------------------------------------------------------------------  
+  % ABSTRACT
+  
+  %----------------------------------------------------------------------------------------  
+  
+  \begin{abstract}
+  Comparative transcriptomics between tissues reveals genes that do not show counts in many but only in some tissues,  and these are normally undertaken as Tissue-specific genes. However,  there are genes commonly expressed in most or even all tissues,  following a distribution that may not include some tissues,  in which the expression level would rather be a far outlier. We developed an approach to programmatically detect Tissue-specific genes and genes that are expressed in all tissues but highly differently expressed in some,  which are referred as Over-Active. Thus,  our approach classifies as “GOAT” genes that is a “Gene Over-Active or Tissue-specific”. Covid-19 is an important pandemic disease and all information about SARS-Cov-2 biology is relevant. The virus has gained a small site of cleavage in the spike protein which cleavage may be important to the cell to cell progress of infection. This cleavage might be undertaken by endogenous enzymes of the “substilisin/kexin like proprotein convertase” class,  PCSKs. Here we used our approach to determine if PCSKs are GOAT in which tissues or if they are not highly differentially expressed in any of the tissues,  using a set of five databases of comparative gene expression: ENCODE,  FANTOM5,  GTEx,  HPA,  and IBM,  comprising information of,  respectively,  13,  56,  53,  32 and 16 tissues.
+
+PCSK1 is GOAT in brain cortex and meninges,  hypothalamus,  pineal and pituitary gland,  therefore showing a clear bias through nervous system. PCSK2 is GOAT in brain and adrenal and thyroid glands. PCSK3 is best known as Furin,  and its expression pattern is remarkably not differential,  but besides showing different levels amongst tissues,  the patter adjusts to a Gaussian distribution,  suggesting biological variability with no special role in any tissue. Interestingly,  PCSK4 also shows Gaussian expression along tissues,  although being GOAT in testis. PCSK5,  PCSK7
+
+and PCSK8 (also referred as MBTPS1) profiles are not Gaussian,  but also no tissue is outlier. Thus,  the group PCSK3,  PCSK4,  PCSK5,  PCSK7 and PCSK8 does not show a tissue of depicted expression besides PCSK4 in testis. PCSK6 is GOAT in liver and spleen,  in two out of respectively four and three of the databases. PCSK9 is GOAT in lung and liver,  in two and three out of respectively four and five of the databases,  and appears as GOAT also in cerebellum,  brain and pancreas in single databases.
+
+In conclusion,  our study claims attention to PCSK9 in lung,  a target tissue,  and liver,  and neuronal tissues for PCSK1 and PCSK2. There is known inhibitor for PCSK9,  the antibody Evolocumabe,  but no inhibitor is known for PCSK1 and PCSK2.
+  
+  Funding: CAPES \\
+  \href{http://ab3c.org.br/xpress_pres2020/xmxp2020-305366.html}{Link to Video:}
+
+  \end{abstract}
+   
+  \end{document} 

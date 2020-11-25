@@ -1,0 +1,68 @@
+
+  \documentclass[twoside]{article}
+  \usepackage[affil-it]{authblk}
+  \usepackage{lipsum} % Package to generate dummy text throughout this template
+  \usepackage{eurosym}
+  \usepackage[sc]{mathpazo} % Use the Palatino font
+  \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+  \usepackage[utf8]{inputenc}
+  \linespread{1.05} % Line spacing-Palatino needs more space between lines
+  \usepackage{microtype} % Slightly tweak font spacing for aesthetics\[IndentingNewLine]
+  \usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+  \usepackage{multicol} % Used for the two-column layout of the document
+  \usepackage[hang,small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under//above floats in tables or figures
+  \usepackage{booktabs} % Horizontal rules in tables
+  \usepackage{float} % Required for tables and figures in the multi-column environment-they need to be placed in specific locations with the[H] (e.g. \begin{table}[H])
+  \usepackage{hyperref} % For hyperlinks in the PDF
+  \usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+  \usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+  \usepackage{abstract} % Allows abstract customization
+  \renewcommand{\abstractnamefont}{\normalfont\bfseries} 
+  %\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text\[IndentingNewLine]
+  \usepackage{titlesec} % Allows customization of titles
+  \renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+  \renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
+  \titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+  \titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+  \usepackage{fancyhdr} % Headers and footers
+  \pagestyle{fancy} % All pages have headers and footers
+  \fancyhead{} % Blank out the default header
+  \fancyfoot{} % Blank out the default footer
+  \fancyhead[C]{X-meeting eXperience $\bullet$ November 2020} % Custom header text
+  \fancyfoot[RO,LE]{} % Custom footer text
+  %----------------------------------------------------------------------------------------
+  % TITLE SECTION
+  %---------------------------------------------------------------------------------------- 
+ 
+ \title{\vspace{-15mm}\fontsize{24pt}{10pt}\selectfont\textbf{ Evaluation of lncRNAs as potential prognostic biomarkers in metastatic melanoma using machine learning }} % Article title
+  
+  
+  \author{ Cristiane Esteves Teixeira,  Nicole de Miranda Scherer,  Mariana Boroni,  Guilherme Duarte de Moraes }
+  
+  \affil{ Instituto Nacional de C\^ancer,  INCA - Instituto Nacional de C\^ancer,  Brazilian National Cancer Institute (INCA) }
+  \vspace{-5mm}
+  \date{}
+  
+  %---------------------------------------------------------------------------------------- 
+  
+  \begin{document}
+  
+  
+  \maketitle % Insert title
+  
+  
+  \thispagestyle{fancy} % All pages have headers and footers
+  %----------------------------------------------------------------------------------------  
+  % ABSTRACT
+  
+  %----------------------------------------------------------------------------------------  
+  
+  \begin{abstract}
+  Melanoma,  despite having approximately 5\% of incidence among skin neoplasms,  is the most lethal of them. Although immunotherapies involving immune checkpoint blockade such as CTLA-4 and PD-1 have shown promise,  there is a great variation in response to treatment,  mainly related to genomic heterogeneity and immune infiltrates in patients. Therefore,  prognostic biomarkers play a critical role in understanding disease progression and optimizing treatment and patient survival. Long non-coding RNAs (LncRNA) have already been described as prognostic biomarkers of several types of cancer,  including cutaneous melanomas. In this sense,  our work aims to investigate the role of lncRNAs as prognostic biomarkers specifically in melanoma patients who have metastasized,  and to develop a model for predicting patient survival based on the expression profile of lncRNAs. We use machine learning (ML) techniques such as supervised machine learning algorithms on clinical-pathological data and gene expression of lncRNA from samples of patients diagnosed with metastatic melanoma obtained from the database TCGA (The Cancer Genome Atlas). A cohort of 348 patients was selected after filtering clinical data for metastatic samples only. Samples were divided into training and testing in a 4:1 ratio. We tested each of the 13, 954 lncRNA found in the samples  using univariate cox regression to associate their level of expression with the overall survival of patients,  resulting in 618 genes with p <0.05.   Ongoing analyses include the development of predictive models using three different regression algorithms (LASSO,  Elastic Net and Ridge) in order to find a relevant lncRNA signature to classify patients according to the prognosis. The formula generated by the algorithms will be applied to calculate the risk of each patient and divide the cohort in low and high risk groups by the median. In addition,  we will perform pathway enrichment analysis and generate a clinical nomogram.
+  
+  Funding:   \\
+  \href{http://ab3c.org.br/xpress_pres2020/xmxp2020-300776.html}{Link to Video:}
+
+  \end{abstract}
+   
+  \end{document} 

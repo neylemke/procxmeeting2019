@@ -1,0 +1,68 @@
+
+  \documentclass[twoside]{article}
+  \usepackage[affil-it]{authblk}
+  \usepackage{lipsum} % Package to generate dummy text throughout this template
+  \usepackage{eurosym}
+  \usepackage[sc]{mathpazo} % Use the Palatino font
+  \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+  \usepackage[utf8]{inputenc}
+  \linespread{1.05} % Line spacing-Palatino needs more space between lines
+  \usepackage{microtype} % Slightly tweak font spacing for aesthetics\[IndentingNewLine]
+  \usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+  \usepackage{multicol} % Used for the two-column layout of the document
+  \usepackage[hang,small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under//above floats in tables or figures
+  \usepackage{booktabs} % Horizontal rules in tables
+  \usepackage{float} % Required for tables and figures in the multi-column environment-they need to be placed in specific locations with the[H] (e.g. \begin{table}[H])
+  \usepackage{hyperref} % For hyperlinks in the PDF
+  \usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+  \usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+  \usepackage{abstract} % Allows abstract customization
+  \renewcommand{\abstractnamefont}{\normalfont\bfseries} 
+  %\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text\[IndentingNewLine]
+  \usepackage{titlesec} % Allows customization of titles
+  \renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+  \renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
+  \titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+  \titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+  \usepackage{fancyhdr} % Headers and footers
+  \pagestyle{fancy} % All pages have headers and footers
+  \fancyhead{} % Blank out the default header
+  \fancyfoot{} % Blank out the default footer
+  \fancyhead[C]{X-meeting eXperience $\bullet$ November 2020} % Custom header text
+  \fancyfoot[RO,LE]{} % Custom footer text
+  %----------------------------------------------------------------------------------------
+  % TITLE SECTION
+  %---------------------------------------------------------------------------------------- 
+ 
+ \title{\vspace{-15mm}\fontsize{24pt}{10pt}\selectfont\textbf{ Assembly,  annotation and gene editing of the genome of the PH8 strain of Leishmania amazonensis with focus on multigene families encoding  virulence factors }} % Article title
+  
+  
+  \author{ Carlos Rodolpho Ferreira Brasil,  Jo\~ao Lu\'{\i}s Reis Cunha,  Anderson Coqueiro-dos-Santos,  Viviane Grazielle da Silva,  Daniella Bartholomeu,  Ana P. S. M. Fernandes,  Santuza Maria Ribeiro Teixeira,  Wanessa Moreira Goes }
+  
+  \affil{ UNIVERSIDADE FEDERAL DE MINAS GERAIS }
+  \vspace{-5mm}
+  \date{}
+  
+  %---------------------------------------------------------------------------------------- 
+  
+  \begin{document}
+  
+  
+  \maketitle % Insert title
+  
+  
+  \thispagestyle{fancy} % All pages have headers and footers
+  %----------------------------------------------------------------------------------------  
+  % ABSTRACT
+  
+  %----------------------------------------------------------------------------------------  
+  
+  \begin{abstract}
+  Leishmania (Leishmania) amazonensis is one of the etiological agents of cutaneous leishmaniasis,  a disease that has 21, 000 cases / year in Brazil. Different molecules of the parasite have already been studied as they play a crucial role in the establishment of infection in the mammalian host and contribute to the pathogenesis of leishmaniasis. Among the most studied virulence factors are multigene protein-coding families such as amastins,  GP63 metalloproteases and A2 proteins. To deepen the understanding of the role of these virulence factors,  it is essential to obtain well-assembled and annotated complete genomes of different isolates of L. amazonensis and also to be able to manipulate the genes that encode these factors using the CRISPR-Cas9 technology. Here,  we report the sequencing and chromosome level assembly of the PH8 strain of L. amazonenis using a strategy based on the combination of long PacBio sequencing reads,  short Illumina reads and synteny data with the Leishmania mexicana genome. The initial contigs were generated using only the PacBio reads and the Canu assembler. The scaffolding step was performed using SSPACE and gap filling with GapFiller,  based on short paired-end reads Illumina. Finally,  the assembly was polished using Pilon,  and the scaffolds were ordered based on the chromosomes of L. mexicana using Abacas. The final assembly,  composed of 34 chromosomes and 44 small scaffolds not incorporated in the 34 chromosomes,  represents a genome of ~ 32 Mb. The annotation of the L. amazonensis genome was transferred from the annotation of 8225 genes present in the genome of L. mexicana. Of these,  7072 are protein coding genes,  among which 82 encode tRNAs,  13 rRNAs and 270 ncRNAs. In addition,  genes belonging to the families of amastins and metalloproteins GP63 were characterized. Amastins and GP63 were identified based on homology with proteins from other Leishmania spp and T. cruzi,  adding up to 33 and 5 genes,  respectively in L. amazonensis. The alignment of amastin genes,  using MUSCLE and phylogeny analyzes,  using the neighbor-joining algorithm with 1000 bootstrappings resulted in groupings corresponding to the four sub-classes of amastins known as alpha (a),  beta ($\beta$),  gamma (?) and delta (d) amastins. Analysis of the sequences encoding GP63 showed the conservation of important domains,  such as HExxH and SRYD,  which are important for protein structure and binding to macrophage surface receptors,  respectively. Finally,  we tested a CRISPR-Cas9 protocol to generate knockout cell lines of the Miltefosine Transporter gene (TM) of L. amazonensis as a proof of concept. Expression of Streptococcus pyogenes Cas9 (SpCas9) in L. amazonenses promastigotes was achieved after transfection with pLDCN,  an episomal vector. Alternatively,  Staphylococcus aureus Cas9 (SaCas9) was also expressed in Escherichia coli. Promastigotes were transfected with the recombinant SaCas9 ribonucleoprotein complex and an SgRNA. Using both strategies to express Cas9 we were able to disrupt the TM gene in parasites that were transfected with in vitro transcribed sgRNA and a donor oligonucleotide and obtained knockout parasite cell lines that were approximately 6 fold more resistant to miltefosine than wild parasites.
+  
+  Funding: CAPES \\
+  \href{http://ab3c.org.br/xpress_pres2020/xmxp2020-307952.html}{Link to Video:}
+
+  \end{abstract}
+   
+  \end{document} 

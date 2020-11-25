@@ -1,0 +1,68 @@
+
+  \documentclass[twoside]{article}
+  \usepackage[affil-it]{authblk}
+  \usepackage{lipsum} % Package to generate dummy text throughout this template
+  \usepackage{eurosym}
+  \usepackage[sc]{mathpazo} % Use the Palatino font
+  \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+  \usepackage[utf8]{inputenc}
+  \linespread{1.05} % Line spacing-Palatino needs more space between lines
+  \usepackage{microtype} % Slightly tweak font spacing for aesthetics\[IndentingNewLine]
+  \usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+  \usepackage{multicol} % Used for the two-column layout of the document
+  \usepackage[hang,small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under//above floats in tables or figures
+  \usepackage{booktabs} % Horizontal rules in tables
+  \usepackage{float} % Required for tables and figures in the multi-column environment-they need to be placed in specific locations with the[H] (e.g. \begin{table}[H])
+  \usepackage{hyperref} % For hyperlinks in the PDF
+  \usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+  \usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+  \usepackage{abstract} % Allows abstract customization
+  \renewcommand{\abstractnamefont}{\normalfont\bfseries} 
+  %\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text\[IndentingNewLine]
+  \usepackage{titlesec} % Allows customization of titles
+  \renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+  \renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
+  \titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+  \titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+  \usepackage{fancyhdr} % Headers and footers
+  \pagestyle{fancy} % All pages have headers and footers
+  \fancyhead{} % Blank out the default header
+  \fancyfoot{} % Blank out the default footer
+  \fancyhead[C]{X-meeting eXperience $\bullet$ November 2020} % Custom header text
+  \fancyfoot[RO,LE]{} % Custom footer text
+  %----------------------------------------------------------------------------------------
+  % TITLE SECTION
+  %---------------------------------------------------------------------------------------- 
+ 
+ \title{\vspace{-15mm}\fontsize{24pt}{10pt}\selectfont\textbf{ Machine Learning models applied to the subtypes classification of Acute Myeloid Leukemia and Myelodysplastic Syndrome }} % Article title
+  
+  
+  \author{ Marcelo Mendes Brand\~ao,  F\'abio Malta de S\'a Patroni }
+  
+  \affil{ UNIVERSIDADE ESTADUAL DE CAMPINAS }
+  \vspace{-5mm}
+  \date{}
+  
+  %---------------------------------------------------------------------------------------- 
+  
+  \begin{document}
+  
+  
+  \maketitle % Insert title
+  
+  
+  \thispagestyle{fancy} % All pages have headers and footers
+  %----------------------------------------------------------------------------------------  
+  % ABSTRACT
+  
+  %----------------------------------------------------------------------------------------  
+  
+  \begin{abstract}
+  Myeloid Malignancies are clonal diseases of hematopoietic or progenitor stem cells. Among the five main types are Acute Myeloid Leukemia (AML) and Myelodysplastic Syndrome (MDS). Leukemias are one of the most common cancers in Brazil. In 2018,  they accounted for approximately 3\% of new cancer cases. MDS are considered nowadays the most common class of acquired medullary failure syndromes in adults. They are also considered the most prevalent hematologic malignancies. There is a risk of transforming AML in approximately 1 out of 3 patients. Acute Myeloid Leukemia is a potentially fatal disease,  common in children and adults,  that can lead to death if left untreated. The MDS occurs predominantly in older male patients,  with an average age of diagnosis of approximately 70 years. Here we are applying an automated method for classification of AML and MDS into their subtypes using a machine learning politomic classifier. Two models will be created,  one for each disease,  which are trained with various clinical tests to predict accurate classification results.  The models will be written in Python,  using two popular frameworks: Scikit-Learn and Tensorflow. Input data for training and testing the models will come from three major public databases: the GDC Data Portal,  the GDC Legacy Archive,  and the NCBI GEO. The validation of the models will be performed with data from patients of the UNICAMP Blood Center. The classification process will be taken one step further in the research field. The approach proposed here can be used as a tool to help pathologists.
+  
+  Funding: This work was supported by grants from CNPq (870370/1997-9). \\
+  \href{http://ab3c.org.br/xpress_pres2020/xmxp2020-304988.html}{Link to Video:}
+
+  \end{abstract}
+   
+  \end{document} 

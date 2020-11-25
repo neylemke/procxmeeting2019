@@ -1,0 +1,68 @@
+
+  \documentclass[twoside]{article}
+  \usepackage[affil-it]{authblk}
+  \usepackage{lipsum} % Package to generate dummy text throughout this template
+  \usepackage{eurosym}
+  \usepackage[sc]{mathpazo} % Use the Palatino font
+  \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+  \usepackage[utf8]{inputenc}
+  \linespread{1.05} % Line spacing-Palatino needs more space between lines
+  \usepackage{microtype} % Slightly tweak font spacing for aesthetics\[IndentingNewLine]
+  \usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+  \usepackage{multicol} % Used for the two-column layout of the document
+  \usepackage[hang,small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under//above floats in tables or figures
+  \usepackage{booktabs} % Horizontal rules in tables
+  \usepackage{float} % Required for tables and figures in the multi-column environment-they need to be placed in specific locations with the[H] (e.g. \begin{table}[H])
+  \usepackage{hyperref} % For hyperlinks in the PDF
+  \usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+  \usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+  \usepackage{abstract} % Allows abstract customization
+  \renewcommand{\abstractnamefont}{\normalfont\bfseries} 
+  %\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text\[IndentingNewLine]
+  \usepackage{titlesec} % Allows customization of titles
+  \renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+  \renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
+  \titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+  \titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+  \usepackage{fancyhdr} % Headers and footers
+  \pagestyle{fancy} % All pages have headers and footers
+  \fancyhead{} % Blank out the default header
+  \fancyfoot{} % Blank out the default footer
+  \fancyhead[C]{X-meeting eXperience $\bullet$ November 2020} % Custom header text
+  \fancyfoot[RO,LE]{} % Custom footer text
+  %----------------------------------------------------------------------------------------
+  % TITLE SECTION
+  %---------------------------------------------------------------------------------------- 
+ 
+ \title{\vspace{-15mm}\fontsize{24pt}{10pt}\selectfont\textbf{ AMONG GENERA: A PHYLOGENETIC INFERENCE WITH MITOGENOMES OF NINE SPECIES OF STETHAPRIONINAE (CHARACIDAE,  CHARACIFORMES) }} % Article title
+  
+  
+  \author{ Matheus Lewi Cruz Bonaccorsi de Campos,  Fabiano Menegidio,  Rubens Pasa,  Igor Henrique Rodrigues-Oliveira,  Dina\'{\i}za Abadia Rocha-Reis,  John Seymour (Pat) Heslop-Harrison,  Trude Schwarzacher,  Karine Frehner Kavalco,  Iuri Batista da Silva }
+  
+  \affil{ UNIVERSIDADE DE MOGI DAS CRUZES,  UNIVERSIDADE FEDERAL DE MINAS GERAIS }
+  \vspace{-5mm}
+  \date{}
+  
+  %---------------------------------------------------------------------------------------- 
+  
+  \begin{document}
+  
+  
+  \maketitle % Insert title
+  
+  
+  \thispagestyle{fancy} % All pages have headers and footers
+  %----------------------------------------------------------------------------------------  
+  % ABSTRACT
+  
+  %----------------------------------------------------------------------------------------  
+  
+  \begin{abstract}
+  The Stethaprioninae is a species-rich subfamily that comprises small freshwater fishes with wide distribution in the Neotropical Ecozone. Most of the diversity of the group comes from Astyanax,  a polyphyletic and high diverse genus with around 170 species. But with great diversity comes numerous taxonomic problems and even with wide studies with the group,  many phylogenetic relationships remain unsolved. Given this scenario,  we aimed to provide a better understanding of the relationships among the three genera through a mitogenomic phylogenetic inference. To achieve this goal,  we sampled a total of 12 mitogenomes from four species of Astyanax,  four of Psalidodon,  one from Deuterodon giton and one from Brycon nattereri,  which we assigned as an outgroup. We removed all rRNA,  tRNA and the control region D-loop,  leaving only the 13 protein-coding genes (PCGs) which we aligned one by one using the ClustalW algorithm. Then,  we calculated the pairwise distances and conducted a Maximum Likelihood (ML) analysis with bootstrap as branch support value on MEGA X. Next,  we concatenated the alignment on SequenceMatrix to partitioned and attribute the best evolutionary nucleotide model for each gene with Partition Finder 2.1. Ultimately,  we performed the Bayesian Inference (BI) on MrBayes 3.2.7 with 4 independent Markov chains,  with 10 million generations which 25\% of them were discarded at the end of the analyses and used Tracer 1.7 software to verify the effective sample size (ESS) and strand convergence. We obtained phylograms from ML and BI analysis that show strong correlations with the genetic distance,  with solid bootstrap and posterior probabilities in most of the branches,  respectively. Showing a consistent clade subdivided in 2 monophyletic groups: Psalidodon and Astyanax,  with Deuterodon as sister group of them. The topologies obtained leads to similar conclusions seen in previous works with Astyanax,  reinforcing the Psalidodon status and the early divergence of the Deuterodon from the other genera. Hereby,  we conclude that mitogenomes poses as a great tool to the phylogenetic inference among genera.
+  
+  Funding:   \\
+  \href{http://ab3c.org.br/xpress_pres2020/xmxp2020-301463.html}{Link to Video:}
+
+  \end{abstract}
+   
+  \end{document} 

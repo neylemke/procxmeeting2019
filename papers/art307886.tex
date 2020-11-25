@@ -1,0 +1,68 @@
+
+  \documentclass[twoside]{article}
+  \usepackage[affil-it]{authblk}
+  \usepackage{lipsum} % Package to generate dummy text throughout this template
+  \usepackage{eurosym}
+  \usepackage[sc]{mathpazo} % Use the Palatino font
+  \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+  \usepackage[utf8]{inputenc}
+  \linespread{1.05} % Line spacing-Palatino needs more space between lines
+  \usepackage{microtype} % Slightly tweak font spacing for aesthetics\[IndentingNewLine]
+  \usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+  \usepackage{multicol} % Used for the two-column layout of the document
+  \usepackage[hang,small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under//above floats in tables or figures
+  \usepackage{booktabs} % Horizontal rules in tables
+  \usepackage{float} % Required for tables and figures in the multi-column environment-they need to be placed in specific locations with the[H] (e.g. \begin{table}[H])
+  \usepackage{hyperref} % For hyperlinks in the PDF
+  \usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+  \usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+  \usepackage{abstract} % Allows abstract customization
+  \renewcommand{\abstractnamefont}{\normalfont\bfseries} 
+  %\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text\[IndentingNewLine]
+  \usepackage{titlesec} % Allows customization of titles
+  \renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+  \renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
+  \titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+  \titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+  \usepackage{fancyhdr} % Headers and footers
+  \pagestyle{fancy} % All pages have headers and footers
+  \fancyhead{} % Blank out the default header
+  \fancyfoot{} % Blank out the default footer
+  \fancyhead[C]{X-meeting eXperience $\bullet$ November 2020} % Custom header text
+  \fancyfoot[RO,LE]{} % Custom footer text
+  %----------------------------------------------------------------------------------------
+  % TITLE SECTION
+  %---------------------------------------------------------------------------------------- 
+ 
+ \title{\vspace{-15mm}\fontsize{24pt}{10pt}\selectfont\textbf{ Predicting melting temperatures and deriving hydrogen bonds using the Peyrard-Bishop model for LNA+DNA:DNA sequences }} % Article title
+  
+  
+  \author{ Gerald Weber,  Izabela Ferreira }
+  
+  \affil{ UFMG - UNIVERSIDADE FEDERAL DE MINAS GERAISn,  UFMG - Departamento de F\'{\i}sica }
+  \vspace{-5mm}
+  \date{}
+  
+  %---------------------------------------------------------------------------------------- 
+  
+  \begin{document}
+  
+  
+  \maketitle % Insert title
+  
+  
+  \thispagestyle{fancy} % All pages have headers and footers
+  %----------------------------------------------------------------------------------------  
+  % ABSTRACT
+  
+  %----------------------------------------------------------------------------------------  
+  
+  \begin{abstract}
+  Locked nucleic acids are nucleic acids modified by introducing a 2'-O-, 4'-C methylene bridge. This modification induces a conformation change in the backbone,  locking the ribose ring in a C3-endo conformation. Thus inducing a favorable entropic variation in its vicinity increasing the overall helix stability. It has been shown to improve mismatch discrimination,  compatibility,  and specificity toward complementary DNA and RNA strands. Several applications have been described in nucleic acid-based therapeutic strategies both in vitro and in vivo. Even so,  there are not many accurate temperature prediction methods applicable to LNA probes. Such temperature predictions are important,  as an example,  for probe design and PCR applications since both rely on the melting temperature. For instance,  it is not yet fully established how much of the improvement in affinity and specificity is actually due to stacking interactions or hydrogen bonds. Here,  we use the Peyrard-Bishop mesoscopic model that was successfully used for describing DNA,  RNA,  and more recently DNA/RNA hybrids,  to characterize the thermodynamic properties of LNA. We use existing melting temperatures of LNA/DNA hybrids,  to extract model parameters which can be interpreted in terms of hydrogen bonding and stacking interaction. Our results show a considerable increase in the hydrogen bonds of the modified nucleotides and also an instability on some stacking potentials,  which is relatable to the destabilizing effect in some LNA modified probes.
+  
+  Funding: capes, cnpq \\
+  \href{http://ab3c.org.br/xpress_pres2020/xmxp2020-307886.html}{Link to Video:}
+
+  \end{abstract}
+   
+  \end{document} 

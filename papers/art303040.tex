@@ -1,0 +1,68 @@
+
+  \documentclass[twoside]{article}
+  \usepackage[affil-it]{authblk}
+  \usepackage{lipsum} % Package to generate dummy text throughout this template
+  \usepackage{eurosym}
+  \usepackage[sc]{mathpazo} % Use the Palatino font
+  \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+  \usepackage[utf8]{inputenc}
+  \linespread{1.05} % Line spacing-Palatino needs more space between lines
+  \usepackage{microtype} % Slightly tweak font spacing for aesthetics\[IndentingNewLine]
+  \usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+  \usepackage{multicol} % Used for the two-column layout of the document
+  \usepackage[hang,small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under//above floats in tables or figures
+  \usepackage{booktabs} % Horizontal rules in tables
+  \usepackage{float} % Required for tables and figures in the multi-column environment-they need to be placed in specific locations with the[H] (e.g. \begin{table}[H])
+  \usepackage{hyperref} % For hyperlinks in the PDF
+  \usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+  \usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+  \usepackage{abstract} % Allows abstract customization
+  \renewcommand{\abstractnamefont}{\normalfont\bfseries} 
+  %\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text\[IndentingNewLine]
+  \usepackage{titlesec} % Allows customization of titles
+  \renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+  \renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
+  \titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+  \titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+  \usepackage{fancyhdr} % Headers and footers
+  \pagestyle{fancy} % All pages have headers and footers
+  \fancyhead{} % Blank out the default header
+  \fancyfoot{} % Blank out the default footer
+  \fancyhead[C]{X-meeting eXperience $\bullet$ November 2020} % Custom header text
+  \fancyfoot[RO,LE]{} % Custom footer text
+  %----------------------------------------------------------------------------------------
+  % TITLE SECTION
+  %---------------------------------------------------------------------------------------- 
+ 
+ \title{\vspace{-15mm}\fontsize{24pt}{10pt}\selectfont\textbf{ Metagenomic analysis of the enzyme a-Galactosidase in two soil samples }} % Article title
+  
+  
+  \author{ Sthephanye Katherine Ferreira Gomes,  Maricy Raquel Lindenbah Bonf\'a,  Rodrigo Matheus Pereira,  J\'essica Patricia De S\'a Souza }
+  
+  \affil{ FUNDA\c{C}\~AO UNIVERSIDADE FEDERAL DA GRANDE DOURADOS,  UFGD - UNIVERSIDADE FEDERAL DA GRANDE DOURADOS }
+  \vspace{-5mm}
+  \date{}
+  
+  %---------------------------------------------------------------------------------------- 
+  
+  \begin{document}
+  
+  
+  \maketitle % Insert title
+  
+  
+  \thispagestyle{fancy} % All pages have headers and footers
+  %----------------------------------------------------------------------------------------  
+  % ABSTRACT
+  
+  %----------------------------------------------------------------------------------------  
+  
+  \begin{abstract}
+  Alpha-Galactosidase is a glycoside hydrolase enzyme,  it is present in many plants,  and its performance is in biotechnological applications and several industrial fields,  such as the food industry. Metagenomics has the ability to access DNA from microbial populations in different environments,  allowing the identification of non-cultivable microorganisms. This research aimed to analyze the occurrence of genes that encode the enzyme a-galactosidase,  identify the microorganisms that produce thes enzyme,  andanalyze the statistical differences in the occurrence of thes enzyme in two soil samples: Native Forest and agricultural management of Conventional Planting. The soil samples were collected and made available by the company Embrapa Agropecu\'aria Oeste located in the city of Dourados - MS. DNA extraction was performed using the DNA SPIN KIT. DNA sequencing was performed using Illumina technology,  assessing its quality by using the FastQC program,  filtering the low-quality ones through the Prinseq-lite program. With the identification of ORFs obtained by the FragGeneScan program,  sequence identification was performed using BLAST 2. Comparisons were made with a local database built from a-galactosidase enzymes obtained from the NCBI Identical Protein Group. The comparison of the microbial data of the samples was performed using the MEGAN 6 program and the statistical analysis were performed using the STAMP program. The locally built a-galactosidase enzyme database had in store a total of 162, 552 enzymes. The native forest soil sample carried a total of 46, 430 ORFs of which 11, 184 belonged to the enzyme a-galactosidase,  the agricultural management soil sample of Conventional Planting had 71, 762 ORFs and 1, 427 of the enzyme a-galactosidase were obtained. The comparison of soil samples indicated that the phyla with the greatest a-galactosidase enzyme representativeness were Actinobacteria,  Deinococcus-Thermus,  Ascomycota,  Firmicutes and Acidobacteria,  and the genera were Thermus,  Streptomyces,  Talaromyces,  Bacillus and unclassified Acidobacteria. Statistical analyzes show that the phylum Deinococcus-Thermus has a statistically significant difference occurring more in the soil of Conventional Planting,  while in the phylum Acidobacteria it has a statistical difference occurring more in the Native Forest and in the genus Talaromyces,  while the genus Thermus has a statistical difference occurring more at Conventional Planting.
+  
+  Funding:   \\
+  \href{http://ab3c.org.br/xpress_pres2020/xmxp2020-303040.html}{Link to Video:}
+
+  \end{abstract}
+   
+  \end{document} 

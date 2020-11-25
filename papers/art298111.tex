@@ -1,0 +1,71 @@
+
+  \documentclass[twoside]{article}
+  \usepackage[affil-it]{authblk}
+  \usepackage{lipsum} % Package to generate dummy text throughout this template
+  \usepackage{eurosym}
+  \usepackage[sc]{mathpazo} % Use the Palatino font
+  \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+  \usepackage[utf8]{inputenc}
+  \linespread{1.05} % Line spacing-Palatino needs more space between lines
+  \usepackage{microtype} % Slightly tweak font spacing for aesthetics\[IndentingNewLine]
+  \usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+  \usepackage{multicol} % Used for the two-column layout of the document
+  \usepackage[hang,small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under//above floats in tables or figures
+  \usepackage{booktabs} % Horizontal rules in tables
+  \usepackage{float} % Required for tables and figures in the multi-column environment-they need to be placed in specific locations with the[H] (e.g. \begin{table}[H])
+  \usepackage{hyperref} % For hyperlinks in the PDF
+  \usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+  \usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+  \usepackage{abstract} % Allows abstract customization
+  \renewcommand{\abstractnamefont}{\normalfont\bfseries} 
+  %\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text\[IndentingNewLine]
+  \usepackage{titlesec} % Allows customization of titles
+  \renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+  \renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
+  \titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+  \titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+  \usepackage{fancyhdr} % Headers and footers
+  \pagestyle{fancy} % All pages have headers and footers
+  \fancyhead{} % Blank out the default header
+  \fancyfoot{} % Blank out the default footer
+  \fancyhead[C]{X-meeting eXperience $\bullet$ November 2020} % Custom header text
+  \fancyfoot[RO,LE]{} % Custom footer text
+  %----------------------------------------------------------------------------------------
+  % TITLE SECTION
+  %---------------------------------------------------------------------------------------- 
+ 
+ \title{\vspace{-15mm}\fontsize{24pt}{10pt}\selectfont\textbf{ The genomic signature of Fungi at the gene- and pathway-levels }} % Article title
+  
+  
+  \author{ Francisco Pereira Lobo,  Alison Menezes,  Aline Soares dos Reis }
+  
+  \affil{ UNIVERSIDADE FEDERAL DE MINAS GERAIS,  UNIVERSIDADE FEDERAL DE MINAS GERAIS }
+  \vspace{-5mm}
+  \date{}
+  
+  %---------------------------------------------------------------------------------------- 
+  
+  \begin{document}
+  
+  
+  \maketitle % Insert title
+  
+  
+  \thispagestyle{fancy} % All pages have headers and footers
+  %----------------------------------------------------------------------------------------  
+  % ABSTRACT
+  
+  %----------------------------------------------------------------------------------------  
+  
+  \begin{abstract}
+  Fungi comprise a highly diverse eukaryotic taxon that plays important ecological and biotechnological roles. They can also be a threat due to their pathogenicity: fungal toxicity and drug resistance are key concerns in medicine and agriculture. Therefore,  the molecular and functional characterization of fungi is both noteworthy and needed to achieve a better understanding of their modus operandi and to detect possible new targets for molecular intervention.
+KEGG database describes groups of homologous genes shared across genomes as Kegg Orthology groups (KO). We use the KEGG API to obtain all KO groups for each complete eukaryotic genome available,  which were divided into fungi (F,  129 genomes) and non-fungi (NF,  406 genomes). To select KO groups enriched in F,  we used the following strategy: 1) genome bootstrapping in both groups (100 bootstraps); 2) For each bootstrap,  perform the Fisher’s test,  followed by FDR correction,  to evaluate if a KO was more observed in F than in NF; 3) a KO is considered overrepresented in F if FDR-corrected q-values are < 0.05 in 95\% of the bootstraps and absent in NF.
+From the set of 13962 KOs found in at least one genome,  495 (~3.5\%) are significantly enriched in Fungi. Among the 50 most enriched KOs,  we found enzymes of fungal activity as decomposers and also of metabolic activities of commercial interest. Interestingly,  we also found several enzymes already targeted by antifungals,  indicating our strategy also detects known druggable proteins. We also found several interesting candidates for future research that play major roles in fungal biology,  such as transcriptional regulators and components of cell wall processes.
+We detected enriched pathways in F by computing the ratio of enriched KOs in a pathway by the total count of KOs in the same pathway. Among the pathways with the highest ratio of KOs enriched in fungal genomes we found both fungi-specific processes and fungal-specific modules within conserved eukaryotic pathways,  such as DNA repair,  protein synthesis and fatty acid metabolism. Mapping of KOs into specific pathways will also allow us to search for chokepoints,  defined as steps that either uniquely consumes a specific substrate or uniquely produces a specific product,  therefore comprising interesting targets for systemic interventions in fungal metabolism. Together,  our comparative genomics analysis provides a gene- and pathway-level signature of fungal biology.
+  
+  Funding:   \\
+  \href{http://ab3c.org.br/xpress_pres2020/xmxp2020-298111.html}{Link to Video:}
+
+  \end{abstract}
+   
+  \end{document} 

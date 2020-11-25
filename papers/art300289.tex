@@ -1,0 +1,68 @@
+
+  \documentclass[twoside]{article}
+  \usepackage[affil-it]{authblk}
+  \usepackage{lipsum} % Package to generate dummy text throughout this template
+  \usepackage{eurosym}
+  \usepackage[sc]{mathpazo} % Use the Palatino font
+  \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+  \usepackage[utf8]{inputenc}
+  \linespread{1.05} % Line spacing-Palatino needs more space between lines
+  \usepackage{microtype} % Slightly tweak font spacing for aesthetics\[IndentingNewLine]
+  \usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+  \usepackage{multicol} % Used for the two-column layout of the document
+  \usepackage[hang,small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under//above floats in tables or figures
+  \usepackage{booktabs} % Horizontal rules in tables
+  \usepackage{float} % Required for tables and figures in the multi-column environment-they need to be placed in specific locations with the[H] (e.g. \begin{table}[H])
+  \usepackage{hyperref} % For hyperlinks in the PDF
+  \usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+  \usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+  \usepackage{abstract} % Allows abstract customization
+  \renewcommand{\abstractnamefont}{\normalfont\bfseries} 
+  %\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text\[IndentingNewLine]
+  \usepackage{titlesec} % Allows customization of titles
+  \renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+  \renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
+  \titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+  \titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+  \usepackage{fancyhdr} % Headers and footers
+  \pagestyle{fancy} % All pages have headers and footers
+  \fancyhead{} % Blank out the default header
+  \fancyfoot{} % Blank out the default footer
+  \fancyhead[C]{X-meeting eXperience $\bullet$ November 2020} % Custom header text
+  \fancyfoot[RO,LE]{} % Custom footer text
+  %----------------------------------------------------------------------------------------
+  % TITLE SECTION
+  %---------------------------------------------------------------------------------------- 
+ 
+ \title{\vspace{-15mm}\fontsize{24pt}{10pt}\selectfont\textbf{ De novo transcriptomes of endangered Amazonian bats and the detection of a rich source of virus information }} % Article title
+  
+  
+  \author{ Santelmo Vasconcelos,  Leonardo Trevelin,  Mariane Ribeiro,  Renato Renison Moreira Oliveira,  Guilherme Oliveira,  Mariana Dias }
+  
+  \affil{ ITV - Instituto Tecnol\'ogico Vale,  UNIVERSIDADE FEDERAL DE MINAS GERAIS,  UFMG/ITV,  ITV - Instituto Tecnol\'ogico Vale }
+  \vspace{-5mm}
+  \date{}
+  
+  %---------------------------------------------------------------------------------------- 
+  
+  \begin{document}
+  
+  
+  \maketitle % Insert title
+  
+  
+  \thispagestyle{fancy} % All pages have headers and footers
+  %----------------------------------------------------------------------------------------  
+  % ABSTRACT
+  
+  %----------------------------------------------------------------------------------------  
+  
+  \begin{abstract}
+  Bats are the second richest mammalian order,  present a wide diversity of feeding behaviors,  and play a crucial role in maintaining the ecosystem balance. They provide essential ecological services,  such as pest control,  pollination,  and seed dispersion. Bats are also known as a frequent virus reservoir. The occurrences of multiple viral diseases like Ebola,  SARS,  and,  more recently,  Covid-19 have motivated the scientific community to look deeper into the relationships of bats and infectious agents and discover potentially pathogenic viruses. In this study,  we used RNA-sequencing to reveal both the expression of genes associated with bats' innate immunity and the detection of active viruses. We performed a de novo transcriptome assembly and annotation of three regionally endangered bat species from Serra dos Caraj\'as,  Par\'a,  Brazil: Furipterus horrens (Furipteridae),  Lonchorhina aurita (Phyllostomidae),  and Natalus macrourus (Natalidae). Total RNA was isolated from several organs of one specimen per species. Transcriptomes were assembled with Trinity. After removing redundant contigs,  functional annotation was performed using Trinotate. We recovered from the assembled transcriptomes over 90\% of the mammalian orthologues,  higher than previously published bat transcriptomes. Highly expressed genes recovered for all three species are associated with a wide range of cellular activities,  including more than 900 genes related to the immune response. Besides,  we could identify virus sequences from tissue reads of the three analyzed bats. We customized a bat genome database with representatives of all three bat families and aligned the reads from all tissues of each species to remove host sequences. The unmapped reads were de novo assembled with Trinity,  and Kaiju was used for the initial taxonomic classification of the generated transcripts,  which were further validated with BLAST searches against complete virus reference sequences. We identified 32 virus families in the tissues of F. horrens,  and 27 in L. aurita and N. macrourus. Eighteen virus families were shared among the species. The families with a higher number of representatives in the three species were Retroviridae,  Herpesviridae,  and Poxviridae. Viruses primarily associated with human infections,  such as the human herpesvirus,  human endogenous retrovirus,  and human papillomavirus,  were found in the three species. We did not observe coronavirus in the Amazonian bats. Also,  high diversity in the expression pattern in the different tissues was observed for all bat species.
+  
+  Funding:   \\
+  \href{http://ab3c.org.br/xpress_pres2020/xmxp2020-300289.html}{Link to Video:}
+
+  \end{abstract}
+   
+  \end{document} 

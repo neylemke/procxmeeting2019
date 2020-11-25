@@ -1,0 +1,68 @@
+
+  \documentclass[twoside]{article}
+  \usepackage[affil-it]{authblk}
+  \usepackage{lipsum} % Package to generate dummy text throughout this template
+  \usepackage{eurosym}
+  \usepackage[sc]{mathpazo} % Use the Palatino font
+  \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+  \usepackage[utf8]{inputenc}
+  \linespread{1.05} % Line spacing-Palatino needs more space between lines
+  \usepackage{microtype} % Slightly tweak font spacing for aesthetics\[IndentingNewLine]
+  \usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+  \usepackage{multicol} % Used for the two-column layout of the document
+  \usepackage[hang,small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under//above floats in tables or figures
+  \usepackage{booktabs} % Horizontal rules in tables
+  \usepackage{float} % Required for tables and figures in the multi-column environment-they need to be placed in specific locations with the[H] (e.g. \begin{table}[H])
+  \usepackage{hyperref} % For hyperlinks in the PDF
+  \usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+  \usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+  \usepackage{abstract} % Allows abstract customization
+  \renewcommand{\abstractnamefont}{\normalfont\bfseries} 
+  %\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text\[IndentingNewLine]
+  \usepackage{titlesec} % Allows customization of titles
+  \renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+  \renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
+  \titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+  \titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+  \usepackage{fancyhdr} % Headers and footers
+  \pagestyle{fancy} % All pages have headers and footers
+  \fancyhead{} % Blank out the default header
+  \fancyfoot{} % Blank out the default footer
+  \fancyhead[C]{X-meeting eXperience $\bullet$ November 2020} % Custom header text
+  \fancyfoot[RO,LE]{} % Custom footer text
+  %----------------------------------------------------------------------------------------
+  % TITLE SECTION
+  %---------------------------------------------------------------------------------------- 
+ 
+ \title{\vspace{-15mm}\fontsize{24pt}{10pt}\selectfont\textbf{ Modeling alelle-specific expression in complex polyploids }} % Article title
+  
+  
+  \author{ Agnelo Furtado,  Antonio Augusto Franco Garcia,  Robert James Henry,  Gabriel Rodrigues Alves Margarido,  Fernando Henrique Correr }
+  
+  \affil{ Escola Superior de Agricultura "Luiz de Queiroz" / Universidade de S\~ao Paulo (ESALQ/USP) }
+  \vspace{-5mm}
+  \date{}
+  
+  %---------------------------------------------------------------------------------------- 
+  
+  \begin{document}
+  
+  
+  \maketitle % Insert title
+  
+  
+  \thispagestyle{fancy} % All pages have headers and footers
+  %----------------------------------------------------------------------------------------  
+  % ABSTRACT
+  
+  %----------------------------------------------------------------------------------------  
+  
+  \begin{abstract}
+  Allele-specific expression (ASE) represents the difference in the magnitude of expression between  haplotypes of the same gene. Assessing ASE relies on identifying polymorphisms from genotypic data,  whose allele expression levels are measured by high-throughput methods. Allelic imbalance occurs if the ratio of expression between two alleles shows deviations from their expected equivalent expression. However,  this is not straightforward for polyploids,  especially autopolyploids,  as knowledge about the dosage of each allele is required for accurate estimation of ASE. This is the case for the genomically complex Saccharum species,  characterized by high levels of ploidy and aneuploidy. Two species in this genus were the basis for developing sugarcane cultivars,  which are interspecific hybrids. We propose a model to test for allelic imbalance in Saccharum that can be easily expanded to other polyploids. Our study is the first approach to assess ASE in a complex polyploid system using estimated allelic dosages. First,  we identified SNPs and estimated allele dosages in a panel of Saccharum and other closely-related accessions. Then,  we quantified the expression of each allele using sequenced libraries from leaves of six genotypes. To test for ASE in the i-th SNP of the k-th genotype,  our null hypothesis was that the proportion of the reference allele from RNA counts (?ik) was equal to ratio of the dosage of this allele (Pik ) in the genome.  Our model followed a Beta-Binomial distribution in which the a priori distribution of ?ik was modeled by a Beta distribution using as parameters the dosage of each allele. To obtain the a posteriori distribution we used the Bayesian Markov chain Monte Carlo procedure,  calling an ASE SNP if Pik  was outside the high density interval of ?ik. We found that genes showing ASE were common in Saccharum,  with highest frequencies in sugarcane hybrids. Genes with ASE were related to a broad range of processes,  mostly associated to the general metabolism,  organelles,  responses to stress and responses to stimuli. Although many processes were specifically associated to particular genotypes,  we found that conserved Liliopsida orthologs were significantly enriched with genes showing ASE. However,  there was no significant enrichment among orthologs of Saccharinae or Saccharum. We then hypothesize that monocot core genes show ASE to preserve essential functions. These results provide evidence of the ASE importance in the evolution of Saccharum,  justifying the maintenance of higher expression levels of some beneficial alleles.
+  
+  Funding:   \\
+  \href{http://ab3c.org.br/xpress_pres2020/xmxp2020-300869.html}{Link to Video:}
+
+  \end{abstract}
+   
+  \end{document} 

@@ -1,0 +1,68 @@
+
+  \documentclass[twoside]{article}
+  \usepackage[affil-it]{authblk}
+  \usepackage{lipsum} % Package to generate dummy text throughout this template
+  \usepackage{eurosym}
+  \usepackage[sc]{mathpazo} % Use the Palatino font
+  \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+  \usepackage[utf8]{inputenc}
+  \linespread{1.05} % Line spacing-Palatino needs more space between lines
+  \usepackage{microtype} % Slightly tweak font spacing for aesthetics\[IndentingNewLine]
+  \usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+  \usepackage{multicol} % Used for the two-column layout of the document
+  \usepackage[hang,small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under//above floats in tables or figures
+  \usepackage{booktabs} % Horizontal rules in tables
+  \usepackage{float} % Required for tables and figures in the multi-column environment-they need to be placed in specific locations with the[H] (e.g. \begin{table}[H])
+  \usepackage{hyperref} % For hyperlinks in the PDF
+  \usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+  \usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+  \usepackage{abstract} % Allows abstract customization
+  \renewcommand{\abstractnamefont}{\normalfont\bfseries} 
+  %\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text\[IndentingNewLine]
+  \usepackage{titlesec} % Allows customization of titles
+  \renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+  \renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
+  \titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+  \titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+  \usepackage{fancyhdr} % Headers and footers
+  \pagestyle{fancy} % All pages have headers and footers
+  \fancyhead{} % Blank out the default header
+  \fancyfoot{} % Blank out the default footer
+  \fancyhead[C]{X-meeting eXperience $\bullet$ November 2020} % Custom header text
+  \fancyfoot[RO,LE]{} % Custom footer text
+  %----------------------------------------------------------------------------------------
+  % TITLE SECTION
+  %---------------------------------------------------------------------------------------- 
+ 
+ \title{\vspace{-15mm}\fontsize{24pt}{10pt}\selectfont\textbf{ Improvement of Angiostrongylus costaricensis genome annotation using RNA-Seq data }} % Article title
+  
+  
+  \author{ Karina Mastropasqua Rebello,  Makedonka Mitreva,  James McKerrow,  Ana Gisele da Costa Neves Ferreira,  Fabio Passetti,  ESDRAS MATHEUS GOMES DA SILVA }
+  
+  \affil{ IOC/Fiocruz }
+  \vspace{-5mm}
+  \date{}
+  
+  %---------------------------------------------------------------------------------------- 
+  
+  \begin{document}
+  
+  
+  \maketitle % Insert title
+  
+  
+  \thispagestyle{fancy} % All pages have headers and footers
+  %----------------------------------------------------------------------------------------  
+  % ABSTRACT
+  
+  %----------------------------------------------------------------------------------------  
+  
+  \begin{abstract}
+  Angiostrongylus costaricensis is a roundworm species that causes an intestinal inflammatory disease,  known as abdominal angiostrongyliasis. The rodents are typically its definitive hosts,  where they are usually found in the mesenteric arteries. Humans are accidental hosts,  being contaminated by the ingestion of infective third stage larvae present on contaminated water and food. Currently,  there is no drug available that acts directly on this parasite,  mostly due to the sparce understanding of its molecular characteristics. Thus,  aiming to provide a better understanding of its molecular aspects we present here the improved annotation of A. costaricensis protein-coding genes and transcripts using RNA-Seq data. First,  the transcripts of both male and female adult worms were sequenced using RNA-Seq Illumina technology,  generating short-paired reads. These RNA-Seq reads were aligned to the genome draft (version WBPS15) and used as extrinsic evidence for predicting protein-coding genes and transcripts,  using the software BRAKER2. These predicted genes and transcripts were used to increment the WBPS15 genome annotation. The functional annotation of the complete ORFs of the WBPS15 improved was achieved using the software blast2GO from the OmicsBox package. The different gene expression (DGE) analysis between male and female worm genes was performed using the DESeq2 R package. The WBPS15 improved genome annotation comprises 14, 588 genes,  27, 788 mRNAs and 21, 584 complete ORFs. Overall,  72\% of complete ORFs sequences were completely annotated by Blast2GO. It was identified 2, 573 genes more expressed in male and 747 genes more expressed in female worms,  with adjusted P value (FDR) = 0.01 and Log2 fold change = 2 thresholds. Among the overrepresented terms of male are: non-membrane spanning protein tyrosine kinase activity (GO:0004715),  protein kinase activity (GO:0004672) and phosphoprotein phosphatase activity (GO:0004721) and of female (among 7 GO terms over-expressed) are: protein tyrosine phosphatase activity (GO:0004725),  mRNA binding (GO:0003729) and protein phosphatase 1 binding (GO:0008157). We believe that this improved genome annotation of protein-coding genes and transcripts contributes to better understand the molecular diversity of A. costaricensis,  being this is a key step for the selection of therapeutic proteins.
+  
+  Funding: CAPES \\
+  \href{http://ab3c.org.br/xpress_pres2020/xmxp2020-305446.html}{Link to Video:}
+
+  \end{abstract}
+   
+  \end{document} 

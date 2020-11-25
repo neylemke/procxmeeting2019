@@ -1,0 +1,71 @@
+
+  \documentclass[twoside]{article}
+  \usepackage[affil-it]{authblk}
+  \usepackage{lipsum} % Package to generate dummy text throughout this template
+  \usepackage{eurosym}
+  \usepackage[sc]{mathpazo} % Use the Palatino font
+  \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+  \usepackage[utf8]{inputenc}
+  \linespread{1.05} % Line spacing-Palatino needs more space between lines
+  \usepackage{microtype} % Slightly tweak font spacing for aesthetics\[IndentingNewLine]
+  \usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+  \usepackage{multicol} % Used for the two-column layout of the document
+  \usepackage[hang,small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under//above floats in tables or figures
+  \usepackage{booktabs} % Horizontal rules in tables
+  \usepackage{float} % Required for tables and figures in the multi-column environment-they need to be placed in specific locations with the[H] (e.g. \begin{table}[H])
+  \usepackage{hyperref} % For hyperlinks in the PDF
+  \usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+  \usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+  \usepackage{abstract} % Allows abstract customization
+  \renewcommand{\abstractnamefont}{\normalfont\bfseries} 
+  %\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text\[IndentingNewLine]
+  \usepackage{titlesec} % Allows customization of titles
+  \renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+  \renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
+  \titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+  \titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+  \usepackage{fancyhdr} % Headers and footers
+  \pagestyle{fancy} % All pages have headers and footers
+  \fancyhead{} % Blank out the default header
+  \fancyfoot{} % Blank out the default footer
+  \fancyhead[C]{X-meeting eXperience $\bullet$ November 2020} % Custom header text
+  \fancyfoot[RO,LE]{} % Custom footer text
+  %----------------------------------------------------------------------------------------
+  % TITLE SECTION
+  %---------------------------------------------------------------------------------------- 
+ 
+ \title{\vspace{-15mm}\fontsize{24pt}{10pt}\selectfont\textbf{ Autophagy related genes influence global survival in Ewing's sarcoma }} % Article title
+  
+  
+  \author{ Mauricio Gomes,  Ricardo M. Ferreira,  Caroline Brunetto de Farias,  Andr\'e Tesainer Brunetto,  Mariane da Cunha Jaeger,  Rafael Roesler,  Marialva Sinigaglia,  Rita Maria Cunha de Almeida,  Matheus Dalmolin }
+  
+  \affil{ UFRGS,  UFRGS,  ICI - Instituto do C\^ancer Infantil }
+  \vspace{-5mm}
+  \date{}
+  
+  %---------------------------------------------------------------------------------------- 
+  
+  \begin{document}
+  
+  
+  \maketitle % Insert title
+  
+  
+  \thispagestyle{fancy} % All pages have headers and footers
+  %----------------------------------------------------------------------------------------  
+  % ABSTRACT
+  
+  %----------------------------------------------------------------------------------------  
+  
+  \begin{abstract}
+  Ewing's sarcoma (ES) is a highly aggressive tumor,  affecting the bones or soft-tissues,  being the second most common pediatric bone neoplasia. It is characterized by chromosomal fusion involving the EWS gene and transcription factors of the ETS family,  usually FLI1. Although treatment for localized disease is proven to be effective,  the long-term survival of patients with metastatic or recurrent ES is still very low. Thus,  a detection of prognostic markers of ES outcome at the time of diagnosis,  could be oriented towards a more effective and
+ES outcome at the time of diagnosis could be oriented towards a more effective and individualized treatment protocol according to the tumor's aggressiveness profile.
+The analyzes were performed using public data available from the Gene Expression Omnibus (GEO). Gene expression data from ES biopsies,  collected at the time of diagnosis and containing metadata about the outcome of patients: COG (GSE63155),  EuroEwing (GSE63156) and Italians (GSE17679) were analyzed. Each cohort was classified into two groups: (i) SOB (survivors),  overall survival greater than five years and (ii) NSOB (non-survivors),  overall survival less than five years. The comparison between the two outcomes was performed using The Transcriptogramer V.1 software,  other analyzes were performed in the R environment.
+There was a significant difference in the gene expression profile between the groups (SOB and NSOB) of the COG and Italian cohorts. The group of differentially expressed genes from each of the two cohorts was processed through several steps,  available in a list of genes. From this list,  43 genes have their expression levels associated with overall survival (Kaplan Meyer with p <0.05) validated in the three independent cohorts. The protein-protein interaction network (string-db version 11) between 43 genes was generated,  and 11 genes were added to connect all nodes in the network. Gene Ontology (GO) terms related to autophagy,  such as autophagy and macroautophagy had the largest number of representatives (17 and 16) within the network and the lowest adjusted p-values (<0.0001). Autophagy was also present among Kegg and Reactome pathways. These findings indicate that autophagy is a very relevant process within our network and can be a potential marker of ES outcome at the time of diagnosis.
+  
+  Funding: Intituto do C\^ancer Infantil Instituto do C\^ancer Infantil e Pronon - SIPAR: 25000.202.751/2016-65 \\
+  \href{http://ab3c.org.br/xpress_pres2020/xmxp2020-305749.html}{Link to Video:}
+
+  \end{abstract}
+   
+  \end{document} 

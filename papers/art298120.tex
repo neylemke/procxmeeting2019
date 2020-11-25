@@ -1,0 +1,68 @@
+
+  \documentclass[twoside]{article}
+  \usepackage[affil-it]{authblk}
+  \usepackage{lipsum} % Package to generate dummy text throughout this template
+  \usepackage{eurosym}
+  \usepackage[sc]{mathpazo} % Use the Palatino font
+  \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+  \usepackage[utf8]{inputenc}
+  \linespread{1.05} % Line spacing-Palatino needs more space between lines
+  \usepackage{microtype} % Slightly tweak font spacing for aesthetics\[IndentingNewLine]
+  \usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+  \usepackage{multicol} % Used for the two-column layout of the document
+  \usepackage[hang,small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under//above floats in tables or figures
+  \usepackage{booktabs} % Horizontal rules in tables
+  \usepackage{float} % Required for tables and figures in the multi-column environment-they need to be placed in specific locations with the[H] (e.g. \begin{table}[H])
+  \usepackage{hyperref} % For hyperlinks in the PDF
+  \usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+  \usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+  \usepackage{abstract} % Allows abstract customization
+  \renewcommand{\abstractnamefont}{\normalfont\bfseries} 
+  %\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text\[IndentingNewLine]
+  \usepackage{titlesec} % Allows customization of titles
+  \renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+  \renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
+  \titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+  \titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+  \usepackage{fancyhdr} % Headers and footers
+  \pagestyle{fancy} % All pages have headers and footers
+  \fancyhead{} % Blank out the default header
+  \fancyfoot{} % Blank out the default footer
+  \fancyhead[C]{X-meeting eXperience $\bullet$ November 2020} % Custom header text
+  \fancyfoot[RO,LE]{} % Custom footer text
+  %----------------------------------------------------------------------------------------
+  % TITLE SECTION
+  %---------------------------------------------------------------------------------------- 
+ 
+ \title{\vspace{-15mm}\fontsize{24pt}{10pt}\selectfont\textbf{ microRNAs,  target-genes and pathways related to Gestational Diabetes Mellitus: searching for potential biomarkers }} % Article title
+  
+  
+  \author{ Marcelo Rizzatti Luizon,  Izabela Mamede Costa Andrade da Concei\c{c}\~ao,  Graziele Pimentel Coelho Almeida,  Jo\~ao Rafael Gon\c{c}alves Pereira }
+  
+  \affil{ UNIVERSIDADE FEDERAL DE MINAS GERAIS,  UFMG }
+  \vspace{-5mm}
+  \date{}
+  
+  %---------------------------------------------------------------------------------------- 
+  
+  \begin{document}
+  
+  
+  \maketitle % Insert title
+  
+  
+  \thispagestyle{fancy} % All pages have headers and footers
+  %----------------------------------------------------------------------------------------  
+  % ABSTRACT
+  
+  %----------------------------------------------------------------------------------------  
+  
+  \begin{abstract}
+  Gestational Diabetes Mellitus (GDM) is the most common metabolic disease of pregnancy,  defined as carbohydrate intolerance first diagnosed during pregnancy that may or may not persist after delivery. In addition,  women with GDM are at higher risk for complications such as obesity and cardiovascular disease. Adequate glycemic control has been proven to reduce the risk of complications related to GDM. MicroRNAs are widely recognized post-transcriptional regulators,  as they hybridize with complementary sequences in the messenger RNA and silence gene expression by destabilizing or preventing mRNA translation. MicroRNAs have already been proposed to play a role in the pathogenesis in cancer and diabetes,  but their effective use as biomarkers is still undefined,  due to the ability of a microRNA to have made on a large group of genes. Indeed,  there are still not enough data to understand if microRNAs can be promising biomarkers for prediction and monitoring pregnancy complications,  such as GDM. Our goal is to identify microRNAs differentially expressed in GDM in literature reviews and their possible target genes and the associated molecular pathways,  which could be related to mechanisms present in GDM pathophysiology using bioinformatics tools. From a selection of microRNAs identified in literature reviews on GDM,  target genes were identified using Harmonizome (https://maayanlab.cloud/Harmonizome/),  a collection of pre-processed datasets used for data mining about gene products and proteins. From the name of each microRNA identified,  searches were carried out on Harmonizome to find their respective target genes,  which were used to identify associated molecular pathways in the Enrichr,  a functional enrichment tool for multiple gene-sets (https://maayanlab.cloud/Enrichr/),  and we have focused on the Reactome Database pathways (https://reactome.org/). Pathways with p-value lower than 0.05 were selected for further analysis. From the literature,  we selected four microRNAs for their possible effect as central regulators in GDM pathophysiology,  namely miR-20a-5p,  miR-16-5p,  miR-17-5p,  mir-29a-3p. In our research,  we found 14 regulatory pathways associated with the target genes for these four microRNAs that passed the 0.05 cutoff. Among these pathways,  “cell cycle related to PTK6” was the pathway with the highest combined score,  which may be related to diabetic cell death. Another important result is “TGF-beta related pathways”,  since it is one of the main factors which are related to Diabetic Nephropathy. Our results suggest that microRNAs may be potential biomarkers to clinical outcomes and mechanisms related to GDM pathophysiology. However,  further functional studies should explore the mechanistic role of these microRNAs in GDM pathophysiology.
+  
+  Funding:   \\
+  \href{http://ab3c.org.br/xpress_pres2020/xmxp2020-298120.html}{Link to Video:}
+
+  \end{abstract}
+   
+  \end{document} 

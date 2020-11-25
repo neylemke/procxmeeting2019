@@ -1,0 +1,68 @@
+
+  \documentclass[twoside]{article}
+  \usepackage[affil-it]{authblk}
+  \usepackage{lipsum} % Package to generate dummy text throughout this template
+  \usepackage{eurosym}
+  \usepackage[sc]{mathpazo} % Use the Palatino font
+  \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+  \usepackage[utf8]{inputenc}
+  \linespread{1.05} % Line spacing-Palatino needs more space between lines
+  \usepackage{microtype} % Slightly tweak font spacing for aesthetics\[IndentingNewLine]
+  \usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+  \usepackage{multicol} % Used for the two-column layout of the document
+  \usepackage[hang,small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under//above floats in tables or figures
+  \usepackage{booktabs} % Horizontal rules in tables
+  \usepackage{float} % Required for tables and figures in the multi-column environment-they need to be placed in specific locations with the[H] (e.g. \begin{table}[H])
+  \usepackage{hyperref} % For hyperlinks in the PDF
+  \usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+  \usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+  \usepackage{abstract} % Allows abstract customization
+  \renewcommand{\abstractnamefont}{\normalfont\bfseries} 
+  %\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text\[IndentingNewLine]
+  \usepackage{titlesec} % Allows customization of titles
+  \renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+  \renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
+  \titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+  \titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+  \usepackage{fancyhdr} % Headers and footers
+  \pagestyle{fancy} % All pages have headers and footers
+  \fancyhead{} % Blank out the default header
+  \fancyfoot{} % Blank out the default footer
+  \fancyhead[C]{X-meeting eXperience $\bullet$ November 2020} % Custom header text
+  \fancyfoot[RO,LE]{} % Custom footer text
+  %----------------------------------------------------------------------------------------
+  % TITLE SECTION
+  %---------------------------------------------------------------------------------------- 
+ 
+ \title{\vspace{-15mm}\fontsize{24pt}{10pt}\selectfont\textbf{ Mesoscopic evaluation of DNA mismatches in PCR primers for SARS-CoV-2 detection }} % Article title
+  
+  
+  \author{ Gerald Weber,  P\^amella Miranda de Moura }
+  
+  \affil{ UNIVERSIDADE FEDERAL DE MINAS GERAIS,  UFMG - Departamento de F\'{\i}sica }
+  \vspace{-5mm}
+  \date{}
+  
+  %---------------------------------------------------------------------------------------- 
+  
+  \begin{document}
+  
+  
+  \maketitle % Insert title
+  
+  
+  \thispagestyle{fancy} % All pages have headers and footers
+  %----------------------------------------------------------------------------------------  
+  % ABSTRACT
+  
+  %----------------------------------------------------------------------------------------  
+  
+  \begin{abstract}
+  The pandemic of COVID-19 brought the necessity to a large testing in population. As a golden standard for molecular tests,  techniques based in PCR (Polymerase Chain Reaction) has been used to detect SARS-CoV-2 virus,  such as RT-PCR (reverse transcription PCR). For the amplification of viral target is used a set of primers to hybrid with. These oligos are single strands DNA sequences of 18-20 bases in length and are designed for sense and antissense direction. An important parameter to obtain a good performance of primers is the melting temperature which is related to the efficiency of primer to hybridise to the DNA molecule. Primers are designed to bind complementarily to DNA,  however,  it may be include single mismatches in the hybridisation. Mismatch presence can influence in the stabilisation of DNA molecule. In the case of PCR process,  one or more mismatches can change the melting temperature of primers and may be interfere in the amplification of DNA molecule. Focusing in how mismatches may impact the detection of SARS-CoV-2 by PCR techniques,  we collected and analysed 19 PCR primers sets to verify the behaviour of their melting temperatures in presence of up to three consecutive mismatches. We aligned the primers sets with 21665 genomes of SARS-CoV-2 and applied the Peyrard-Bishop mesoscopic model to obtain the melting temperatures for the resulted alignments. We compared the calculated melting temperatures for mismatch and perfect alignments. Furthermore,  we collected genomes of SARS-CoV and other five coronaviruses to be our control group performancing the same workflow. In addition,  we collected some data that can contribute to an optimization of primers sets for PCR diagnostic method for SARS-CoV-2. Our results indicate numerous instances where the mismatch presence does not destabilize the primers ensuring their detection capacity.
+  
+  Funding:   \\
+  \href{http://ab3c.org.br/xpress_pres2020/xmxp2020-297987.html}{Link to Video:}
+
+  \end{abstract}
+   
+  \end{document} 

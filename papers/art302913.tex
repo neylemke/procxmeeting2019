@@ -1,0 +1,68 @@
+
+  \documentclass[twoside]{article}
+  \usepackage[affil-it]{authblk}
+  \usepackage{lipsum} % Package to generate dummy text throughout this template
+  \usepackage{eurosym}
+  \usepackage[sc]{mathpazo} % Use the Palatino font
+  \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+  \usepackage[utf8]{inputenc}
+  \linespread{1.05} % Line spacing-Palatino needs more space between lines
+  \usepackage{microtype} % Slightly tweak font spacing for aesthetics\[IndentingNewLine]
+  \usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+  \usepackage{multicol} % Used for the two-column layout of the document
+  \usepackage[hang,small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under//above floats in tables or figures
+  \usepackage{booktabs} % Horizontal rules in tables
+  \usepackage{float} % Required for tables and figures in the multi-column environment-they need to be placed in specific locations with the[H] (e.g. \begin{table}[H])
+  \usepackage{hyperref} % For hyperlinks in the PDF
+  \usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+  \usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+  \usepackage{abstract} % Allows abstract customization
+  \renewcommand{\abstractnamefont}{\normalfont\bfseries} 
+  %\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text\[IndentingNewLine]
+  \usepackage{titlesec} % Allows customization of titles
+  \renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+  \renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
+  \titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+  \titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+  \usepackage{fancyhdr} % Headers and footers
+  \pagestyle{fancy} % All pages have headers and footers
+  \fancyhead{} % Blank out the default header
+  \fancyfoot{} % Blank out the default footer
+  \fancyhead[C]{X-meeting eXperience $\bullet$ November 2020} % Custom header text
+  \fancyfoot[RO,LE]{} % Custom footer text
+  %----------------------------------------------------------------------------------------
+  % TITLE SECTION
+  %---------------------------------------------------------------------------------------- 
+ 
+ \title{\vspace{-15mm}\fontsize{24pt}{10pt}\selectfont\textbf{ Classification of amino acid residue pairs using GMM and EM Algorithm }} % Article title
+  
+  
+  \author{ Higor Coimbra Amorim }
+  
+  \affil{ CENTRO FEDERAL DE EDUCA\c{C}\~AO TECNOL\'OGICA DE MINAS GERAIS }
+  \vspace{-5mm}
+  \date{}
+  
+  %---------------------------------------------------------------------------------------- 
+  
+  \begin{document}
+  
+  
+  \maketitle % Insert title
+  
+  
+  \thispagestyle{fancy} % All pages have headers and footers
+  %----------------------------------------------------------------------------------------  
+  % ABSTRACT
+  
+  %----------------------------------------------------------------------------------------  
+  
+  \begin{abstract}
+  RID (Residue Interaction Database) is a system built to propose site-directed mutations on 3D protein structures using PDB files. One of the steps of RID process is to indicate which amino acid residue pairs of a protein are able to receive a mutation and then,  all of the candidates are classified according to their atomic structure similarities. On RID,  these classifications are based on a score produced by the overlap of all candidates atomic structures using LSQKAB. However,  for a large dataset of PDB files,  for example a dataset with about 16000 elements,  as the one used in this research,  the overlap made by LSQKAB can be a very large time consuming process. One of the proposals made to replace LSQKAB was the use of an atom to atom distance matrix to replace the residue pairs' PDB files and the use of K-Means clustering algorithm to replace the score overlap classification. Results showed that K-Means was a viable method to cluster residue pairs and could be used inside the RID system,  as part of the structural classification process. Following the good results obtained by K-Means,  this research proposes the use of a more flexible method of clustering: Gaussian Mixture Models (GMMs) used within the Expectation-Maximization (EM) algorithm. The first results showed that GMMs can also be a viable clustering algorithm and a candidate to replace LSQKAB. The clusters' overall biological similarity for a number of 500 and 750 clusters on the GMM are 4.73\%,  0.1\% higher,  respectively,  than the ones obtained by K-Means,  based on a dataset of 16383 PDB files of amino acid residue pairs.
+  
+  Funding:   \\
+  \href{http://ab3c.org.br/xpress_pres2020/xmxp2020-302913.html}{Link to Video:}
+
+  \end{abstract}
+   
+  \end{document} 

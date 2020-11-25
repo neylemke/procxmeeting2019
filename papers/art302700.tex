@@ -1,0 +1,68 @@
+
+  \documentclass[twoside]{article}
+  \usepackage[affil-it]{authblk}
+  \usepackage{lipsum} % Package to generate dummy text throughout this template
+  \usepackage{eurosym}
+  \usepackage[sc]{mathpazo} % Use the Palatino font
+  \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+  \usepackage[utf8]{inputenc}
+  \linespread{1.05} % Line spacing-Palatino needs more space between lines
+  \usepackage{microtype} % Slightly tweak font spacing for aesthetics\[IndentingNewLine]
+  \usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+  \usepackage{multicol} % Used for the two-column layout of the document
+  \usepackage[hang,small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under//above floats in tables or figures
+  \usepackage{booktabs} % Horizontal rules in tables
+  \usepackage{float} % Required for tables and figures in the multi-column environment-they need to be placed in specific locations with the[H] (e.g. \begin{table}[H])
+  \usepackage{hyperref} % For hyperlinks in the PDF
+  \usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+  \usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+  \usepackage{abstract} % Allows abstract customization
+  \renewcommand{\abstractnamefont}{\normalfont\bfseries} 
+  %\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text\[IndentingNewLine]
+  \usepackage{titlesec} % Allows customization of titles
+  \renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+  \renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
+  \titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+  \titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+  \usepackage{fancyhdr} % Headers and footers
+  \pagestyle{fancy} % All pages have headers and footers
+  \fancyhead{} % Blank out the default header
+  \fancyfoot{} % Blank out the default footer
+  \fancyhead[C]{X-meeting eXperience $\bullet$ November 2020} % Custom header text
+  \fancyfoot[RO,LE]{} % Custom footer text
+  %----------------------------------------------------------------------------------------
+  % TITLE SECTION
+  %---------------------------------------------------------------------------------------- 
+ 
+ \title{\vspace{-15mm}\fontsize{24pt}{10pt}\selectfont\textbf{ Interactive Meta-analysis Framework for Biomarker Identification in Breast Cancer subtypes. }} % Article title
+  
+  
+  \author{ Milton Yutaka Nishiyama Junior,  Ana Claudia Oliveira Carreira,  Nathan de Oliveira Nunes }
+  
+  \affil{ Instituto Butantan,  Instituto Butantan }
+  \vspace{-5mm}
+  \date{}
+  
+  %---------------------------------------------------------------------------------------- 
+  
+  \begin{document}
+  
+  
+  \maketitle % Insert title
+  
+  
+  \thispagestyle{fancy} % All pages have headers and footers
+  %----------------------------------------------------------------------------------------  
+  % ABSTRACT
+  
+  %----------------------------------------------------------------------------------------  
+  
+  \begin{abstract}
+  Breast cancer is the most diagnosed type of cancer among women in the world,  classified into 4 subtypes (HER2,  LumA,  LumB,  Triple negative-TNBC),  with TNBC being the most aggressive and lethal. We have developed an interactive meta-analysis framework to identify new common and exclusive molecular markers and signaling pathways in each study of breast cancer subtypes and in non-tumoral (MCF10A) and tumoral (Hs578T) cell lines with alteration of the expression of the CD90/Thy-1 gene. The interactive framework based on the shiny R package provides an intuitive and easy approach to compare multiple studies using gene expressions profiles (RNA-seq) in different conditions and able to parallelize the high-throughput data analysis. This framework is based on the steps and methods: M1: Load of data,  followed by inter (RLE / TMM / UQ) and Intra (ComBat) sample normalization. M2: Classification of samples in subtypes/clusters. M3: Differentially expressed genes (DEGs) identification (edgeR),  M4: Qualitative (ReactomePA) and Quantitative (FGSEA) pathway enrichment analysis,  M5: Relevance and significance for genes (Ranking Product (RP)) and Pathways (Fisher / Stouffer methods) and M6: Connectivity between studies (TF-IDF and average precision). There are two meta-analysis approaches,  one based on gene expression by M3 and p-value from enriched pathways by M4,  followed by the meta-analysis methods in M5,  and establishing the similarity matrix in M6,  to measure  the connectivity and average precision between the studies. The best normalization methods were established to correct bias and errors within and between samples. The classification approaches allowed us to cluster the samples in a biologically meaningful way. The DEGs or enrichment analysis provided genes/pathways information for further downstream meta-analysis. The methods of RP for the genes and Fisher for the pathways increased the identification in more than 80\% of the TNBC canonical genes and pathways and confirmed the expected associations between the studies. Important and already described genes in the literature such as CGA,  PLUNC and SMR3B have been identified in TNBC by our approach. Among the highlighted pathways,  we found ECM and GPCR as one of most relevant between all breast cancer subtypes. We have developed a framework that can be applied to any set of studies,  integrating a robust set of statistical methods and bioinformatics approaches in an user-friendly visualization tool aiming to identify the common,  exclusive and promising genes and pathways for our studies (MCF10A/CD90+ and Hs578T/shCD90) compared to Breast cancer subtypes.
+  
+  Funding: CNPQ \\
+  \href{http://ab3c.org.br/xpress_pres2020/xmxp2020-302700.html}{Link to Video:}
+
+  \end{abstract}
+   
+  \end{document} 

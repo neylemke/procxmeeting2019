@@ -1,0 +1,4222 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.11.22)  24 NOV 2020 19:38
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**procxmeeting2020.tex
+(./procxmeeting2020.tex
+LaTeX2e <2020-02-02> patch level 2
+L3 programming layer <2020-02-14> (./confprocxmeeting.cls
+
+LaTeX Warning: You have requested document class `confprocxmeeting',
+               but the document class provides `confproc'.
+
+Document Class: confproc 2011/08/01 v0.8: Conference Proceedings class (VV)
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions-patch.sty
+Package: kvoptions-patch 2019/11/29 v3.13 LaTeX patch for keyval options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2019/11/07 v1.0c TeX engine tests
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/xifthen/xifthen.sty
+Package: xifthen 2015/11/05 v1.4.0 Extended ifthen features
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count167
+\calc@Bcount=\count168
+\calc@Adimen=\dimen134
+\calc@Bdimen=\dimen135
+\calc@Askip=\skip47
+\calc@Bskip=\skip48
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count169
+\calc@Cskip=\skip49
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty
+Package: ifmtarg 2018/04/16 v1.2b check for an empty argument
+))
+
+Package confproc Warning: Option "compil=bib*" ignored since v0.5; use "bib=*" 
+instead of "compil=bib*" on input line 10.
+
+
+Package confproc Warning: Unknown option `a4'; passed to 'hyperref' on input li
+ne 102.
+
+
+Package confproc Warning: Unknown option `colorfooters=black'; passed to 'hyper
+ref' on input line 102.
+
+
+Package confproc Warning: Unknown option `letter'; passed to 'hyperref' on inpu
+t line 102.
+
+Package confproc Info: use color links with hyperref on input line 105.
+\proc@binding=\skip50
+Package confproc Info: setting binding to 0mm on input line 117.
+\npagesfile=\write3
+Package confproc Info: including PDF files with 'pdfpages' on input line 162.
+\openout3 = `procxmeeting2020.nps'.
+
+Package confproc Info: headers on all pages, PDFs included on input line 190.
+Package confproc Info: bibliography: none on input line 214.
+Package confproc Info: TOC numbering on left on input line 233.
+Package confproc Info: do not add author list on input line 237.
+Package confproc Info: do not add title on input line 241.
+Package confproc Info: do not show margin lines on input line 245.
+Package confproc Info: do not add paper number below page number on input line 
+249.
+Package confproc Info: papers opening on any side on input line 255.
+Package confproc Info: verbose mode turned off on input line 263.
+Package confproc Info: debug mode turned on on input line 269.
+(/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2019/12/20 v1.4l Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/bk10.clo
+File: bk10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count170
+\c@chapter=\count171
+\c@section=\count172
+\c@subsection=\count173
+\c@subsubsection=\count174
+\c@paragraph=\count175
+\c@subparagraph=\count176
+\c@figure=\count177
+\c@table=\count178
+\abovecaptionskip=\skip51
+\belowcaptionskip=\skip52
+\bibindent=\dimen136
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen137
+\Gin@req@width=\dimen138
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2020/01/28 v0.5q Insert pages of external PDF documents (AM)
+
+(/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
+
+(/usr/share/texlive/texmf-dist/tex/generic/atbegshi/atbegshi.sty
+Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+))
+\AM@pagewidth=\dimen139
+\AM@pageheight=\dimen140
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2020/01/28 v0.5q Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box45
+\AM@global@opts=\toks15
+\AM@pagecnt=\count179
+\AM@toc@title=\toks16
+\c@AM@survey=\count180
+\AM@templatesizebox=\box46
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip53
+\f@nch@O@elh=\skip54
+\f@nch@O@erh=\skip55
+\f@nch@O@olh=\skip56
+\f@nch@O@orh=\skip57
+\f@nch@O@elf=\skip58
+\f@nch@O@erf=\skip59
+\f@nch@O@olf=\skip60
+\f@nch@O@orf=\skip61
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tocbibind/tocbibind.sty
+Package: tocbibind 2010/10/13 v1.5k extra ToC listings
+Package tocbibind Info: The document has chapter divisions on input line 50.
+
+
+Package tocbibind Note: Using chapter style headings, unless overridden.
+
+) (/usr/share/texlive/texmf-dist/tex/latex/titlesec/titletoc.sty
+Package: titletoc 2019/10/16 v2.13 TOC entries
+\ttl@leftsep=\dimen141
+)
+(/usr/share/texlive/texmf-dist/tex/latex/index/index.sty
+Package: index 2004/01/20 v4.2beta Improved index support (dmj)
+\@indexbox=\insert199
+\indexproofstyle=\toks17
+
+
+LaTeX Warning: Command \markboth  has changed.
+               Check if current package is valid.
+
+
+LaTeX Warning: Command \markright  has changed.
+               Check if current package is valid.
+
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
+\c@tracingmulticols=\count181
+\mult@box=\box47
+\multicol@leftmargin=\dimen142
+\c@unbalance=\count182
+\c@collectmore=\count183
+\doublecol@number=\count184
+\multicoltolerance=\count185
+\multicolpretolerance=\count186
+\full@width=\dimen143
+\page@free=\dimen144
+\premulticols=\dimen145
+\postmulticols=\dimen146
+\multicolsep=\skip62
+\multicolbaselineskip=\skip63
+\partial@page=\box48
+\last@line=\box49
+\maxbalancingoverflow=\dimen147
+\mult@rightbox=\box50
+\mult@grightbox=\box51
+\mult@gfirstbox=\box52
+\mult@firstbox=\box53
+\@tempa=\box54
+\@tempa=\box55
+\@tempa=\box56
+\@tempa=\box57
+\@tempa=\box58
+\@tempa=\box59
+\@tempa=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\c@minrows=\count187
+\c@columnbadness=\count188
+\c@finalcolumnbadness=\count189
+\last@try=\dimen148
+\multicolovershoot=\dimen149
+\multicolundershoot=\dimen150
+\mult@nat@firstbox=\box91
+\colbreak@box=\box92
+\mc@col@check@num=\count190
+)
+(/usr/share/texlive/texmf-dist/tex/latex/sectsty/sectsty.sty
+Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
+les
+
+
+LaTeX Warning: Command \underbar  has changed.
+               Check if current package is valid.
+
+
+LaTeX Warning: Command \underline  has changed.
+               Check if current package is valid.
+
+) (/usr/share/texlive/texmf-dist/tex/latex/confproc/newapave.sty
+\bibhang=\skip64
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+\@linkdim=\dimen151
+\Hy@linkcounter=\count191
+\Hy@pagecounter=\count192
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count193
+\pdfmajorversion=\count194
+Package hyperref Info: Option `colorlinks' set `true' on input line 4421.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 4421.
+Package hyperref Info: Option `raiselinks' set `true' on input line 4421.
+Package hyperref Info: Option `hyperindex' set `true' on input line 4421.
+Package hyperref Info: Option `plainpages' set `false' on input line 4421.
+Package hyperref Info: Option `pdfpagelabels' set `true' on input line 4421.
+Package hyperref Info: Option `breaklinks' set `true' on input line 4421.
+Package hyperref Info: Option `linktocpage' set `true' on input line 4421.
+Package hyperref Info: Hyper figures OFF on input line 4547.
+Package hyperref Info: Link nesting OFF on input line 4552.
+Package hyperref Info: Hyper index ON on input line 4555.
+Package hyperref Info: Plain pages OFF on input line 4562.
+Package hyperref Info: Backreferencing ON on input line 4565.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4800.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/backref.sty
+Package: backref 2020/01/14 v1.40 Bibliographical back referencing
+
+
+Package backref Warning: Unexpected value for option `hyperref'
+(backref)                is ignored on input line 164.
+
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/atveryend/atveryend.sty
+Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+)
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+))
+\c@Hy@tempcnt=\count195
+
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5159.
+\XeTeXLinkMargin=\dimen152
+
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+)
+\Fld@menulength=\count196
+\Field@Width=\dimen153
+\Fld@charsize=\dimen154
+Package hyperref Info: Hyper figures OFF on input line 6430.
+Package hyperref Info: Link nesting OFF on input line 6435.
+Package hyperref Info: Hyper index ON on input line 6438.
+Package hyperref Info: backreferencing ON on input line 6443.
+Package hyperref Info: Link coloring ON on input line 6448.
+Package hyperref Info: Link coloring with OCG OFF on input line 6455.
+Package hyperref Info: PDF/A mode OFF on input line 6460.
+LaTeX Info: Redefining \ref on input line 6500.
+LaTeX Info: Redefining \pageref on input line 6504.
+\Hy@abspage=\count197
+\c@Item=\count198
+\c@Hfootnote=\count266
+)
+Package hyperref Info: Driver: hpdftex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2020/01/14 v7.00d Hyperref driver for pdfTeX
+\Fld@listcount=\count267
+\c@bookmark@seq@number=\count268
+\Hy@SectionHShift=\skip65
+)
+(/usr/share/texlive/texmf-dist/tex/latex/bookmark/bookmark.sty
+Package: bookmark 2019/12/03 v1.28 PDF bookmarks (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
+File: bkm-pdftex.def 2019/12/03 v1.28 bookmark driver for pdfTeX (HO)
+\BKM@id=\count269
+))
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count270
+\Gm@cntv=\count271
+\c@Gm@tempcnt=\count272
+\Gm@bindingoffset=\dimen155
+\Gm@wd@mp=\dimen156
+\Gm@odd@mp=\dimen157
+\Gm@even@mp=\dimen158
+\Gm@layoutwidth=\dimen159
+\Gm@layoutheight=\dimen160
+\Gm@layouthoffset=\dimen161
+\Gm@layoutvoffset=\dimen162
+\Gm@dimlist=\toks18
+
+
+Package geometry Warning: Over-specification in `v'-direction.
+    `height' (643.03227pt) is ignored.
+
+)
+\procfootvskip=\skip66
+\procoptfootvskip=\skip67
+\c@npagespreamble=\count273
+\LaTeXxShift=\skip68
+\LaTeXyShift=\skip69
+\WordxShift=\skip70
+\WordyShift=\skip71
+\c@npages=\count274
+Package confproc Info: no margin lines on input line 712.
+\c@conf@npages=\count275
+\conf@xshift=\skip72
+\conf@yshift=\skip73
+\c@conf@switch=\count276
+\c@conf@firstpage=\count277
+\c@conf@lastpage=\count278
+\c@locnpages=\count279
+
+************
+* Local config file confproc.cfg used *
+************
+(/usr/share/texlive/texmf-dist/tex/latex/confproc/confproc.cfg
+File: confproc.cfg 2011/08/01 v0.8: Configuration for confproc (VV)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks19
+\inpenc@posthook=\toks20
+)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/mathptmx.sty
+Package: mathptmx 2005/04/12 PSNFSS-v9.2a Times w/ Math, improved (SPQR, WaS) 
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+\symbold=\mathgroup4
+\symitalic=\mathgroup5
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
+LaTeX Info: Redefining \hbar on input line 50.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/genmisc/nth.sty
+Package: nth 2002/02/27
+)
+(/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2019/10/16 v2.13 Sectioning titles
+\ttl@box=\box93
+\beforetitleunit=\skip74
+\aftertitleunit=\skip75
+\ttl@plus=\dimen163
+\ttl@minus=\dimen164
+\ttl@toksa=\toks21
+\titlewidth=\dimen165
+\titlewidthlast=\dimen166
+\titlewidthfirst=\dimen167
+)
+(/usr/share/texlive/texmf-dist/tex/latex/blindtext/blindtext.sty
+Package: blindtext 2012/01/06 V2.0 blindtext-Package
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+\c@blindtext=\count280
+\c@Blindtext=\count281
+\c@blind@countparstart=\count282
+\blind@countxx=\count283
+\blindtext@numBlindtext=\count284
+\blind@countyy=\count285
+\c@blindlist=\count286
+\c@blindlistlevel=\count287
+\c@blindlist@level=\count288
+\blind@listitem=\count289
+\c@blind@listcount=\count290
+\c@blind@levelcount=\count291
+\blind@mathformula=\count292
+\blind@Mathformula=\count293
+\c@blind@randomcount=\count294
+\c@blind@randommax=\count295
+\c@blind@pangramcount=\count296
+\c@blind@pangrammax=\count297
+)
+\idxtitle@default=\toks22
+\tf@default=\write4
+\openout4 = `procxmeeting2020.idx'.
+
+Package index Info: Writing index file procxmeeting2020.idx on input line 67.
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count298
+\l__pdf_internal_box=\box94
+)
+(./procxmeeting2020.aux
+
+LaTeX Warning: Label `45' multiply defined.
+
+
+LaTeX Warning: Label `45' multiply defined.
+
+
+LaTeX Warning: Label `45' multiply defined.
+
+
+LaTeX Warning: Label `45' multiply defined.
+
+
+LaTeX Warning: Label `45' multiply defined.
+
+
+LaTeX Warning: Label `45' multiply defined.
+
+
+LaTeX Warning: Label `45' multiply defined.
+
+
+LaTeX Warning: Label `45' multiply defined.
+
+
+LaTeX Warning: Label `45' multiply defined.
+
+
+LaTeX Warning: Label `45' multiply defined.
+
+
+LaTeX Warning: Label `45' multiply defined.
+
+
+LaTeX Warning: Label `45' multiply defined.
+
+
+LaTeX Warning: Label `45' multiply defined.
+
+
+LaTeX Warning: Label `45' multiply defined.
+
+
+LaTeX Warning: Label `45' multiply defined.
+
+
+LaTeX Warning: Label `45' multiply defined.
+
+
+LaTeX Warning: Label `45' multiply defined.
+
+
+LaTeX Warning: Label `45' multiply defined.
+
+
+LaTeX Warning: Label `45' multiply defined.
+
+
+LaTeX Warning: Label `45' multiply defined.
+
+
+LaTeX Warning: Label `45' multiply defined.
+
+
+LaTeX Warning: Label `45' multiply defined.
+
+
+LaTeX Warning: Label `45' multiply defined.
+
+
+LaTeX Warning: Label `45' multiply defined.
+
+
+LaTeX Warning: Label `45' multiply defined.
+
+
+LaTeX Warning: Label `45' multiply defined.
+
+
+LaTeX Warning: Label `45' multiply defined.
+
+
+LaTeX Warning: Label `45' multiply defined.
+
+
+LaTeX Warning: Label `45' multiply defined.
+
+
+LaTeX Warning: Label `45' multiply defined.
+
+
+LaTeX Warning: Label `45' multiply defined.
+
+
+LaTeX Warning: Label `45' multiply defined.
+
+
+LaTeX Warning: Label `45' multiply defined.
+
+
+LaTeX Warning: Label `45' multiply defined.
+
+
+LaTeX Warning: Label `45' multiply defined.
+
+
+LaTeX Warning: Label `45' multiply defined.
+
+
+LaTeX Warning: Label `45' multiply defined.
+
+
+LaTeX Warning: Label `45' multiply defined.
+
+
+LaTeX Warning: Label `45' multiply defined.
+
+
+LaTeX Warning: Label `45' multiply defined.
+
+
+LaTeX Warning: Label `45' multiply defined.
+
+
+LaTeX Warning: Label `45' multiply defined.
+
+
+LaTeX Warning: Label `45' multiply defined.
+
+
+LaTeX Warning: Label `45' multiply defined.
+
+
+LaTeX Warning: Label `45' multiply defined.
+
+
+LaTeX Warning: Label `45' multiply defined.
+
+
+LaTeX Warning: Label `45' multiply defined.
+
+
+LaTeX Warning: Label `45' multiply defined.
+
+
+LaTeX Warning: Label `45' multiply defined.
+
+
+LaTeX Warning: Label `45' multiply defined.
+
+
+LaTeX Warning: Label `45' multiply defined.
+
+
+LaTeX Warning: Label `45' multiply defined.
+
+
+LaTeX Warning: Label `45' multiply defined.
+
+
+LaTeX Warning: Label `45' multiply defined.
+
+
+LaTeX Warning: Label `45' multiply defined.
+
+
+LaTeX Warning: Label `45' multiply defined.
+
+
+LaTeX Warning: Label `45' multiply defined.
+
+
+LaTeX Warning: Label `45' multiply defined.
+
+
+LaTeX Warning: Label `45' multiply defined.
+
+
+LaTeX Warning: Label `45' multiply defined.
+
+
+LaTeX Warning: Label `45' multiply defined.
+
+
+LaTeX Warning: Label `45' multiply defined.
+
+
+LaTeX Warning: Label `45' multiply defined.
+
+
+LaTeX Warning: Label `45' multiply defined.
+
+
+LaTeX Warning: Label `45' multiply defined.
+
+
+LaTeX Warning: Label `45' multiply defined.
+
+
+LaTeX Warning: Label `45' multiply defined.
+
+
+LaTeX Warning: Label `45' multiply defined.
+
+
+LaTeX Warning: Label `45' multiply defined.
+
+
+LaTeX Warning: Label `45' multiply defined.
+
+
+LaTeX Warning: Label `45' multiply defined.
+
+
+LaTeX Warning: Label `45' multiply defined.
+
+
+LaTeX Warning: Label `45' multiply defined.
+
+
+LaTeX Warning: Label `45' multiply defined.
+
+
+LaTeX Warning: Label `45' multiply defined.
+
+
+LaTeX Warning: Label `45' multiply defined.
+
+
+LaTeX Warning: Label `45' multiply defined.
+
+
+LaTeX Warning: Label `45' multiply defined.
+
+)
+\openout1 = `procxmeeting2020.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 7
+0.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count299
+\scratchdimen=\dimen168
+\scratchbox=\box95
+\nofMPsegments=\count300
+\nofMParguments=\count301
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count302
+\MPscratchDim=\dimen169
+\MPnumerator=\count303
+\makeMPintoPDFobject=\count304
+\everyMPtoPDFconversion=\toks24
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\AtBeginShipoutBox=\box96
+Package hyperref Info: Link coloring ON on input line 70.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count305
+)
+LaTeX Info: Redefining \ref on input line 70.
+LaTeX Info: Redefining \pageref on input line 70.
+LaTeX Info: Redefining \nameref on input line 70.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 70.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 70.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 70.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 70.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 70.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 70.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(58.17682pt, 497.92322pt, 58.19496pt)
+* v-part:(T,H,B)=(82.93976pt, 642.32098pt, 69.70924pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=497.92322pt
+* \textheight=642.32098pt
+* \oddsidemargin=-14.09317pt
+* \evensidemargin=-14.07503pt
+* \topmargin=-19.39772pt
+* \headheight=12.0pt
+* \headsep=18.06749pt
+* \topskip=10.0pt
+* \footskip=27.54224pt
+* \marginparwidth=125.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=-14.22636pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\big@size=\dimen170
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
+ 76.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
+ 76.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlztmcm.fd
+File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
+ 76.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsztmcm.fd
+File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
+ 76.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxztmcm.fd
+File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 76.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 76.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 76.
+ [1
+
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
+
+] (./procxmeeting2020.toc
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 7
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+Overfull \hbox (32.64877pt too wide) in paragraph at lines 15--15
+ []|| []| \OT1/ptm/m/n/10 COM-PU-TA-TIONAL PIPELINE FOR THE IDEN-TI-FI-CA-TION 
+OF HLA SO-MATIC MU-TA-TIONS: CAN SNV/INDELS 
+ []
+
+[3]
+Overfull \hbox (33.17932pt too wide) in paragraph at lines 22--22
+ []|| []| \OT1/ptm/m/n/10 FUNC-TIONAL AN-NO-TA-TION OF IN-TRONIC SNPs OF ARG2 G
+ENE AS-SO-CI-ATED WITH FE-TAL HEMOGLOBIN 
+ []
+
+
+Overfull \hbox (21.9907pt too wide) in paragraph at lines 26--26
+ []|| []| \OT1/ptm/m/n/10 TEN COM-PLETE MI-TO-CHON-DRIAL GENOMES OF GYM-NOCHARA
+CINI (STETHAPRI-ON-I-NAE, CHARACI- 
+ []
+
+
+Overfull \hbox (12.23312pt too wide) in paragraph at lines 34--34
+ []|| []| \OT1/ptm/m/n/10 Pre-dict-ing melt-ing tem-per-a-tures and de-riv-ing 
+hy-dro-gen bonds us-ing the Peyrard-Bishop model for LNA+DNA:DNA 
+ []
+
+[4]
+Overfull \hbox (3.35349pt too wide) in paragraph at lines 36--36
+ \OT1/ptm/m/it/10 Matheus Lewi Cruz Bonac-corsi de Cam-pos, Fabi-ano Menegidio,
+ Rubens Pasa, Igor Hen-rique Rodrigues-Oliveira, 
+ []
+
+
+Overfull \hbox (3.85362pt too wide) in paragraph at lines 36--36
+ \OT1/ptm/m/it/10 Dina[]^^Pza Aba-dia Rocha-Reis, John Sey-mour (Pat) Heslop-Ha
+rrison, Trude Schwarzacher, Karine Frehner Kavalco, 
+ []
+
+
+Overfull \hbox (0.93964pt too wide) in paragraph at lines 44--44
+ []|| []| \OT1/ptm/m/n/10 IM-MUNOIN-FOR-MAT-ICS AP-PROACHS TO DE-SIGN A CHIMERI
+C MULTI-EPITOPE VAC-CINE AGAINST 
+ []
+
+[5]
+Overfull \hbox (0.96149pt too wide) in paragraph at lines 51--51
+ []|| []| \OT1/ptm/m/n/10 mi-croR-NAs, target-genes and path-ways re-lated to G
+es-ta-tional Di-a-betes Mel-li-tus: search-ing for po-ten-tial biomark- 
+ []
+
+
+Overfull \hbox (9.81268pt too wide) in paragraph at lines 55--55
+ \OT1/ptm/m/it/10 Santelmo Vas-con-ce-los, Leonardo Trev-elin, Mar-i-ane Ribeir
+o, Re-nato Reni-son Mor-eira Oliveira, Guil-herme Oliveira, 
+ []
+
+
+Overfull \hbox (0.8124pt too wide) in paragraph at lines 62--62
+ \OT1/ptm/m/it/10 Mariana Boroni, MARCO AN-TO-NIO MAR-QUES PRETTI, Gabriela Rap
+ozo Guimar[]aes, Pal-loma Porto Almeida, 
+ []
+
+[6]
+LaTeX Info: Symbol \textasciiacute not provided by
+            font family ptm in TS1 encoding.
+            Default family used instead on input line 83.
+LaTeX Info: Symbol \textasciiacute not provided by
+            font family ptm in TS1 encoding.
+            Default family used instead on input line 83.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7]
+LaTeX Info: Symbol \textasciiacute not provided by
+            font family ptm in TS1 encoding.
+            Default family used instead on input line 83.
+LaTeX Info: Symbol \textasciiacute not provided by
+            font family ptm in TS1 encoding.
+            Default family used instead on input line 83.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 87.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 87.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 87.
+
+Overfull \hbox (23.50943pt too wide) in paragraph at lines 89--89
+ []|| []| \OT1/ptm/m/n/10 BIOIN-FORM[]ATICA NA INVESTIGA[][]AO DE RNAS N[]AO-CO
+DIFICANTES E EL-E-MEN-TOS TRANSPON[]IVEIS 
+ []
+
+)
+\tf@toc=\write5
+\openout5 = `procxmeeting2020.toc'.
+
+ [8]
+Package confproc Info: counted 0 pages in the preamble on input line 82.
+ (./proctext.tex
+Chapter 1.
+[1
+
+
+
+] [2
+
+]
+Chapter 2.
+) (./posters.tex [3] [4
+
+]
+Chapter 3.
+<papers/art294413.pdf, id=246, 614.295pt x 794.97pt>
+File: papers/art294413.pdf Graphic file (type pdf)
+<use papers/art294413.pdf>
+Package pdftex.def Info: papers/art294413.pdf  used on input line 6.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art294413.pdf Graphic file (type pdf)
+<use papers/art294413.pdf>
+Package pdftex.def Info: papers/art294413.pdf  used on input line 6.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art294413.pdf, id=249, page=1, 614.295pt x 794.97pt>
+File: papers/art294413.pdf Graphic file (type pdf)
+<use papers/art294413.pdf, page 1>
+Package pdftex.def Info: papers/art294413.pdf , page1 used on input line 6.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art294413.pdf Graphic file (type pdf)
+<use papers/art294413.pdf, page 1>
+Package pdftex.def Info: papers/art294413.pdf , page1 used on input line 6.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[5]
+File: papers/art294413.pdf Graphic file (type pdf)
+<use papers/art294413.pdf, page 1>
+Package pdftex.def Info: papers/art294413.pdf , page1 used on input line 6.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art294413.pdf Graphic file (type pdf)
+<use papers/art294413.pdf, page 1>
+Package pdftex.def Info: papers/art294413.pdf , page1 used on input line 6.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--6
+
+ []
+
+File: papers/art294413.pdf Graphic file (type pdf)
+<use papers/art294413.pdf, page 1>
+Package pdftex.def Info: papers/art294413.pdf , page1 used on input line 6.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[6 <./papers/art294413.pdf>]
+<papers/art297927.pdf, id=281, 614.295pt x 794.97pt>
+File: papers/art297927.pdf Graphic file (type pdf)
+<use papers/art297927.pdf>
+Package pdftex.def Info: papers/art297927.pdf  used on input line 12.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art297927.pdf Graphic file (type pdf)
+<use papers/art297927.pdf>
+Package pdftex.def Info: papers/art297927.pdf  used on input line 12.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art297927.pdf, id=284, page=1, 614.295pt x 794.97pt>
+File: papers/art297927.pdf Graphic file (type pdf)
+<use papers/art297927.pdf, page 1>
+Package pdftex.def Info: papers/art297927.pdf , page1 used on input line 12.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art297927.pdf Graphic file (type pdf)
+<use papers/art297927.pdf, page 1>
+Package pdftex.def Info: papers/art297927.pdf , page1 used on input line 12.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [7
+
+]
+File: papers/art297927.pdf Graphic file (type pdf)
+<use papers/art297927.pdf, page 1>
+Package pdftex.def Info: papers/art297927.pdf , page1 used on input line 12.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art297927.pdf Graphic file (type pdf)
+<use papers/art297927.pdf, page 1>
+Package pdftex.def Info: papers/art297927.pdf , page1 used on input line 12.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--12
+
+ []
+
+File: papers/art297927.pdf Graphic file (type pdf)
+<use papers/art297927.pdf, page 1>
+Package pdftex.def Info: papers/art297927.pdf , page1 used on input line 12.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[8 <./papers/art297927.pdf>]
+<papers/art298211.pdf, id=307, 614.295pt x 794.97pt>
+File: papers/art298211.pdf Graphic file (type pdf)
+<use papers/art298211.pdf>
+Package pdftex.def Info: papers/art298211.pdf  used on input line 18.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art298211.pdf Graphic file (type pdf)
+<use papers/art298211.pdf>
+Package pdftex.def Info: papers/art298211.pdf  used on input line 18.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art298211.pdf, id=310, page=1, 614.295pt x 794.97pt>
+File: papers/art298211.pdf Graphic file (type pdf)
+<use papers/art298211.pdf, page 1>
+Package pdftex.def Info: papers/art298211.pdf , page1 used on input line 18.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art298211.pdf Graphic file (type pdf)
+<use papers/art298211.pdf, page 1>
+Package pdftex.def Info: papers/art298211.pdf , page1 used on input line 18.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [9
+
+]
+File: papers/art298211.pdf Graphic file (type pdf)
+<use papers/art298211.pdf, page 1>
+Package pdftex.def Info: papers/art298211.pdf , page1 used on input line 18.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art298211.pdf Graphic file (type pdf)
+<use papers/art298211.pdf, page 1>
+Package pdftex.def Info: papers/art298211.pdf , page1 used on input line 18.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--18
+
+ []
+
+File: papers/art298211.pdf Graphic file (type pdf)
+<use papers/art298211.pdf, page 1>
+Package pdftex.def Info: papers/art298211.pdf , page1 used on input line 18.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[10 <./papers/art298211.pdf>]
+<papers/art303169.pdf, id=333, 614.295pt x 794.97pt>
+File: papers/art303169.pdf Graphic file (type pdf)
+<use papers/art303169.pdf>
+Package pdftex.def Info: papers/art303169.pdf  used on input line 24.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art303169.pdf Graphic file (type pdf)
+<use papers/art303169.pdf>
+Package pdftex.def Info: papers/art303169.pdf  used on input line 24.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art303169.pdf, id=336, page=1, 614.295pt x 794.97pt>
+File: papers/art303169.pdf Graphic file (type pdf)
+<use papers/art303169.pdf, page 1>
+Package pdftex.def Info: papers/art303169.pdf , page1 used on input line 24.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art303169.pdf Graphic file (type pdf)
+<use papers/art303169.pdf, page 1>
+Package pdftex.def Info: papers/art303169.pdf , page1 used on input line 24.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [11
+
+]
+File: papers/art303169.pdf Graphic file (type pdf)
+<use papers/art303169.pdf, page 1>
+Package pdftex.def Info: papers/art303169.pdf , page1 used on input line 24.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art303169.pdf Graphic file (type pdf)
+<use papers/art303169.pdf, page 1>
+Package pdftex.def Info: papers/art303169.pdf , page1 used on input line 24.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
+
+ []
+
+File: papers/art303169.pdf Graphic file (type pdf)
+<use papers/art303169.pdf, page 1>
+Package pdftex.def Info: papers/art303169.pdf , page1 used on input line 24.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[12 <./papers/art303169.pdf>]
+<papers/art304988.pdf, id=361, 614.295pt x 794.97pt>
+File: papers/art304988.pdf Graphic file (type pdf)
+<use papers/art304988.pdf>
+Package pdftex.def Info: papers/art304988.pdf  used on input line 30.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art304988.pdf Graphic file (type pdf)
+<use papers/art304988.pdf>
+Package pdftex.def Info: papers/art304988.pdf  used on input line 30.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art304988.pdf, id=364, page=1, 614.295pt x 794.97pt>
+File: papers/art304988.pdf Graphic file (type pdf)
+<use papers/art304988.pdf, page 1>
+Package pdftex.def Info: papers/art304988.pdf , page1 used on input line 30.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art304988.pdf Graphic file (type pdf)
+<use papers/art304988.pdf, page 1>
+Package pdftex.def Info: papers/art304988.pdf , page1 used on input line 30.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [13
+
+]
+File: papers/art304988.pdf Graphic file (type pdf)
+<use papers/art304988.pdf, page 1>
+Package pdftex.def Info: papers/art304988.pdf , page1 used on input line 30.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art304988.pdf Graphic file (type pdf)
+<use papers/art304988.pdf, page 1>
+Package pdftex.def Info: papers/art304988.pdf , page1 used on input line 30.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--30
+
+ []
+
+File: papers/art304988.pdf Graphic file (type pdf)
+<use papers/art304988.pdf, page 1>
+Package pdftex.def Info: papers/art304988.pdf , page1 used on input line 30.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[14 <./papers/art304988.pdf>]
+Chapter 4.
+<papers/art303431.pdf, id=387, 614.295pt x 794.97pt>
+File: papers/art303431.pdf Graphic file (type pdf)
+<use papers/art303431.pdf>
+Package pdftex.def Info: papers/art303431.pdf  used on input line 37.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art303431.pdf Graphic file (type pdf)
+<use papers/art303431.pdf>
+Package pdftex.def Info: papers/art303431.pdf  used on input line 37.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art303431.pdf, id=390, page=1, 614.295pt x 794.97pt>
+File: papers/art303431.pdf Graphic file (type pdf)
+<use papers/art303431.pdf, page 1>
+Package pdftex.def Info: papers/art303431.pdf , page1 used on input line 37.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art303431.pdf Graphic file (type pdf)
+<use papers/art303431.pdf, page 1>
+Package pdftex.def Info: papers/art303431.pdf , page1 used on input line 37.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[15
+
+
+]
+File: papers/art303431.pdf Graphic file (type pdf)
+<use papers/art303431.pdf, page 1>
+Package pdftex.def Info: papers/art303431.pdf , page1 used on input line 37.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art303431.pdf Graphic file (type pdf)
+<use papers/art303431.pdf, page 1>
+Package pdftex.def Info: papers/art303431.pdf , page1 used on input line 37.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
+
+ []
+
+File: papers/art303431.pdf Graphic file (type pdf)
+<use papers/art303431.pdf, page 1>
+Package pdftex.def Info: papers/art303431.pdf , page1 used on input line 37.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[16 <./papers/art303431.pdf>]
+Chapter 5.
+<papers/art296059.pdf, id=413, 614.295pt x 794.97pt>
+File: papers/art296059.pdf Graphic file (type pdf)
+<use papers/art296059.pdf>
+Package pdftex.def Info: papers/art296059.pdf  used on input line 44.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art296059.pdf Graphic file (type pdf)
+<use papers/art296059.pdf>
+Package pdftex.def Info: papers/art296059.pdf  used on input line 44.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art296059.pdf, id=416, page=1, 614.295pt x 794.97pt>
+File: papers/art296059.pdf Graphic file (type pdf)
+<use papers/art296059.pdf, page 1>
+Package pdftex.def Info: papers/art296059.pdf , page1 used on input line 44.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art296059.pdf Graphic file (type pdf)
+<use papers/art296059.pdf, page 1>
+Package pdftex.def Info: papers/art296059.pdf , page1 used on input line 44.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[17
+
+
+]
+File: papers/art296059.pdf Graphic file (type pdf)
+<use papers/art296059.pdf, page 1>
+Package pdftex.def Info: papers/art296059.pdf , page1 used on input line 44.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art296059.pdf Graphic file (type pdf)
+<use papers/art296059.pdf, page 1>
+Package pdftex.def Info: papers/art296059.pdf , page1 used on input line 44.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--44
+
+ []
+
+File: papers/art296059.pdf Graphic file (type pdf)
+<use papers/art296059.pdf, page 1>
+Package pdftex.def Info: papers/art296059.pdf , page1 used on input line 44.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[18 <./papers/art296059.pdf>]
+<papers/art296609.pdf, id=440, 614.295pt x 794.97pt>
+File: papers/art296609.pdf Graphic file (type pdf)
+<use papers/art296609.pdf>
+Package pdftex.def Info: papers/art296609.pdf  used on input line 50.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art296609.pdf Graphic file (type pdf)
+<use papers/art296609.pdf>
+Package pdftex.def Info: papers/art296609.pdf  used on input line 50.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art296609.pdf, id=443, page=1, 614.295pt x 794.97pt>
+File: papers/art296609.pdf Graphic file (type pdf)
+<use papers/art296609.pdf, page 1>
+Package pdftex.def Info: papers/art296609.pdf , page1 used on input line 50.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art296609.pdf Graphic file (type pdf)
+<use papers/art296609.pdf, page 1>
+Package pdftex.def Info: papers/art296609.pdf , page1 used on input line 50.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [19
+
+]
+File: papers/art296609.pdf Graphic file (type pdf)
+<use papers/art296609.pdf, page 1>
+Package pdftex.def Info: papers/art296609.pdf , page1 used on input line 50.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art296609.pdf Graphic file (type pdf)
+<use papers/art296609.pdf, page 1>
+Package pdftex.def Info: papers/art296609.pdf , page1 used on input line 50.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--50
+
+ []
+
+File: papers/art296609.pdf Graphic file (type pdf)
+<use papers/art296609.pdf, page 1>
+Package pdftex.def Info: papers/art296609.pdf , page1 used on input line 50.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[20 <./papers/art296609.pdf>]
+<papers/art297651.pdf, id=467, 614.295pt x 794.97pt>
+File: papers/art297651.pdf Graphic file (type pdf)
+<use papers/art297651.pdf>
+Package pdftex.def Info: papers/art297651.pdf  used on input line 56.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art297651.pdf Graphic file (type pdf)
+<use papers/art297651.pdf>
+Package pdftex.def Info: papers/art297651.pdf  used on input line 56.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art297651.pdf, id=470, page=1, 614.295pt x 794.97pt>
+File: papers/art297651.pdf Graphic file (type pdf)
+<use papers/art297651.pdf, page 1>
+Package pdftex.def Info: papers/art297651.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art297651.pdf Graphic file (type pdf)
+<use papers/art297651.pdf, page 1>
+Package pdftex.def Info: papers/art297651.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [21
+
+]
+File: papers/art297651.pdf Graphic file (type pdf)
+<use papers/art297651.pdf, page 1>
+Package pdftex.def Info: papers/art297651.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art297651.pdf Graphic file (type pdf)
+<use papers/art297651.pdf, page 1>
+Package pdftex.def Info: papers/art297651.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--56
+
+ []
+
+File: papers/art297651.pdf Graphic file (type pdf)
+<use papers/art297651.pdf, page 1>
+Package pdftex.def Info: papers/art297651.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[22 <./papers/art297651.pdf>]
+<papers/art297674.pdf, id=493, 614.295pt x 794.97pt>
+File: papers/art297674.pdf Graphic file (type pdf)
+<use papers/art297674.pdf>
+Package pdftex.def Info: papers/art297674.pdf  used on input line 62.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art297674.pdf Graphic file (type pdf)
+<use papers/art297674.pdf>
+Package pdftex.def Info: papers/art297674.pdf  used on input line 62.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art297674.pdf, id=496, page=1, 614.295pt x 794.97pt>
+File: papers/art297674.pdf Graphic file (type pdf)
+<use papers/art297674.pdf, page 1>
+Package pdftex.def Info: papers/art297674.pdf , page1 used on input line 62.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art297674.pdf Graphic file (type pdf)
+<use papers/art297674.pdf, page 1>
+Package pdftex.def Info: papers/art297674.pdf , page1 used on input line 62.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [23
+
+]
+File: papers/art297674.pdf Graphic file (type pdf)
+<use papers/art297674.pdf, page 1>
+Package pdftex.def Info: papers/art297674.pdf , page1 used on input line 62.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art297674.pdf Graphic file (type pdf)
+<use papers/art297674.pdf, page 1>
+Package pdftex.def Info: papers/art297674.pdf , page1 used on input line 62.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--62
+
+ []
+
+File: papers/art297674.pdf Graphic file (type pdf)
+<use papers/art297674.pdf, page 1>
+Package pdftex.def Info: papers/art297674.pdf , page1 used on input line 62.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[24 <./papers/art297674.pdf>]
+<papers/art297709.pdf, id=520, 614.295pt x 794.97pt>
+File: papers/art297709.pdf Graphic file (type pdf)
+<use papers/art297709.pdf>
+Package pdftex.def Info: papers/art297709.pdf  used on input line 68.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art297709.pdf Graphic file (type pdf)
+<use papers/art297709.pdf>
+Package pdftex.def Info: papers/art297709.pdf  used on input line 68.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art297709.pdf, id=523, page=1, 614.295pt x 794.97pt>
+File: papers/art297709.pdf Graphic file (type pdf)
+<use papers/art297709.pdf, page 1>
+Package pdftex.def Info: papers/art297709.pdf , page1 used on input line 68.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art297709.pdf Graphic file (type pdf)
+<use papers/art297709.pdf, page 1>
+Package pdftex.def Info: papers/art297709.pdf , page1 used on input line 68.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [25
+
+]
+File: papers/art297709.pdf Graphic file (type pdf)
+<use papers/art297709.pdf, page 1>
+Package pdftex.def Info: papers/art297709.pdf , page1 used on input line 68.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art297709.pdf Graphic file (type pdf)
+<use papers/art297709.pdf, page 1>
+Package pdftex.def Info: papers/art297709.pdf , page1 used on input line 68.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
+
+ []
+
+File: papers/art297709.pdf Graphic file (type pdf)
+<use papers/art297709.pdf, page 1>
+Package pdftex.def Info: papers/art297709.pdf , page1 used on input line 68.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[26 <./papers/art297709.pdf>]
+<papers/art297728.pdf, id=546, 614.295pt x 794.97pt>
+File: papers/art297728.pdf Graphic file (type pdf)
+<use papers/art297728.pdf>
+Package pdftex.def Info: papers/art297728.pdf  used on input line 74.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art297728.pdf Graphic file (type pdf)
+<use papers/art297728.pdf>
+Package pdftex.def Info: papers/art297728.pdf  used on input line 74.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art297728.pdf, id=549, page=1, 614.295pt x 794.97pt>
+File: papers/art297728.pdf Graphic file (type pdf)
+<use papers/art297728.pdf, page 1>
+Package pdftex.def Info: papers/art297728.pdf , page1 used on input line 74.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art297728.pdf Graphic file (type pdf)
+<use papers/art297728.pdf, page 1>
+Package pdftex.def Info: papers/art297728.pdf , page1 used on input line 74.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [27
+
+]
+File: papers/art297728.pdf Graphic file (type pdf)
+<use papers/art297728.pdf, page 1>
+Package pdftex.def Info: papers/art297728.pdf , page1 used on input line 74.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art297728.pdf Graphic file (type pdf)
+<use papers/art297728.pdf, page 1>
+Package pdftex.def Info: papers/art297728.pdf , page1 used on input line 74.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
+
+ []
+
+File: papers/art297728.pdf Graphic file (type pdf)
+<use papers/art297728.pdf, page 1>
+Package pdftex.def Info: papers/art297728.pdf , page1 used on input line 74.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[28 <./papers/art297728.pdf>]
+<papers/art297956.pdf, id=577, 614.295pt x 794.97pt>
+File: papers/art297956.pdf Graphic file (type pdf)
+<use papers/art297956.pdf>
+Package pdftex.def Info: papers/art297956.pdf  used on input line 80.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art297956.pdf Graphic file (type pdf)
+<use papers/art297956.pdf>
+Package pdftex.def Info: papers/art297956.pdf  used on input line 80.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art297956.pdf, id=580, page=1, 614.295pt x 794.97pt>
+File: papers/art297956.pdf Graphic file (type pdf)
+<use papers/art297956.pdf, page 1>
+Package pdftex.def Info: papers/art297956.pdf , page1 used on input line 80.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art297956.pdf Graphic file (type pdf)
+<use papers/art297956.pdf, page 1>
+Package pdftex.def Info: papers/art297956.pdf , page1 used on input line 80.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [29
+
+]
+File: papers/art297956.pdf Graphic file (type pdf)
+<use papers/art297956.pdf, page 1>
+Package pdftex.def Info: papers/art297956.pdf , page1 used on input line 80.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art297956.pdf Graphic file (type pdf)
+<use papers/art297956.pdf, page 1>
+Package pdftex.def Info: papers/art297956.pdf , page1 used on input line 80.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--80
+
+ []
+
+File: papers/art297956.pdf Graphic file (type pdf)
+<use papers/art297956.pdf, page 1>
+Package pdftex.def Info: papers/art297956.pdf , page1 used on input line 80.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[30 <./papers/art297956.pdf>]
+<papers/art297987.pdf, id=605, 614.295pt x 794.97pt>
+File: papers/art297987.pdf Graphic file (type pdf)
+<use papers/art297987.pdf>
+Package pdftex.def Info: papers/art297987.pdf  used on input line 86.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art297987.pdf Graphic file (type pdf)
+<use papers/art297987.pdf>
+Package pdftex.def Info: papers/art297987.pdf  used on input line 86.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art297987.pdf, id=608, page=1, 614.295pt x 794.97pt>
+File: papers/art297987.pdf Graphic file (type pdf)
+<use papers/art297987.pdf, page 1>
+Package pdftex.def Info: papers/art297987.pdf , page1 used on input line 86.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art297987.pdf Graphic file (type pdf)
+<use papers/art297987.pdf, page 1>
+Package pdftex.def Info: papers/art297987.pdf , page1 used on input line 86.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [31
+
+]
+File: papers/art297987.pdf Graphic file (type pdf)
+<use papers/art297987.pdf, page 1>
+Package pdftex.def Info: papers/art297987.pdf , page1 used on input line 86.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art297987.pdf Graphic file (type pdf)
+<use papers/art297987.pdf, page 1>
+Package pdftex.def Info: papers/art297987.pdf , page1 used on input line 86.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 86--86
+
+ []
+
+File: papers/art297987.pdf Graphic file (type pdf)
+<use papers/art297987.pdf, page 1>
+Package pdftex.def Info: papers/art297987.pdf , page1 used on input line 86.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[32 <./papers/art297987.pdf>]
+<papers/art298052.pdf, id=631, 614.295pt x 794.97pt>
+File: papers/art298052.pdf Graphic file (type pdf)
+<use papers/art298052.pdf>
+Package pdftex.def Info: papers/art298052.pdf  used on input line 92.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art298052.pdf Graphic file (type pdf)
+<use papers/art298052.pdf>
+Package pdftex.def Info: papers/art298052.pdf  used on input line 92.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art298052.pdf, id=634, page=1, 614.295pt x 794.97pt>
+File: papers/art298052.pdf Graphic file (type pdf)
+<use papers/art298052.pdf, page 1>
+Package pdftex.def Info: papers/art298052.pdf , page1 used on input line 92.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art298052.pdf Graphic file (type pdf)
+<use papers/art298052.pdf, page 1>
+Package pdftex.def Info: papers/art298052.pdf , page1 used on input line 92.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [33
+
+]
+File: papers/art298052.pdf Graphic file (type pdf)
+<use papers/art298052.pdf, page 1>
+Package pdftex.def Info: papers/art298052.pdf , page1 used on input line 92.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art298052.pdf Graphic file (type pdf)
+<use papers/art298052.pdf, page 1>
+Package pdftex.def Info: papers/art298052.pdf , page1 used on input line 92.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+
+ []
+
+File: papers/art298052.pdf Graphic file (type pdf)
+<use papers/art298052.pdf, page 1>
+Package pdftex.def Info: papers/art298052.pdf , page1 used on input line 92.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[34 <./papers/art298052.pdf>]
+<papers/art298089.pdf, id=657, 614.295pt x 794.97pt>
+File: papers/art298089.pdf Graphic file (type pdf)
+<use papers/art298089.pdf>
+Package pdftex.def Info: papers/art298089.pdf  used on input line 98.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art298089.pdf Graphic file (type pdf)
+<use papers/art298089.pdf>
+Package pdftex.def Info: papers/art298089.pdf  used on input line 98.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art298089.pdf, id=660, page=1, 614.295pt x 794.97pt>
+File: papers/art298089.pdf Graphic file (type pdf)
+<use papers/art298089.pdf, page 1>
+Package pdftex.def Info: papers/art298089.pdf , page1 used on input line 98.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art298089.pdf Graphic file (type pdf)
+<use papers/art298089.pdf, page 1>
+Package pdftex.def Info: papers/art298089.pdf , page1 used on input line 98.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [35
+
+]
+File: papers/art298089.pdf Graphic file (type pdf)
+<use papers/art298089.pdf, page 1>
+Package pdftex.def Info: papers/art298089.pdf , page1 used on input line 98.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art298089.pdf Graphic file (type pdf)
+<use papers/art298089.pdf, page 1>
+Package pdftex.def Info: papers/art298089.pdf , page1 used on input line 98.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
+
+ []
+
+File: papers/art298089.pdf Graphic file (type pdf)
+<use papers/art298089.pdf, page 1>
+Package pdftex.def Info: papers/art298089.pdf , page1 used on input line 98.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[36 <./papers/art298089.pdf>]
+<papers/art298111.pdf, id=687, 614.295pt x 794.97pt>
+File: papers/art298111.pdf Graphic file (type pdf)
+<use papers/art298111.pdf>
+Package pdftex.def Info: papers/art298111.pdf  used on input line 104.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art298111.pdf Graphic file (type pdf)
+<use papers/art298111.pdf>
+Package pdftex.def Info: papers/art298111.pdf  used on input line 104.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art298111.pdf, id=690, page=1, 614.295pt x 794.97pt>
+File: papers/art298111.pdf Graphic file (type pdf)
+<use papers/art298111.pdf, page 1>
+Package pdftex.def Info: papers/art298111.pdf , page1 used on input line 104.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art298111.pdf Graphic file (type pdf)
+<use papers/art298111.pdf, page 1>
+Package pdftex.def Info: papers/art298111.pdf , page1 used on input line 104.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [37
+
+]
+File: papers/art298111.pdf Graphic file (type pdf)
+<use papers/art298111.pdf, page 1>
+Package pdftex.def Info: papers/art298111.pdf , page1 used on input line 104.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art298111.pdf Graphic file (type pdf)
+<use papers/art298111.pdf, page 1>
+Package pdftex.def Info: papers/art298111.pdf , page1 used on input line 104.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--104
+
+ []
+
+File: papers/art298111.pdf Graphic file (type pdf)
+<use papers/art298111.pdf, page 1>
+Package pdftex.def Info: papers/art298111.pdf , page1 used on input line 104.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[38 <./papers/art298111.pdf>]
+<papers/art300241.pdf, id=714, 614.295pt x 794.97pt>
+File: papers/art300241.pdf Graphic file (type pdf)
+<use papers/art300241.pdf>
+Package pdftex.def Info: papers/art300241.pdf  used on input line 110.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art300241.pdf Graphic file (type pdf)
+<use papers/art300241.pdf>
+Package pdftex.def Info: papers/art300241.pdf  used on input line 110.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art300241.pdf, id=717, page=1, 614.295pt x 794.97pt>
+File: papers/art300241.pdf Graphic file (type pdf)
+<use papers/art300241.pdf, page 1>
+Package pdftex.def Info: papers/art300241.pdf , page1 used on input line 110.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art300241.pdf Graphic file (type pdf)
+<use papers/art300241.pdf, page 1>
+Package pdftex.def Info: papers/art300241.pdf , page1 used on input line 110.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [39
+
+]
+File: papers/art300241.pdf Graphic file (type pdf)
+<use papers/art300241.pdf, page 1>
+Package pdftex.def Info: papers/art300241.pdf , page1 used on input line 110.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art300241.pdf Graphic file (type pdf)
+<use papers/art300241.pdf, page 1>
+Package pdftex.def Info: papers/art300241.pdf , page1 used on input line 110.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 110--110
+
+ []
+
+File: papers/art300241.pdf Graphic file (type pdf)
+<use papers/art300241.pdf, page 1>
+Package pdftex.def Info: papers/art300241.pdf , page1 used on input line 110.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[40 <./papers/art300241.pdf>]
+<papers/art301064.pdf, id=740, 614.295pt x 794.97pt>
+File: papers/art301064.pdf Graphic file (type pdf)
+<use papers/art301064.pdf>
+Package pdftex.def Info: papers/art301064.pdf  used on input line 116.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art301064.pdf Graphic file (type pdf)
+<use papers/art301064.pdf>
+Package pdftex.def Info: papers/art301064.pdf  used on input line 116.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art301064.pdf, id=743, page=1, 614.295pt x 794.97pt>
+File: papers/art301064.pdf Graphic file (type pdf)
+<use papers/art301064.pdf, page 1>
+Package pdftex.def Info: papers/art301064.pdf , page1 used on input line 116.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art301064.pdf Graphic file (type pdf)
+<use papers/art301064.pdf, page 1>
+Package pdftex.def Info: papers/art301064.pdf , page1 used on input line 116.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [41
+
+]
+File: papers/art301064.pdf Graphic file (type pdf)
+<use papers/art301064.pdf, page 1>
+Package pdftex.def Info: papers/art301064.pdf , page1 used on input line 116.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art301064.pdf Graphic file (type pdf)
+<use papers/art301064.pdf, page 1>
+Package pdftex.def Info: papers/art301064.pdf , page1 used on input line 116.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--116
+
+ []
+
+File: papers/art301064.pdf Graphic file (type pdf)
+<use papers/art301064.pdf, page 1>
+Package pdftex.def Info: papers/art301064.pdf , page1 used on input line 116.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[42 <./papers/art301064.pdf>]
+<papers/art301462.pdf, id=767, 614.295pt x 794.97pt>
+File: papers/art301462.pdf Graphic file (type pdf)
+<use papers/art301462.pdf>
+Package pdftex.def Info: papers/art301462.pdf  used on input line 122.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art301462.pdf Graphic file (type pdf)
+<use papers/art301462.pdf>
+Package pdftex.def Info: papers/art301462.pdf  used on input line 122.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art301462.pdf, id=770, page=1, 614.295pt x 794.97pt>
+File: papers/art301462.pdf Graphic file (type pdf)
+<use papers/art301462.pdf, page 1>
+Package pdftex.def Info: papers/art301462.pdf , page1 used on input line 122.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art301462.pdf Graphic file (type pdf)
+<use papers/art301462.pdf, page 1>
+Package pdftex.def Info: papers/art301462.pdf , page1 used on input line 122.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [43
+
+]
+File: papers/art301462.pdf Graphic file (type pdf)
+<use papers/art301462.pdf, page 1>
+Package pdftex.def Info: papers/art301462.pdf , page1 used on input line 122.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art301462.pdf Graphic file (type pdf)
+<use papers/art301462.pdf, page 1>
+Package pdftex.def Info: papers/art301462.pdf , page1 used on input line 122.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--122
+
+ []
+
+File: papers/art301462.pdf Graphic file (type pdf)
+<use papers/art301462.pdf, page 1>
+Package pdftex.def Info: papers/art301462.pdf , page1 used on input line 122.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[44 <./papers/art301462.pdf>]
+<papers/art303040.pdf, id=793, 614.295pt x 794.97pt>
+File: papers/art303040.pdf Graphic file (type pdf)
+<use papers/art303040.pdf>
+Package pdftex.def Info: papers/art303040.pdf  used on input line 128.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art303040.pdf Graphic file (type pdf)
+<use papers/art303040.pdf>
+Package pdftex.def Info: papers/art303040.pdf  used on input line 128.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art303040.pdf, id=796, page=1, 614.295pt x 794.97pt>
+File: papers/art303040.pdf Graphic file (type pdf)
+<use papers/art303040.pdf, page 1>
+Package pdftex.def Info: papers/art303040.pdf , page1 used on input line 128.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art303040.pdf Graphic file (type pdf)
+<use papers/art303040.pdf, page 1>
+Package pdftex.def Info: papers/art303040.pdf , page1 used on input line 128.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [45
+
+]
+File: papers/art303040.pdf Graphic file (type pdf)
+<use papers/art303040.pdf, page 1>
+Package pdftex.def Info: papers/art303040.pdf , page1 used on input line 128.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art303040.pdf Graphic file (type pdf)
+<use papers/art303040.pdf, page 1>
+Package pdftex.def Info: papers/art303040.pdf , page1 used on input line 128.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--128
+
+ []
+
+File: papers/art303040.pdf Graphic file (type pdf)
+<use papers/art303040.pdf, page 1>
+Package pdftex.def Info: papers/art303040.pdf , page1 used on input line 128.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[46 <./papers/art303040.pdf>]
+<papers/art303108.pdf, id=819, 614.295pt x 794.97pt>
+File: papers/art303108.pdf Graphic file (type pdf)
+<use papers/art303108.pdf>
+Package pdftex.def Info: papers/art303108.pdf  used on input line 134.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art303108.pdf Graphic file (type pdf)
+<use papers/art303108.pdf>
+Package pdftex.def Info: papers/art303108.pdf  used on input line 134.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art303108.pdf, id=822, page=1, 614.295pt x 794.97pt>
+File: papers/art303108.pdf Graphic file (type pdf)
+<use papers/art303108.pdf, page 1>
+Package pdftex.def Info: papers/art303108.pdf , page1 used on input line 134.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art303108.pdf Graphic file (type pdf)
+<use papers/art303108.pdf, page 1>
+Package pdftex.def Info: papers/art303108.pdf , page1 used on input line 134.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [47
+
+]
+File: papers/art303108.pdf Graphic file (type pdf)
+<use papers/art303108.pdf, page 1>
+Package pdftex.def Info: papers/art303108.pdf , page1 used on input line 134.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art303108.pdf Graphic file (type pdf)
+<use papers/art303108.pdf, page 1>
+Package pdftex.def Info: papers/art303108.pdf , page1 used on input line 134.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--134
+
+ []
+
+File: papers/art303108.pdf Graphic file (type pdf)
+<use papers/art303108.pdf, page 1>
+Package pdftex.def Info: papers/art303108.pdf , page1 used on input line 134.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[48 <./papers/art303108.pdf>]
+<papers/art303186.pdf, id=847, 614.295pt x 794.97pt>
+File: papers/art303186.pdf Graphic file (type pdf)
+<use papers/art303186.pdf>
+Package pdftex.def Info: papers/art303186.pdf  used on input line 140.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art303186.pdf Graphic file (type pdf)
+<use papers/art303186.pdf>
+Package pdftex.def Info: papers/art303186.pdf  used on input line 140.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art303186.pdf, id=850, page=1, 614.295pt x 794.97pt>
+File: papers/art303186.pdf Graphic file (type pdf)
+<use papers/art303186.pdf, page 1>
+Package pdftex.def Info: papers/art303186.pdf , page1 used on input line 140.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art303186.pdf Graphic file (type pdf)
+<use papers/art303186.pdf, page 1>
+Package pdftex.def Info: papers/art303186.pdf , page1 used on input line 140.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [49
+
+]
+File: papers/art303186.pdf Graphic file (type pdf)
+<use papers/art303186.pdf, page 1>
+Package pdftex.def Info: papers/art303186.pdf , page1 used on input line 140.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art303186.pdf Graphic file (type pdf)
+<use papers/art303186.pdf, page 1>
+Package pdftex.def Info: papers/art303186.pdf , page1 used on input line 140.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
+
+ []
+
+File: papers/art303186.pdf Graphic file (type pdf)
+<use papers/art303186.pdf, page 1>
+Package pdftex.def Info: papers/art303186.pdf , page1 used on input line 140.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[50 <./papers/art303186.pdf>]
+<papers/art304798.pdf, id=873, 614.295pt x 794.97pt>
+File: papers/art304798.pdf Graphic file (type pdf)
+<use papers/art304798.pdf>
+Package pdftex.def Info: papers/art304798.pdf  used on input line 146.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art304798.pdf Graphic file (type pdf)
+<use papers/art304798.pdf>
+Package pdftex.def Info: papers/art304798.pdf  used on input line 146.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art304798.pdf, id=876, page=1, 614.295pt x 794.97pt>
+File: papers/art304798.pdf Graphic file (type pdf)
+<use papers/art304798.pdf, page 1>
+Package pdftex.def Info: papers/art304798.pdf , page1 used on input line 146.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art304798.pdf Graphic file (type pdf)
+<use papers/art304798.pdf, page 1>
+Package pdftex.def Info: papers/art304798.pdf , page1 used on input line 146.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [51
+
+]
+File: papers/art304798.pdf Graphic file (type pdf)
+<use papers/art304798.pdf, page 1>
+Package pdftex.def Info: papers/art304798.pdf , page1 used on input line 146.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art304798.pdf Graphic file (type pdf)
+<use papers/art304798.pdf, page 1>
+Package pdftex.def Info: papers/art304798.pdf , page1 used on input line 146.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--146
+
+ []
+
+File: papers/art304798.pdf Graphic file (type pdf)
+<use papers/art304798.pdf, page 1>
+Package pdftex.def Info: papers/art304798.pdf , page1 used on input line 146.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[52 <./papers/art304798.pdf>]
+<papers/art305268.pdf, id=899, 614.295pt x 794.97pt>
+File: papers/art305268.pdf Graphic file (type pdf)
+<use papers/art305268.pdf>
+Package pdftex.def Info: papers/art305268.pdf  used on input line 152.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art305268.pdf Graphic file (type pdf)
+<use papers/art305268.pdf>
+Package pdftex.def Info: papers/art305268.pdf  used on input line 152.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art305268.pdf, id=902, page=1, 614.295pt x 794.97pt>
+File: papers/art305268.pdf Graphic file (type pdf)
+<use papers/art305268.pdf, page 1>
+Package pdftex.def Info: papers/art305268.pdf , page1 used on input line 152.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art305268.pdf Graphic file (type pdf)
+<use papers/art305268.pdf, page 1>
+Package pdftex.def Info: papers/art305268.pdf , page1 used on input line 152.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [53
+
+]
+File: papers/art305268.pdf Graphic file (type pdf)
+<use papers/art305268.pdf, page 1>
+Package pdftex.def Info: papers/art305268.pdf , page1 used on input line 152.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art305268.pdf Graphic file (type pdf)
+<use papers/art305268.pdf, page 1>
+Package pdftex.def Info: papers/art305268.pdf , page1 used on input line 152.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--152
+
+ []
+
+File: papers/art305268.pdf Graphic file (type pdf)
+<use papers/art305268.pdf, page 1>
+Package pdftex.def Info: papers/art305268.pdf , page1 used on input line 152.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[54 <./papers/art305268.pdf>]
+<papers/art305296.pdf, id=926, 614.295pt x 794.97pt>
+File: papers/art305296.pdf Graphic file (type pdf)
+<use papers/art305296.pdf>
+Package pdftex.def Info: papers/art305296.pdf  used on input line 158.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art305296.pdf Graphic file (type pdf)
+<use papers/art305296.pdf>
+Package pdftex.def Info: papers/art305296.pdf  used on input line 158.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art305296.pdf, id=929, page=1, 614.295pt x 794.97pt>
+File: papers/art305296.pdf Graphic file (type pdf)
+<use papers/art305296.pdf, page 1>
+Package pdftex.def Info: papers/art305296.pdf , page1 used on input line 158.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art305296.pdf Graphic file (type pdf)
+<use papers/art305296.pdf, page 1>
+Package pdftex.def Info: papers/art305296.pdf , page1 used on input line 158.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [55
+
+]
+File: papers/art305296.pdf Graphic file (type pdf)
+<use papers/art305296.pdf, page 1>
+Package pdftex.def Info: papers/art305296.pdf , page1 used on input line 158.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art305296.pdf Graphic file (type pdf)
+<use papers/art305296.pdf, page 1>
+Package pdftex.def Info: papers/art305296.pdf , page1 used on input line 158.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 158--158
+
+ []
+
+File: papers/art305296.pdf Graphic file (type pdf)
+<use papers/art305296.pdf, page 1>
+Package pdftex.def Info: papers/art305296.pdf , page1 used on input line 158.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[56 <./papers/art305296.pdf>]
+<papers/art305812.pdf, id=952, 614.295pt x 794.97pt>
+File: papers/art305812.pdf Graphic file (type pdf)
+<use papers/art305812.pdf>
+Package pdftex.def Info: papers/art305812.pdf  used on input line 164.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art305812.pdf Graphic file (type pdf)
+<use papers/art305812.pdf>
+Package pdftex.def Info: papers/art305812.pdf  used on input line 164.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art305812.pdf, id=955, page=1, 614.295pt x 794.97pt>
+File: papers/art305812.pdf Graphic file (type pdf)
+<use papers/art305812.pdf, page 1>
+Package pdftex.def Info: papers/art305812.pdf , page1 used on input line 164.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art305812.pdf Graphic file (type pdf)
+<use papers/art305812.pdf, page 1>
+Package pdftex.def Info: papers/art305812.pdf , page1 used on input line 164.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [57
+
+]
+File: papers/art305812.pdf Graphic file (type pdf)
+<use papers/art305812.pdf, page 1>
+Package pdftex.def Info: papers/art305812.pdf , page1 used on input line 164.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art305812.pdf Graphic file (type pdf)
+<use papers/art305812.pdf, page 1>
+Package pdftex.def Info: papers/art305812.pdf , page1 used on input line 164.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 164--164
+
+ []
+
+File: papers/art305812.pdf Graphic file (type pdf)
+<use papers/art305812.pdf, page 1>
+Package pdftex.def Info: papers/art305812.pdf , page1 used on input line 164.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[58 <./papers/art305812.pdf>]
+<papers/art307886.pdf, id=979, 614.295pt x 794.97pt>
+File: papers/art307886.pdf Graphic file (type pdf)
+<use papers/art307886.pdf>
+Package pdftex.def Info: papers/art307886.pdf  used on input line 170.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art307886.pdf Graphic file (type pdf)
+<use papers/art307886.pdf>
+Package pdftex.def Info: papers/art307886.pdf  used on input line 170.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art307886.pdf, id=982, page=1, 614.295pt x 794.97pt>
+File: papers/art307886.pdf Graphic file (type pdf)
+<use papers/art307886.pdf, page 1>
+Package pdftex.def Info: papers/art307886.pdf , page1 used on input line 170.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art307886.pdf Graphic file (type pdf)
+<use papers/art307886.pdf, page 1>
+Package pdftex.def Info: papers/art307886.pdf , page1 used on input line 170.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [59
+
+]
+File: papers/art307886.pdf Graphic file (type pdf)
+<use papers/art307886.pdf, page 1>
+Package pdftex.def Info: papers/art307886.pdf , page1 used on input line 170.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art307886.pdf Graphic file (type pdf)
+<use papers/art307886.pdf, page 1>
+Package pdftex.def Info: papers/art307886.pdf , page1 used on input line 170.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 170--170
+
+ []
+
+File: papers/art307886.pdf Graphic file (type pdf)
+<use papers/art307886.pdf, page 1>
+Package pdftex.def Info: papers/art307886.pdf , page1 used on input line 170.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[60 <./papers/art307886.pdf>]
+Chapter 6.
+<papers/art301463.pdf, id=1006, 614.295pt x 794.97pt>
+File: papers/art301463.pdf Graphic file (type pdf)
+<use papers/art301463.pdf>
+Package pdftex.def Info: papers/art301463.pdf  used on input line 177.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art301463.pdf Graphic file (type pdf)
+<use papers/art301463.pdf>
+Package pdftex.def Info: papers/art301463.pdf  used on input line 177.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art301463.pdf, id=1009, page=1, 614.295pt x 794.97pt>
+File: papers/art301463.pdf Graphic file (type pdf)
+<use papers/art301463.pdf, page 1>
+Package pdftex.def Info: papers/art301463.pdf , page1 used on input line 177.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art301463.pdf Graphic file (type pdf)
+<use papers/art301463.pdf, page 1>
+Package pdftex.def Info: papers/art301463.pdf , page1 used on input line 177.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[61
+
+
+]
+File: papers/art301463.pdf Graphic file (type pdf)
+<use papers/art301463.pdf, page 1>
+Package pdftex.def Info: papers/art301463.pdf , page1 used on input line 177.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art301463.pdf Graphic file (type pdf)
+<use papers/art301463.pdf, page 1>
+Package pdftex.def Info: papers/art301463.pdf , page1 used on input line 177.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 177--177
+
+ []
+
+File: papers/art301463.pdf Graphic file (type pdf)
+<use papers/art301463.pdf, page 1>
+Package pdftex.def Info: papers/art301463.pdf , page1 used on input line 177.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[62 <./papers/art301463.pdf>]
+<papers/art303178.pdf, id=1032, 614.295pt x 794.97pt>
+File: papers/art303178.pdf Graphic file (type pdf)
+<use papers/art303178.pdf>
+Package pdftex.def Info: papers/art303178.pdf  used on input line 183.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art303178.pdf Graphic file (type pdf)
+<use papers/art303178.pdf>
+Package pdftex.def Info: papers/art303178.pdf  used on input line 183.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art303178.pdf, id=1035, page=1, 614.295pt x 794.97pt>
+File: papers/art303178.pdf Graphic file (type pdf)
+<use papers/art303178.pdf, page 1>
+Package pdftex.def Info: papers/art303178.pdf , page1 used on input line 183.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art303178.pdf Graphic file (type pdf)
+<use papers/art303178.pdf, page 1>
+Package pdftex.def Info: papers/art303178.pdf , page1 used on input line 183.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [63
+
+]
+File: papers/art303178.pdf Graphic file (type pdf)
+<use papers/art303178.pdf, page 1>
+Package pdftex.def Info: papers/art303178.pdf , page1 used on input line 183.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art303178.pdf Graphic file (type pdf)
+<use papers/art303178.pdf, page 1>
+Package pdftex.def Info: papers/art303178.pdf , page1 used on input line 183.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--183
+
+ []
+
+File: papers/art303178.pdf Graphic file (type pdf)
+<use papers/art303178.pdf, page 1>
+Package pdftex.def Info: papers/art303178.pdf , page1 used on input line 183.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[64 <./papers/art303178.pdf>]
+<papers/art307927.pdf, id=1058, 614.295pt x 794.97pt>
+File: papers/art307927.pdf Graphic file (type pdf)
+<use papers/art307927.pdf>
+Package pdftex.def Info: papers/art307927.pdf  used on input line 189.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art307927.pdf Graphic file (type pdf)
+<use papers/art307927.pdf>
+Package pdftex.def Info: papers/art307927.pdf  used on input line 189.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art307927.pdf, id=1061, page=1, 614.295pt x 794.97pt>
+File: papers/art307927.pdf Graphic file (type pdf)
+<use papers/art307927.pdf, page 1>
+Package pdftex.def Info: papers/art307927.pdf , page1 used on input line 189.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art307927.pdf Graphic file (type pdf)
+<use papers/art307927.pdf, page 1>
+Package pdftex.def Info: papers/art307927.pdf , page1 used on input line 189.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [65
+
+]
+File: papers/art307927.pdf Graphic file (type pdf)
+<use papers/art307927.pdf, page 1>
+Package pdftex.def Info: papers/art307927.pdf , page1 used on input line 189.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art307927.pdf Graphic file (type pdf)
+<use papers/art307927.pdf, page 1>
+Package pdftex.def Info: papers/art307927.pdf , page1 used on input line 189.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--189
+
+ []
+
+File: papers/art307927.pdf Graphic file (type pdf)
+<use papers/art307927.pdf, page 1>
+Package pdftex.def Info: papers/art307927.pdf , page1 used on input line 189.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[66 <./papers/art307927.pdf>]
+<papers/art307952.pdf, id=1085, 614.295pt x 794.97pt>
+File: papers/art307952.pdf Graphic file (type pdf)
+<use papers/art307952.pdf>
+Package pdftex.def Info: papers/art307952.pdf  used on input line 195.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art307952.pdf Graphic file (type pdf)
+<use papers/art307952.pdf>
+Package pdftex.def Info: papers/art307952.pdf  used on input line 195.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art307952.pdf, id=1088, page=1, 614.295pt x 794.97pt>
+File: papers/art307952.pdf Graphic file (type pdf)
+<use papers/art307952.pdf, page 1>
+Package pdftex.def Info: papers/art307952.pdf , page1 used on input line 195.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art307952.pdf Graphic file (type pdf)
+<use papers/art307952.pdf, page 1>
+Package pdftex.def Info: papers/art307952.pdf , page1 used on input line 195.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [67
+
+]
+File: papers/art307952.pdf Graphic file (type pdf)
+<use papers/art307952.pdf, page 1>
+Package pdftex.def Info: papers/art307952.pdf , page1 used on input line 195.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art307952.pdf Graphic file (type pdf)
+<use papers/art307952.pdf, page 1>
+Package pdftex.def Info: papers/art307952.pdf , page1 used on input line 195.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 195--195
+
+ []
+
+File: papers/art307952.pdf Graphic file (type pdf)
+<use papers/art307952.pdf, page 1>
+Package pdftex.def Info: papers/art307952.pdf , page1 used on input line 195.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[68 <./papers/art307952.pdf>]
+Chapter 7.
+<papers/art296745.pdf, id=1115, 614.295pt x 794.97pt>
+File: papers/art296745.pdf Graphic file (type pdf)
+<use papers/art296745.pdf>
+Package pdftex.def Info: papers/art296745.pdf  used on input line 202.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art296745.pdf Graphic file (type pdf)
+<use papers/art296745.pdf>
+Package pdftex.def Info: papers/art296745.pdf  used on input line 202.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art296745.pdf, id=1118, page=1, 614.295pt x 794.97pt>
+File: papers/art296745.pdf Graphic file (type pdf)
+<use papers/art296745.pdf, page 1>
+Package pdftex.def Info: papers/art296745.pdf , page1 used on input line 202.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art296745.pdf Graphic file (type pdf)
+<use papers/art296745.pdf, page 1>
+Package pdftex.def Info: papers/art296745.pdf , page1 used on input line 202.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[69
+
+
+]
+File: papers/art296745.pdf Graphic file (type pdf)
+<use papers/art296745.pdf, page 1>
+Package pdftex.def Info: papers/art296745.pdf , page1 used on input line 202.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art296745.pdf Graphic file (type pdf)
+<use papers/art296745.pdf, page 1>
+Package pdftex.def Info: papers/art296745.pdf , page1 used on input line 202.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--202
+
+ []
+
+File: papers/art296745.pdf Graphic file (type pdf)
+<use papers/art296745.pdf, page 1>
+Package pdftex.def Info: papers/art296745.pdf , page1 used on input line 202.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[70 <./papers/art296745.pdf>]
+<papers/art301377.pdf, id=1141, 614.295pt x 794.97pt>
+File: papers/art301377.pdf Graphic file (type pdf)
+<use papers/art301377.pdf>
+Package pdftex.def Info: papers/art301377.pdf  used on input line 208.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art301377.pdf Graphic file (type pdf)
+<use papers/art301377.pdf>
+Package pdftex.def Info: papers/art301377.pdf  used on input line 208.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art301377.pdf, id=1144, page=1, 614.295pt x 794.97pt>
+File: papers/art301377.pdf Graphic file (type pdf)
+<use papers/art301377.pdf, page 1>
+Package pdftex.def Info: papers/art301377.pdf , page1 used on input line 208.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art301377.pdf Graphic file (type pdf)
+<use papers/art301377.pdf, page 1>
+Package pdftex.def Info: papers/art301377.pdf , page1 used on input line 208.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [71
+
+]
+File: papers/art301377.pdf Graphic file (type pdf)
+<use papers/art301377.pdf, page 1>
+Package pdftex.def Info: papers/art301377.pdf , page1 used on input line 208.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art301377.pdf Graphic file (type pdf)
+<use papers/art301377.pdf, page 1>
+Package pdftex.def Info: papers/art301377.pdf , page1 used on input line 208.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 208--208
+
+ []
+
+File: papers/art301377.pdf Graphic file (type pdf)
+<use papers/art301377.pdf, page 1>
+Package pdftex.def Info: papers/art301377.pdf , page1 used on input line 208.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[72 <./papers/art301377.pdf>]
+<papers/art302913.pdf, id=1171, 614.295pt x 794.97pt>
+File: papers/art302913.pdf Graphic file (type pdf)
+<use papers/art302913.pdf>
+Package pdftex.def Info: papers/art302913.pdf  used on input line 214.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art302913.pdf Graphic file (type pdf)
+<use papers/art302913.pdf>
+Package pdftex.def Info: papers/art302913.pdf  used on input line 214.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art302913.pdf, id=1174, page=1, 614.295pt x 794.97pt>
+File: papers/art302913.pdf Graphic file (type pdf)
+<use papers/art302913.pdf, page 1>
+Package pdftex.def Info: papers/art302913.pdf , page1 used on input line 214.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art302913.pdf Graphic file (type pdf)
+<use papers/art302913.pdf, page 1>
+Package pdftex.def Info: papers/art302913.pdf , page1 used on input line 214.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art302913.pdf Graphic file (type pdf)
+<use papers/art302913.pdf, page 1>
+Package pdftex.def Info: papers/art302913.pdf , page1 used on input line 214.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art302913.pdf Graphic file (type pdf)
+<use papers/art302913.pdf, page 1>
+Package pdftex.def Info: papers/art302913.pdf , page1 used on input line 214.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--214
+
+ []
+
+File: papers/art302913.pdf Graphic file (type pdf)
+<use papers/art302913.pdf, page 1>
+Package pdftex.def Info: papers/art302913.pdf , page1 used on input line 214.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[73
+
+ <./papers/art302913.pdf>]
+<papers/art302914.pdf, id=1193, 614.295pt x 794.97pt>
+File: papers/art302914.pdf Graphic file (type pdf)
+<use papers/art302914.pdf>
+Package pdftex.def Info: papers/art302914.pdf  used on input line 220.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art302914.pdf Graphic file (type pdf)
+<use papers/art302914.pdf>
+Package pdftex.def Info: papers/art302914.pdf  used on input line 220.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art302914.pdf, id=1196, page=1, 614.295pt x 794.97pt>
+File: papers/art302914.pdf Graphic file (type pdf)
+<use papers/art302914.pdf, page 1>
+Package pdftex.def Info: papers/art302914.pdf , page1 used on input line 220.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art302914.pdf Graphic file (type pdf)
+<use papers/art302914.pdf, page 1>
+Package pdftex.def Info: papers/art302914.pdf , page1 used on input line 220.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [74
+
+]
+File: papers/art302914.pdf Graphic file (type pdf)
+<use papers/art302914.pdf, page 1>
+Package pdftex.def Info: papers/art302914.pdf , page1 used on input line 220.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art302914.pdf Graphic file (type pdf)
+<use papers/art302914.pdf, page 1>
+Package pdftex.def Info: papers/art302914.pdf , page1 used on input line 220.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 220--220
+
+ []
+
+File: papers/art302914.pdf Graphic file (type pdf)
+<use papers/art302914.pdf, page 1>
+Package pdftex.def Info: papers/art302914.pdf , page1 used on input line 220.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[75 <./papers/art302914.pdf>]
+<papers/art303067.pdf, id=1220, 614.295pt x 794.97pt>
+File: papers/art303067.pdf Graphic file (type pdf)
+<use papers/art303067.pdf>
+Package pdftex.def Info: papers/art303067.pdf  used on input line 226.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art303067.pdf Graphic file (type pdf)
+<use papers/art303067.pdf>
+Package pdftex.def Info: papers/art303067.pdf  used on input line 226.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art303067.pdf, id=1223, page=1, 614.295pt x 794.97pt>
+File: papers/art303067.pdf Graphic file (type pdf)
+<use papers/art303067.pdf, page 1>
+Package pdftex.def Info: papers/art303067.pdf , page1 used on input line 226.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art303067.pdf Graphic file (type pdf)
+<use papers/art303067.pdf, page 1>
+Package pdftex.def Info: papers/art303067.pdf , page1 used on input line 226.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [76
+
+]
+File: papers/art303067.pdf Graphic file (type pdf)
+<use papers/art303067.pdf, page 1>
+Package pdftex.def Info: papers/art303067.pdf , page1 used on input line 226.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art303067.pdf Graphic file (type pdf)
+<use papers/art303067.pdf, page 1>
+Package pdftex.def Info: papers/art303067.pdf , page1 used on input line 226.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 226--226
+
+ []
+
+File: papers/art303067.pdf Graphic file (type pdf)
+<use papers/art303067.pdf, page 1>
+Package pdftex.def Info: papers/art303067.pdf , page1 used on input line 226.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[77 <./papers/art303067.pdf>]
+<papers/art305422.pdf, id=1247, 614.295pt x 794.97pt>
+File: papers/art305422.pdf Graphic file (type pdf)
+<use papers/art305422.pdf>
+Package pdftex.def Info: papers/art305422.pdf  used on input line 232.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art305422.pdf Graphic file (type pdf)
+<use papers/art305422.pdf>
+Package pdftex.def Info: papers/art305422.pdf  used on input line 232.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art305422.pdf, id=1250, page=1, 614.295pt x 794.97pt>
+File: papers/art305422.pdf Graphic file (type pdf)
+<use papers/art305422.pdf, page 1>
+Package pdftex.def Info: papers/art305422.pdf , page1 used on input line 232.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art305422.pdf Graphic file (type pdf)
+<use papers/art305422.pdf, page 1>
+Package pdftex.def Info: papers/art305422.pdf , page1 used on input line 232.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [78
+
+]
+File: papers/art305422.pdf Graphic file (type pdf)
+<use papers/art305422.pdf, page 1>
+Package pdftex.def Info: papers/art305422.pdf , page1 used on input line 232.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art305422.pdf Graphic file (type pdf)
+<use papers/art305422.pdf, page 1>
+Package pdftex.def Info: papers/art305422.pdf , page1 used on input line 232.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 232--232
+
+ []
+
+File: papers/art305422.pdf Graphic file (type pdf)
+<use papers/art305422.pdf, page 1>
+Package pdftex.def Info: papers/art305422.pdf , page1 used on input line 232.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[79 <./papers/art305422.pdf>] [80
+
+
+]
+Chapter 8.
+<papers/art294641.pdf, id=1277, 614.295pt x 794.97pt>
+File: papers/art294641.pdf Graphic file (type pdf)
+<use papers/art294641.pdf>
+Package pdftex.def Info: papers/art294641.pdf  used on input line 239.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art294641.pdf Graphic file (type pdf)
+<use papers/art294641.pdf>
+Package pdftex.def Info: papers/art294641.pdf  used on input line 239.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art294641.pdf, id=1280, page=1, 614.295pt x 794.97pt>
+File: papers/art294641.pdf Graphic file (type pdf)
+<use papers/art294641.pdf, page 1>
+Package pdftex.def Info: papers/art294641.pdf , page1 used on input line 239.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art294641.pdf Graphic file (type pdf)
+<use papers/art294641.pdf, page 1>
+Package pdftex.def Info: papers/art294641.pdf , page1 used on input line 239.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[81]
+File: papers/art294641.pdf Graphic file (type pdf)
+<use papers/art294641.pdf, page 1>
+Package pdftex.def Info: papers/art294641.pdf , page1 used on input line 239.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art294641.pdf Graphic file (type pdf)
+<use papers/art294641.pdf, page 1>
+Package pdftex.def Info: papers/art294641.pdf , page1 used on input line 239.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 239--239
+
+ []
+
+File: papers/art294641.pdf Graphic file (type pdf)
+<use papers/art294641.pdf, page 1>
+Package pdftex.def Info: papers/art294641.pdf , page1 used on input line 239.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[82 <./papers/art294641.pdf>]
+<papers/art297986.pdf, id=1303, 614.295pt x 794.97pt>
+File: papers/art297986.pdf Graphic file (type pdf)
+<use papers/art297986.pdf>
+Package pdftex.def Info: papers/art297986.pdf  used on input line 245.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art297986.pdf Graphic file (type pdf)
+<use papers/art297986.pdf>
+Package pdftex.def Info: papers/art297986.pdf  used on input line 245.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art297986.pdf, id=1306, page=1, 614.295pt x 794.97pt>
+File: papers/art297986.pdf Graphic file (type pdf)
+<use papers/art297986.pdf, page 1>
+Package pdftex.def Info: papers/art297986.pdf , page1 used on input line 245.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art297986.pdf Graphic file (type pdf)
+<use papers/art297986.pdf, page 1>
+Package pdftex.def Info: papers/art297986.pdf , page1 used on input line 245.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [83
+
+]
+File: papers/art297986.pdf Graphic file (type pdf)
+<use papers/art297986.pdf, page 1>
+Package pdftex.def Info: papers/art297986.pdf , page1 used on input line 245.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art297986.pdf Graphic file (type pdf)
+<use papers/art297986.pdf, page 1>
+Package pdftex.def Info: papers/art297986.pdf , page1 used on input line 245.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 245--245
+
+ []
+
+File: papers/art297986.pdf Graphic file (type pdf)
+<use papers/art297986.pdf, page 1>
+Package pdftex.def Info: papers/art297986.pdf , page1 used on input line 245.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[84 <./papers/art297986.pdf>]
+<papers/art298059.pdf, id=1330, 614.295pt x 794.97pt>
+File: papers/art298059.pdf Graphic file (type pdf)
+<use papers/art298059.pdf>
+Package pdftex.def Info: papers/art298059.pdf  used on input line 251.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art298059.pdf Graphic file (type pdf)
+<use papers/art298059.pdf>
+Package pdftex.def Info: papers/art298059.pdf  used on input line 251.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art298059.pdf, id=1333, page=1, 614.295pt x 794.97pt>
+File: papers/art298059.pdf Graphic file (type pdf)
+<use papers/art298059.pdf, page 1>
+Package pdftex.def Info: papers/art298059.pdf , page1 used on input line 251.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art298059.pdf Graphic file (type pdf)
+<use papers/art298059.pdf, page 1>
+Package pdftex.def Info: papers/art298059.pdf , page1 used on input line 251.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [85
+
+]
+File: papers/art298059.pdf Graphic file (type pdf)
+<use papers/art298059.pdf, page 1>
+Package pdftex.def Info: papers/art298059.pdf , page1 used on input line 251.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art298059.pdf Graphic file (type pdf)
+<use papers/art298059.pdf, page 1>
+Package pdftex.def Info: papers/art298059.pdf , page1 used on input line 251.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 251--251
+
+ []
+
+File: papers/art298059.pdf Graphic file (type pdf)
+<use papers/art298059.pdf, page 1>
+Package pdftex.def Info: papers/art298059.pdf , page1 used on input line 251.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[86 <./papers/art298059.pdf>]
+<papers/art298120.pdf, id=1357, 614.295pt x 794.97pt>
+File: papers/art298120.pdf Graphic file (type pdf)
+<use papers/art298120.pdf>
+Package pdftex.def Info: papers/art298120.pdf  used on input line 257.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art298120.pdf Graphic file (type pdf)
+<use papers/art298120.pdf>
+Package pdftex.def Info: papers/art298120.pdf  used on input line 257.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art298120.pdf, id=1360, page=1, 614.295pt x 794.97pt>
+File: papers/art298120.pdf Graphic file (type pdf)
+<use papers/art298120.pdf, page 1>
+Package pdftex.def Info: papers/art298120.pdf , page1 used on input line 257.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art298120.pdf Graphic file (type pdf)
+<use papers/art298120.pdf, page 1>
+Package pdftex.def Info: papers/art298120.pdf , page1 used on input line 257.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [87
+
+]
+File: papers/art298120.pdf Graphic file (type pdf)
+<use papers/art298120.pdf, page 1>
+Package pdftex.def Info: papers/art298120.pdf , page1 used on input line 257.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art298120.pdf Graphic file (type pdf)
+<use papers/art298120.pdf, page 1>
+Package pdftex.def Info: papers/art298120.pdf , page1 used on input line 257.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 257--257
+
+ []
+
+File: papers/art298120.pdf Graphic file (type pdf)
+<use papers/art298120.pdf, page 1>
+Package pdftex.def Info: papers/art298120.pdf , page1 used on input line 257.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[88 <./papers/art298120.pdf>]
+<papers/art298253.pdf, id=1383, 614.295pt x 794.97pt>
+File: papers/art298253.pdf Graphic file (type pdf)
+<use papers/art298253.pdf>
+Package pdftex.def Info: papers/art298253.pdf  used on input line 263.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art298253.pdf Graphic file (type pdf)
+<use papers/art298253.pdf>
+Package pdftex.def Info: papers/art298253.pdf  used on input line 263.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art298253.pdf, id=1386, page=1, 614.295pt x 794.97pt>
+File: papers/art298253.pdf Graphic file (type pdf)
+<use papers/art298253.pdf, page 1>
+Package pdftex.def Info: papers/art298253.pdf , page1 used on input line 263.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art298253.pdf Graphic file (type pdf)
+<use papers/art298253.pdf, page 1>
+Package pdftex.def Info: papers/art298253.pdf , page1 used on input line 263.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [89
+
+]
+File: papers/art298253.pdf Graphic file (type pdf)
+<use papers/art298253.pdf, page 1>
+Package pdftex.def Info: papers/art298253.pdf , page1 used on input line 263.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art298253.pdf Graphic file (type pdf)
+<use papers/art298253.pdf, page 1>
+Package pdftex.def Info: papers/art298253.pdf , page1 used on input line 263.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 263--263
+
+ []
+
+File: papers/art298253.pdf Graphic file (type pdf)
+<use papers/art298253.pdf, page 1>
+Package pdftex.def Info: papers/art298253.pdf , page1 used on input line 263.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[90 <./papers/art298253.pdf>]
+<papers/art300190.pdf, id=1410, 614.295pt x 794.97pt>
+File: papers/art300190.pdf Graphic file (type pdf)
+<use papers/art300190.pdf>
+Package pdftex.def Info: papers/art300190.pdf  used on input line 269.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art300190.pdf Graphic file (type pdf)
+<use papers/art300190.pdf>
+Package pdftex.def Info: papers/art300190.pdf  used on input line 269.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art300190.pdf, id=1413, page=1, 614.295pt x 794.97pt>
+File: papers/art300190.pdf Graphic file (type pdf)
+<use papers/art300190.pdf, page 1>
+Package pdftex.def Info: papers/art300190.pdf , page1 used on input line 269.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art300190.pdf Graphic file (type pdf)
+<use papers/art300190.pdf, page 1>
+Package pdftex.def Info: papers/art300190.pdf , page1 used on input line 269.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [91
+
+]
+File: papers/art300190.pdf Graphic file (type pdf)
+<use papers/art300190.pdf, page 1>
+Package pdftex.def Info: papers/art300190.pdf , page1 used on input line 269.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art300190.pdf Graphic file (type pdf)
+<use papers/art300190.pdf, page 1>
+Package pdftex.def Info: papers/art300190.pdf , page1 used on input line 269.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 269--269
+
+ []
+
+File: papers/art300190.pdf Graphic file (type pdf)
+<use papers/art300190.pdf, page 1>
+Package pdftex.def Info: papers/art300190.pdf , page1 used on input line 269.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[92 <./papers/art300190.pdf>]
+<papers/art300276.pdf, id=1436, 614.295pt x 794.97pt>
+File: papers/art300276.pdf Graphic file (type pdf)
+<use papers/art300276.pdf>
+Package pdftex.def Info: papers/art300276.pdf  used on input line 275.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art300276.pdf Graphic file (type pdf)
+<use papers/art300276.pdf>
+Package pdftex.def Info: papers/art300276.pdf  used on input line 275.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art300276.pdf, id=1439, page=1, 614.295pt x 794.97pt>
+File: papers/art300276.pdf Graphic file (type pdf)
+<use papers/art300276.pdf, page 1>
+Package pdftex.def Info: papers/art300276.pdf , page1 used on input line 275.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art300276.pdf Graphic file (type pdf)
+<use papers/art300276.pdf, page 1>
+Package pdftex.def Info: papers/art300276.pdf , page1 used on input line 275.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [93
+
+]
+File: papers/art300276.pdf Graphic file (type pdf)
+<use papers/art300276.pdf, page 1>
+Package pdftex.def Info: papers/art300276.pdf , page1 used on input line 275.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art300276.pdf Graphic file (type pdf)
+<use papers/art300276.pdf, page 1>
+Package pdftex.def Info: papers/art300276.pdf , page1 used on input line 275.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 275--275
+
+ []
+
+File: papers/art300276.pdf Graphic file (type pdf)
+<use papers/art300276.pdf, page 1>
+Package pdftex.def Info: papers/art300276.pdf , page1 used on input line 275.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[94 <./papers/art300276.pdf>]
+<papers/art300289.pdf, id=1462, 614.295pt x 794.97pt>
+File: papers/art300289.pdf Graphic file (type pdf)
+<use papers/art300289.pdf>
+Package pdftex.def Info: papers/art300289.pdf  used on input line 281.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art300289.pdf Graphic file (type pdf)
+<use papers/art300289.pdf>
+Package pdftex.def Info: papers/art300289.pdf  used on input line 281.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art300289.pdf, id=1465, page=1, 614.295pt x 794.97pt>
+File: papers/art300289.pdf Graphic file (type pdf)
+<use papers/art300289.pdf, page 1>
+Package pdftex.def Info: papers/art300289.pdf , page1 used on input line 281.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art300289.pdf Graphic file (type pdf)
+<use papers/art300289.pdf, page 1>
+Package pdftex.def Info: papers/art300289.pdf , page1 used on input line 281.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [95
+
+]
+File: papers/art300289.pdf Graphic file (type pdf)
+<use papers/art300289.pdf, page 1>
+Package pdftex.def Info: papers/art300289.pdf , page1 used on input line 281.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art300289.pdf Graphic file (type pdf)
+<use papers/art300289.pdf, page 1>
+Package pdftex.def Info: papers/art300289.pdf , page1 used on input line 281.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 281--281
+
+ []
+
+File: papers/art300289.pdf Graphic file (type pdf)
+<use papers/art300289.pdf, page 1>
+Package pdftex.def Info: papers/art300289.pdf , page1 used on input line 281.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[96 <./papers/art300289.pdf>]
+<papers/art300776.pdf, id=1490, 614.295pt x 794.97pt>
+File: papers/art300776.pdf Graphic file (type pdf)
+<use papers/art300776.pdf>
+Package pdftex.def Info: papers/art300776.pdf  used on input line 287.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art300776.pdf Graphic file (type pdf)
+<use papers/art300776.pdf>
+Package pdftex.def Info: papers/art300776.pdf  used on input line 287.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art300776.pdf, id=1493, page=1, 614.295pt x 794.97pt>
+File: papers/art300776.pdf Graphic file (type pdf)
+<use papers/art300776.pdf, page 1>
+Package pdftex.def Info: papers/art300776.pdf , page1 used on input line 287.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art300776.pdf Graphic file (type pdf)
+<use papers/art300776.pdf, page 1>
+Package pdftex.def Info: papers/art300776.pdf , page1 used on input line 287.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [97
+
+]
+File: papers/art300776.pdf Graphic file (type pdf)
+<use papers/art300776.pdf, page 1>
+Package pdftex.def Info: papers/art300776.pdf , page1 used on input line 287.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art300776.pdf Graphic file (type pdf)
+<use papers/art300776.pdf, page 1>
+Package pdftex.def Info: papers/art300776.pdf , page1 used on input line 287.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
+
+ []
+
+File: papers/art300776.pdf Graphic file (type pdf)
+<use papers/art300776.pdf, page 1>
+Package pdftex.def Info: papers/art300776.pdf , page1 used on input line 287.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[98 <./papers/art300776.pdf>]
+<papers/art300869.pdf, id=1516, 614.295pt x 794.97pt>
+File: papers/art300869.pdf Graphic file (type pdf)
+<use papers/art300869.pdf>
+Package pdftex.def Info: papers/art300869.pdf  used on input line 293.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art300869.pdf Graphic file (type pdf)
+<use papers/art300869.pdf>
+Package pdftex.def Info: papers/art300869.pdf  used on input line 293.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art300869.pdf, id=1519, page=1, 614.295pt x 794.97pt>
+File: papers/art300869.pdf Graphic file (type pdf)
+<use papers/art300869.pdf, page 1>
+Package pdftex.def Info: papers/art300869.pdf , page1 used on input line 293.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art300869.pdf Graphic file (type pdf)
+<use papers/art300869.pdf, page 1>
+Package pdftex.def Info: papers/art300869.pdf , page1 used on input line 293.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [99
+
+]
+File: papers/art300869.pdf Graphic file (type pdf)
+<use papers/art300869.pdf, page 1>
+Package pdftex.def Info: papers/art300869.pdf , page1 used on input line 293.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art300869.pdf Graphic file (type pdf)
+<use papers/art300869.pdf, page 1>
+Package pdftex.def Info: papers/art300869.pdf , page1 used on input line 293.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 293--293
+
+ []
+
+File: papers/art300869.pdf Graphic file (type pdf)
+<use papers/art300869.pdf, page 1>
+Package pdftex.def Info: papers/art300869.pdf , page1 used on input line 293.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[100 <./papers/art300869.pdf>]
+<papers/art302700.pdf, id=1542, 614.295pt x 794.97pt>
+File: papers/art302700.pdf Graphic file (type pdf)
+<use papers/art302700.pdf>
+Package pdftex.def Info: papers/art302700.pdf  used on input line 299.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art302700.pdf Graphic file (type pdf)
+<use papers/art302700.pdf>
+Package pdftex.def Info: papers/art302700.pdf  used on input line 299.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art302700.pdf, id=1545, page=1, 614.295pt x 794.97pt>
+File: papers/art302700.pdf Graphic file (type pdf)
+<use papers/art302700.pdf, page 1>
+Package pdftex.def Info: papers/art302700.pdf , page1 used on input line 299.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art302700.pdf Graphic file (type pdf)
+<use papers/art302700.pdf, page 1>
+Package pdftex.def Info: papers/art302700.pdf , page1 used on input line 299.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [101
+
+]
+File: papers/art302700.pdf Graphic file (type pdf)
+<use papers/art302700.pdf, page 1>
+Package pdftex.def Info: papers/art302700.pdf , page1 used on input line 299.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art302700.pdf Graphic file (type pdf)
+<use papers/art302700.pdf, page 1>
+Package pdftex.def Info: papers/art302700.pdf , page1 used on input line 299.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 299--299
+
+ []
+
+File: papers/art302700.pdf Graphic file (type pdf)
+<use papers/art302700.pdf, page 1>
+Package pdftex.def Info: papers/art302700.pdf , page1 used on input line 299.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[102 <./papers/art302700.pdf>]
+<papers/art303012.pdf, id=1569, 614.295pt x 794.97pt>
+File: papers/art303012.pdf Graphic file (type pdf)
+<use papers/art303012.pdf>
+Package pdftex.def Info: papers/art303012.pdf  used on input line 305.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art303012.pdf Graphic file (type pdf)
+<use papers/art303012.pdf>
+Package pdftex.def Info: papers/art303012.pdf  used on input line 305.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art303012.pdf, id=1572, page=1, 614.295pt x 794.97pt>
+File: papers/art303012.pdf Graphic file (type pdf)
+<use papers/art303012.pdf, page 1>
+Package pdftex.def Info: papers/art303012.pdf , page1 used on input line 305.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art303012.pdf Graphic file (type pdf)
+<use papers/art303012.pdf, page 1>
+Package pdftex.def Info: papers/art303012.pdf , page1 used on input line 305.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [103
+
+]
+File: papers/art303012.pdf Graphic file (type pdf)
+<use papers/art303012.pdf, page 1>
+Package pdftex.def Info: papers/art303012.pdf , page1 used on input line 305.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art303012.pdf Graphic file (type pdf)
+<use papers/art303012.pdf, page 1>
+Package pdftex.def Info: papers/art303012.pdf , page1 used on input line 305.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 305--305
+
+ []
+
+File: papers/art303012.pdf Graphic file (type pdf)
+<use papers/art303012.pdf, page 1>
+Package pdftex.def Info: papers/art303012.pdf , page1 used on input line 305.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[104 <./papers/art303012.pdf>]
+<papers/art303033.pdf, id=1596, 614.295pt x 794.97pt>
+File: papers/art303033.pdf Graphic file (type pdf)
+<use papers/art303033.pdf>
+Package pdftex.def Info: papers/art303033.pdf  used on input line 311.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art303033.pdf Graphic file (type pdf)
+<use papers/art303033.pdf>
+Package pdftex.def Info: papers/art303033.pdf  used on input line 311.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art303033.pdf, id=1599, page=1, 614.295pt x 794.97pt>
+File: papers/art303033.pdf Graphic file (type pdf)
+<use papers/art303033.pdf, page 1>
+Package pdftex.def Info: papers/art303033.pdf , page1 used on input line 311.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art303033.pdf Graphic file (type pdf)
+<use papers/art303033.pdf, page 1>
+Package pdftex.def Info: papers/art303033.pdf , page1 used on input line 311.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [105
+
+]
+File: papers/art303033.pdf Graphic file (type pdf)
+<use papers/art303033.pdf, page 1>
+Package pdftex.def Info: papers/art303033.pdf , page1 used on input line 311.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art303033.pdf Graphic file (type pdf)
+<use papers/art303033.pdf, page 1>
+Package pdftex.def Info: papers/art303033.pdf , page1 used on input line 311.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 311--311
+
+ []
+
+File: papers/art303033.pdf Graphic file (type pdf)
+<use papers/art303033.pdf, page 1>
+Package pdftex.def Info: papers/art303033.pdf , page1 used on input line 311.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[106 <./papers/art303033.pdf>]
+<papers/art303082.pdf, id=1622, 614.295pt x 794.97pt>
+File: papers/art303082.pdf Graphic file (type pdf)
+<use papers/art303082.pdf>
+Package pdftex.def Info: papers/art303082.pdf  used on input line 317.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art303082.pdf Graphic file (type pdf)
+<use papers/art303082.pdf>
+Package pdftex.def Info: papers/art303082.pdf  used on input line 317.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art303082.pdf, id=1625, page=1, 614.295pt x 794.97pt>
+File: papers/art303082.pdf Graphic file (type pdf)
+<use papers/art303082.pdf, page 1>
+Package pdftex.def Info: papers/art303082.pdf , page1 used on input line 317.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art303082.pdf Graphic file (type pdf)
+<use papers/art303082.pdf, page 1>
+Package pdftex.def Info: papers/art303082.pdf , page1 used on input line 317.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [107
+
+]
+File: papers/art303082.pdf Graphic file (type pdf)
+<use papers/art303082.pdf, page 1>
+Package pdftex.def Info: papers/art303082.pdf , page1 used on input line 317.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art303082.pdf Graphic file (type pdf)
+<use papers/art303082.pdf, page 1>
+Package pdftex.def Info: papers/art303082.pdf , page1 used on input line 317.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 317--317
+
+ []
+
+File: papers/art303082.pdf Graphic file (type pdf)
+<use papers/art303082.pdf, page 1>
+Package pdftex.def Info: papers/art303082.pdf , page1 used on input line 317.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[108 <./papers/art303082.pdf>]
+<papers/art303086.pdf, id=1649, 614.295pt x 794.97pt>
+File: papers/art303086.pdf Graphic file (type pdf)
+<use papers/art303086.pdf>
+Package pdftex.def Info: papers/art303086.pdf  used on input line 323.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art303086.pdf Graphic file (type pdf)
+<use papers/art303086.pdf>
+Package pdftex.def Info: papers/art303086.pdf  used on input line 323.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art303086.pdf, id=1652, page=1, 614.295pt x 794.97pt>
+File: papers/art303086.pdf Graphic file (type pdf)
+<use papers/art303086.pdf, page 1>
+Package pdftex.def Info: papers/art303086.pdf , page1 used on input line 323.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art303086.pdf Graphic file (type pdf)
+<use papers/art303086.pdf, page 1>
+Package pdftex.def Info: papers/art303086.pdf , page1 used on input line 323.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [109
+
+]
+File: papers/art303086.pdf Graphic file (type pdf)
+<use papers/art303086.pdf, page 1>
+Package pdftex.def Info: papers/art303086.pdf , page1 used on input line 323.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art303086.pdf Graphic file (type pdf)
+<use papers/art303086.pdf, page 1>
+Package pdftex.def Info: papers/art303086.pdf , page1 used on input line 323.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 323--323
+
+ []
+
+File: papers/art303086.pdf Graphic file (type pdf)
+<use papers/art303086.pdf, page 1>
+Package pdftex.def Info: papers/art303086.pdf , page1 used on input line 323.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[110 <./papers/art303086.pdf>]
+<papers/art303096.pdf, id=1675, 614.295pt x 794.97pt>
+File: papers/art303096.pdf Graphic file (type pdf)
+<use papers/art303096.pdf>
+Package pdftex.def Info: papers/art303096.pdf  used on input line 329.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art303096.pdf Graphic file (type pdf)
+<use papers/art303096.pdf>
+Package pdftex.def Info: papers/art303096.pdf  used on input line 329.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art303096.pdf, id=1678, page=1, 614.295pt x 794.97pt>
+File: papers/art303096.pdf Graphic file (type pdf)
+<use papers/art303096.pdf, page 1>
+Package pdftex.def Info: papers/art303096.pdf , page1 used on input line 329.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art303096.pdf Graphic file (type pdf)
+<use papers/art303096.pdf, page 1>
+Package pdftex.def Info: papers/art303096.pdf , page1 used on input line 329.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [111
+
+]
+File: papers/art303096.pdf Graphic file (type pdf)
+<use papers/art303096.pdf, page 1>
+Package pdftex.def Info: papers/art303096.pdf , page1 used on input line 329.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art303096.pdf Graphic file (type pdf)
+<use papers/art303096.pdf, page 1>
+Package pdftex.def Info: papers/art303096.pdf , page1 used on input line 329.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 329--329
+
+ []
+
+File: papers/art303096.pdf Graphic file (type pdf)
+<use papers/art303096.pdf, page 1>
+Package pdftex.def Info: papers/art303096.pdf , page1 used on input line 329.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[112 <./papers/art303096.pdf>]
+<papers/art303133.pdf, id=1701, 614.295pt x 794.97pt>
+File: papers/art303133.pdf Graphic file (type pdf)
+<use papers/art303133.pdf>
+Package pdftex.def Info: papers/art303133.pdf  used on input line 335.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art303133.pdf Graphic file (type pdf)
+<use papers/art303133.pdf>
+Package pdftex.def Info: papers/art303133.pdf  used on input line 335.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art303133.pdf, id=1704, page=1, 614.295pt x 794.97pt>
+File: papers/art303133.pdf Graphic file (type pdf)
+<use papers/art303133.pdf, page 1>
+Package pdftex.def Info: papers/art303133.pdf , page1 used on input line 335.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art303133.pdf Graphic file (type pdf)
+<use papers/art303133.pdf, page 1>
+Package pdftex.def Info: papers/art303133.pdf , page1 used on input line 335.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [113
+
+]
+File: papers/art303133.pdf Graphic file (type pdf)
+<use papers/art303133.pdf, page 1>
+Package pdftex.def Info: papers/art303133.pdf , page1 used on input line 335.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art303133.pdf Graphic file (type pdf)
+<use papers/art303133.pdf, page 1>
+Package pdftex.def Info: papers/art303133.pdf , page1 used on input line 335.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 335--335
+
+ []
+
+File: papers/art303133.pdf Graphic file (type pdf)
+<use papers/art303133.pdf, page 1>
+Package pdftex.def Info: papers/art303133.pdf , page1 used on input line 335.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[114 <./papers/art303133.pdf>]
+<papers/art303167.pdf, id=1729, 614.295pt x 794.97pt>
+File: papers/art303167.pdf Graphic file (type pdf)
+<use papers/art303167.pdf>
+Package pdftex.def Info: papers/art303167.pdf  used on input line 341.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art303167.pdf Graphic file (type pdf)
+<use papers/art303167.pdf>
+Package pdftex.def Info: papers/art303167.pdf  used on input line 341.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art303167.pdf, id=1732, page=1, 614.295pt x 794.97pt>
+File: papers/art303167.pdf Graphic file (type pdf)
+<use papers/art303167.pdf, page 1>
+Package pdftex.def Info: papers/art303167.pdf , page1 used on input line 341.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art303167.pdf Graphic file (type pdf)
+<use papers/art303167.pdf, page 1>
+Package pdftex.def Info: papers/art303167.pdf , page1 used on input line 341.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [115
+
+]
+File: papers/art303167.pdf Graphic file (type pdf)
+<use papers/art303167.pdf, page 1>
+Package pdftex.def Info: papers/art303167.pdf , page1 used on input line 341.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art303167.pdf Graphic file (type pdf)
+<use papers/art303167.pdf, page 1>
+Package pdftex.def Info: papers/art303167.pdf , page1 used on input line 341.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 341--341
+
+ []
+
+File: papers/art303167.pdf Graphic file (type pdf)
+<use papers/art303167.pdf, page 1>
+Package pdftex.def Info: papers/art303167.pdf , page1 used on input line 341.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[116 <./papers/art303167.pdf>]
+<papers/art303199.pdf, id=1755, 614.295pt x 794.97pt>
+File: papers/art303199.pdf Graphic file (type pdf)
+<use papers/art303199.pdf>
+Package pdftex.def Info: papers/art303199.pdf  used on input line 347.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art303199.pdf Graphic file (type pdf)
+<use papers/art303199.pdf>
+Package pdftex.def Info: papers/art303199.pdf  used on input line 347.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art303199.pdf, id=1758, page=1, 614.295pt x 794.97pt>
+File: papers/art303199.pdf Graphic file (type pdf)
+<use papers/art303199.pdf, page 1>
+Package pdftex.def Info: papers/art303199.pdf , page1 used on input line 347.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art303199.pdf Graphic file (type pdf)
+<use papers/art303199.pdf, page 1>
+Package pdftex.def Info: papers/art303199.pdf , page1 used on input line 347.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [117
+
+]
+File: papers/art303199.pdf Graphic file (type pdf)
+<use papers/art303199.pdf, page 1>
+Package pdftex.def Info: papers/art303199.pdf , page1 used on input line 347.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art303199.pdf Graphic file (type pdf)
+<use papers/art303199.pdf, page 1>
+Package pdftex.def Info: papers/art303199.pdf , page1 used on input line 347.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 347--347
+
+ []
+
+File: papers/art303199.pdf Graphic file (type pdf)
+<use papers/art303199.pdf, page 1>
+Package pdftex.def Info: papers/art303199.pdf , page1 used on input line 347.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[118 <./papers/art303199.pdf>]
+<papers/art303228.pdf, id=1781, 614.295pt x 794.97pt>
+File: papers/art303228.pdf Graphic file (type pdf)
+<use papers/art303228.pdf>
+Package pdftex.def Info: papers/art303228.pdf  used on input line 353.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art303228.pdf Graphic file (type pdf)
+<use papers/art303228.pdf>
+Package pdftex.def Info: papers/art303228.pdf  used on input line 353.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art303228.pdf, id=1784, page=1, 614.295pt x 794.97pt>
+File: papers/art303228.pdf Graphic file (type pdf)
+<use papers/art303228.pdf, page 1>
+Package pdftex.def Info: papers/art303228.pdf , page1 used on input line 353.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art303228.pdf Graphic file (type pdf)
+<use papers/art303228.pdf, page 1>
+Package pdftex.def Info: papers/art303228.pdf , page1 used on input line 353.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [119
+
+]
+File: papers/art303228.pdf Graphic file (type pdf)
+<use papers/art303228.pdf, page 1>
+Package pdftex.def Info: papers/art303228.pdf , page1 used on input line 353.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art303228.pdf Graphic file (type pdf)
+<use papers/art303228.pdf, page 1>
+Package pdftex.def Info: papers/art303228.pdf , page1 used on input line 353.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 353--353
+
+ []
+
+File: papers/art303228.pdf Graphic file (type pdf)
+<use papers/art303228.pdf, page 1>
+Package pdftex.def Info: papers/art303228.pdf , page1 used on input line 353.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[120 <./papers/art303228.pdf>]
+<papers/art304948.pdf, id=1808, 614.295pt x 794.97pt>
+File: papers/art304948.pdf Graphic file (type pdf)
+<use papers/art304948.pdf>
+Package pdftex.def Info: papers/art304948.pdf  used on input line 359.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art304948.pdf Graphic file (type pdf)
+<use papers/art304948.pdf>
+Package pdftex.def Info: papers/art304948.pdf  used on input line 359.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art304948.pdf, id=1811, page=1, 614.295pt x 794.97pt>
+File: papers/art304948.pdf Graphic file (type pdf)
+<use papers/art304948.pdf, page 1>
+Package pdftex.def Info: papers/art304948.pdf , page1 used on input line 359.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art304948.pdf Graphic file (type pdf)
+<use papers/art304948.pdf, page 1>
+Package pdftex.def Info: papers/art304948.pdf , page1 used on input line 359.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [121
+
+]
+File: papers/art304948.pdf Graphic file (type pdf)
+<use papers/art304948.pdf, page 1>
+Package pdftex.def Info: papers/art304948.pdf , page1 used on input line 359.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art304948.pdf Graphic file (type pdf)
+<use papers/art304948.pdf, page 1>
+Package pdftex.def Info: papers/art304948.pdf , page1 used on input line 359.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 359--359
+
+ []
+
+File: papers/art304948.pdf Graphic file (type pdf)
+<use papers/art304948.pdf, page 1>
+Package pdftex.def Info: papers/art304948.pdf , page1 used on input line 359.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[122 <./papers/art304948.pdf>]
+<papers/art305282.pdf, id=1834, 614.295pt x 794.97pt>
+File: papers/art305282.pdf Graphic file (type pdf)
+<use papers/art305282.pdf>
+Package pdftex.def Info: papers/art305282.pdf  used on input line 365.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art305282.pdf Graphic file (type pdf)
+<use papers/art305282.pdf>
+Package pdftex.def Info: papers/art305282.pdf  used on input line 365.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art305282.pdf, id=1837, page=1, 614.295pt x 794.97pt>
+File: papers/art305282.pdf Graphic file (type pdf)
+<use papers/art305282.pdf, page 1>
+Package pdftex.def Info: papers/art305282.pdf , page1 used on input line 365.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art305282.pdf Graphic file (type pdf)
+<use papers/art305282.pdf, page 1>
+Package pdftex.def Info: papers/art305282.pdf , page1 used on input line 365.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [123
+
+]
+File: papers/art305282.pdf Graphic file (type pdf)
+<use papers/art305282.pdf, page 1>
+Package pdftex.def Info: papers/art305282.pdf , page1 used on input line 365.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art305282.pdf Graphic file (type pdf)
+<use papers/art305282.pdf, page 1>
+Package pdftex.def Info: papers/art305282.pdf , page1 used on input line 365.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 365--365
+
+ []
+
+File: papers/art305282.pdf Graphic file (type pdf)
+<use papers/art305282.pdf, page 1>
+Package pdftex.def Info: papers/art305282.pdf , page1 used on input line 365.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[124 <./papers/art305282.pdf>]
+<papers/art305366.pdf, id=1861, 614.295pt x 794.97pt>
+File: papers/art305366.pdf Graphic file (type pdf)
+<use papers/art305366.pdf>
+Package pdftex.def Info: papers/art305366.pdf  used on input line 371.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art305366.pdf Graphic file (type pdf)
+<use papers/art305366.pdf>
+Package pdftex.def Info: papers/art305366.pdf  used on input line 371.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art305366.pdf, id=1864, page=1, 614.295pt x 794.97pt>
+File: papers/art305366.pdf Graphic file (type pdf)
+<use papers/art305366.pdf, page 1>
+Package pdftex.def Info: papers/art305366.pdf , page1 used on input line 371.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art305366.pdf Graphic file (type pdf)
+<use papers/art305366.pdf, page 1>
+Package pdftex.def Info: papers/art305366.pdf , page1 used on input line 371.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [125
+
+]
+File: papers/art305366.pdf Graphic file (type pdf)
+<use papers/art305366.pdf, page 1>
+Package pdftex.def Info: papers/art305366.pdf , page1 used on input line 371.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art305366.pdf Graphic file (type pdf)
+<use papers/art305366.pdf, page 1>
+Package pdftex.def Info: papers/art305366.pdf , page1 used on input line 371.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 371--371
+
+ []
+
+File: papers/art305366.pdf Graphic file (type pdf)
+<use papers/art305366.pdf, page 1>
+Package pdftex.def Info: papers/art305366.pdf , page1 used on input line 371.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[126 <./papers/art305366.pdf>]
+<papers/art305446.pdf, id=1888, 614.295pt x 794.97pt>
+File: papers/art305446.pdf Graphic file (type pdf)
+<use papers/art305446.pdf>
+Package pdftex.def Info: papers/art305446.pdf  used on input line 377.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art305446.pdf Graphic file (type pdf)
+<use papers/art305446.pdf>
+Package pdftex.def Info: papers/art305446.pdf  used on input line 377.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art305446.pdf, id=1891, page=1, 614.295pt x 794.97pt>
+File: papers/art305446.pdf Graphic file (type pdf)
+<use papers/art305446.pdf, page 1>
+Package pdftex.def Info: papers/art305446.pdf , page1 used on input line 377.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art305446.pdf Graphic file (type pdf)
+<use papers/art305446.pdf, page 1>
+Package pdftex.def Info: papers/art305446.pdf , page1 used on input line 377.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [127
+
+]
+File: papers/art305446.pdf Graphic file (type pdf)
+<use papers/art305446.pdf, page 1>
+Package pdftex.def Info: papers/art305446.pdf , page1 used on input line 377.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art305446.pdf Graphic file (type pdf)
+<use papers/art305446.pdf, page 1>
+Package pdftex.def Info: papers/art305446.pdf , page1 used on input line 377.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 377--377
+
+ []
+
+File: papers/art305446.pdf Graphic file (type pdf)
+<use papers/art305446.pdf, page 1>
+Package pdftex.def Info: papers/art305446.pdf , page1 used on input line 377.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[128 <./papers/art305446.pdf>]
+<papers/art305587.pdf, id=1914, 614.295pt x 794.97pt>
+File: papers/art305587.pdf Graphic file (type pdf)
+<use papers/art305587.pdf>
+Package pdftex.def Info: papers/art305587.pdf  used on input line 383.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art305587.pdf Graphic file (type pdf)
+<use papers/art305587.pdf>
+Package pdftex.def Info: papers/art305587.pdf  used on input line 383.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art305587.pdf, id=1917, page=1, 614.295pt x 794.97pt>
+File: papers/art305587.pdf Graphic file (type pdf)
+<use papers/art305587.pdf, page 1>
+Package pdftex.def Info: papers/art305587.pdf , page1 used on input line 383.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art305587.pdf Graphic file (type pdf)
+<use papers/art305587.pdf, page 1>
+Package pdftex.def Info: papers/art305587.pdf , page1 used on input line 383.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [129
+
+]
+File: papers/art305587.pdf Graphic file (type pdf)
+<use papers/art305587.pdf, page 1>
+Package pdftex.def Info: papers/art305587.pdf , page1 used on input line 383.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art305587.pdf Graphic file (type pdf)
+<use papers/art305587.pdf, page 1>
+Package pdftex.def Info: papers/art305587.pdf , page1 used on input line 383.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 383--383
+
+ []
+
+File: papers/art305587.pdf Graphic file (type pdf)
+<use papers/art305587.pdf, page 1>
+Package pdftex.def Info: papers/art305587.pdf , page1 used on input line 383.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[130 <./papers/art305587.pdf>]
+<papers/art305749.pdf, id=1940, 614.295pt x 794.97pt>
+File: papers/art305749.pdf Graphic file (type pdf)
+<use papers/art305749.pdf>
+Package pdftex.def Info: papers/art305749.pdf  used on input line 389.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art305749.pdf Graphic file (type pdf)
+<use papers/art305749.pdf>
+Package pdftex.def Info: papers/art305749.pdf  used on input line 389.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art305749.pdf, id=1943, page=1, 614.295pt x 794.97pt>
+File: papers/art305749.pdf Graphic file (type pdf)
+<use papers/art305749.pdf, page 1>
+Package pdftex.def Info: papers/art305749.pdf , page1 used on input line 389.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art305749.pdf Graphic file (type pdf)
+<use papers/art305749.pdf, page 1>
+Package pdftex.def Info: papers/art305749.pdf , page1 used on input line 389.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [131
+
+]
+File: papers/art305749.pdf Graphic file (type pdf)
+<use papers/art305749.pdf, page 1>
+Package pdftex.def Info: papers/art305749.pdf , page1 used on input line 389.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art305749.pdf Graphic file (type pdf)
+<use papers/art305749.pdf, page 1>
+Package pdftex.def Info: papers/art305749.pdf , page1 used on input line 389.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 389--389
+
+ []
+
+File: papers/art305749.pdf Graphic file (type pdf)
+<use papers/art305749.pdf, page 1>
+Package pdftex.def Info: papers/art305749.pdf , page1 used on input line 389.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[132 <./papers/art305749.pdf>]
+Chapter 9.
+<papers/art297990.pdf, id=1967, 614.295pt x 794.97pt>
+File: papers/art297990.pdf Graphic file (type pdf)
+<use papers/art297990.pdf>
+Package pdftex.def Info: papers/art297990.pdf  used on input line 396.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art297990.pdf Graphic file (type pdf)
+<use papers/art297990.pdf>
+Package pdftex.def Info: papers/art297990.pdf  used on input line 396.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art297990.pdf, id=1970, page=1, 614.295pt x 794.97pt>
+File: papers/art297990.pdf Graphic file (type pdf)
+<use papers/art297990.pdf, page 1>
+Package pdftex.def Info: papers/art297990.pdf , page1 used on input line 396.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art297990.pdf Graphic file (type pdf)
+<use papers/art297990.pdf, page 1>
+Package pdftex.def Info: papers/art297990.pdf , page1 used on input line 396.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[133
+
+
+]
+File: papers/art297990.pdf Graphic file (type pdf)
+<use papers/art297990.pdf, page 1>
+Package pdftex.def Info: papers/art297990.pdf , page1 used on input line 396.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art297990.pdf Graphic file (type pdf)
+<use papers/art297990.pdf, page 1>
+Package pdftex.def Info: papers/art297990.pdf , page1 used on input line 396.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 396--396
+
+ []
+
+File: papers/art297990.pdf Graphic file (type pdf)
+<use papers/art297990.pdf, page 1>
+Package pdftex.def Info: papers/art297990.pdf , page1 used on input line 396.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[134 <./papers/art297990.pdf>]
+<papers/art300303.pdf, id=1997, 614.295pt x 794.97pt>
+File: papers/art300303.pdf Graphic file (type pdf)
+<use papers/art300303.pdf>
+Package pdftex.def Info: papers/art300303.pdf  used on input line 402.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art300303.pdf Graphic file (type pdf)
+<use papers/art300303.pdf>
+Package pdftex.def Info: papers/art300303.pdf  used on input line 402.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art300303.pdf, id=2000, page=1, 614.295pt x 794.97pt>
+File: papers/art300303.pdf Graphic file (type pdf)
+<use papers/art300303.pdf, page 1>
+Package pdftex.def Info: papers/art300303.pdf , page1 used on input line 402.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art300303.pdf Graphic file (type pdf)
+<use papers/art300303.pdf, page 1>
+Package pdftex.def Info: papers/art300303.pdf , page1 used on input line 402.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [135
+
+]
+File: papers/art300303.pdf Graphic file (type pdf)
+<use papers/art300303.pdf, page 1>
+Package pdftex.def Info: papers/art300303.pdf , page1 used on input line 402.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art300303.pdf Graphic file (type pdf)
+<use papers/art300303.pdf, page 1>
+Package pdftex.def Info: papers/art300303.pdf , page1 used on input line 402.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 402--402
+
+ []
+
+File: papers/art300303.pdf Graphic file (type pdf)
+<use papers/art300303.pdf, page 1>
+Package pdftex.def Info: papers/art300303.pdf , page1 used on input line 402.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[136 <./papers/art300303.pdf>]
+<papers/art302883.pdf, id=2023, 614.295pt x 794.97pt>
+File: papers/art302883.pdf Graphic file (type pdf)
+<use papers/art302883.pdf>
+Package pdftex.def Info: papers/art302883.pdf  used on input line 408.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art302883.pdf Graphic file (type pdf)
+<use papers/art302883.pdf>
+Package pdftex.def Info: papers/art302883.pdf  used on input line 408.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art302883.pdf, id=2026, page=1, 614.295pt x 794.97pt>
+File: papers/art302883.pdf Graphic file (type pdf)
+<use papers/art302883.pdf, page 1>
+Package pdftex.def Info: papers/art302883.pdf , page1 used on input line 408.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art302883.pdf Graphic file (type pdf)
+<use papers/art302883.pdf, page 1>
+Package pdftex.def Info: papers/art302883.pdf , page1 used on input line 408.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [137
+
+]
+File: papers/art302883.pdf Graphic file (type pdf)
+<use papers/art302883.pdf, page 1>
+Package pdftex.def Info: papers/art302883.pdf , page1 used on input line 408.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art302883.pdf Graphic file (type pdf)
+<use papers/art302883.pdf, page 1>
+Package pdftex.def Info: papers/art302883.pdf , page1 used on input line 408.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 408--408
+
+ []
+
+File: papers/art302883.pdf Graphic file (type pdf)
+<use papers/art302883.pdf, page 1>
+Package pdftex.def Info: papers/art302883.pdf , page1 used on input line 408.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[138 <./papers/art302883.pdf>]
+<papers/art302928.pdf, id=2050, 614.295pt x 794.97pt>
+File: papers/art302928.pdf Graphic file (type pdf)
+<use papers/art302928.pdf>
+Package pdftex.def Info: papers/art302928.pdf  used on input line 414.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art302928.pdf Graphic file (type pdf)
+<use papers/art302928.pdf>
+Package pdftex.def Info: papers/art302928.pdf  used on input line 414.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art302928.pdf, id=2053, page=1, 614.295pt x 794.97pt>
+File: papers/art302928.pdf Graphic file (type pdf)
+<use papers/art302928.pdf, page 1>
+Package pdftex.def Info: papers/art302928.pdf , page1 used on input line 414.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art302928.pdf Graphic file (type pdf)
+<use papers/art302928.pdf, page 1>
+Package pdftex.def Info: papers/art302928.pdf , page1 used on input line 414.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [139
+
+]
+File: papers/art302928.pdf Graphic file (type pdf)
+<use papers/art302928.pdf, page 1>
+Package pdftex.def Info: papers/art302928.pdf , page1 used on input line 414.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art302928.pdf Graphic file (type pdf)
+<use papers/art302928.pdf, page 1>
+Package pdftex.def Info: papers/art302928.pdf , page1 used on input line 414.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 414--414
+
+ []
+
+File: papers/art302928.pdf Graphic file (type pdf)
+<use papers/art302928.pdf, page 1>
+Package pdftex.def Info: papers/art302928.pdf , page1 used on input line 414.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[140 <./papers/art302928.pdf>]
+<papers/art303479.pdf, id=2076, 614.295pt x 794.97pt>
+File: papers/art303479.pdf Graphic file (type pdf)
+<use papers/art303479.pdf>
+Package pdftex.def Info: papers/art303479.pdf  used on input line 420.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art303479.pdf Graphic file (type pdf)
+<use papers/art303479.pdf>
+Package pdftex.def Info: papers/art303479.pdf  used on input line 420.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art303479.pdf, id=2079, page=1, 614.295pt x 794.97pt>
+File: papers/art303479.pdf Graphic file (type pdf)
+<use papers/art303479.pdf, page 1>
+Package pdftex.def Info: papers/art303479.pdf , page1 used on input line 420.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art303479.pdf Graphic file (type pdf)
+<use papers/art303479.pdf, page 1>
+Package pdftex.def Info: papers/art303479.pdf , page1 used on input line 420.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [141
+
+]
+File: papers/art303479.pdf Graphic file (type pdf)
+<use papers/art303479.pdf, page 1>
+Package pdftex.def Info: papers/art303479.pdf , page1 used on input line 420.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art303479.pdf Graphic file (type pdf)
+<use papers/art303479.pdf, page 1>
+Package pdftex.def Info: papers/art303479.pdf , page1 used on input line 420.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 420--420
+
+ []
+
+File: papers/art303479.pdf Graphic file (type pdf)
+<use papers/art303479.pdf, page 1>
+Package pdftex.def Info: papers/art303479.pdf , page1 used on input line 420.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[142 <./papers/art303479.pdf>]
+<papers/art305292.pdf, id=2103, 614.295pt x 794.97pt>
+File: papers/art305292.pdf Graphic file (type pdf)
+<use papers/art305292.pdf>
+Package pdftex.def Info: papers/art305292.pdf  used on input line 426.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art305292.pdf Graphic file (type pdf)
+<use papers/art305292.pdf>
+Package pdftex.def Info: papers/art305292.pdf  used on input line 426.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art305292.pdf, id=2106, page=1, 614.295pt x 794.97pt>
+File: papers/art305292.pdf Graphic file (type pdf)
+<use papers/art305292.pdf, page 1>
+Package pdftex.def Info: papers/art305292.pdf , page1 used on input line 426.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art305292.pdf Graphic file (type pdf)
+<use papers/art305292.pdf, page 1>
+Package pdftex.def Info: papers/art305292.pdf , page1 used on input line 426.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [143
+
+]
+File: papers/art305292.pdf Graphic file (type pdf)
+<use papers/art305292.pdf, page 1>
+Package pdftex.def Info: papers/art305292.pdf , page1 used on input line 426.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art305292.pdf Graphic file (type pdf)
+<use papers/art305292.pdf, page 1>
+Package pdftex.def Info: papers/art305292.pdf , page1 used on input line 426.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 426--426
+
+ []
+
+File: papers/art305292.pdf Graphic file (type pdf)
+<use papers/art305292.pdf, page 1>
+Package pdftex.def Info: papers/art305292.pdf , page1 used on input line 426.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[144 <./papers/art305292.pdf>]) (./papers.tex
+<papers/art297551.pdf, id=2130, 614.295pt x 794.97pt>
+File: papers/art297551.pdf Graphic file (type pdf)
+<use papers/art297551.pdf>
+Package pdftex.def Info: papers/art297551.pdf  used on input line 5.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art297551.pdf Graphic file (type pdf)
+<use papers/art297551.pdf>
+Package pdftex.def Info: papers/art297551.pdf  used on input line 5.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art297551.pdf, id=2133, page=1, 614.295pt x 794.97pt>
+File: papers/art297551.pdf Graphic file (type pdf)
+<use papers/art297551.pdf, page 1>
+Package pdftex.def Info: papers/art297551.pdf , page1 used on input line 5.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art297551.pdf Graphic file (type pdf)
+<use papers/art297551.pdf, page 1>
+Package pdftex.def Info: papers/art297551.pdf , page1 used on input line 5.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [145
+
+]
+File: papers/art297551.pdf Graphic file (type pdf)
+<use papers/art297551.pdf, page 1>
+Package pdftex.def Info: papers/art297551.pdf , page1 used on input line 5.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art297551.pdf Graphic file (type pdf)
+<use papers/art297551.pdf, page 1>
+Package pdftex.def Info: papers/art297551.pdf , page1 used on input line 5.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--5
+
+ []
+
+File: papers/art297551.pdf Graphic file (type pdf)
+<use papers/art297551.pdf, page 1>
+Package pdftex.def Info: papers/art297551.pdf , page1 used on input line 5.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[146 <./papers/art297551.pdf>]
+<papers/art303112.pdf, id=2156, 614.295pt x 794.97pt>
+File: papers/art303112.pdf Graphic file (type pdf)
+<use papers/art303112.pdf>
+Package pdftex.def Info: papers/art303112.pdf  used on input line 11.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art303112.pdf Graphic file (type pdf)
+<use papers/art303112.pdf>
+Package pdftex.def Info: papers/art303112.pdf  used on input line 11.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art303112.pdf, id=2159, page=1, 614.295pt x 794.97pt>
+File: papers/art303112.pdf Graphic file (type pdf)
+<use papers/art303112.pdf, page 1>
+Package pdftex.def Info: papers/art303112.pdf , page1 used on input line 11.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art303112.pdf Graphic file (type pdf)
+<use papers/art303112.pdf, page 1>
+Package pdftex.def Info: papers/art303112.pdf , page1 used on input line 11.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [147
+
+]
+File: papers/art303112.pdf Graphic file (type pdf)
+<use papers/art303112.pdf, page 1>
+Package pdftex.def Info: papers/art303112.pdf , page1 used on input line 11.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art303112.pdf Graphic file (type pdf)
+<use papers/art303112.pdf, page 1>
+Package pdftex.def Info: papers/art303112.pdf , page1 used on input line 11.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--11
+
+ []
+
+File: papers/art303112.pdf Graphic file (type pdf)
+<use papers/art303112.pdf, page 1>
+Package pdftex.def Info: papers/art303112.pdf , page1 used on input line 11.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[148 <./papers/art303112.pdf>]
+<papers/art303163.pdf, id=2182, 614.295pt x 794.97pt>
+File: papers/art303163.pdf Graphic file (type pdf)
+<use papers/art303163.pdf>
+Package pdftex.def Info: papers/art303163.pdf  used on input line 17.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art303163.pdf Graphic file (type pdf)
+<use papers/art303163.pdf>
+Package pdftex.def Info: papers/art303163.pdf  used on input line 17.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art303163.pdf, id=2185, page=1, 614.295pt x 794.97pt>
+File: papers/art303163.pdf Graphic file (type pdf)
+<use papers/art303163.pdf, page 1>
+Package pdftex.def Info: papers/art303163.pdf , page1 used on input line 17.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art303163.pdf Graphic file (type pdf)
+<use papers/art303163.pdf, page 1>
+Package pdftex.def Info: papers/art303163.pdf , page1 used on input line 17.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [149
+
+]
+File: papers/art303163.pdf Graphic file (type pdf)
+<use papers/art303163.pdf, page 1>
+Package pdftex.def Info: papers/art303163.pdf , page1 used on input line 17.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art303163.pdf Graphic file (type pdf)
+<use papers/art303163.pdf, page 1>
+Package pdftex.def Info: papers/art303163.pdf , page1 used on input line 17.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+
+ []
+
+File: papers/art303163.pdf Graphic file (type pdf)
+<use papers/art303163.pdf, page 1>
+Package pdftex.def Info: papers/art303163.pdf , page1 used on input line 17.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[150 <./papers/art303163.pdf>]) (./teses.tex
+<papers/art293609.pdf, id=2209, 614.295pt x 794.97pt>
+File: papers/art293609.pdf Graphic file (type pdf)
+<use papers/art293609.pdf>
+Package pdftex.def Info: papers/art293609.pdf  used on input line 5.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art293609.pdf Graphic file (type pdf)
+<use papers/art293609.pdf>
+Package pdftex.def Info: papers/art293609.pdf  used on input line 5.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art293609.pdf, id=2212, page=1, 614.295pt x 794.97pt>
+File: papers/art293609.pdf Graphic file (type pdf)
+<use papers/art293609.pdf, page 1>
+Package pdftex.def Info: papers/art293609.pdf , page1 used on input line 5.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art293609.pdf Graphic file (type pdf)
+<use papers/art293609.pdf, page 1>
+Package pdftex.def Info: papers/art293609.pdf , page1 used on input line 5.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [151
+
+]
+File: papers/art293609.pdf Graphic file (type pdf)
+<use papers/art293609.pdf, page 1>
+Package pdftex.def Info: papers/art293609.pdf , page1 used on input line 5.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art293609.pdf Graphic file (type pdf)
+<use papers/art293609.pdf, page 1>
+Package pdftex.def Info: papers/art293609.pdf , page1 used on input line 5.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--5
+
+ []
+
+File: papers/art293609.pdf Graphic file (type pdf)
+<use papers/art293609.pdf, page 1>
+Package pdftex.def Info: papers/art293609.pdf , page1 used on input line 5.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[152 <./papers/art293609.pdf>]
+<papers/art299684.pdf, id=2236, 614.295pt x 794.97pt>
+File: papers/art299684.pdf Graphic file (type pdf)
+<use papers/art299684.pdf>
+Package pdftex.def Info: papers/art299684.pdf  used on input line 11.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art299684.pdf Graphic file (type pdf)
+<use papers/art299684.pdf>
+Package pdftex.def Info: papers/art299684.pdf  used on input line 11.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art299684.pdf, id=2239, page=1, 614.295pt x 794.97pt>
+File: papers/art299684.pdf Graphic file (type pdf)
+<use papers/art299684.pdf, page 1>
+Package pdftex.def Info: papers/art299684.pdf , page1 used on input line 11.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art299684.pdf Graphic file (type pdf)
+<use papers/art299684.pdf, page 1>
+Package pdftex.def Info: papers/art299684.pdf , page1 used on input line 11.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art299684.pdf Graphic file (type pdf)
+<use papers/art299684.pdf, page 1>
+Package pdftex.def Info: papers/art299684.pdf , page1 used on input line 11.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art299684.pdf Graphic file (type pdf)
+<use papers/art299684.pdf, page 1>
+Package pdftex.def Info: papers/art299684.pdf , page1 used on input line 11.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 11.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\beta' on input line 11.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 11.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--11
+
+ []
+
+File: papers/art299684.pdf Graphic file (type pdf)
+<use papers/art299684.pdf, page 1>
+Package pdftex.def Info: papers/art299684.pdf , page1 used on input line 11.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[153
+
+ <./papers/art299684.pdf>]
+<papers/art302624.pdf, id=2261, 614.295pt x 794.97pt>
+File: papers/art302624.pdf Graphic file (type pdf)
+<use papers/art302624.pdf>
+Package pdftex.def Info: papers/art302624.pdf  used on input line 17.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art302624.pdf Graphic file (type pdf)
+<use papers/art302624.pdf>
+Package pdftex.def Info: papers/art302624.pdf  used on input line 17.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art302624.pdf, id=2264, page=1, 614.295pt x 794.97pt>
+File: papers/art302624.pdf Graphic file (type pdf)
+<use papers/art302624.pdf, page 1>
+Package pdftex.def Info: papers/art302624.pdf , page1 used on input line 17.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art302624.pdf Graphic file (type pdf)
+<use papers/art302624.pdf, page 1>
+Package pdftex.def Info: papers/art302624.pdf , page1 used on input line 17.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art302624.pdf Graphic file (type pdf)
+<use papers/art302624.pdf, page 1>
+Package pdftex.def Info: papers/art302624.pdf , page1 used on input line 17.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art302624.pdf Graphic file (type pdf)
+<use papers/art302624.pdf, page 1>
+Package pdftex.def Info: papers/art302624.pdf , page1 used on input line 17.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+
+ []
+
+File: papers/art302624.pdf Graphic file (type pdf)
+<use papers/art302624.pdf, page 1>
+Package pdftex.def Info: papers/art302624.pdf , page1 used on input line 17.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[154
+
+ <./papers/art302624.pdf>]
+<papers/art303080.pdf, id=2283, 614.295pt x 794.97pt>
+File: papers/art303080.pdf Graphic file (type pdf)
+<use papers/art303080.pdf>
+Package pdftex.def Info: papers/art303080.pdf  used on input line 23.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art303080.pdf Graphic file (type pdf)
+<use papers/art303080.pdf>
+Package pdftex.def Info: papers/art303080.pdf  used on input line 23.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art303080.pdf, id=2286, page=1, 614.295pt x 794.97pt>
+File: papers/art303080.pdf Graphic file (type pdf)
+<use papers/art303080.pdf, page 1>
+Package pdftex.def Info: papers/art303080.pdf , page1 used on input line 23.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art303080.pdf Graphic file (type pdf)
+<use papers/art303080.pdf, page 1>
+Package pdftex.def Info: papers/art303080.pdf , page1 used on input line 23.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [155
+
+]
+File: papers/art303080.pdf Graphic file (type pdf)
+<use papers/art303080.pdf, page 1>
+Package pdftex.def Info: papers/art303080.pdf , page1 used on input line 23.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art303080.pdf Graphic file (type pdf)
+<use papers/art303080.pdf, page 1>
+Package pdftex.def Info: papers/art303080.pdf , page1 used on input line 23.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+
+ []
+
+File: papers/art303080.pdf Graphic file (type pdf)
+<use papers/art303080.pdf, page 1>
+Package pdftex.def Info: papers/art303080.pdf , page1 used on input line 23.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[156 <./papers/art303080.pdf>]
+<papers/art303221.pdf, id=2310, 614.295pt x 794.97pt>
+File: papers/art303221.pdf Graphic file (type pdf)
+<use papers/art303221.pdf>
+Package pdftex.def Info: papers/art303221.pdf  used on input line 29.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art303221.pdf Graphic file (type pdf)
+<use papers/art303221.pdf>
+Package pdftex.def Info: papers/art303221.pdf  used on input line 29.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art303221.pdf, id=2313, page=1, 614.295pt x 794.97pt>
+File: papers/art303221.pdf Graphic file (type pdf)
+<use papers/art303221.pdf, page 1>
+Package pdftex.def Info: papers/art303221.pdf , page1 used on input line 29.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art303221.pdf Graphic file (type pdf)
+<use papers/art303221.pdf, page 1>
+Package pdftex.def Info: papers/art303221.pdf , page1 used on input line 29.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [157
+
+]
+File: papers/art303221.pdf Graphic file (type pdf)
+<use papers/art303221.pdf, page 1>
+Package pdftex.def Info: papers/art303221.pdf , page1 used on input line 29.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art303221.pdf Graphic file (type pdf)
+<use papers/art303221.pdf, page 1>
+Package pdftex.def Info: papers/art303221.pdf , page1 used on input line 29.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
+
+ []
+
+File: papers/art303221.pdf Graphic file (type pdf)
+<use papers/art303221.pdf, page 1>
+Package pdftex.def Info: papers/art303221.pdf , page1 used on input line 29.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[158 <./papers/art303221.pdf>]
+<papers/art303260.pdf, id=2336, 614.295pt x 794.97pt>
+File: papers/art303260.pdf Graphic file (type pdf)
+<use papers/art303260.pdf>
+Package pdftex.def Info: papers/art303260.pdf  used on input line 35.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art303260.pdf Graphic file (type pdf)
+<use papers/art303260.pdf>
+Package pdftex.def Info: papers/art303260.pdf  used on input line 35.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<papers/art303260.pdf, id=2339, page=1, 614.295pt x 794.97pt>
+File: papers/art303260.pdf Graphic file (type pdf)
+<use papers/art303260.pdf, page 1>
+Package pdftex.def Info: papers/art303260.pdf , page1 used on input line 35.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: papers/art303260.pdf Graphic file (type pdf)
+<use papers/art303260.pdf, page 1>
+Package pdftex.def Info: papers/art303260.pdf , page1 used on input line 35.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [159
+
+]
+File: papers/art303260.pdf Graphic file (type pdf)
+<use papers/art303260.pdf, page 1>
+Package pdftex.def Info: papers/art303260.pdf , page1 used on input line 35.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: papers/art303260.pdf Graphic file (type pdf)
+<use papers/art303260.pdf, page 1>
+Package pdftex.def Info: papers/art303260.pdf , page1 used on input line 35.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--35
+
+ []
+
+File: papers/art303260.pdf Graphic file (type pdf)
+<use papers/art303260.pdf, page 1>
+Package pdftex.def Info: papers/art303260.pdf , page1 used on input line 35.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[160 <./papers/art303260.pdf>]) (./procxmeeting2020.ind
+LaTeX Info: Symbol \textasciiacute not provided by
+            font family ptm in TS1 encoding.
+            Default family used instead on input line 42.
+ [161
+
+
+
+
+] [162]
+LaTeX Info: Symbol \textasciiacute not provided by
+            font family ptm in TS1 encoding.
+            Default family used instead on input line 348.
+ [163]
+[164])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 96.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 96.
+ (./procxmeeting2020.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 96.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 96.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 96.
+ ) 
+Here is how much of TeX's memory you used:
+ 10272 strings out of 481239
+ 165389 string characters out of 5920376
+ 440400 words of memory out of 5000000
+ 24894 multiletter control sequences out of 15000+600000
+ 566003 words of font info for 85 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 55i,18n,49p,555b,595s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texli
+ve/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/mathpazo/fplmri.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm10
+00.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/urw/palatino/uplri8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/s
+ymbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on procxmeeting2020.pdf (172 pages, 513108 bytes).
+PDF statistics:
+ 3151 PDF objects out of 3580 (max. 8388607)
+ 2623 compressed objects within 27 object streams
+ 267 named destinations out of 1000 (max. 500000)
+ 2341 words of extra memory for PDF output out of 10000 (max. 10000000)
+

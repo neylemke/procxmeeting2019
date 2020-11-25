@@ -1,0 +1,68 @@
+
+  \documentclass[twoside]{article}
+  \usepackage[affil-it]{authblk}
+  \usepackage{lipsum} % Package to generate dummy text throughout this template
+  \usepackage{eurosym}
+  \usepackage[sc]{mathpazo} % Use the Palatino font
+  \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+  \usepackage[utf8]{inputenc}
+  \linespread{1.05} % Line spacing-Palatino needs more space between lines
+  \usepackage{microtype} % Slightly tweak font spacing for aesthetics\[IndentingNewLine]
+  \usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+  \usepackage{multicol} % Used for the two-column layout of the document
+  \usepackage[hang,small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under//above floats in tables or figures
+  \usepackage{booktabs} % Horizontal rules in tables
+  \usepackage{float} % Required for tables and figures in the multi-column environment-they need to be placed in specific locations with the[H] (e.g. \begin{table}[H])
+  \usepackage{hyperref} % For hyperlinks in the PDF
+  \usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+  \usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+  \usepackage{abstract} % Allows abstract customization
+  \renewcommand{\abstractnamefont}{\normalfont\bfseries} 
+  %\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text\[IndentingNewLine]
+  \usepackage{titlesec} % Allows customization of titles
+  \renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+  \renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
+  \titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+  \titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+  \usepackage{fancyhdr} % Headers and footers
+  \pagestyle{fancy} % All pages have headers and footers
+  \fancyhead{} % Blank out the default header
+  \fancyfoot{} % Blank out the default footer
+  \fancyhead[C]{X-meeting eXperience $\bullet$ November 2020} % Custom header text
+  \fancyfoot[RO,LE]{} % Custom footer text
+  %----------------------------------------------------------------------------------------
+  % TITLE SECTION
+  %---------------------------------------------------------------------------------------- 
+ 
+ \title{\vspace{-15mm}\fontsize{24pt}{10pt}\selectfont\textbf{ Molecular characterization of Saccharomyces cerevisiae industrial strain PE-2 under high ethanol conditions in industrial fermenters }} % Article title
+  
+  
+  \author{ Marcelo Mendes Brand\~ao,  Flavia Vischi Winck,  THIAGO SENA SIMOES }
+  
+  \affil{ CBMEG/UNICAMP }
+  \vspace{-5mm}
+  \date{}
+  
+  %---------------------------------------------------------------------------------------- 
+  
+  \begin{document}
+  
+  
+  \maketitle % Insert title
+  
+  
+  \thispagestyle{fancy} % All pages have headers and footers
+  %----------------------------------------------------------------------------------------  
+  % ABSTRACT
+  
+  %----------------------------------------------------------------------------------------  
+  
+  \begin{abstract}
+  Ethanol production has received great investments in the world scenario,  considering that biofuel is a renewable energy source. The production process embraced by the Brazilian industry is the biological one,  using Saccharomyces cerevisiae yeast in the fermentation of the must obtained from sugarcane. New technologies are being developed with the aim of increasing the productivity of fermentative cycles,  including Very High Gravity Fermentation (VHG),  which uses high concentrations of sugars. However,  this technique and the other procedures used in bioethanol plants subject yeasts to highly stressful conditions,  reducing cell viability. The sugar and alcohol industry mainly use wild strains PE-2 and CAT-1,  which are more resistant to the industrial environment. The elucidation of the various stress response processes is of great relevance for the selection and obtaining of the most efficient S. cerevisiae strains. The present work aims the molecular characterization of the PE-2 strain used by the Brazilian industry,  analyzing gene expression and identifying the main active metabolic pathways during the fermentation cycle. The fermentative tests of the PE-2 strain of Saccharomyces cerevisiae were carried out under industrial conditions. Gene expression data were obtained at 0,  6,  12 and 18 hours from microarray experiments. The GO enrichment analysis was performed with topGO and GOrilla tools. The coexpression network was obtained using the R language. The analysis of the genes differentially expressed indicated that the expression profiles of the times 6h and 18h are closer to each other,  when compared to 12h. In both cases,  genes related to sexual reproduction (CDC31,  SPS100,  etc.) are activated. Within 6 hours,  yeast cells are proliferating in an environment containing high levels of sugars and at 18 h,  the sugar reserves were consumed and the cells are likely reproducing through spores,  because these structures are more resistant to unfavorable environments. The expression profile at 12 h was more diverse and complex than the other samples and show a greater number of biological processes in the enrichment analysis. These results show that there is a relation between the fermentation period and specific genes being activated or deactivated. This fact likely occurred due to the fermentation kinetic and the conditions of the environment,  considering the ethanol content at this point of fermentation process,  which probably stimulated several stress response pathways. The expression of the GPD1,  GPP1,  AYR1 and SUT2 genes,  related to lipid metabolism,  was possibly a response to the high concentration of ethanol,  which disorganizes cell membranes. Several genes related to Glycolysis / Glycogenogenesis are also active,  such as TDH3,  TDH2 and ENO2. This is an ongoing project aiming the identification of Biotechnological targets to enhance the production of bioproducts by using better the generated biomass per planted area.
+  
+  Funding:   \\
+  \href{http://ab3c.org.br/xpress_pres2020/xmxp2020-303228.html}{Link to Video:}
+
+  \end{abstract}
+   
+  \end{document} 

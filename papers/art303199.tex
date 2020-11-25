@@ -1,0 +1,68 @@
+
+  \documentclass[twoside]{article}
+  \usepackage[affil-it]{authblk}
+  \usepackage{lipsum} % Package to generate dummy text throughout this template
+  \usepackage{eurosym}
+  \usepackage[sc]{mathpazo} % Use the Palatino font
+  \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+  \usepackage[utf8]{inputenc}
+  \linespread{1.05} % Line spacing-Palatino needs more space between lines
+  \usepackage{microtype} % Slightly tweak font spacing for aesthetics\[IndentingNewLine]
+  \usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+  \usepackage{multicol} % Used for the two-column layout of the document
+  \usepackage[hang,small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under//above floats in tables or figures
+  \usepackage{booktabs} % Horizontal rules in tables
+  \usepackage{float} % Required for tables and figures in the multi-column environment-they need to be placed in specific locations with the[H] (e.g. \begin{table}[H])
+  \usepackage{hyperref} % For hyperlinks in the PDF
+  \usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+  \usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+  \usepackage{abstract} % Allows abstract customization
+  \renewcommand{\abstractnamefont}{\normalfont\bfseries} 
+  %\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text\[IndentingNewLine]
+  \usepackage{titlesec} % Allows customization of titles
+  \renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+  \renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
+  \titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+  \titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+  \usepackage{fancyhdr} % Headers and footers
+  \pagestyle{fancy} % All pages have headers and footers
+  \fancyhead{} % Blank out the default header
+  \fancyfoot{} % Blank out the default footer
+  \fancyhead[C]{X-meeting eXperience $\bullet$ November 2020} % Custom header text
+  \fancyfoot[RO,LE]{} % Custom footer text
+  %----------------------------------------------------------------------------------------
+  % TITLE SECTION
+  %---------------------------------------------------------------------------------------- 
+ 
+ \title{\vspace{-15mm}\fontsize{24pt}{10pt}\selectfont\textbf{ De novo transcriptome assembly and functional annotation of cobia (Rachycentron canadum) liver }} % Article title
+  
+  
+  \author{ Bruno Cavalheiro Ara\'ujo,  Alexandre Wagner Silva Hilsdorf,  Renata G. Moreira,  Luiz R. Nunes,  Fabiano Bezerra Menegidio,  David Aciole Barbosa }
+  
+  \affil{ UNIVERSIDADE DE MOGI DAS CRUZES }
+  \vspace{-5mm}
+  \date{}
+  
+  %---------------------------------------------------------------------------------------- 
+  
+  \begin{document}
+  
+  
+  \maketitle % Insert title
+  
+  
+  \thispagestyle{fancy} % All pages have headers and footers
+  %----------------------------------------------------------------------------------------  
+  % ABSTRACT
+  
+  %----------------------------------------------------------------------------------------  
+  
+  \begin{abstract}
+  Rachycentron canadum (cobia) is considered the marine fish with the highest production potential in Brazil,  mainly due to its fast growth,  good feedstock conversion rate,  and excellent fillet quality. However,  the lack of genomic information hinders more comprehensive investigations in this species,  a problem that could be minimized by de novo transcriptome assembly,  providing data that could contribute to a variety of studies including conservation genetics,  selective breeding,  reproductive biology,  and fish nutrition. In this report,  we provide a de novo assembled transcriptome,  using material from of R. canadum liver cells,  highlighting the main functional annotations for this economically relevant fish. Briefly,  90 cobia juveniles (128.85 $\pm$ 18.43 g),  obtained from a commercial hatchery,  were randomly distributed in 3 tanks (2.000 L) under controlled temperature (23$\pm$1.5 oC) and photoperiod. Fish were equally hand-fed (twice a day) with commercial marine fish diet,  during 6 weeks,  anesthetized (4 g benzocaine in 10 ml ethanol),  placed into 40 L of seawater,  and euthanized by spinal cord section. Liver samples were frozen in liquid nitrogen and stored at -80 oC,  until total RNA was extracted and transcriptome sequencing performed,  using 150 bp (2 X 75) paired-end strategy,  in an Illumina Nextseq sequencer. This analysis resulted in 1, 761, 965, 794 sequences,  which were further processed in a Galaxy server (usegalaxy.eu). Libraries were submitted to quality control (FastQC and MultiQC) and low-quality  reads(Q<30),  adapters and other contaminant sequences were removed (Fastp),  providing 1, 652, 319, 304 high-quality reads (93.8\% of raw data),  which were then used for de novo transcriptome assembly and metrics evaluation,  using Trinity. This process resulted in the identification of 101, 789 unigenes and 163, 096 isoforms,  with an average length of 1, 617.34 and 950.61 bp respectively. Median sizes (N50) were 7, 843 bp for unigenes and 2, 312 bp for isoforms. In total,  163, 096 transcripts were generated,  with 95, 075 (58\%) presenting more than 500 bp. Transcriptome completeness was assessed by Benchmarking Universal Single-Copy Orthologs (BUSCO),  identifying 81.7\% of the universal complete actinopterygii genes (3746/4584,  OrthoDB v9) supporting the high quality of our transcriptome assembly.. Eukaryotic Non-Model Transcriptome Annotation Pipeline (EnTAP) functionallly annotated 75, 554 transcripts (RefSeq: 25, 728 [34\%]; Nr: 29, 155 [39\%],  Swiss-Prot: 15, 507 [21\%]; EggNOG: 75, 068 [99\%]),  which were related to 75, 060 Gene Ontology (GO) terms (molecular function: 47, 766 [64\%]; biological process: 48, 550 [65\%]; cellular component: 34, 492 [46\%]) and 24, 100 [32\%] Kegg pathway assignments.
+  
+  Funding: CAPES, CNPq, FAPESP \\
+  \href{http://ab3c.org.br/xpress_pres2020/xmxp2020-303199.html}{Link to Video:}
+
+  \end{abstract}
+   
+  \end{document} 

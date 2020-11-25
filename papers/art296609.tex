@@ -1,0 +1,68 @@
+
+  \documentclass[twoside]{article}
+  \usepackage[affil-it]{authblk}
+  \usepackage{lipsum} % Package to generate dummy text throughout this template
+  \usepackage{eurosym}
+  \usepackage[sc]{mathpazo} % Use the Palatino font
+  \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+  \usepackage[utf8]{inputenc}
+  \linespread{1.05} % Line spacing-Palatino needs more space between lines
+  \usepackage{microtype} % Slightly tweak font spacing for aesthetics\[IndentingNewLine]
+  \usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+  \usepackage{multicol} % Used for the two-column layout of the document
+  \usepackage[hang,small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under//above floats in tables or figures
+  \usepackage{booktabs} % Horizontal rules in tables
+  \usepackage{float} % Required for tables and figures in the multi-column environment-they need to be placed in specific locations with the[H] (e.g. \begin{table}[H])
+  \usepackage{hyperref} % For hyperlinks in the PDF
+  \usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+  \usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+  \usepackage{abstract} % Allows abstract customization
+  \renewcommand{\abstractnamefont}{\normalfont\bfseries} 
+  %\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text\[IndentingNewLine]
+  \usepackage{titlesec} % Allows customization of titles
+  \renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+  \renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
+  \titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+  \titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+  \usepackage{fancyhdr} % Headers and footers
+  \pagestyle{fancy} % All pages have headers and footers
+  \fancyhead{} % Blank out the default header
+  \fancyfoot{} % Blank out the default footer
+  \fancyhead[C]{X-meeting eXperience $\bullet$ November 2020} % Custom header text
+  \fancyfoot[RO,LE]{} % Custom footer text
+  %----------------------------------------------------------------------------------------
+  % TITLE SECTION
+  %---------------------------------------------------------------------------------------- 
+ 
+ \title{\vspace{-15mm}\fontsize{24pt}{10pt}\selectfont\textbf{ GenTreat: Computational pipeline to perform automated hybrid assembly }} % Article title
+  
+  
+  \author{ Gislenne da Silva Moia,  M\^onica Silva de Oliveira,  Pablo Henrique Caracciolo Gomes de S\'a,  Jorianne Thyeska Castro Alves,  Adonney Allan de Oliveira Veras,  Vict\'oria Cardoso dos Santos }
+  
+  \affil{ UNIVERSIDADE FEDERAL DO PAR\'A,  UNIVERSIDADE FEDERAL DO PAR\'A }
+  \vspace{-5mm}
+  \date{}
+  
+  %---------------------------------------------------------------------------------------- 
+  
+  \begin{document}
+  
+  
+  \maketitle % Insert title
+  
+  
+  \thispagestyle{fancy} % All pages have headers and footers
+  %----------------------------------------------------------------------------------------  
+  % ABSTRACT
+  
+  %----------------------------------------------------------------------------------------  
+  
+  \begin{abstract}
+  Since the development of the NGS (Next-Generation Sequencing) technologies,  the sequencing process of genomes has become faster,  with low cost and data generation with high accuracy. To handle a large amount of data and perform different analyzes,  for example,  assembly,  many software have been developed. Among the approaches used to assemble genomes,  there is the de novo assembly that performs the task without using a reference organism. Over the years,  numerous tools to perform this task were developed,  for example,  Velvet,  Mira,  Spades,  Abyss,  Allpaths. Despite the accuracy of these tools,  it is still necessary to perform several assembly rounds,  aiming for the best result,  it is also possible to use a hybrid strategy where results from different assemblers are used in a joining process to improve the final result. GenTreat is a computational pipeline,  with a friendly graphical interface,  that performs automated hybrid assembly of prokaryotic genomes,  where the assembly result obtained using SPAdes and MegaHit softwares are used as inputs for CISA contigs integrator,  the final result is ordered with the Ragoo software and submitted to assessment through of QUAST software,  the pipeline accepts as inputs single-end and paired-end reads. To demonstrate the pipeline efficiency,  it was executed assemblies using the softwares: Spades,  Megahit,  Velvet,  and the GenTreat,  the results showed that the assemblies obtained through of the pipeline are less fragmented,  show greater genomic features from analyzing with QUAST,  N50 with more value than the others,  contigs with lengths greater than 200 base pairs and with the number of bases closest to the expected size of the genome. Therefore,  it turns out that the pipeline is a viable alternative to perform hybrid assemblies,  in addition to being a tool that accomplishes an automated task without the need for the user to make use of complex and extensive command lines.
+  
+  Funding:   \\
+  \href{http://ab3c.org.br/xpress_pres2020/xmxp2020-296609.html}{Link to Video:}
+
+  \end{abstract}
+   
+  \end{document} 
